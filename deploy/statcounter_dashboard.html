@@ -312,13 +312,13 @@
                 title.textContent = platformLabels[platformKey] || platformKey;
                 row.appendChild(title);
 
-                // 細項水平排列（可以自動換行，文字完整顯示）
+                // 細項水平排列（每個平台一條橫列，不換行，超出時可左右滾動）
                 const list = document.createElement('div');
-                list.className = 'flex flex-wrap gap-2';
+                list.className = 'flex gap-2 overflow-x-auto';
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    itemCard.className = 'bg-gray-800/80 rounded px-2 py-1 text-xs flex items-center gap-2';
+                    itemCard.className = 'bg-gray-800/80 rounded px-2 py-1 text-xs flex items-center gap-2 flex-shrink-0';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
