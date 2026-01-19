@@ -32,7 +32,7 @@
         <!-- 上方：全球和台灣的主要數據顯示 -->
         <section class="mb-8">
             <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
-                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）</h2>
+                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）市佔率最高</h2>
             </div>
             <div class="grid grid-cols-1 gap-4 mb-6">
                 <!-- 全球數據卡片 -->
@@ -132,13 +132,13 @@
                         <label for="dataTypeSelect" class="block text-sm font-medium mb-2">選擇數據類型：</label>
                         <select id="dataTypeSelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
                             <option value="all">全部</option>
-                            <option value="platform">平台市場佔有率</option>
+                            <option value="platform">手機/電腦/平板市場佔有率</option>
                             <option value="os_all">作業系統</option>
-                            <option value="browser_all">瀏覽器</option>
-                            <option value="resolution_all">屏幕分辨率</option>
+                            <option value="browser_all">瀏覽器市佔率</option>
+                            <option value="resolution_all">螢幕解析度</option>
                             <option value="vendor_mobile">手機品牌</option>
-                            <option value="search_engine_all">搜索引擎</option>
-                            <option value="social_media_all">社交媒體</option>
+                            <option value="search_engine_all">搜索引擎市佔率</option>
+                            <option value="social_media_all">社交媒體市佔率</option>
                         </select>
                     </div>
 
@@ -203,13 +203,13 @@
 
         // 數據類型名稱映射
         const typeNames = {
-            'platform': '平台市場佔有率',
+            'platform': '手機/電腦/平板市場佔有率',
             'os_all': '作業系統',
-            'browser_all': '瀏覽器',
-            'resolution_all': '屏幕分辨率',
+            'browser_all': '瀏覽器市佔率',
+            'resolution_all': '螢幕解析度',
             'vendor_mobile': '手機品牌',
-            'search_engine_all': '搜索引擎',
-            'social_media_all': '社交媒體'
+            'search_engine_all': '搜索引擎市佔率',
+            'social_media_all': '社交媒體市佔率'
         };
 
         // 平台名稱映射
@@ -950,4 +950,5 @@
         };
     </script>
 </body>
+
 </html>
