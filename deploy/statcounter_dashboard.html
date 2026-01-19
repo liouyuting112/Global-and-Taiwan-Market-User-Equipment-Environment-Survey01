@@ -312,14 +312,14 @@
                 title.textContent = platformLabels[platformKey] || platformKey;
                 row.appendChild(title);
 
-                // 細項水平排列（每個平台一條橫列，不換行；方框平均分配寬度）
+                // 細項水平排列（每個平台一條橫列，不換行；方框寬一點、內容不換行）
                 const list = document.createElement('div');
                 list.className = 'flex flex-nowrap gap-2';
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    // 明顯的方框樣式：有邊框、圓角，並平均佔寬度（7 個時剛好一列）
-                    itemCard.className = 'bg-gray-800 rounded-lg px-2 py-1 text-[11px] flex items-center justify-between gap-2 flex-1 min-w-0 border border-cyan-700/60 shadow-sm';
+                    // 明顯的方框：寬一點、不換行，數據在框內
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex items-center justify-between gap-2 flex-none border border-cyan-700/60 shadow-sm min-w-[260px] whitespace-nowrap';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
