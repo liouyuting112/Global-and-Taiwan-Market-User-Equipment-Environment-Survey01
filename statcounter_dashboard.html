@@ -34,9 +34,9 @@
             <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
                 <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）</h2>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div class="grid grid-cols-1 gap-4 mb-6">
                 <!-- 全球數據卡片 -->
-                <div class="bg-gray-800 rounded-lg p-6 metric-card">
+                <div class="bg-gray-800 rounded-lg p-4 metric-card">
                     <h3 class="text-xl font-bold mb-4 text-cyan-400">🌍 全球</h3>
                     <div id="globalMetrics" class="space-y-4">
                         <div class="loading">
@@ -46,7 +46,7 @@
                 </div>
                 
                 <!-- 台灣數據卡片 -->
-                <div class="bg-gray-800 rounded-lg p-6 metric-card">
+                <div class="bg-gray-800 rounded-lg p-4 metric-card">
                     <h3 class="text-xl font-bold mb-4 text-cyan-400">🇹🇼 台灣</h3>
                     <div id="twMetrics" class="space-y-4">
                         <div class="loading">
@@ -272,7 +272,7 @@
                 tablet: '平板'
             };
 
-            // 4 個平台垂直排列，每一列是平台，細項（數據類型）水平排列
+            // 4 個平台垂直排列，每一列是平台，細項（數據類型）水平排列且不超出卡片寬度
             platforms.forEach(platformKey => {
                 // 收集這個平台所有數據類型的最高值
                 const metrics = [];
@@ -314,12 +314,13 @@
 
                 // 細項水平排列（每個平台一條橫列，不換行；方框寬一點、內容不換行）
                 const list = document.createElement('div');
-                list.className = 'flex flex-nowrap gap-2';
+                // 使用 flex-wrap 讓方框在卡片內換行，不會超出全球 / 台灣卡片寬度
+                list.className = 'flex flex-wrap gap-2';
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    // 明顯的方框：寬一點、不換行，數據在框內
-                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex items-center justify-between gap-2 flex-none border border-cyan-700/60 shadow-sm min-w-[260px] whitespace-nowrap';
+                    // 明顯的方框：控制在合理寬度內，必要時在框內換行（但不超出整體寬度）
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex items-center justify-between gap-2 border border-cyan-700/60 shadow-sm flex-1 min-w-[180px] max-w-[260px]';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
