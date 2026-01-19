@@ -494,6 +494,71 @@
             }
         }
 
+        // 根據實際可用數據，動態更新平台選項（避免選到沒有數據的平台）
+        function updatePlatformOptions(countryData, dataType) {
+            const platformSelect = document.getElementById('platformSelect');
+            if (!platformSelect) return;
+
+            const allPlatforms = [
+                { value: 'all', label: platformNames['all'] || '所有平台' },
+                { value: 'mobile', label: platformNames['mobile'] || '手機' },
+                { value: 'desktop', label: platformNames['desktop'] || '電腦' },
+                { value: 'tablet', label: platformNames['tablet'] || '平板' },
+            ];
+
+            const available = new Set();
+
+            if (!countryData || !countryData.data) {
+                // 沒有數據時，至少保留「所有平台」
+                available.add('all');
+            } else if (dataType === 'all') {
+                // 「全部」時，根據所有數據類型綜合判斷有哪些平台有數據
+                Object.keys(countryData.data).forEach(typeKey => {
+                    const info = countryData.data[typeKey];
+                    if (!info) return;
+                    if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                    if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                    if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
+                    if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                });
+            } else {
+                // 特定數據類型時，只看該類型
+                const info = countryData.data[dataType];
+                if (info) {
+                    if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                    if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                    if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
+                    if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                }
+            }
+
+            // 如果什麼都沒有偵測到，保底給一個 all
+            if (available.size === 0) {
+                available.add('all');
+            }
+
+            const previousValue = platformSelect.value;
+            platformSelect.innerHTML = '';
+
+            let firstValue = null;
+            allPlatforms.forEach(p => {
+                if (available.has(p.value)) {
+                    const opt = document.createElement('option');
+                    opt.value = p.value;
+                    opt.textContent = p.label;
+                    platformSelect.appendChild(opt);
+                    if (!firstValue) firstValue = p.value;
+                }
+            });
+
+            // 優先保留原本選擇，如果已經不在可用清單，就改成第一個
+            if (available.has(previousValue)) {
+                platformSelect.value = previousValue;
+            } else if (firstValue) {
+                platformSelect.value = firstValue;
+            }
+        }
+
         // 載入單個國家數據
         let isLoading = false; // 防止重複加載
         
@@ -551,6 +616,9 @@
                     countryData = await response.json();
                     dataCache[country] = countryData;
                 }
+
+                // 根據實際數據動態更新平台選項（移除沒有數據的平台）
+                updatePlatformOptions(countryData, dataType);
                 
                 console.log('載入數據:', { 
                     country, 
