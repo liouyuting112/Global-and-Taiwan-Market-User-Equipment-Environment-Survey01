@@ -319,8 +319,8 @@
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    // 方框：垂直排列「類型」「名稱」「數值」，全部置中顯示
-                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex flex-col items-center justify-center gap-1 border border-cyan-700/60 shadow-sm flex-1 min-w-[150px] max-w-[200px] text-center';
+                    // 方框：垂直排列「類型」「名稱」「數值」，全部置中顯示（稍微放大字體、縮窄寬度）
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[12px] flex flex-col items-center justify-center gap-1 border border-cyan-700/60 shadow-sm flex-1 min-w-[120px] max-w-[170px] text-center';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
