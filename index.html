@@ -254,7 +254,7 @@
             }
         }
 
-        // 顯示主要指標（全球 / 台灣：所有數據類型 x 4 平台，壓縮版）
+        // 顯示主要指標（全球 / 台灣：4 個平台垂直排列，細項水平排列）
         function displayMainMetrics(countryCode, countryData, containerId) {
             const container = document.getElementById(containerId);
             container.innerHTML = '';
@@ -264,7 +264,7 @@
                 return;
             }
 
-            const platforms = ['all', 'mobile', 'desktop', 'tablet'];
+            const platforms = ['all', 'mobile', 'desktop', 'tablet']; // 上到下：所有平台 / 手機 / 電腦 / 平板
             const platformLabels = {
                 all: '所有平台',
                 mobile: '手機',
@@ -272,11 +272,7 @@
                 tablet: '平板'
             };
 
-            // 建立一個 4 欄的 grid，每欄是一個平台卡片
-            const platformGrid = document.createElement('div');
-            platformGrid.className = 'grid grid-cols-2 lg:grid-cols-4 gap-3';
-            container.appendChild(platformGrid);
-
+            // 4 個平台垂直排列，每一列是平台，細項（數據類型）水平排列
             platforms.forEach(platformKey => {
                 // 收集這個平台所有數據類型的最高值
                 const metrics = [];
@@ -306,41 +302,45 @@
 
                 if (metrics.length === 0) return;
 
-                const card = document.createElement('div');
-                card.className = 'bg-gray-800 rounded-lg p-3';
+                // 平台一列
+                const row = document.createElement('div');
+                row.className = 'mb-2';
 
-                // 如果有任一類型有來源，就整張卡片可點
-                const firstWithUrl = metrics.find(m => m.url);
-                if (firstWithUrl && firstWithUrl.url) {
-                    card.onclick = () => window.open(firstWithUrl.url, '_blank');
-                    card.className += ' cursor-pointer';
-                    card.title = '點擊查看任一數據來源';
-                }
-
+                // 平台標題
                 const title = document.createElement('div');
-                title.className = 'text-sm font-bold mb-2 text-cyan-300';
+                title.className = 'text-sm font-bold mb-1 text-cyan-300';
                 title.textContent = platformLabels[platformKey] || platformKey;
-                card.appendChild(title);
+                row.appendChild(title);
 
+                // 細項水平排列（可以自動換行，文字完整顯示）
                 const list = document.createElement('div');
-                list.className = 'space-y-1';
+                list.className = 'flex flex-wrap gap-2';
 
                 metrics.forEach(m => {
-                    const row = document.createElement('div');
-                    row.className = 'flex justify-between items-center text-xs';
-                    row.innerHTML = `
-                        <div class="text-gray-300 pr-2 truncate">
-                            ${m.typeName}：${m.name}
-                        </div>
-                        <div class="font-semibold text-cyan-400 whitespace-nowrap">
-                            ${m.value.toFixed(1)}%
-                        </div>
-                    `;
-                    list.appendChild(row);
+                    const itemCard = document.createElement('div');
+                    itemCard.className = 'bg-gray-800/80 rounded px-2 py-1 text-xs flex items-center gap-2';
+
+                    if (m.url) {
+                        itemCard.onclick = () => window.open(m.url, '_blank');
+                        itemCard.className += ' cursor-pointer';
+                        itemCard.title = '點擊查看數據來源';
+                    }
+
+                    const text = document.createElement('div');
+                    text.className = 'text-gray-200';
+                    text.textContent = `${m.typeName}：${m.name}`;
+
+                    const value = document.createElement('div');
+                    value.className = 'font-semibold text-cyan-400 whitespace-nowrap';
+                    value.textContent = `${m.value.toFixed(1)}%`;
+
+                    itemCard.appendChild(text);
+                    itemCard.appendChild(value);
+                    list.appendChild(itemCard);
                 });
 
-                card.appendChild(list);
-                platformGrid.appendChild(card);
+                row.appendChild(list);
+                container.appendChild(row);
             });
         }
 
