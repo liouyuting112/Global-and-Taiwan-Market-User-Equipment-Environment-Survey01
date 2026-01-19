@@ -1,0 +1,583 @@
+{
+  "country_code": "my",
+  "country_name": "馬來西亞",
+  "update_time": "2026-01-19 15:51:22",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/malaysia",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 56.4
+          },
+          {
+            "name": "Mobile",
+            "value": 42.68
+          },
+          {
+            "name": "Tablet",
+            "value": 0.92
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/malaysia",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 40.6
+          },
+          {
+            "name": "Android",
+            "value": 28.29
+          },
+          {
+            "name": "iOS",
+            "value": 15.07
+          },
+          {
+            "name": "Unknown",
+            "value": 6.39
+          },
+          {
+            "name": "OS X",
+            "value": 3.45
+          },
+          {
+            "name": "Chrome OS",
+            "value": 3.35
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/malaysia",
+        "data": [
+          {
+            "name": "Android",
+            "value": 65.3
+          },
+          {
+            "name": "iOS",
+            "value": 34.13
+          },
+          {
+            "name": "Samsung",
+            "value": 0.33
+          },
+          {
+            "name": "Unknown",
+            "value": 0.21
+          },
+          {
+            "name": "Linux",
+            "value": 0.02
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/malaysia",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 71.98
+          },
+          {
+            "name": "Unknown",
+            "value": 11.17
+          },
+          {
+            "name": "OS X",
+            "value": 6.13
+          },
+          {
+            "name": "Chrome OS",
+            "value": 5.93
+          },
+          {
+            "name": "Linux",
+            "value": 2.85
+          },
+          {
+            "name": "macOS",
+            "value": 1.94
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/malaysia",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 54.49
+          },
+          {
+            "name": "Android",
+            "value": 45.32
+          },
+          {
+            "name": "Linux",
+            "value": 0.18
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/malaysia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 77.14
+          },
+          {
+            "name": "Safari",
+            "value": 13.32
+          },
+          {
+            "name": "Edge",
+            "value": 4.07
+          },
+          {
+            "name": "Firefox",
+            "value": 2.01
+          },
+          {
+            "name": "Opera",
+            "value": 1.36
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.23
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/malaysia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 68.3
+          },
+          {
+            "name": "Safari",
+            "value": 25.82
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.88
+          },
+          {
+            "name": "Opera",
+            "value": 1.42
+          },
+          {
+            "name": "Firefox",
+            "value": 0.58
+          },
+          {
+            "name": "Brave",
+            "value": 0.36
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/malaysia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 84.0
+          },
+          {
+            "name": "Edge",
+            "value": 7.06
+          },
+          {
+            "name": "Safari",
+            "value": 3.73
+          },
+          {
+            "name": "Firefox",
+            "value": 3.12
+          },
+          {
+            "name": "Opera",
+            "value": 1.31
+          },
+          {
+            "name": "Brave",
+            "value": 0.55
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/malaysia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 67.26
+          },
+          {
+            "name": "Safari",
+            "value": 22.17
+          },
+          {
+            "name": "Android",
+            "value": 7.7
+          },
+          {
+            "name": "Opera",
+            "value": 1.86
+          },
+          {
+            "name": "Edge",
+            "value": 0.42
+          },
+          {
+            "name": "Puffin",
+            "value": 0.16
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/malaysia",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 11.24
+          },
+          {
+            "name": "1366x768",
+            "value": 9.29
+          },
+          {
+            "name": "1536x864",
+            "value": 6.71
+          },
+          {
+            "name": "360x800",
+            "value": 4.94
+          },
+          {
+            "name": "375x812",
+            "value": 4.51
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/malaysia",
+        "data": [
+          {
+            "name": "375x812",
+            "value": 10.24
+          },
+          {
+            "name": "414x896",
+            "value": 10.13
+          },
+          {
+            "name": "360x800",
+            "value": 9.66
+          },
+          {
+            "name": "390x844",
+            "value": 5.9
+          },
+          {
+            "name": "393x873",
+            "value": 4.68
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/malaysia",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 20.31
+          },
+          {
+            "name": "1366x768",
+            "value": 16.87
+          },
+          {
+            "name": "1536x864",
+            "value": 12.18
+          },
+          {
+            "name": "1280x720",
+            "value": 7.39
+          },
+          {
+            "name": "800x600",
+            "value": 3.77
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/malaysia",
+        "data": [
+          {
+            "name": "820x1180",
+            "value": 14.77
+          },
+          {
+            "name": "768x1024",
+            "value": 8.83
+          },
+          {
+            "name": "810x1080",
+            "value": 8.1
+          },
+          {
+            "name": "1280x800",
+            "value": 5.7
+          },
+          {
+            "name": "601x1007",
+            "value": 4.17
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/malaysia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 34.13
+          },
+          {
+            "name": "Samsung",
+            "value": 13.89
+          },
+          {
+            "name": "Oppo",
+            "value": 9.13
+          },
+          {
+            "name": "Unknown",
+            "value": 8.73
+          },
+          {
+            "name": "Vivo",
+            "value": 7.98
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/malaysia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.32
+          },
+          {
+            "name": "bing",
+            "value": 3.92
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.5
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.86
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.27
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/malaysia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.28
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.18
+          },
+          {
+            "name": "bing",
+            "value": 0.82
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.35
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.21
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/malaysia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 88.64
+          },
+          {
+            "name": "bing",
+            "value": 7.59
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.03
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.49
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.17
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/malaysia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.89
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.89
+          },
+          {
+            "name": "bing",
+            "value": 0.64
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.25
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.21
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/malaysia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 80.35
+          },
+          {
+            "name": "Instagram",
+            "value": 5.46
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.06
+          },
+          {
+            "name": "Twitter",
+            "value": 4.06
+          },
+          {
+            "name": "YouTube",
+            "value": 4.05
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/malaysia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 85.56
+          },
+          {
+            "name": "Instagram",
+            "value": 5.98
+          },
+          {
+            "name": "Twitter",
+            "value": 3.57
+          },
+          {
+            "name": "YouTube",
+            "value": 2.52
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.8
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/malaysia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 39.3
+          },
+          {
+            "name": "Pinterest",
+            "value": 29.83
+          },
+          {
+            "name": "YouTube",
+            "value": 16.46
+          },
+          {
+            "name": "Twitter",
+            "value": 8.46
+          },
+          {
+            "name": "LinkedIn",
+            "value": 2.07
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/malaysia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 51.56
+          },
+          {
+            "name": "Pinterest",
+            "value": 29.95
+          },
+          {
+            "name": "YouTube",
+            "value": 10.25
+          },
+          {
+            "name": "Instagram",
+            "value": 4.1
+          },
+          {
+            "name": "Twitter",
+            "value": 2.69
+          }
+        ]
+      }
+    }
+  }
+}

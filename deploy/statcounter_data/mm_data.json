@@ -1,0 +1,575 @@
+{
+  "country_code": "mm",
+  "country_name": "緬甸",
+  "update_time": "2026-01-19 15:48:02",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/myanmar",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 63.98
+          },
+          {
+            "name": "Desktop",
+            "value": 35.38
+          },
+          {
+            "name": "Tablet",
+            "value": 0.63
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/myanmar",
+        "data": [
+          {
+            "name": "Android",
+            "value": 55.88
+          },
+          {
+            "name": "Windows",
+            "value": 21.14
+          },
+          {
+            "name": "Unknown",
+            "value": 11.66
+          },
+          {
+            "name": "iOS",
+            "value": 8.67
+          },
+          {
+            "name": "Linux",
+            "value": 1.18
+          },
+          {
+            "name": "OS X",
+            "value": 0.89
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/myanmar",
+        "data": [
+          {
+            "name": "Android",
+            "value": 86.8
+          },
+          {
+            "name": "iOS",
+            "value": 13.1
+          },
+          {
+            "name": "Samsung",
+            "value": 0.06
+          },
+          {
+            "name": "Unknown",
+            "value": 0.03
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/myanmar",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 59.73
+          },
+          {
+            "name": "Unknown",
+            "value": 32.89
+          },
+          {
+            "name": "Linux",
+            "value": 3.32
+          },
+          {
+            "name": "OS X",
+            "value": 2.51
+          },
+          {
+            "name": "macOS",
+            "value": 1.52
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.03
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/myanmar",
+        "data": [
+          {
+            "name": "Android",
+            "value": 53.65
+          },
+          {
+            "name": "iOS",
+            "value": 46.13
+          },
+          {
+            "name": "Linux",
+            "value": 0.2
+          },
+          {
+            "name": "Unknown",
+            "value": 0.02
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/myanmar",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 88.27
+          },
+          {
+            "name": "Safari",
+            "value": 6.53
+          },
+          {
+            "name": "Edge",
+            "value": 1.97
+          },
+          {
+            "name": "Firefox",
+            "value": 1.3
+          },
+          {
+            "name": "Opera",
+            "value": 0.5
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.45
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/myanmar",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 88.98
+          },
+          {
+            "name": "Safari",
+            "value": 8.84
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.7
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.35
+          },
+          {
+            "name": "Opera",
+            "value": 0.27
+          },
+          {
+            "name": "QQ Browser",
+            "value": 0.23
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/myanmar",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 87.55
+          },
+          {
+            "name": "Edge",
+            "value": 5.42
+          },
+          {
+            "name": "Firefox",
+            "value": 3.34
+          },
+          {
+            "name": "Safari",
+            "value": 2.01
+          },
+          {
+            "name": "Opera",
+            "value": 0.92
+          },
+          {
+            "name": "Brave",
+            "value": 0.26
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/myanmar",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 57.27
+          },
+          {
+            "name": "Safari",
+            "value": 25.38
+          },
+          {
+            "name": "Android",
+            "value": 16.3
+          },
+          {
+            "name": "Instabridge",
+            "value": 0.35
+          },
+          {
+            "name": "Opera",
+            "value": 0.34
+          },
+          {
+            "name": "Edge",
+            "value": 0.15
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/myanmar",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 12.31
+          },
+          {
+            "name": "393x873",
+            "value": 8.35
+          },
+          {
+            "name": "1280x1200",
+            "value": 6.04
+          },
+          {
+            "name": "360x806",
+            "value": 5.49
+          },
+          {
+            "name": "393x851",
+            "value": 3.58
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/myanmar",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 16.06
+          },
+          {
+            "name": "393x873",
+            "value": 12.18
+          },
+          {
+            "name": "360x806",
+            "value": 8.07
+          },
+          {
+            "name": "393x851",
+            "value": 5.57
+          },
+          {
+            "name": "414x896",
+            "value": 4.64
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/myanmar",
+        "data": [
+          {
+            "name": "1280x1200",
+            "value": 17.25
+          },
+          {
+            "name": "1920x1080",
+            "value": 9.82
+          },
+          {
+            "name": "1536x864",
+            "value": 8.05
+          },
+          {
+            "name": "1366x768",
+            "value": 7.6
+          },
+          {
+            "name": "3840x2160",
+            "value": 7.5
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/myanmar",
+        "data": [
+          {
+            "name": "820x1180",
+            "value": 14.43
+          },
+          {
+            "name": "810x1080",
+            "value": 5.59
+          },
+          {
+            "name": "768x1024",
+            "value": 5.48
+          },
+          {
+            "name": "834x1194",
+            "value": 5.07
+          },
+          {
+            "name": "601x1007",
+            "value": 4.82
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/myanmar",
+        "data": [
+          {
+            "name": "Xiaomi",
+            "value": 37.62
+          },
+          {
+            "name": "Apple",
+            "value": 13.1
+          },
+          {
+            "name": "Oppo",
+            "value": 11.15
+          },
+          {
+            "name": "Vivo",
+            "value": 7.68
+          },
+          {
+            "name": "Unknown",
+            "value": 7.63
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/myanmar",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.04
+          },
+          {
+            "name": "bing",
+            "value": 2.0
+          },
+          {
+            "name": "Baidu",
+            "value": 0.38
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.25
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.22
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/myanmar",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.02
+          },
+          {
+            "name": "bing",
+            "value": 0.92
+          },
+          {
+            "name": "Baidu",
+            "value": 0.5
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.15
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/myanmar",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.92
+          },
+          {
+            "name": "bing",
+            "value": 4.34
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.46
+          },
+          {
+            "name": "Baidu",
+            "value": 0.14
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.05
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/myanmar",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.98
+          },
+          {
+            "name": "bing",
+            "value": 0.37
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.24
+          },
+          {
+            "name": "Baidu",
+            "value": 0.16
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.13
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/myanmar",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 48.38
+          },
+          {
+            "name": "YouTube",
+            "value": 20.83
+          },
+          {
+            "name": "Pinterest",
+            "value": 20.38
+          },
+          {
+            "name": "Twitter",
+            "value": 4.44
+          },
+          {
+            "name": "VKontakte",
+            "value": 3.28
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/myanmar",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 66.33
+          },
+          {
+            "name": "YouTube",
+            "value": 12.75
+          },
+          {
+            "name": "Pinterest",
+            "value": 10.12
+          },
+          {
+            "name": "Twitter",
+            "value": 5.74
+          },
+          {
+            "name": "VKontakte",
+            "value": 3.24
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/myanmar",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 40.6
+          },
+          {
+            "name": "Pinterest",
+            "value": 38.21
+          },
+          {
+            "name": "Facebook",
+            "value": 10.6
+          },
+          {
+            "name": "VKontakte",
+            "value": 3.73
+          },
+          {
+            "name": "LinkedIn",
+            "value": 2.39
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/myanmar",
+        "data": [
+          {
+            "name": "Pinterest",
+            "value": 63.16
+          },
+          {
+            "name": "Facebook",
+            "value": 31.58
+          },
+          {
+            "name": "YouTube",
+            "value": 3.95
+          },
+          {
+            "name": "Twitter",
+            "value": 1.32
+          }
+        ]
+      }
+    }
+  }
+}
