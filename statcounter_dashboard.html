@@ -318,7 +318,8 @@
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    itemCard.className = 'bg-gray-800/80 rounded px-2 py-1 text-xs flex items-center gap-2 flex-shrink-0';
+                    // 明顯的方框樣式：有邊框、圓角、固定寬度，不會被壓扁
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-xs flex items-center justify-between gap-2 flex-shrink-0 border border-cyan-700/60 shadow-sm min-w-[220px]';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
