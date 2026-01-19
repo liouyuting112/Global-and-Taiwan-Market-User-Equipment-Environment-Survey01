@@ -312,15 +312,15 @@
                 title.textContent = platformLabels[platformKey] || platformKey;
                 row.appendChild(title);
 
-                // 細項水平排列（每個平台一條橫列，不換行；方框寬一點、內容不換行）
+                // 細項水平排列（每個平台一條橫列，不換行；方框內垂直置中）
                 const list = document.createElement('div');
                 // 使用 flex-wrap 讓方框在卡片內換行，不會超出全球 / 台灣卡片寬度
                 list.className = 'flex flex-wrap gap-2';
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    // 明顯的方框：控制在合理寬度內，必要時在框內換行（但不超出整體寬度）
-                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex items-center justify-between gap-2 border border-cyan-700/60 shadow-sm flex-1 min-w-[180px] max-w-[260px]';
+                    // 方框：垂直排列「類型」「名稱」「數值」，全部置中顯示
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex flex-col items-center justify-center gap-1 border border-cyan-700/60 shadow-sm flex-1 min-w-[150px] max-w-[200px] text-center';
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
@@ -328,16 +328,21 @@
                         itemCard.title = '點擊查看數據來源';
                     }
 
-                    const text = document.createElement('div');
-                    text.className = 'text-gray-200';
-                    text.textContent = `${m.typeName}：${m.name}`;
+                    const typeEl = document.createElement('div');
+                    typeEl.className = 'text-gray-300';
+                    typeEl.textContent = `${m.typeName}：`;
 
-                    const value = document.createElement('div');
-                    value.className = 'font-semibold text-cyan-400 whitespace-nowrap';
-                    value.textContent = `${m.value.toFixed(1)}%`;
+                    const nameEl = document.createElement('div');
+                    nameEl.className = 'text-gray-100 font-medium';
+                    nameEl.textContent = m.name;
 
-                    itemCard.appendChild(text);
-                    itemCard.appendChild(value);
+                    const valueEl = document.createElement('div');
+                    valueEl.className = 'font-semibold text-cyan-400';
+                    valueEl.textContent = `${m.value.toFixed(1)}%`;
+
+                    itemCard.appendChild(typeEl);
+                    itemCard.appendChild(nameEl);
+                    itemCard.appendChild(valueEl);
                     list.appendChild(itemCard);
                 });
 
