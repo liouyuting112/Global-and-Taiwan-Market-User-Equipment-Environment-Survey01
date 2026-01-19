@@ -1,0 +1,583 @@
+{
+  "country_code": "gr",
+  "country_name": "希臘",
+  "update_time": "2026-01-19 15:53:14",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/greece",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 63.28
+          },
+          {
+            "name": "Mobile",
+            "value": 35.1
+          },
+          {
+            "name": "Tablet",
+            "value": 1.61
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/greece",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 47.93
+          },
+          {
+            "name": "Android",
+            "value": 26.86
+          },
+          {
+            "name": "iOS",
+            "value": 9.43
+          },
+          {
+            "name": "OS X",
+            "value": 5.3
+          },
+          {
+            "name": "Unknown",
+            "value": 4.93
+          },
+          {
+            "name": "Linux",
+            "value": 3.7
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/greece",
+        "data": [
+          {
+            "name": "Android",
+            "value": 72.89
+          },
+          {
+            "name": "iOS",
+            "value": 25.92
+          },
+          {
+            "name": "Samsung",
+            "value": 1.05
+          },
+          {
+            "name": "Unknown",
+            "value": 0.13
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/greece",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 75.74
+          },
+          {
+            "name": "OS X",
+            "value": 8.37
+          },
+          {
+            "name": "Unknown",
+            "value": 7.72
+          },
+          {
+            "name": "Linux",
+            "value": 5.84
+          },
+          {
+            "name": "macOS",
+            "value": 1.8
+          },
+          {
+            "name": "FreeBSD",
+            "value": 0.3
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/greece",
+        "data": [
+          {
+            "name": "Android",
+            "value": 79.36
+          },
+          {
+            "name": "iOS",
+            "value": 20.48
+          },
+          {
+            "name": "Linux",
+            "value": 0.15
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/greece",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 74.18
+          },
+          {
+            "name": "Safari",
+            "value": 8.79
+          },
+          {
+            "name": "Firefox",
+            "value": 6.62
+          },
+          {
+            "name": "Edge",
+            "value": 4.6
+          },
+          {
+            "name": "Opera",
+            "value": 2.71
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.86
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/greece",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 72.27
+          },
+          {
+            "name": "Safari",
+            "value": 19.66
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.31
+          },
+          {
+            "name": "Firefox",
+            "value": 0.93
+          },
+          {
+            "name": "Opera",
+            "value": 0.73
+          },
+          {
+            "name": "Brave",
+            "value": 0.46
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/greece",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 75.11
+          },
+          {
+            "name": "Firefox",
+            "value": 9.95
+          },
+          {
+            "name": "Edge",
+            "value": 7.15
+          },
+          {
+            "name": "Opera",
+            "value": 3.85
+          },
+          {
+            "name": "Safari",
+            "value": 2.7
+          },
+          {
+            "name": "Brave",
+            "value": 0.7
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/greece",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 79.83
+          },
+          {
+            "name": "Safari",
+            "value": 10.84
+          },
+          {
+            "name": "Android",
+            "value": 7.42
+          },
+          {
+            "name": "Opera",
+            "value": 1.31
+          },
+          {
+            "name": "Edge",
+            "value": 0.44
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 0.1
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/greece",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 15.39
+          },
+          {
+            "name": "1536x864",
+            "value": 7.59
+          },
+          {
+            "name": "1366x768",
+            "value": 6.56
+          },
+          {
+            "name": "1280x720",
+            "value": 5.15
+          },
+          {
+            "name": "393x873",
+            "value": 4.7
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/greece",
+        "data": [
+          {
+            "name": "393x873",
+            "value": 12.88
+          },
+          {
+            "name": "414x896",
+            "value": 8.64
+          },
+          {
+            "name": "360x800",
+            "value": 7.92
+          },
+          {
+            "name": "390x844",
+            "value": 6.64
+          },
+          {
+            "name": "384x832",
+            "value": 6.58
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/greece",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 23.91
+          },
+          {
+            "name": "1536x864",
+            "value": 12.03
+          },
+          {
+            "name": "1366x768",
+            "value": 10.41
+          },
+          {
+            "name": "1280x720",
+            "value": 7.5
+          },
+          {
+            "name": "800x600",
+            "value": 5.36
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/greece",
+        "data": [
+          {
+            "name": "1280x720",
+            "value": 25.77
+          },
+          {
+            "name": "1280x800",
+            "value": 12.68
+          },
+          {
+            "name": "800x1280",
+            "value": 6.22
+          },
+          {
+            "name": "768x1024",
+            "value": 5.69
+          },
+          {
+            "name": "810x1080",
+            "value": 3.99
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/greece",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 25.92
+          },
+          {
+            "name": "Samsung",
+            "value": 25.68
+          },
+          {
+            "name": "Xiaomi",
+            "value": 23.86
+          },
+          {
+            "name": "Unknown",
+            "value": 13.4
+          },
+          {
+            "name": "Huawei",
+            "value": 2.53
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/greece",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.59
+          },
+          {
+            "name": "bing",
+            "value": 2.79
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.63
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.41
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.36
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/greece",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.5
+          },
+          {
+            "name": "bing",
+            "value": 0.57
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.31
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "Qwant",
+            "value": 0.12
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/greece",
+        "data": [
+          {
+            "name": "Google",
+            "value": 91.36
+          },
+          {
+            "name": "bing",
+            "value": 6.0
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.44
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.57
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.45
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/greece",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.17
+          },
+          {
+            "name": "bing",
+            "value": 1.15
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.31
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.15
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.08
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/greece",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 89.53
+          },
+          {
+            "name": "Instagram",
+            "value": 3.85
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.92
+          },
+          {
+            "name": "Twitter",
+            "value": 1.93
+          },
+          {
+            "name": "YouTube",
+            "value": 1.27
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/greece",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 92.14
+          },
+          {
+            "name": "Instagram",
+            "value": 4.32
+          },
+          {
+            "name": "Twitter",
+            "value": 1.44
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.08
+          },
+          {
+            "name": "YouTube",
+            "value": 0.84
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/greece",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 69.7
+          },
+          {
+            "name": "Pinterest",
+            "value": 15.49
+          },
+          {
+            "name": "Twitter",
+            "value": 6.05
+          },
+          {
+            "name": "YouTube",
+            "value": 4.71
+          },
+          {
+            "name": "LinkedIn",
+            "value": 1.39
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/greece",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 88.2
+          },
+          {
+            "name": "Pinterest",
+            "value": 9.2
+          },
+          {
+            "name": "Instagram",
+            "value": 0.93
+          },
+          {
+            "name": "YouTube",
+            "value": 0.83
+          },
+          {
+            "name": "Twitter",
+            "value": 0.66
+          }
+        ]
+      }
+    }
+  }
+}

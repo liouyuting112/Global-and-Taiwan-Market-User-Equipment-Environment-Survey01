@@ -1,0 +1,587 @@
+{
+  "country_code": "fr",
+  "country_name": "法國",
+  "update_time": "2026-01-19 15:56:32",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/france",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 50.21
+          },
+          {
+            "name": "Desktop",
+            "value": 47.49
+          },
+          {
+            "name": "Tablet",
+            "value": 2.29
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/france",
+        "data": [
+          {
+            "name": "Android",
+            "value": 34.37
+          },
+          {
+            "name": "Windows",
+            "value": 31.73
+          },
+          {
+            "name": "iOS",
+            "value": 17.81
+          },
+          {
+            "name": "OS X",
+            "value": 5.85
+          },
+          {
+            "name": "Unknown",
+            "value": 4.57
+          },
+          {
+            "name": "macOS",
+            "value": 2.74
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/france",
+        "data": [
+          {
+            "name": "Android",
+            "value": 66.02
+          },
+          {
+            "name": "iOS",
+            "value": 33.42
+          },
+          {
+            "name": "Samsung",
+            "value": 0.53
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/france",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 66.86
+          },
+          {
+            "name": "OS X",
+            "value": 12.33
+          },
+          {
+            "name": "Unknown",
+            "value": 9.63
+          },
+          {
+            "name": "macOS",
+            "value": 5.78
+          },
+          {
+            "name": "Linux",
+            "value": 4.66
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.74
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/france",
+        "data": [
+          {
+            "name": "Android",
+            "value": 54.46
+          },
+          {
+            "name": "iOS",
+            "value": 45.38
+          },
+          {
+            "name": "Linux",
+            "value": 0.12
+          },
+          {
+            "name": "Unknown",
+            "value": 0.03
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/france",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 60.99
+          },
+          {
+            "name": "Safari",
+            "value": 18.43
+          },
+          {
+            "name": "Edge",
+            "value": 6.27
+          },
+          {
+            "name": "Firefox",
+            "value": 6.26
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.92
+          },
+          {
+            "name": "Opera",
+            "value": 2.02
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/france",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.23
+          },
+          {
+            "name": "Safari",
+            "value": 27.42
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.81
+          },
+          {
+            "name": "Firefox",
+            "value": 1.51
+          },
+          {
+            "name": "Brave",
+            "value": 0.82
+          },
+          {
+            "name": "Opera",
+            "value": 0.66
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/france",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 60.45
+          },
+          {
+            "name": "Edge",
+            "value": 12.85
+          },
+          {
+            "name": "Firefox",
+            "value": 11.59
+          },
+          {
+            "name": "Safari",
+            "value": 8.26
+          },
+          {
+            "name": "Opera",
+            "value": 3.52
+          },
+          {
+            "name": "Brave",
+            "value": 1.88
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/france",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 47.02
+          },
+          {
+            "name": "Safari",
+            "value": 32.71
+          },
+          {
+            "name": "Android",
+            "value": 17.86
+          },
+          {
+            "name": "Opera",
+            "value": 0.86
+          },
+          {
+            "name": "Instabridge",
+            "value": 0.43
+          },
+          {
+            "name": "Edge",
+            "value": 0.41
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/france",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 12.37
+          },
+          {
+            "name": "414x896",
+            "value": 4.96
+          },
+          {
+            "name": "1536x864",
+            "value": 4.95
+          },
+          {
+            "name": "390x844",
+            "value": 4.81
+          },
+          {
+            "name": "384x832",
+            "value": 4.28
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/france",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 9.8
+          },
+          {
+            "name": "390x844",
+            "value": 9.52
+          },
+          {
+            "name": "360x800",
+            "value": 7.31
+          },
+          {
+            "name": "384x832",
+            "value": 6.68
+          },
+          {
+            "name": "393x873",
+            "value": 6.68
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/france",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 25.97
+          },
+          {
+            "name": "1536x864",
+            "value": 10.52
+          },
+          {
+            "name": "1366x768",
+            "value": 5.6
+          },
+          {
+            "name": "1600x900",
+            "value": 5.5
+          },
+          {
+            "name": "1280x720",
+            "value": 4.57
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/france",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 15.09
+          },
+          {
+            "name": "800x1280",
+            "value": 11.93
+          },
+          {
+            "name": "1280x800",
+            "value": 9.9
+          },
+          {
+            "name": "810x1080",
+            "value": 9.73
+          },
+          {
+            "name": "820x1180",
+            "value": 7.96
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/france",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 33.42
+          },
+          {
+            "name": "Samsung",
+            "value": 32.07
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.44
+          },
+          {
+            "name": "Unknown",
+            "value": 6.74
+          },
+          {
+            "name": "Google",
+            "value": 3.92
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/france",
+        "data": [
+          {
+            "name": "Google",
+            "value": 89.48
+          },
+          {
+            "name": "bing",
+            "value": 4.97
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.75
+          },
+          {
+            "name": "Ecosia",
+            "value": 1.38
+          },
+          {
+            "name": "Qwant",
+            "value": 0.98
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/france",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.66
+          },
+          {
+            "name": "Ecosia",
+            "value": 1.5
+          },
+          {
+            "name": "Qwant",
+            "value": 0.7
+          },
+          {
+            "name": "bing",
+            "value": 0.6
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.56
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/france",
+        "data": [
+          {
+            "name": "Google",
+            "value": 79.02
+          },
+          {
+            "name": "bing",
+            "value": 12.24
+          },
+          {
+            "name": "Yahoo!",
+            "value": 4.16
+          },
+          {
+            "name": "Qwant",
+            "value": 1.5
+          },
+          {
+            "name": "Ecosia",
+            "value": 1.26
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/france",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.07
+          },
+          {
+            "name": "bing",
+            "value": 1.74
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.63
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.4
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.4
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/france",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 82.23
+          },
+          {
+            "name": "Pinterest",
+            "value": 6.51
+          },
+          {
+            "name": "Instagram",
+            "value": 3.96
+          },
+          {
+            "name": "YouTube",
+            "value": 3.53
+          },
+          {
+            "name": "Twitter",
+            "value": 2.74
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/france",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 86.61
+          },
+          {
+            "name": "Instagram",
+            "value": 4.55
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.75
+          },
+          {
+            "name": "Twitter",
+            "value": 2.45
+          },
+          {
+            "name": "YouTube",
+            "value": 2.1
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/france",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 54.25
+          },
+          {
+            "name": "Pinterest",
+            "value": 17.4
+          },
+          {
+            "name": "YouTube",
+            "value": 15.58
+          },
+          {
+            "name": "Twitter",
+            "value": 6.1
+          },
+          {
+            "name": "Instagram",
+            "value": 1.65
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/france",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 75.14
+          },
+          {
+            "name": "Pinterest",
+            "value": 22.84
+          },
+          {
+            "name": "YouTube",
+            "value": 0.78
+          },
+          {
+            "name": "Twitter",
+            "value": 0.52
+          },
+          {
+            "name": "Instagram",
+            "value": 0.41
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "country_code": "ph",
+  "country_name": "菲律賓",
+  "update_time": "2026-01-19 15:30:29",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/philippines",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 64.71
+          },
+          {
+            "name": "Desktop",
+            "value": 34.11
+          },
+          {
+            "name": "Tablet",
+            "value": 1.17
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/philippines",
+        "data": [
+          {
+            "name": "Android",
+            "value": 61.16
+          },
+          {
+            "name": "Windows",
+            "value": 25.87
+          },
+          {
+            "name": "iOS",
+            "value": 4.66
+          },
+          {
+            "name": "Unknown",
+            "value": 3.4
+          },
+          {
+            "name": "OS X",
+            "value": 1.76
+          },
+          {
+            "name": "Chrome OS",
+            "value": 1.24
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/philippines",
+        "data": [
+          {
+            "name": "Android",
+            "value": 93.13
+          },
+          {
+            "name": "iOS",
+            "value": 6.77
+          },
+          {
+            "name": "Samsung",
+            "value": 0.08
+          },
+          {
+            "name": "Unknown",
+            "value": 0.02
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/philippines",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 75.82
+          },
+          {
+            "name": "Unknown",
+            "value": 9.93
+          },
+          {
+            "name": "OS X",
+            "value": 5.17
+          },
+          {
+            "name": "Chrome OS",
+            "value": 3.62
+          },
+          {
+            "name": "Linux",
+            "value": 2.99
+          },
+          {
+            "name": "macOS",
+            "value": 2.48
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/philippines",
+        "data": [
+          {
+            "name": "Android",
+            "value": 76.36
+          },
+          {
+            "name": "iOS",
+            "value": 23.6
+          },
+          {
+            "name": "Unknown",
+            "value": 0.02
+          },
+          {
+            "name": "Linux",
+            "value": 0.02
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/philippines",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 87.72
+          },
+          {
+            "name": "Safari",
+            "value": 4.58
+          },
+          {
+            "name": "Edge",
+            "value": 3.55
+          },
+          {
+            "name": "Opera",
+            "value": 1.03
+          },
+          {
+            "name": "Android",
+            "value": 0.96
+          },
+          {
+            "name": "Firefox",
+            "value": 0.84
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/philippines",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 92.71
+          },
+          {
+            "name": "Safari",
+            "value": 5.35
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.8
+          },
+          {
+            "name": "Android",
+            "value": 0.45
+          },
+          {
+            "name": "Brave",
+            "value": 0.31
+          },
+          {
+            "name": "Opera",
+            "value": 0.14
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/philippines",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 80.23
+          },
+          {
+            "name": "Edge",
+            "value": 10.32
+          },
+          {
+            "name": "Safari",
+            "value": 2.87
+          },
+          {
+            "name": "Opera",
+            "value": 2.74
+          },
+          {
+            "name": "Firefox",
+            "value": 2.33
+          },
+          {
+            "name": "Brave",
+            "value": 1.0
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/philippines",
+        "data": [
+          {
+            "name": "Android",
+            "value": 57.31
+          },
+          {
+            "name": "Chrome",
+            "value": 30.24
+          },
+          {
+            "name": "Safari",
+            "value": 11.75
+          },
+          {
+            "name": "Puffin",
+            "value": 0.25
+          },
+          {
+            "name": "Opera",
+            "value": 0.23
+          },
+          {
+            "name": "Edge",
+            "value": 0.09
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/philippines",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 14.75
+          },
+          {
+            "name": "1920x1080",
+            "value": 8.08
+          },
+          {
+            "name": "360x806",
+            "value": 6.73
+          },
+          {
+            "name": "1366x768",
+            "value": 5.63
+          },
+          {
+            "name": "1536x864",
+            "value": 4.87
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/philippines",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 21.5
+          },
+          {
+            "name": "360x806",
+            "value": 10.15
+          },
+          {
+            "name": "385x854",
+            "value": 4.68
+          },
+          {
+            "name": "360x820",
+            "value": 4.58
+          },
+          {
+            "name": "424x942",
+            "value": 4.48
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/philippines",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 23.81
+          },
+          {
+            "name": "1366x768",
+            "value": 16.7
+          },
+          {
+            "name": "1536x864",
+            "value": 14.46
+          },
+          {
+            "name": "1280x720",
+            "value": 5.8
+          },
+          {
+            "name": "1440x900",
+            "value": 4.25
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/philippines",
+        "data": [
+          {
+            "name": "601x1007",
+            "value": 11.5
+          },
+          {
+            "name": "601x962",
+            "value": 8.32
+          },
+          {
+            "name": "800x1280",
+            "value": 7.59
+          },
+          {
+            "name": "768x1024",
+            "value": 5.5
+          },
+          {
+            "name": "820x1180",
+            "value": 5.2
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/philippines",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 20.22
+          },
+          {
+            "name": "Oppo",
+            "value": 13.31
+          },
+          {
+            "name": "Realme",
+            "value": 12.55
+          },
+          {
+            "name": "Vivo",
+            "value": 11.06
+          },
+          {
+            "name": "Samsung",
+            "value": 9.43
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/philippines",
+        "data": [
+          {
+            "name": "Google",
+            "value": 90.6
+          },
+          {
+            "name": "bing",
+            "value": 5.7
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.96
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.13
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/philippines",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.61
+          },
+          {
+            "name": "bing",
+            "value": 1.13
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.37
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.27
+          },
+          {
+            "name": "Petal Search",
+            "value": 0.18
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/philippines",
+        "data": [
+          {
+            "name": "Google",
+            "value": 84.04
+          },
+          {
+            "name": "bing",
+            "value": 9.97
+          },
+          {
+            "name": "Yahoo!",
+            "value": 5.49
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.24
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.13
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/philippines",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.59
+          },
+          {
+            "name": "bing",
+            "value": 2.39
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.36
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.21
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/philippines",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 73.29
+          },
+          {
+            "name": "YouTube",
+            "value": 22.39
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.3
+          },
+          {
+            "name": "Twitter",
+            "value": 0.92
+          },
+          {
+            "name": "Instagram",
+            "value": 0.73
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/philippines",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 78.84
+          },
+          {
+            "name": "YouTube",
+            "value": 18.99
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.77
+          },
+          {
+            "name": "Instagram",
+            "value": 0.73
+          },
+          {
+            "name": "Twitter",
+            "value": 0.53
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/philippines",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 56.37
+          },
+          {
+            "name": "Facebook",
+            "value": 21.64
+          },
+          {
+            "name": "Pinterest",
+            "value": 14.61
+          },
+          {
+            "name": "Twitter",
+            "value": 4.02
+          },
+          {
+            "name": "reddit",
+            "value": 1.17
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/philippines",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 87.57
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.4
+          },
+          {
+            "name": "YouTube",
+            "value": 4.99
+          },
+          {
+            "name": "Twitter",
+            "value": 1.57
+          },
+          {
+            "name": "Instagram",
+            "value": 0.33
+          }
+        ]
+      }
+    }
+  }
+}
