@@ -32,37 +32,13 @@
         <!-- 上方：全球和台灣的主要數據顯示 -->
         <section class="mb-8">
             <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
-                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣</h2>
-                <div class="flex gap-4">
-                    <div>
-                        <label for="mainDataTypeSelect" class="text-sm text-gray-400 mr-2">數據類型：</label>
-                        <select id="mainDataTypeSelect" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500">
-                            <option value="all">全部</option>
-                            <option value="platform">平台市場佔有率</option>
-                            <option value="os_all">作業系統</option>
-                            <option value="browser_all">瀏覽器</option>
-                            <option value="resolution_all">屏幕分辨率</option>
-                            <option value="vendor_mobile">手機品牌</option>
-                            <option value="search_engine_all">搜索引擎</option>
-                            <option value="social_media_all">社交媒體</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="mainPlatformSelect" class="text-sm text-gray-400 mr-2">平台：</label>
-                        <select id="mainPlatformSelect" class="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white text-sm focus:outline-none focus:ring-2 focus:ring-cyan-500">
-                            <option value="all">所有平台</option>
-                            <option value="mobile">手機</option>
-                            <option value="desktop">電腦</option>
-                            <option value="tablet">平板</option>
-                        </select>
-                    </div>
-                </div>
+                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）</h2>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <!-- 全球數據卡片 -->
                 <div class="bg-gray-800 rounded-lg p-6 metric-card">
                     <h3 class="text-xl font-bold mb-4 text-cyan-400">🌍 全球</h3>
-                    <div id="globalMetrics" class="space-y-3">
+                    <div id="globalMetrics" class="space-y-4">
                         <div class="loading">
                             <div class="text-gray-400">載入中...</div>
                         </div>
@@ -72,7 +48,7 @@
                 <!-- 台灣數據卡片 -->
                 <div class="bg-gray-800 rounded-lg p-6 metric-card">
                     <h3 class="text-xl font-bold mb-4 text-cyan-400">🇹🇼 台灣</h3>
-                    <div id="twMetrics" class="space-y-3">
+                    <div id="twMetrics" class="space-y-4">
                         <div class="loading">
                             <div class="text-gray-400">載入中...</div>
                         </div>
@@ -244,7 +220,7 @@
             'tablet': '平板'
         };
 
-        // 載入所有數據
+        // 載入所有數據（全球 & 台灣）
         async function loadAllData() {
             console.log('開始載入數據...');
             
@@ -278,7 +254,7 @@
             }
         }
 
-        // 顯示主要指標（用圖表顯示，根據數據類型和平台篩選）
+        // 顯示主要指標（全球 / 台灣：所有數據類型 x 所有平台）
         function displayMainMetrics(countryCode, countryData, containerId) {
             const container = document.getElementById(containerId);
             container.innerHTML = '';
@@ -288,210 +264,70 @@
                 return;
             }
 
-            // 獲取選擇的數據類型和平台
-            const selectedDataType = document.getElementById('mainDataTypeSelect').value;
-            const selectedPlatform = document.getElementById('mainPlatformSelect').value;
-            
-            // 如果選擇了特定數據類型，只顯示該類型
-            const dataTypesToShow = selectedDataType === 'all' 
-                ? Object.keys(countryData.data) 
-                : [selectedDataType];
-            
-            const metrics = [];
-            
-            // 遍歷選定的數據類型
-            dataTypesToShow.forEach(dataType => {
-                const dataInfo = countryData.data[dataType];
-                if (dataInfo) {
+            const platforms = ['all', 'mobile', 'desktop', 'tablet'];
+            const platformLabels = {
+                all: '所有平台',
+                mobile: '手機',
+                desktop: '電腦',
+                tablet: '平板'
+            };
+
+            platforms.forEach(platformKey => {
+                const section = document.createElement('div');
+                section.className = 'mb-4';
+
+                const title = document.createElement('h4');
+                title.className = 'text-md font-bold mb-2 text-gray-200';
+                title.textContent = platformLabels[platformKey] || platformKey;
+                section.appendChild(title);
+
+                const grid = document.createElement('div');
+                grid.className = 'grid grid-cols-1 sm:grid-cols-2 gap-3';
+
+                let hasData = false;
+
+                Object.keys(countryData.data).forEach(dataType => {
+                    const dataInfo = countryData.data[dataType];
+                    if (!dataInfo) return;
+
                     let platformData = null;
-                    
-                    // 根據選擇的平台獲取數據
-                    if (selectedPlatform === 'all') {
+                    if (platformKey === 'all') {
                         platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
                     } else {
-                        platformData = dataInfo[selectedPlatform];
+                        platformData = dataInfo[platformKey];
                     }
-                    
-                    // 支持舊格式
-                    if (!platformData && dataInfo.data) {
-                        platformData = dataInfo;
+
+                    if (!platformData || !platformData.data || platformData.data.length === 0) return;
+
+                    hasData = true;
+                    const topItem = platformData.data[0]; // 該平台該數據類型的最高佔比
+
+                    const card = document.createElement('div');
+                    card.className = 'bg-gray-700 rounded-lg p-3 data-item';
+
+                    const url = platformData.url || dataInfo.url;
+                    if (url) {
+                        card.onclick = () => window.open(url, '_blank');
+                        card.className += ' cursor-pointer';
+                        card.title = '點擊查看數據來源';
                     }
-                    
-                    if (platformData && platformData.data && platformData.data.length > 0) {
-                        // 如果選擇了全部，只顯示最高值；如果選擇了特定類型，顯示所有數據
-                        if (selectedDataType === 'all') {
-                            const topItem = platformData.data[0];
-                            metrics.push({
-                                type: dataType,
-                                typeName: typeNames[dataType] || dataType,
-                                name: topItem.name,
-                                value: topItem.value,
-                                url: platformData.url || dataInfo.url,
-                                platform: selectedPlatform,
-                                allData: [topItem]
-                            });
-                        } else {
-                            // 顯示該類型的所有數據（用於圖表）
-                            metrics.push({
-                                type: dataType,
-                                typeName: typeNames[dataType] || dataType,
-                                name: typeNames[dataType] || dataType,
-                                value: 0,
-                                url: platformData.url || dataInfo.url,
-                                platform: selectedPlatform,
-                                allData: platformData.data
-                            });
-                        }
-                    }
+
+                    card.innerHTML = `
+                        <div class="text-sm text-gray-400 mb-1">${typeNames[dataType] || dataType}</div>
+                        <div class="text-lg font-bold text-cyan-400">${topItem.name}</div>
+                        <div class="text-2xl font-bold mt-1">${topItem.value.toFixed(2)}%</div>
+                        <div class="text-xs text-gray-500 mt-1">平台：${platformLabels[platformKey] || platformKey}</div>
+                        ${url ? '<div class="text-xs text-gray-500 mt-1">點擊查看來源</div>' : ''}
+                    `;
+
+                    grid.appendChild(card);
+                });
+
+                if (hasData) {
+                    section.appendChild(grid);
+                    container.appendChild(section);
                 }
             });
-
-            if (metrics.length === 0) {
-                container.innerHTML = '<div class="text-gray-400">暫無數據</div>';
-                return;
-            }
-
-            // 如果選擇了特定數據類型，顯示圖表；否則顯示數值卡片
-            if (selectedDataType !== 'all') {
-                // 顯示圖表
-                const metric = metrics[0];
-                const chartContainer = document.createElement('div');
-                chartContainer.className = 'space-y-4';
-                
-                const chartCard = document.createElement('div');
-                chartCard.className = 'bg-gray-700 rounded-lg p-4';
-                
-                const canvasId = `${containerId}_main_chart`;
-                const canvas = document.createElement('canvas');
-                canvas.id = canvasId;
-                canvas.style.height = '200px';
-                
-                chartCard.innerHTML = `
-                    <h4 class="text-lg font-bold mb-3">${metric.typeName} (${platformNames[selectedPlatform] || selectedPlatform})</h4>
-                `;
-                chartCard.appendChild(canvas);
-                
-                // 數據列表
-                const dataList = document.createElement('div');
-                dataList.className = 'mt-4 space-y-2';
-                metric.allData.slice(0, 10).forEach(item => {
-                    const dataItem = document.createElement('div');
-                    dataItem.className = 'flex justify-between items-center p-2 rounded hover:bg-gray-600 data-item';
-                    if (metric.url) {
-                        dataItem.onclick = () => window.open(metric.url, '_blank');
-                        dataItem.className += ' cursor-pointer';
-                        dataItem.title = '點擊查看數據來源';
-                    }
-                    dataItem.innerHTML = `
-                        <span>${item.name}</span>
-                        <span class="font-bold text-cyan-400">${item.value.toFixed(2)}%</span>
-                    `;
-                    dataList.appendChild(dataItem);
-                });
-                
-                // 來源鏈接
-                if (metric.url) {
-                    const sourceLink = document.createElement('div');
-                    sourceLink.className = 'mt-3 text-sm';
-                    sourceLink.innerHTML = `
-                        <a href="${metric.url}" target="_blank" class="text-cyan-400 hover:underline">
-                            查看數據來源 →
-                        </a>
-                    `;
-                    chartCard.appendChild(sourceLink);
-                }
-                
-                chartCard.appendChild(dataList);
-                chartContainer.appendChild(chartCard);
-                container.appendChild(chartContainer);
-                
-                // 創建圖表
-                setTimeout(() => {
-                    const ctx = document.getElementById(canvasId).getContext('2d');
-                    const chartData = metric.allData;
-                    const labels = chartData.map(item => item.name);
-                    const values = chartData.map(item => item.value);
-                    
-                    let chartType = 'bar';
-                    if (selectedDataType === 'platform' || selectedDataType === 'os_all') {
-                        chartType = 'doughnut';
-                    }
-                    
-                    new Chart(ctx, {
-                        type: chartType,
-                        data: {
-                            labels: labels,
-                            datasets: [{
-                                label: '市場佔有率 (%)',
-                                data: values,
-                                backgroundColor: [
-                                    '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
-                                    '#10B981', '#F97316', '#8B5CF6', '#EF4444',
-                                    '#14B8A6', '#3B82F6'
-                                ],
-                                borderWidth: 0
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            maintainAspectRatio: false,
-                            plugins: {
-                                legend: {
-                                    position: 'bottom',
-                                    labels: { 
-                                        color: '#9CA3AF', 
-                                        padding: 8,
-                                        font: { size: 10 }
-                                    }
-                                },
-                                tooltip: {
-                                    callbacks: {
-                                        label: function(context) {
-                                            return context.label + ': ' + context.parsed + '%';
-                                        }
-                                    }
-                                }
-                            },
-                            scales: chartType === 'bar' ? {
-                                x: { 
-                                    ticks: { 
-                                        color: '#9CA3AF',
-                                        font: { size: 9 }
-                                    }, 
-                                    grid: { color: '#374151' } 
-                                },
-                                y: { 
-                                    ticks: { 
-                                        color: '#9CA3AF',
-                                        font: { size: 9 },
-                                        callback: function(value) { return value + '%'; }
-                                    },
-                                    grid: { color: '#374151' }
-                                }
-                            } : {}
-                        }
-                    });
-                }, 100);
-            } else {
-                // 顯示數值卡片（全部數據類型）
-                metrics.forEach(metric => {
-                    const metricDiv = document.createElement('div');
-                    metricDiv.className = 'bg-gray-700 rounded-lg p-3 data-item';
-                    if (metric.url) {
-                        metricDiv.onclick = () => window.open(metric.url, '_blank');
-                        metricDiv.className += ' cursor-pointer';
-                        metricDiv.title = '點擊查看數據來源';
-                    }
-                    metricDiv.innerHTML = `
-                        <div class="text-sm text-gray-400 mb-1">${metric.typeName}</div>
-                        <div class="text-lg font-bold text-cyan-400">${metric.name}</div>
-                        <div class="text-2xl font-bold mt-1">${metric.value.toFixed(2)}%</div>
-                        <div class="text-xs text-gray-500 mt-1">${platformNames[metric.platform] || metric.platform}</div>
-                        ${metric.url ? '<div class="text-xs text-gray-500 mt-1">點擊查看來源</div>' : ''}
-                    `;
-                    container.appendChild(metricDiv);
-                });
-            }
         }
 
         // 根據實際可用數據，動態更新平台選項（避免選到沒有數據的平台）
@@ -642,7 +478,7 @@
             }
         }
 
-        // 顯示所有數據類型（用圖表顯示）
+        // 顯示所有數據類型（用圖表顯示，卡片左右排列）
         function displayAllDataTypes(countryData, platform) {
             // 先清除所有舊的圖表實例
             allCharts.forEach(chart => {
@@ -697,11 +533,16 @@
             document.getElementById('chartTitle').textContent = 
                 `${countryData.country_name} - 所有數據類型 (${platformNames[platform] || platform})`;
             
+            // 建立 grid 容器，讓多個圖表卡片左右排列
+            const grid = document.createElement('div');
+            grid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4';
+            container.appendChild(grid);
+
             // 為每個數據類型創建圖表卡片
             allData.forEach((item, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-gray-700 rounded-lg p-4 mb-4';
-                
+                card.className = 'bg-gray-700 rounded-lg p-4';
+
                 // 使用唯一的ID
                 const canvasId = `chart_all_${index}_${Math.random().toString(36).substr(2, 9)}`;
                 const canvas = document.createElement('canvas');
@@ -754,7 +595,7 @@
                     card.appendChild(sourceLink);
                 }
                 
-                container.appendChild(card);
+                grid.appendChild(card);
                 
                 // 創建圖表 - 使用requestAnimationFrame確保DOM已更新
                 requestAnimationFrame(() => {
@@ -861,7 +702,7 @@
             });
         }
 
-        // 顯示圖表
+        // 顯示圖表（單一數據類型）
         function displayChart(countryData, dataType, platform) {
             console.log('displayChart called:', { dataType, platform, countryDataKeys: Object.keys(countryData.data || {}) });
             
@@ -950,62 +791,62 @@
                 }
 
                 currentChart = new Chart(ctx, {
-                type: chartType,
-                data: {
-                    labels: labels,
-                    datasets: [{
-                        label: '市場佔有率 (%)',
-                        data: values,
-                        backgroundColor: [
-                            '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
-                            '#10B981', '#F97316', '#8B5CF6', '#EF4444',
-                            '#14B8A6', '#3B82F6'
-                        ],
-                        borderWidth: 0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                            labels: { 
-                                color: '#9CA3AF', 
-                                padding: 10,
-                                font: { size: 11 }
-                            }
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    return context.label + ': ' + context.parsed + '%';
+                    type: chartType,
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: '市場佔有率 (%)',
+                            data: values,
+                            backgroundColor: [
+                                '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
+                                '#10B981', '#F97316', '#8B5CF6', '#EF4444',
+                                '#14B8A6', '#3B82F6'
+                            ],
+                            borderWidth: 0
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: { 
+                                    color: '#9CA3AF', 
+                                    padding: 10,
+                                    font: { size: 11 }
                                 }
                             },
-                            padding: 8,
-                            titleFont: { size: 12 },
-                            bodyFont: { size: 11 }
-                        }
-                    },
-                    scales: chartType === 'bar' ? {
-                        x: { 
-                            ticks: { 
-                                color: '#9CA3AF',
-                                font: { size: 10 }
-                            }, 
-                            grid: { color: '#374151' } 
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.label + ': ' + context.parsed + '%';
+                                    }
+                                },
+                                padding: 8,
+                                titleFont: { size: 12 },
+                                bodyFont: { size: 11 }
+                            }
                         },
-                        y: { 
-                            ticks: { 
-                                color: '#9CA3AF',
-                                font: { size: 10 },
-                                callback: function(value) { return value + '%'; }
+                        scales: chartType === 'bar' ? {
+                            x: { 
+                                ticks: { 
+                                    color: '#9CA3AF',
+                                    font: { size: 10 }
+                                }, 
+                                grid: { color: '#374151' } 
                             },
-                            grid: { color: '#374151' }
-                        }
-                    } : {}
-                }
-            });
+                            y: { 
+                                ticks: { 
+                                    color: '#9CA3AF',
+                                    font: { size: 10 },
+                                    callback: function(value) { return value + '%'; }
+                                },
+                                grid: { color: '#374151' }
+                            }
+                        } : {}
+                    }
+                });
                 
                 allCharts.push(currentChart);
                 
@@ -1073,25 +914,6 @@
             const country = document.getElementById('countrySelect').value;
             if (country) {
                 loadCountryData();
-            }
-        });
-        
-        // 主要數據的篩選（數據類型和平台）
-        document.getElementById('mainDataTypeSelect').addEventListener('change', () => {
-            if (globalData) {
-                displayMainMetrics('global', globalData, 'globalMetrics');
-            }
-            if (twData) {
-                displayMainMetrics('tw', twData, 'twMetrics');
-            }
-        });
-        
-        document.getElementById('mainPlatformSelect').addEventListener('change', () => {
-            if (globalData) {
-                displayMainMetrics('global', globalData, 'globalMetrics');
-            }
-            if (twData) {
-                displayMainMetrics('tw', twData, 'twMetrics');
             }
         });
 
