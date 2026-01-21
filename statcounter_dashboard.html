@@ -841,9 +841,12 @@
             // 完全清空容器
             container.innerHTML = '';
             container.classList.remove('hidden');
+            // 移除 col-span 限制，讓容器佔滿整個寬度
+            container.classList.remove('lg:col-span-3');
             // 確保容器是 full width
             container.style.width = '100%';
             container.style.maxWidth = '100%';
+            container.style.gridColumn = 'span 5 / span 5'; // 在大螢幕上佔滿所有 5 列
             document.getElementById('loading').classList.add('hidden');
             document.getElementById('noData').classList.add('hidden');
             
