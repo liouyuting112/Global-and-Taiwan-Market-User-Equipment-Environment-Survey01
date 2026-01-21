@@ -1,7 +1,7 @@
 {
   "country_code": "bd",
   "country_name": "孟加拉國",
-  "update_time": "2026-01-19 15:30:03",
+  "update_time": "2026-01-21 12:29:37",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/bangladesh",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
         "data": [
           {
             "name": "Unknown",
@@ -375,6 +375,83 @@
           {
             "name": "Realme",
             "value": 8.57
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 22.28
+          },
+          {
+            "name": "Xiaomi",
+            "value": 15.49
+          },
+          {
+            "name": "Samsung",
+            "value": 14.38
+          },
+          {
+            "name": "Vivo",
+            "value": 9.94
+          },
+          {
+            "name": "Realme",
+            "value": 8.57
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 37.3
+          },
+          {
+            "name": "Samsung",
+            "value": 31.73
+          },
+          {
+            "name": "Unknown",
+            "value": 18.36
+          },
+          {
+            "name": "Huawei",
+            "value": 4.2
+          },
+          {
+            "name": "Amazon",
+            "value": 2.32
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 37.3
+          },
+          {
+            "name": "Samsung",
+            "value": 31.73
+          },
+          {
+            "name": "Unknown",
+            "value": 18.36
+          },
+          {
+            "name": "Huawei",
+            "value": 4.2
+          },
+          {
+            "name": "Amazon",
+            "value": 2.32
           }
         ]
       }

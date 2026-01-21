@@ -1,7 +1,7 @@
 {
   "country_code": "nl",
   "country_name": "荷蘭",
-  "update_time": "2026-01-19 15:49:57",
+  "update_time": "2026-01-21 12:52:06",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/netherlands",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
         "data": [
           {
             "name": "Apple",
@@ -375,6 +375,83 @@
           {
             "name": "Google",
             "value": 3.78
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 35.83
+          },
+          {
+            "name": "Samsung",
+            "value": 34.66
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.53
+          },
+          {
+            "name": "Unknown",
+            "value": 5.32
+          },
+          {
+            "name": "Google",
+            "value": 3.78
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.53
+          },
+          {
+            "name": "Samsung",
+            "value": 31.15
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.83
+          },
+          {
+            "name": "Unknown",
+            "value": 1.9
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.54
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.53
+          },
+          {
+            "name": "Samsung",
+            "value": 31.15
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.83
+          },
+          {
+            "name": "Unknown",
+            "value": 1.9
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.54
           }
         ]
       }

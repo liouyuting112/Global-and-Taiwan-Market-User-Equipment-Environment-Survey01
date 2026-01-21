@@ -1,7 +1,7 @@
 {
   "country_code": "tr",
   "country_name": "土耳其",
-  "update_time": "2026-01-19 15:40:10",
+  "update_time": "2026-01-21 12:40:57",
   "data": {
     "platform": {
       "all": {
@@ -341,8 +341,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/turkey",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/turkey",
         "data": [
           {
             "name": "Unknown",
@@ -363,6 +363,83 @@
           {
             "name": "Huawei",
             "value": 1.4
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/turkey",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 43.79
+          },
+          {
+            "name": "Apple",
+            "value": 23.26
+          },
+          {
+            "name": "Samsung",
+            "value": 14.68
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.14
+          },
+          {
+            "name": "Huawei",
+            "value": 1.4
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/turkey",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 47.36
+          },
+          {
+            "name": "Apple",
+            "value": 28.42
+          },
+          {
+            "name": "Unknown",
+            "value": 7.7
+          },
+          {
+            "name": "Lenovo",
+            "value": 6.88
+          },
+          {
+            "name": "Huawei",
+            "value": 2.83
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/turkey",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 47.36
+          },
+          {
+            "name": "Apple",
+            "value": 28.42
+          },
+          {
+            "name": "Unknown",
+            "value": 7.7
+          },
+          {
+            "name": "Lenovo",
+            "value": 6.88
+          },
+          {
+            "name": "Huawei",
+            "value": 2.83
           }
         ]
       }

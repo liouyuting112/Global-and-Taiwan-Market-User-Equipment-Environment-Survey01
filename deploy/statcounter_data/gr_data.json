@@ -1,7 +1,7 @@
 {
   "country_code": "gr",
   "country_name": "希臘",
-  "update_time": "2026-01-19 15:53:14",
+  "update_time": "2026-01-21 12:55:49",
   "data": {
     "platform": {
       "all": {
@@ -349,8 +349,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/greece",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/greece",
         "data": [
           {
             "name": "Apple",
@@ -371,6 +371,83 @@
           {
             "name": "Huawei",
             "value": 2.53
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/greece",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 25.92
+          },
+          {
+            "name": "Samsung",
+            "value": 25.68
+          },
+          {
+            "name": "Xiaomi",
+            "value": 23.86
+          },
+          {
+            "name": "Unknown",
+            "value": 13.4
+          },
+          {
+            "name": "Huawei",
+            "value": 2.53
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/greece",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 26.51
+          },
+          {
+            "name": "Google",
+            "value": 24.98
+          },
+          {
+            "name": "Apple",
+            "value": 20.48
+          },
+          {
+            "name": "Huawei",
+            "value": 8.27
+          },
+          {
+            "name": "Xiaomi",
+            "value": 5.36
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/greece",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 26.51
+          },
+          {
+            "name": "Google",
+            "value": 24.98
+          },
+          {
+            "name": "Apple",
+            "value": 20.48
+          },
+          {
+            "name": "Huawei",
+            "value": 8.27
+          },
+          {
+            "name": "Xiaomi",
+            "value": 5.36
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "country_code": "global",
   "country_name": "全球",
-  "update_time": "2026-01-19 15:26:40",
+  "update_time": "2026-01-21 12:25:49",
   "data": {
     "platform": {
       "all": {
@@ -361,8 +361,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/worldwide",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile",
         "data": [
           {
             "name": "Apple",
@@ -383,6 +383,83 @@
           {
             "name": "Vivo",
             "value": 7.0
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 27.93
+          },
+          {
+            "name": "Samsung",
+            "value": 20.01
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.28
+          },
+          {
+            "name": "Unknown",
+            "value": 9.32
+          },
+          {
+            "name": "Vivo",
+            "value": 7.0
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.76
+          },
+          {
+            "name": "Samsung",
+            "value": 22.71
+          },
+          {
+            "name": "Unknown",
+            "value": 8.73
+          },
+          {
+            "name": "Amazon",
+            "value": 6.2
+          },
+          {
+            "name": "Xiaomi",
+            "value": 2.02
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.76
+          },
+          {
+            "name": "Samsung",
+            "value": 22.71
+          },
+          {
+            "name": "Unknown",
+            "value": 8.73
+          },
+          {
+            "name": "Amazon",
+            "value": 6.2
+          },
+          {
+            "name": "Xiaomi",
+            "value": 2.02
           }
         ]
       }

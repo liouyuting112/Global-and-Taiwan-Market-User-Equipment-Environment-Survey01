@@ -1,7 +1,7 @@
 {
   "country_code": "europe",
   "country_name": "歐洲",
-  "update_time": "2026-01-19 15:30:10",
+  "update_time": "2026-01-21 12:29:43",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/europe",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/europe",
         "data": [
           {
             "name": "Apple",
@@ -375,6 +375,83 @@
           {
             "name": "Google",
             "value": 3.95
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/europe",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 39.2
+          },
+          {
+            "name": "Samsung",
+            "value": 31.18
+          },
+          {
+            "name": "Xiaomi",
+            "value": 9.72
+          },
+          {
+            "name": "Unknown",
+            "value": 4.53
+          },
+          {
+            "name": "Google",
+            "value": 3.95
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/europe",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.32
+          },
+          {
+            "name": "Samsung",
+            "value": 26.21
+          },
+          {
+            "name": "Unknown",
+            "value": 6.98
+          },
+          {
+            "name": "Amazon",
+            "value": 6.05
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.92
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/europe",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.32
+          },
+          {
+            "name": "Samsung",
+            "value": 26.21
+          },
+          {
+            "name": "Unknown",
+            "value": 6.98
+          },
+          {
+            "name": "Amazon",
+            "value": 6.05
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.92
           }
         ]
       }

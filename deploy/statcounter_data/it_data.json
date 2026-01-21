@@ -1,7 +1,7 @@
 {
   "country_code": "it",
   "country_name": "義大利",
-  "update_time": "2026-01-19 15:33:26",
+  "update_time": "2026-01-21 12:33:25",
   "data": {
     "platform": {
       "all": {
@@ -345,8 +345,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/italy",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/italy",
         "data": [
           {
             "name": "Apple",
@@ -367,6 +367,83 @@
           {
             "name": "Motorola",
             "value": 4.97
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/italy",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 31.94
+          },
+          {
+            "name": "Samsung",
+            "value": 28.97
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.8
+          },
+          {
+            "name": "Unknown",
+            "value": 5.14
+          },
+          {
+            "name": "Motorola",
+            "value": 4.97
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/italy",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.12
+          },
+          {
+            "name": "Samsung",
+            "value": 26.04
+          },
+          {
+            "name": "Unknown",
+            "value": 7.85
+          },
+          {
+            "name": "Huawei",
+            "value": 4.85
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.7
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/italy",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.12
+          },
+          {
+            "name": "Samsung",
+            "value": 26.04
+          },
+          {
+            "name": "Unknown",
+            "value": 7.85
+          },
+          {
+            "name": "Huawei",
+            "value": 4.85
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.7
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "country_code": "cn",
   "country_name": "中國",
-  "update_time": "2026-01-19 15:33:18",
+  "update_time": "2026-01-21 12:33:20",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/china",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/china",
         "data": [
           {
             "name": "Unknown",
@@ -375,6 +375,83 @@
           {
             "name": "Vivo",
             "value": 8.93
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/china",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 23.1
+          },
+          {
+            "name": "Apple",
+            "value": 22.39
+          },
+          {
+            "name": "Huawei",
+            "value": 15.46
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.03
+          },
+          {
+            "name": "Vivo",
+            "value": 8.93
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/china",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 56.03
+          },
+          {
+            "name": "Unknown",
+            "value": 30.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.58
+          },
+          {
+            "name": "Honor",
+            "value": 2.28
+          },
+          {
+            "name": "Huawei",
+            "value": 2.04
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/china",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 56.03
+          },
+          {
+            "name": "Unknown",
+            "value": 30.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.58
+          },
+          {
+            "name": "Honor",
+            "value": 2.28
+          },
+          {
+            "name": "Huawei",
+            "value": 2.04
           }
         ]
       }

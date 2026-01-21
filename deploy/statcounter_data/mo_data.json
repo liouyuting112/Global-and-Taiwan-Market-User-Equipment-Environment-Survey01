@@ -1,7 +1,7 @@
 {
   "country_code": "mo",
   "country_name": "澳門",
-  "update_time": "2026-01-19 15:39:55",
+  "update_time": "2026-01-21 12:40:49",
   "data": {
     "platform": {
       "all": {
@@ -337,8 +337,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/macao",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/macao",
         "data": [
           {
             "name": "Apple",
@@ -359,6 +359,83 @@
           {
             "name": "Unknown",
             "value": 5.75
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 57.55
+          },
+          {
+            "name": "Samsung",
+            "value": 13.81
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.53
+          },
+          {
+            "name": "Huawei",
+            "value": 6.5
+          },
+          {
+            "name": "Unknown",
+            "value": 5.75
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 86.4
+          },
+          {
+            "name": "Samsung",
+            "value": 4.98
+          },
+          {
+            "name": "Unknown",
+            "value": 2.81
+          },
+          {
+            "name": "Asus",
+            "value": 2.04
+          },
+          {
+            "name": "Huawei",
+            "value": 1.81
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 86.4
+          },
+          {
+            "name": "Samsung",
+            "value": 4.98
+          },
+          {
+            "name": "Unknown",
+            "value": 2.81
+          },
+          {
+            "name": "Asus",
+            "value": 2.04
+          },
+          {
+            "name": "Huawei",
+            "value": 1.81
           }
         ]
       }

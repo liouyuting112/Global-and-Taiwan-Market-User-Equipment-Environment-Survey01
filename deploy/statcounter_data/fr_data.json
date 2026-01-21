@@ -1,7 +1,7 @@
 {
   "country_code": "fr",
   "country_name": "法國",
-  "update_time": "2026-01-19 15:56:32",
+  "update_time": "2026-01-21 12:59:32",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/france",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/france",
         "data": [
           {
             "name": "Apple",
@@ -375,6 +375,83 @@
           {
             "name": "Google",
             "value": 3.92
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/france",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 33.42
+          },
+          {
+            "name": "Samsung",
+            "value": 32.07
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.44
+          },
+          {
+            "name": "Unknown",
+            "value": 6.74
+          },
+          {
+            "name": "Google",
+            "value": 3.92
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/france",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 45.38
+          },
+          {
+            "name": "Samsung",
+            "value": 38.09
+          },
+          {
+            "name": "Unknown",
+            "value": 5.73
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.34
+          },
+          {
+            "name": "Huawei",
+            "value": 2.91
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/france",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 45.38
+          },
+          {
+            "name": "Samsung",
+            "value": 38.09
+          },
+          {
+            "name": "Unknown",
+            "value": 5.73
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.34
+          },
+          {
+            "name": "Huawei",
+            "value": 2.91
           }
         ]
       }
