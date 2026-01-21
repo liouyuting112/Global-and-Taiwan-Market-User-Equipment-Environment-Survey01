@@ -31,6 +31,25 @@
 
         <!-- 上方：全球和台灣的主要數據顯示 -->
         <section class="mb-8">
+            <!-- 數據來源說明 -->
+            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-4 rounded-r">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0">
+                        <svg class="h-5 w-5 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p class="text-sm text-gray-700">
+                            <span class="font-medium">數據來源：</span>
+                            <a href="https://gs.statcounter.com/" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline font-medium">https://gs.statcounter.com/</a>
+                        </p>
+                        <p class="text-sm text-gray-600 mt-1">
+                            來源可以了解各國家/項目的年度趨勢
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
                 <h2 class="text-2xl font-bold text-gray-800">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）市佔率前三</h2>
             </div>
@@ -38,7 +57,7 @@
                 <!-- 全球數據卡片 -->
                 <div class="bg-gradient-to-br from-blue-100 via-cyan-50 to-blue-100 rounded-lg p-4 metric-card border-2 border-blue-400 shadow-xl shadow-blue-300/30">
                     <h3 class="text-xl font-bold mb-4 text-blue-700">🌍 全球</h3>
-                    <div id="globalMetrics" class="space-y-4">
+                    <div id="globalMetrics" class="space-y-2">
                         <div class="loading">
                             <div class="text-gray-600">載入中...</div>
                         </div>
@@ -109,7 +128,7 @@
                             </select>
                         </div>
                     </div>
-                    <div id="twMetrics" class="space-y-4">
+                    <div id="twMetrics" class="space-y-2">
                         <div class="loading">
                             <div class="text-gray-600">載入中...</div>
                         </div>
@@ -197,7 +216,8 @@
                             <option value="os_all">作業系統</option>
                             <option value="browser_all">瀏覽器市佔率</option>
                             <option value="resolution_all">螢幕解析度</option>
-                            <option value="vendor_mobile">手機品牌</option>
+                            <option value="vendor_mobile">設備供應商(手機)</option>
+                            <option value="vendor_tablet">設備供應商(平板)</option>
                             <option value="search_engine_all">搜索引擎市佔率</option>
                             <option value="social_media_all">社交媒體市佔率</option>
                         </select>
@@ -215,40 +235,44 @@
                 </div>
             </div>
 
-            <!-- 詳細圖表 -->
+            <!-- 詳細圖表和表格（左右顯示） -->
             <div id="detailSection" class="hidden">
-                <div class="bg-white rounded-lg p-6 mb-6 shadow-md border border-gray-200">
-                    <h3 id="chartTitle" class="text-2xl font-bold mb-4 text-gray-800">數據圖表</h3>
+                <div class="bg-white rounded-lg p-6 shadow-md border border-gray-200">
+                    <h3 id="chartTitle" class="text-2xl font-bold mb-4 text-gray-800">數據圖表與表格</h3>
                     <div id="loading" class="loading">
                         <div class="text-gray-600">載入中...</div>
-                    </div>
-                    <div id="chartWrapper" class="hidden">
-                        <div class="detail-chart-container">
-                            <canvas id="dataChart"></canvas>
-                        </div>
-                        <!-- 數據來源會動態添加在這裡 -->
                     </div>
                     <div id="noData" class="hidden text-center text-gray-600 py-8">
                         暫無數據
                     </div>
-                </div>
-
-                <!-- 數據表格 -->
-                <div class="bg-white rounded-lg p-6 shadow-md border border-gray-200">
-                    <h3 class="text-2xl font-bold mb-4 text-gray-800">數據表格</h3>
-                    <div id="dataTable" class="overflow-x-auto">
-                        <table class="w-full text-left">
-                            <thead>
-                                <tr class="border-b border-gray-300 bg-gray-50">
-                                    <th class="py-2 px-4 text-gray-700 font-semibold">項目</th>
-                                    <th class="py-2 px-4 text-gray-700 font-semibold">市場佔有率</th>
-                                    <th class="py-2 px-4 text-gray-700 font-semibold">平台</th>
-                                    <th class="py-2 px-4 text-gray-700 font-semibold">數據來源</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tableBody">
-                            </tbody>
-                        </table>
+                    <!-- 圖表和表格左右排列 -->
+                    <div id="chartAndTableWrapper" class="hidden grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <!-- 左側：圖表 -->
+                        <div id="chartWrapper" class="hidden">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-700">裝置類型市佔率</h4>
+                            <div class="detail-chart-container">
+                                <canvas id="dataChart"></canvas>
+                            </div>
+                            <!-- 數據來源會動態添加在這裡 -->
+                        </div>
+                        <!-- 右側：表格 -->
+                        <div id="dataTableWrapper">
+                            <h4 class="text-lg font-semibold mb-3 text-gray-700">數據表格</h4>
+                            <div id="dataTable" class="overflow-x-auto">
+                                <table class="w-full text-left">
+                                    <thead>
+                                        <tr class="border-b border-gray-300 bg-gray-50">
+                                            <th class="py-2 px-4 text-gray-700 font-semibold">項目</th>
+                                            <th class="py-2 px-4 text-gray-700 font-semibold">市場佔有率</th>
+                                            <th class="py-2 px-4 text-gray-700 font-semibold">平台</th>
+                                            <th class="py-2 px-4 text-gray-700 font-semibold">數據來源</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tableBody">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -268,7 +292,8 @@
             'os_all': '作業系統',
             'browser_all': '瀏覽器市佔率',
             'resolution_all': '螢幕解析度',
-            'vendor_mobile': '手機品牌',
+            'vendor_mobile': '設備供應商(手機)',
+            'vendor_tablet': '設備供應商(平板)',
             'search_engine_all': '搜索引擎市佔率',
             'social_media_all': '社交媒體市佔率'
         };
@@ -361,37 +386,27 @@
             'north-america': 'north-america'
         };
 
-        // 修正 vendor_mobile 的 URL
-        function fixVendorUrl(url, countryCode, platform) {
-            if (!url || !url.includes('vendor-market-share')) {
-                return url;
-            }
-            
+        // 修正 vendor URL（手機和平板）
+        function fixVendorUrl(url, countryCode, dataType) {
             const countrySlug = countrySlugMap[countryCode] || countryCode;
             
-            // 根據平台構建正確的 URL
-            if (platform === 'mobile') {
+            // 根據數據類型構建正確的 URL
+            if (dataType === 'vendor_mobile') {
+                // 手機設備供應商
                 if (countryCode === 'global') {
                     return 'https://gs.statcounter.com/vendor-market-share/mobile';
                 }
                 return `https://gs.statcounter.com/vendor-market-share/mobile/${countrySlug}`;
-            } else if (platform === 'tablet') {
+            } else if (dataType === 'vendor_tablet') {
+                // 平板設備供應商
                 if (countryCode === 'global') {
                     return 'https://gs.statcounter.com/vendor-market-share/tablet';
                 }
                 return `https://gs.statcounter.com/vendor-market-share/tablet/${countrySlug}`;
-            } else if (platform === 'desktop') {
-                if (countryCode === 'global') {
-                    return 'https://gs.statcounter.com/vendor-market-share/desktop';
-                }
-                return `https://gs.statcounter.com/vendor-market-share/desktop/${countrySlug}`;
-            } else {
-                // all platform
-                if (countryCode === 'global') {
-                    return 'https://gs.statcounter.com/vendor-market-share/all';
-                }
-                return `https://gs.statcounter.com/vendor-market-share/all/${countrySlug}`;
             }
+            
+            // 其他情況返回原 URL
+            return url;
         }
 
         // 平台名稱映射
@@ -500,8 +515,20 @@
                     const dataInfo = countryData.data[dataType];
                     if (!dataInfo) return;
 
+                    // 特殊處理 vendor_mobile 和 vendor_tablet：只在對應平台顯示
+                    if (dataType === 'vendor_mobile' && platformKey !== 'mobile') {
+                        return; // 手機設備供應商只在 mobile 平台顯示
+                    }
+                    if (dataType === 'vendor_tablet' && platformKey !== 'tablet') {
+                        return; // 平板設備供應商只在 tablet 平台顯示
+                    }
+
                     let platformData = null;
                     if (platformKey === 'all') {
+                        // vendor_mobile 和 vendor_tablet 不應該在 all 平台顯示
+                        if (dataType === 'vendor_mobile' || dataType === 'vendor_tablet') {
+                            return;
+                        }
                         platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
                     } else {
                         platformData = dataInfo[platformKey];
@@ -509,10 +536,10 @@
 
                     if (!platformData || !platformData.data || platformData.data.length === 0) return;
 
-                    // 修正 vendor_mobile 的 URL
+                    // 修正 vendor URL
                     let url = platformData.url || dataInfo.url;
-                    if (dataType === 'vendor_mobile') {
-                        url = fixVendorUrl(url, countryCode, platformKey);
+                    if (dataType === 'vendor_mobile' || dataType === 'vendor_tablet') {
+                        url = fixVendorUrl(url, countryCode, dataType);
                     }
 
                     // 特殊處理 platform 類型：顯示裝置類型市佔率格式
@@ -526,7 +553,7 @@
                                     type: dataType,
                                     typeName: typeNames[dataType] || dataType,
                                     top3: top3,
-                                    url: fixVendorUrl(allPlatformData.url, countryCode, 'all')
+                                    url: allPlatformData.url || dataInfo.url
                                 });
                             }
                         }
@@ -548,11 +575,11 @@
 
                 // 平台一列
                 const row = document.createElement('div');
-                row.className = 'mb-2';
+                row.className = 'mb-1'; // 縮短行距
 
                 // 平台標題
                 const title = document.createElement('div');
-                title.className = `text-sm font-bold mb-1 ${textColor}`;
+                title.className = `text-base font-bold mb-1 ${textColor}`; // 字體改大
                 title.textContent = platformLabels[platformKey] || platformKey;
                 row.appendChild(title);
 
@@ -562,7 +589,7 @@
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    itemCard.className = `${cardBgColor} rounded-lg px-3 py-2 text-[12px] flex flex-col items-center justify-center gap-1 border-2 ${borderColor} shadow-md flex-1 min-w-[120px] max-w-[170px] text-center`;
+                    itemCard.className = `${cardBgColor} rounded-lg px-3 py-2 text-sm flex flex-col items-center justify-center gap-0.5 border-2 ${borderColor} shadow-md flex-1 min-w-[120px] max-w-[170px] text-center`; // 字體從 text-[12px] 改為 text-sm，gap 從 gap-1 改為 gap-0.5
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
@@ -571,13 +598,13 @@
                     }
 
                     const typeEl = document.createElement('div');
-                    typeEl.className = `${textColor} font-semibold`;
+                    typeEl.className = `${textColor} font-semibold text-sm`; // 字體改大
                     typeEl.textContent = `${m.typeName}：`;
 
                     // 特殊處理 platform 類型
                     if (m.type === 'platform') {
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-[11px]';
+                        contentEl.className = 'text-gray-800 font-medium text-xs'; // 字體改大
                         const parts = [];
                         m.top3.forEach((item, idx) => {
                             const platformName = item.name === 'Mobile' ? 'Mobile' : item.name === 'Desktop' ? 'Desktop' : item.name === 'Tablet' ? 'Tablet' : item.name;
@@ -590,7 +617,7 @@
                     } else {
                         // 其他類型：顯示前三，每行一個
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-[11px] space-y-0.5';
+                        contentEl.className = 'text-gray-800 font-medium text-xs space-y-0'; // 字體改大，行距縮短
                         m.top3.forEach((item, idx) => {
                             const itemDiv = document.createElement('div');
                             itemDiv.innerHTML = `${item.name}:<span class="${valueColor} font-bold">${item.value.toFixed(1)}%</span>`;
@@ -714,6 +741,7 @@
 
             document.getElementById('detailSection').classList.remove('hidden');
             document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('chartAndTableWrapper').classList.add('hidden');
             document.getElementById('chartWrapper').classList.add('hidden');
             document.getElementById('noData').classList.add('hidden');
 
@@ -770,12 +798,20 @@
             });
             allCharts = [];
             
+            // 隱藏圖表和表格的左右布局容器，因為「全部」時只顯示多個圖表卡片
+            document.getElementById('chartAndTableWrapper').classList.add('hidden');
+            document.getElementById('chartWrapper').classList.add('hidden');
+            
+            // 使用 chartWrapper 作為容器顯示所有圖表卡片
             const container = document.getElementById('chartWrapper');
             // 完全清空容器
             container.innerHTML = '';
             container.classList.remove('hidden');
             document.getElementById('loading').classList.add('hidden');
             document.getElementById('noData').classList.add('hidden');
+            
+            // 顯示整個容器（包含圖表和表格的布局）
+            document.getElementById('chartAndTableWrapper').classList.remove('hidden');
             
             const allData = [];
             
@@ -793,10 +829,10 @@
                     
                     if (platformData && platformData.data && platformData.data.length > 0) {
                         let url = platformData.url;
-                        // 修正 vendor_mobile 的 URL
-                        if (dataType === 'vendor_mobile') {
+                        // 修正 vendor URL（手機和平板）
+                        if (dataType === 'vendor_mobile' || dataType === 'vendor_tablet') {
                             const countryCode = countryData.country_code || 'global';
-                            url = fixVendorUrl(url, countryCode, platform);
+                            url = fixVendorUrl(url, countryCode, dataType);
                         }
                         allData.push({
                             type: dataType,
@@ -817,7 +853,10 @@
             document.getElementById('chartTitle').textContent = 
                 `${countryData.country_name} - 所有數據類型 (${platformNames[platform] || platform})`;
             
-            // 建立 grid 容器，讓多個圖表卡片左右排列
+            // 隱藏表格（「全部」時不顯示表格）
+            document.getElementById('dataTableWrapper').classList.add('hidden');
+            
+            // 建立 grid 容器，讓多個圖表卡片左右排列（全寬顯示）
             const grid = document.createElement('div');
             grid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4';
             container.appendChild(grid);
@@ -1029,22 +1068,33 @@
             document.getElementById('chartTitle').textContent = 
                 `${countryData.country_name} - ${typeNames[dataType] || dataType} (${platformNames[platform] || platform})`;
 
-            // 先清除容器，確保只顯示當前選擇的數據類型
-            const container = document.getElementById('chartWrapper');
-            container.innerHTML = ''; // 清空所有內容
+            // 顯示圖表和表格容器
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('chartAndTableWrapper').classList.remove('hidden');
+            document.getElementById('noData').classList.add('hidden');
+            
+            // 顯示表格（單一數據類型時顯示）
+            document.getElementById('dataTableWrapper').classList.remove('hidden');
+            
+            // 先清除圖表容器，確保只顯示當前選擇的數據類型
+            const chartWrapper = document.getElementById('chartWrapper');
+            chartWrapper.innerHTML = ''; // 清空所有內容
             
             // 重新創建圖表容器
+            const chartTitle = document.createElement('h4');
+            chartTitle.className = 'text-lg font-semibold mb-3 text-gray-700';
+            chartTitle.textContent = typeNames[dataType] || '裝置類型市佔率';
+            chartWrapper.appendChild(chartTitle);
+            
             const chartContainer = document.createElement('div');
             chartContainer.className = 'detail-chart-container';
             const canvas = document.createElement('canvas');
             canvas.id = 'dataChart';
             chartContainer.appendChild(canvas);
-            container.appendChild(chartContainer);
+            chartWrapper.appendChild(chartContainer);
             
-            // 顯示圖表和表格
-            document.getElementById('loading').classList.add('hidden');
-            container.classList.remove('hidden');
-            document.getElementById('noData').classList.add('hidden');
+            // 顯示圖表容器
+            chartWrapper.classList.remove('hidden');
 
             // 清除所有圖表實例
             if (currentChart) {
@@ -1146,13 +1196,13 @@
                 
                 if (platformData.url) {
                     let url = platformData.url;
-                    // 修正 vendor_mobile 的 URL
-                    if (dataType === 'vendor_mobile') {
+                    // 修正 vendor URL（手機和平板）
+                    if (dataType === 'vendor_mobile' || dataType === 'vendor_tablet') {
                         const countryCode = countryData.country_code || 'global';
-                        url = fixVendorUrl(url, countryCode, platform);
+                        url = fixVendorUrl(url, countryCode, dataType);
                     }
                     const sourceDiv = document.createElement('div');
-                    sourceDiv.className = 'mt-4 text-sm text-gray-600 chart-source-link';
+                    sourceDiv.className = 'mt-3 text-sm text-gray-600 chart-source-link';
                     sourceDiv.innerHTML = `
                         <span>數據來源：</span>
                         <a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">
