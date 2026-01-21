@@ -1037,20 +1037,20 @@
                                 '#14B8A6', '#3B82F6'
                             ];
                             
-                            // 如果是長條圖，將每個項目作為單獨的 dataset，這樣圖例會顯示項目名稱
+                            // 如果是長條圖，使用單一 dataset，每個項目對應一個長條
                             let chartDataConfig;
                             if (chartType === 'bar') {
-                                // 長條圖：每個項目一個 dataset，圖例顯示項目名稱
+                                // 長條圖：單一 dataset，每個項目一個長條，使用不同顏色
                                 chartDataConfig = {
-                                    labels: labels,
-                                    datasets: labels.map((label, index) => ({
-                                        label: label,
-                                        data: values.map((val, i) => i === index ? val : 0),
-                                        backgroundColor: colors[index % colors.length],
+                                    labels: labels, // 所有項目標籤
+                                    datasets: [{
+                                        label: '', // 不需要 dataset 標籤
+                                        data: values, // 所有項目的數值
+                                        backgroundColor: labels.map((_, index) => colors[index % colors.length]), // 每個項目不同顏色
                                         borderWidth: 0,
                                         barThickness: 40, // 設置長條寬度，讓它更粗
                                         maxBarThickness: 50 // 最大寬度限制
-                                    }))
+                                    }]
                                 };
                             } else {
                                 // 圓餅圖：單一 dataset
@@ -1091,15 +1091,53 @@
                                             rtl: false,
                                             textDirection: 'ltr'
                                         },
+                                        legend: {
+                                            display: chartType === 'bar', // 長條圖顯示圖例
+                                            position: 'bottom',
+                                            align: 'center',
+                                            labels: {
+                                                generateLabels: chartType === 'bar' ? function(chart) {
+                                                    // 為長條圖生成自定義圖例標籤，顯示所有項目
+                                                    const data = chart.data;
+                                                    if (data.labels && data.datasets && data.datasets[0]) {
+                                                        const dataset = data.datasets[0];
+                                                        return data.labels.map((label, index) => {
+                                                            const value = dataset.data[index];
+                                                            const color = Array.isArray(dataset.backgroundColor) 
+                                                                ? dataset.backgroundColor[index] 
+                                                                : dataset.backgroundColor;
+                                                            return {
+                                                                text: label + ': ' + value.toFixed(2) + '%',
+                                                                fillStyle: color,
+                                                                strokeStyle: color,
+                                                                lineWidth: 0,
+                                                                hidden: false,
+                                                                index: index
+                                                            };
+                                                        });
+                                                    }
+                                                    return [];
+                                                } : undefined,
+                                                color: '#374151', 
+                                                padding: 8,
+                                                font: { size: 12 },
+                                                usePointStyle: false,
+                                                boxWidth: 12,
+                                                boxHeight: 12
+                                            },
+                                            // 水平排列圖例
+                                            rtl: false,
+                                            textDirection: 'ltr'
+                                        },
                                         tooltip: {
                                             callbacks: {
                                                 label: (function(type) {
                                                     return function(context) {
                                                         if (type === 'bar') {
                                                             // 長條圖：顯示項目名稱和數值
-                                                            const datasetLabel = context.dataset.label || '';
+                                                            const label = context.label || '';
                                                             const value = context.parsed.y || context.parsed;
-                                                            return datasetLabel + ': ' + value.toFixed(2) + '%';
+                                                            return label + ': ' + value.toFixed(2) + '%';
                                                         } else {
                                                             // 圓餅圖：顯示標籤和數值
                                                             return context.label + ': ' + context.parsed + '%';
@@ -1275,20 +1313,20 @@
                     '#14B8A6', '#3B82F6'
                 ];
                 
-                // 如果是長條圖，將每個項目作為單獨的 dataset，這樣圖例會顯示項目名稱
+                // 如果是長條圖，使用單一 dataset，每個項目對應一個長條
                 let chartDataConfig;
                 if (chartType === 'bar') {
-                    // 長條圖：每個項目一個 dataset，圖例顯示項目名稱
+                    // 長條圖：單一 dataset，每個項目一個長條，使用不同顏色
                     chartDataConfig = {
-                        labels: labels,
-                        datasets: labels.map((label, index) => ({
-                            label: label,
-                            data: values.map((val, i) => i === index ? val : 0),
-                            backgroundColor: colors[index % colors.length],
+                        labels: labels, // 所有項目標籤
+                        datasets: [{
+                            label: '', // 不需要 dataset 標籤
+                            data: values, // 所有項目的數值
+                            backgroundColor: labels.map((_, index) => colors[index % colors.length]), // 每個項目不同顏色
                             borderWidth: 0,
                             barThickness: 50, // 設置長條寬度，讓它更粗
                             maxBarThickness: 60 // 最大寬度限制
-                        }))
+                        }]
                     };
                 } else {
                     // 圓餅圖：單一 dataset
@@ -1326,15 +1364,53 @@
                                 rtl: false,
                                 textDirection: 'ltr'
                             },
+                            legend: {
+                                display: chartType === 'bar', // 長條圖顯示圖例
+                                position: 'bottom',
+                                align: 'center',
+                                labels: {
+                                    generateLabels: chartType === 'bar' ? function(chart) {
+                                        // 為長條圖生成自定義圖例標籤，顯示所有項目
+                                        const data = chart.data;
+                                        if (data.labels && data.datasets && data.datasets[0]) {
+                                            const dataset = data.datasets[0];
+                                            return data.labels.map((label, index) => {
+                                                const value = dataset.data[index];
+                                                const color = Array.isArray(dataset.backgroundColor) 
+                                                    ? dataset.backgroundColor[index] 
+                                                    : dataset.backgroundColor;
+                                                return {
+                                                    text: label + ': ' + value.toFixed(2) + '%',
+                                                    fillStyle: color,
+                                                    strokeStyle: color,
+                                                    lineWidth: 0,
+                                                    hidden: false,
+                                                    index: index
+                                                };
+                                            });
+                                        }
+                                        return [];
+                                    } : undefined,
+                                    color: '#374151', 
+                                    padding: 10,
+                                    font: { size: 13 },
+                                    usePointStyle: false,
+                                    boxWidth: 14,
+                                    boxHeight: 14
+                                },
+                                // 水平排列圖例
+                                rtl: false,
+                                textDirection: 'ltr'
+                            },
                             tooltip: {
                                 callbacks: {
                                     label: (function(type) {
                                         return function(context) {
                                             if (type === 'bar') {
                                                 // 長條圖：顯示項目名稱和數值
-                                                const datasetLabel = context.dataset.label || '';
+                                                const label = context.label || '';
                                                 const value = context.parsed.y || context.parsed;
-                                                return datasetLabel + ': ' + value.toFixed(2) + '%';
+                                                return label + ': ' + value.toFixed(2) + '%';
                                             } else {
                                                 // 圓餅圖：顯示標籤和數值
                                                 return context.label + ': ' + context.parsed + '%';
