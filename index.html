@@ -911,15 +911,16 @@
             // 隱藏表格（「全部」時不顯示表格）
             document.getElementById('dataTableWrapper').classList.add('hidden');
             
-            // 建立 grid 容器，讓多個圖表卡片左右排列（三個為一行）
+            // 建立 grid 容器，讓多個圖表卡片左右排列（三個為一行，平均寬度）
             const grid = document.createElement('div');
             grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4';
+            grid.style.gridTemplateColumns = 'repeat(3, minmax(0, 1fr))'; // 確保三個平均分配
             container.appendChild(grid);
 
             // 為每個數據類型創建圖表卡片
             allData.forEach((item, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-white rounded-lg p-4 shadow-md border border-gray-200';
+                card.className = 'bg-white rounded-lg p-4 shadow-md border border-gray-200 flex-1 min-w-0'; // 添加 flex-1 和 min-w-0 確保平均寬度
 
                 // 使用唯一的ID
                 const canvasId = `chart_all_${index}_${Math.random().toString(36).substr(2, 9)}`;
@@ -942,12 +943,12 @@
                 chartContainer.appendChild(canvas);
                 card.appendChild(chartContainer);
                 
-                // 數據列表
+                // 數據列表 - 縮小行距
                 const dataList = document.createElement('div');
-                dataList.className = 'mt-4 space-y-2';
+                dataList.className = 'mt-4 space-y-0.5'; // 從 space-y-2 改為 space-y-0.5，行距更緊湊
                 item.data.forEach(d => {
                     const dataItem = document.createElement('div');
-                    dataItem.className = 'flex justify-between items-center p-2 rounded hover:bg-gray-100 data-item cursor-pointer transition-colors';
+                    dataItem.className = 'flex justify-between items-center py-1 px-2 rounded hover:bg-gray-100 data-item cursor-pointer transition-colors'; // 從 p-2 改為 py-1 px-2，減少內距
                     if (item.url) {
                         dataItem.onclick = () => window.open(item.url, '_blank');
                         dataItem.title = '點擊查看數據來源';
