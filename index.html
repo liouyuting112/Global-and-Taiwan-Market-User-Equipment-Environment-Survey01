@@ -245,27 +245,27 @@
                     <div id="noData" class="hidden text-center text-gray-600 py-8">
                         暫無數據
                     </div>
-                    <!-- 圖表和表格左右排列 -->
-                    <div id="chartAndTableWrapper" class="hidden grid grid-cols-1 lg:grid-cols-2 gap-6">
-                        <!-- 左側：圖表 -->
-                        <div id="chartWrapper" class="hidden">
-                            <h4 class="text-lg font-semibold mb-3 text-gray-700">裝置類型市佔率</h4>
+                    <!-- 圖表和表格左右排列 - 調整比例讓右邊空間更好利用 -->
+                    <div id="chartAndTableWrapper" class="hidden grid grid-cols-1 lg:grid-cols-5 gap-4">
+                        <!-- 左側：圖表 - 佔 3/5 -->
+                        <div id="chartWrapper" class="hidden lg:col-span-3">
+                            <h4 class="text-lg font-semibold mb-2 text-gray-700">裝置類型市佔率</h4>
                             <div class="detail-chart-container">
                                 <canvas id="dataChart"></canvas>
                             </div>
                             <!-- 數據來源會動態添加在這裡 -->
                         </div>
-                        <!-- 右側：表格 -->
-                        <div id="dataTableWrapper">
-                            <h4 class="text-lg font-semibold mb-3 text-gray-700">數據表格</h4>
+                        <!-- 右側：表格 - 佔 2/5 -->
+                        <div id="dataTableWrapper" class="lg:col-span-2">
+                            <h4 class="text-lg font-semibold mb-2 text-gray-700">數據表格</h4>
                             <div id="dataTable" class="overflow-x-auto">
-                                <table class="w-full text-left">
+                                <table class="w-full text-left text-sm">
                                     <thead>
                                         <tr class="border-b border-gray-300 bg-gray-50">
-                                            <th class="py-2 px-4 text-gray-700 font-semibold">項目</th>
-                                            <th class="py-2 px-4 text-gray-700 font-semibold">市場佔有率</th>
-                                            <th class="py-2 px-4 text-gray-700 font-semibold">平台</th>
-                                            <th class="py-2 px-4 text-gray-700 font-semibold">數據來源</th>
+                                            <th class="py-1.5 px-3 text-gray-700 font-semibold">項目</th>
+                                            <th class="py-1.5 px-3 text-gray-700 font-semibold">市場佔有率</th>
+                                            <th class="py-1.5 px-3 text-gray-700 font-semibold">平台</th>
+                                            <th class="py-1.5 px-3 text-gray-700 font-semibold">數據來源</th>
                                         </tr>
                                     </thead>
                                     <tbody id="tableBody">
@@ -596,11 +596,22 @@
 
                 // 細項水平排列 - 不換行，調整間距讓所有卡片在同一行
                 const list = document.createElement('div');
-                list.className = 'flex gap-1.5 overflow-x-auto'; // 改為不換行，縮小間距，允許橫向滾動
+                list.className = 'flex gap-2 overflow-x-auto'; // 增大間距，允許橫向滾動
 
-                metrics.forEach(m => {
+                // 重新排序 metrics，讓 vendor_mobile 和 vendor_tablet 放在最後（除了 platform）
+                const sortedMetrics = [...metrics].sort((a, b) => {
+                    // platform 類型永遠在最前面
+                    if (a.type === 'platform') return -1;
+                    if (b.type === 'platform') return 1;
+                    // vendor_mobile 和 vendor_tablet 放在最後
+                    if (a.type === 'vendor_mobile' || a.type === 'vendor_tablet') return 1;
+                    if (b.type === 'vendor_mobile' || b.type === 'vendor_tablet') return -1;
+                    return 0;
+                });
+
+                sortedMetrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    itemCard.className = `${cardBgColor} rounded-lg px-2.5 py-1.5 text-xs flex flex-col items-center justify-center gap-0.5 border-2 ${borderColor} shadow-md flex-shrink-0 min-w-[110px] max-w-[140px] text-center`; // 縮小卡片尺寸和間距，使用 flex-shrink-0 防止壓縮
+                    itemCard.className = `${cardBgColor} rounded-lg px-3 py-2 text-sm flex flex-col items-center justify-center gap-1 border-2 ${borderColor} shadow-md flex-shrink-0 min-w-[130px] max-w-[160px] text-center`; // 增大卡片尺寸和字體
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
@@ -609,13 +620,13 @@
                     }
 
                     const typeEl = document.createElement('div');
-                    typeEl.className = `${textColor} font-semibold text-xs`; // 縮小字體以適應單行顯示
+                    typeEl.className = `${textColor} font-semibold text-sm`; // 增大字體
                     typeEl.textContent = `${m.typeName}：`;
 
                     // 特殊處理 platform 類型
                     if (m.type === 'platform') {
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-[10px] leading-tight'; // 更小的字體和緊湊行距
+                        contentEl.className = 'text-gray-800 font-medium text-xs leading-tight'; // 增大字體
                         const parts = [];
                         m.top3.forEach((item, idx) => {
                             const platformName = item.name === 'Mobile' ? 'Mobile' : item.name === 'Desktop' ? 'Desktop' : item.name === 'Tablet' ? 'Tablet' : item.name;
@@ -628,7 +639,7 @@
                     } else {
                         // 其他類型：顯示前三，每行一個
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-[10px] leading-tight space-y-0'; // 更小的字體和緊湊行距
+                        contentEl.className = 'text-gray-800 font-medium text-xs leading-tight space-y-0.5'; // 增大字體
                         m.top3.forEach((item, idx) => {
                             const itemDiv = document.createElement('div');
                             itemDiv.innerHTML = `${item.name}:<span class="${valueColor} font-bold">${item.value.toFixed(1)}%</span>`;
@@ -997,21 +1008,42 @@
                                 chartType = 'doughnut';
                             }
                             
-                            const chart = new Chart(chartCtx, {
-                                type: chartType,
-                                data: {
+                            // 為長條圖準備顏色數組
+                            const colors = [
+                                '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
+                                '#10B981', '#F97316', '#8B5CF6', '#EF4444',
+                                '#14B8A6', '#3B82F6'
+                            ];
+                            
+                            // 如果是長條圖，將每個項目作為單獨的 dataset，這樣圖例會顯示項目名稱
+                            let chartDataConfig;
+                            if (chartType === 'bar') {
+                                // 長條圖：每個項目一個 dataset，圖例顯示項目名稱
+                                chartDataConfig = {
+                                    labels: labels,
+                                    datasets: labels.map((label, index) => ({
+                                        label: label,
+                                        data: values.map((val, i) => i === index ? val : 0),
+                                        backgroundColor: colors[index % colors.length],
+                                        borderWidth: 0
+                                    }))
+                                };
+                            } else {
+                                // 圓餅圖：單一 dataset
+                                chartDataConfig = {
                                     labels: labels,
                                     datasets: [{
-                                        label: '市場佔有率 (%)',
+                                        label: '',
                                         data: values,
-                                        backgroundColor: [
-                                            '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
-                                            '#10B981', '#F97316', '#8B5CF6', '#EF4444',
-                                            '#14B8A6', '#3B82F6'
-                                        ],
+                                        backgroundColor: colors,
                                         borderWidth: 0
                                     }]
-                                },
+                                };
+                            }
+
+                            const chart = new Chart(chartCtx, {
+                                type: chartType,
+                                data: chartDataConfig,
                                 options: {
                                     responsive: true,
                                     maintainAspectRatio: false,
@@ -1020,18 +1052,36 @@
                                     },
                                     plugins: {
                                         legend: {
+                                            display: true,
                                             position: 'bottom',
+                                            align: 'center',
                                             labels: { 
-                                                color: '#9CA3AF', 
+                                                color: '#374151', 
                                                 padding: 8,
-                                                font: { size: 10 }
-                                            }
+                                                font: { size: 12 },
+                                                usePointStyle: false,
+                                                boxWidth: 12,
+                                                boxHeight: 12
+                                            },
+                                            // 水平排列圖例
+                                            rtl: false,
+                                            textDirection: 'ltr'
                                         },
                                         tooltip: {
                                             callbacks: {
-                                                label: function(context) {
-                                                    return context.label + ': ' + context.parsed + '%';
-                                                }
+                                                label: (function(type) {
+                                                    return function(context) {
+                                                        if (type === 'bar') {
+                                                            // 長條圖：顯示項目名稱和數值
+                                                            const datasetLabel = context.dataset.label || '';
+                                                            const value = context.parsed.y || context.parsed;
+                                                            return datasetLabel + ': ' + value.toFixed(2) + '%';
+                                                        } else {
+                                                            // 圓餅圖：顯示標籤和數值
+                                                            return context.label + ': ' + context.parsed + '%';
+                                                        }
+                                                    };
+                                                })(chartType),
                                             },
                                             padding: 6,
                                             titleFont: { size: 11 },
@@ -1155,7 +1205,7 @@
             
             // 重新創建圖表容器
             const chartTitle = document.createElement('h4');
-            chartTitle.className = 'text-lg font-semibold mb-3 text-gray-700';
+            chartTitle.className = 'text-lg font-semibold mb-2 text-gray-700';
             chartTitle.textContent = typeNames[dataType] || '裝置類型市佔率';
             chartWrapper.appendChild(chartTitle);
             
@@ -1197,38 +1247,77 @@
                     chartType = 'doughnut';
                 }
 
-                currentChart = new Chart(ctx, {
-                    type: chartType,
-                    data: {
+                // 為長條圖準備顏色數組
+                const colors = [
+                    '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
+                    '#10B981', '#F97316', '#8B5CF6', '#EF4444',
+                    '#14B8A6', '#3B82F6'
+                ];
+                
+                // 如果是長條圖，將每個項目作為單獨的 dataset，這樣圖例會顯示項目名稱
+                let chartDataConfig;
+                if (chartType === 'bar') {
+                    // 長條圖：每個項目一個 dataset，圖例顯示項目名稱
+                    chartDataConfig = {
+                        labels: labels,
+                        datasets: labels.map((label, index) => ({
+                            label: label,
+                            data: values.map((val, i) => i === index ? val : 0),
+                            backgroundColor: colors[index % colors.length],
+                            borderWidth: 0
+                        }))
+                    };
+                } else {
+                    // 圓餅圖：單一 dataset
+                    chartDataConfig = {
                         labels: labels,
                         datasets: [{
-                            label: '市場佔有率 (%)',
+                            label: '',
                             data: values,
-                            backgroundColor: [
-                                '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
-                                '#10B981', '#F97316', '#8B5CF6', '#EF4444',
-                                '#14B8A6', '#3B82F6'
-                            ],
+                            backgroundColor: colors,
                             borderWidth: 0
                         }]
-                    },
+                    };
+                }
+
+                currentChart = new Chart(ctx, {
+                    type: chartType,
+                    data: chartDataConfig,
                     options: {
                         responsive: true,
                         maintainAspectRatio: false,
                         plugins: {
                             legend: {
+                                display: true,
                                 position: 'bottom',
+                                align: 'center',
                                 labels: { 
-                                    color: '#9CA3AF', 
+                                    color: '#374151', 
                                     padding: 10,
-                                    font: { size: 11 }
-                                }
+                                    font: { size: 13 },
+                                    usePointStyle: false,
+                                    boxWidth: 14,
+                                    boxHeight: 14
+                                },
+                                // 水平排列圖例
+                                rtl: false,
+                                textDirection: 'ltr'
                             },
                             tooltip: {
                                 callbacks: {
-                                    label: function(context) {
-                                        return context.label + ': ' + context.parsed + '%';
-                                    }
+                                    label: (function(type) {
+                                        return function(context) {
+                                            if (type === 'bar') {
+                                                // 長條圖：顯示項目名稱和數值
+                                                const datasetLabel = context.dataset.label || '';
+                                                const value = context.parsed.y || context.parsed;
+                                                return datasetLabel + ': ' + value.toFixed(2) + '%';
+                                            } else {
+                                                // 圓餅圖：顯示標籤和數值
+                                                return context.label + ': ' + context.parsed + '%';
+                                            }
+                                        };
+                                    })(chartType)
                                 },
                                 padding: 8,
                                 titleFont: { size: 12 },
@@ -1275,10 +1364,10 @@
                         url = fixVendorUrl(url, countryCode, dataType);
                     }
                     const sourceDiv = document.createElement('div');
-                    sourceDiv.className = 'mt-3 text-sm text-gray-600 chart-source-link';
+                    sourceDiv.className = 'mt-2 text-xs text-gray-600 chart-source-link';
                     sourceDiv.innerHTML = `
                         <span>數據來源：</span>
-                        <a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">
+                        <a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline break-all">
                             ${url}
                         </a>
                     `;
@@ -1296,11 +1385,11 @@
                 const row = document.createElement('tr');
                 row.className = index % 2 === 0 ? 'bg-gray-50' : '';
                 row.innerHTML = `
-                    <td class="py-2 px-4 text-gray-800">${item.name}</td>
-                    <td class="py-2 px-4 font-bold text-gray-800">${item.value.toFixed(2)}%</td>
-                    <td class="py-2 px-4 text-gray-800">${platformNames[platform] || platform}</td>
-                    <td class="py-2 px-4">
-                        ${url ? `<a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">查看來源</a>` : '<span class="text-gray-400">-</span>'}
+                    <td class="py-1 px-3 text-gray-800">${item.name}</td>
+                    <td class="py-1 px-3 font-bold text-gray-800">${item.value.toFixed(2)}%</td>
+                    <td class="py-1 px-3 text-gray-800">${platformNames[platform] || platform}</td>
+                    <td class="py-1 px-3">
+                        ${url ? `<a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline text-xs break-all">查看來源</a>` : '<span class="text-gray-400">-</span>'}
                     </td>
                 `;
                 tbody.appendChild(row);
