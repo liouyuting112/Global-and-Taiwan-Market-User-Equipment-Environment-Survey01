@@ -45,7 +45,7 @@
                             <a href="https://gs.statcounter.com/" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline font-medium">https://gs.statcounter.com/</a>
                         </p>
                         <p class="text-sm text-gray-600 mt-1">
-                            來源可以了解各國家/項目的年度趨勢
+                            透過來源可以了解各國家/項目的年度趨勢
                         </p>
                     </div>
                 </div>
@@ -515,23 +515,34 @@
                     const dataInfo = countryData.data[dataType];
                     if (!dataInfo) return;
 
-                    // 特殊處理 vendor_mobile 和 vendor_tablet：只在對應平台顯示
-                    if (dataType === 'vendor_mobile' && platformKey !== 'mobile') {
-                        return; // 手機設備供應商只在 mobile 平台顯示
-                    }
-                    if (dataType === 'vendor_tablet' && platformKey !== 'tablet') {
-                        return; // 平板設備供應商只在 tablet 平台顯示
-                    }
-
                     let platformData = null;
-                    if (platformKey === 'all') {
-                        // vendor_mobile 和 vendor_tablet 不應該在 all 平台顯示
-                        if (dataType === 'vendor_mobile' || dataType === 'vendor_tablet') {
-                            return;
+                    
+                    // 特殊處理 vendor_mobile 和 vendor_tablet
+                    if (dataType === 'vendor_mobile') {
+                        // 設備供應商(手機)：在所有平台和手機平台顯示
+                        if (platformKey === 'all') {
+                            platformData = dataInfo.all || dataInfo.mobile;
+                        } else if (platformKey === 'mobile') {
+                            platformData = dataInfo.mobile || dataInfo.all;
+                        } else {
+                            return; // 其他平台不顯示
                         }
-                        platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                    } else if (dataType === 'vendor_tablet') {
+                        // 設備供應商(平板)：在所有平台和平板平台顯示
+                        if (platformKey === 'all') {
+                            platformData = dataInfo.all || dataInfo.tablet;
+                        } else if (platformKey === 'tablet') {
+                            platformData = dataInfo.tablet || dataInfo.all;
+                        } else {
+                            return; // 其他平台不顯示
+                        }
                     } else {
-                        platformData = dataInfo[platformKey];
+                        // 其他數據類型：正常處理
+                        if (platformKey === 'all') {
+                            platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                        } else {
+                            platformData = dataInfo[platformKey];
+                        }
                     }
 
                     if (!platformData || !platformData.data || platformData.data.length === 0) return;
@@ -583,13 +594,13 @@
                 title.textContent = platformLabels[platformKey] || platformKey;
                 row.appendChild(title);
 
-                // 細項水平排列
+                // 細項水平排列 - 不換行，調整間距讓所有卡片在同一行
                 const list = document.createElement('div');
-                list.className = 'flex flex-wrap gap-2';
+                list.className = 'flex gap-1.5 overflow-x-auto'; // 改為不換行，縮小間距，允許橫向滾動
 
                 metrics.forEach(m => {
                     const itemCard = document.createElement('div');
-                    itemCard.className = `${cardBgColor} rounded-lg px-3 py-2 text-sm flex flex-col items-center justify-center gap-0.5 border-2 ${borderColor} shadow-md flex-1 min-w-[120px] max-w-[170px] text-center`; // 字體從 text-[12px] 改為 text-sm，gap 從 gap-1 改為 gap-0.5
+                    itemCard.className = `${cardBgColor} rounded-lg px-2.5 py-1.5 text-xs flex flex-col items-center justify-center gap-0.5 border-2 ${borderColor} shadow-md flex-shrink-0 min-w-[110px] max-w-[140px] text-center`; // 縮小卡片尺寸和間距，使用 flex-shrink-0 防止壓縮
 
                     if (m.url) {
                         itemCard.onclick = () => window.open(m.url, '_blank');
@@ -598,13 +609,13 @@
                     }
 
                     const typeEl = document.createElement('div');
-                    typeEl.className = `${textColor} font-semibold text-sm`; // 字體改大
+                    typeEl.className = `${textColor} font-semibold text-xs`; // 縮小字體以適應單行顯示
                     typeEl.textContent = `${m.typeName}：`;
 
                     // 特殊處理 platform 類型
                     if (m.type === 'platform') {
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-xs'; // 字體改大
+                        contentEl.className = 'text-gray-800 font-medium text-[10px] leading-tight'; // 更小的字體和緊湊行距
                         const parts = [];
                         m.top3.forEach((item, idx) => {
                             const platformName = item.name === 'Mobile' ? 'Mobile' : item.name === 'Desktop' ? 'Desktop' : item.name === 'Tablet' ? 'Tablet' : item.name;
@@ -617,7 +628,7 @@
                     } else {
                         // 其他類型：顯示前三，每行一個
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-gray-800 font-medium text-xs space-y-0'; // 字體改大，行距縮短
+                        contentEl.className = 'text-gray-800 font-medium text-[10px] leading-tight space-y-0'; // 更小的字體和緊湊行距
                         m.top3.forEach((item, idx) => {
                             const itemDiv = document.createElement('div');
                             itemDiv.innerHTML = `${item.name}:<span class="${valueColor} font-bold">${item.value.toFixed(1)}%</span>`;
@@ -666,10 +677,22 @@
                 // 特定數據類型時，只看該類型
                 const info = countryData.data[dataType];
                 if (info) {
-                    if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
-                    if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
-                    if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
-                    if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                    // 特殊處理 vendor_mobile 和 vendor_tablet
+                    if (dataType === 'vendor_mobile') {
+                        // 設備供應商(手機)：只顯示 all 和 mobile
+                        if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                        if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                    } else if (dataType === 'vendor_tablet') {
+                        // 設備供應商(平板)：只顯示 all 和 tablet
+                        if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                        if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                    } else {
+                        // 其他數據類型：正常處理
+                        if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                        if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                        if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
+                        if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                    }
                 }
             }
 
@@ -820,11 +843,32 @@
                 if (dataInfo) {
                     let platformData = null;
                     
-                    if (platform === 'all') {
-                        // 優先使用all平台，否則使用第一個可用的平台
-                        platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                    // 特殊處理 vendor_mobile 和 vendor_tablet
+                    if (dataType === 'vendor_mobile') {
+                        // 設備供應商(手機)：在所有平台和手機平台顯示
+                        if (platform === 'all') {
+                            platformData = dataInfo.all || dataInfo.mobile;
+                        } else if (platform === 'mobile') {
+                            platformData = dataInfo.mobile || dataInfo.all;
+                        } else {
+                            return; // 其他平台不顯示
+                        }
+                    } else if (dataType === 'vendor_tablet') {
+                        // 設備供應商(平板)：在所有平台和平板平台顯示
+                        if (platform === 'all') {
+                            platformData = dataInfo.all || dataInfo.tablet;
+                        } else if (platform === 'tablet') {
+                            platformData = dataInfo.tablet || dataInfo.all;
+                        } else {
+                            return; // 其他平台不顯示
+                        }
                     } else {
-                        platformData = dataInfo[platform];
+                        // 其他數據類型：正常處理
+                        if (platform === 'all') {
+                            platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                        } else {
+                            platformData = dataInfo[platform];
+                        }
                     }
                     
                     if (platformData && platformData.data && platformData.data.length > 0) {
@@ -1041,10 +1085,39 @@
             
             // 根據平台選擇數據
             let platformData = null;
-            if (platform === 'all') {
-                platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+            
+            // 特殊處理 vendor_mobile 和 vendor_tablet
+            if (dataType === 'vendor_mobile') {
+                // 設備供應商(手機)：在所有平台和手機平台顯示
+                if (platform === 'all') {
+                    platformData = dataInfo.all || dataInfo.mobile;
+                } else if (platform === 'mobile') {
+                    platformData = dataInfo.mobile || dataInfo.all;
+                } else {
+                    // 其他平台不顯示
+                    document.getElementById('loading').classList.add('hidden');
+                    document.getElementById('noData').classList.remove('hidden');
+                    return;
+                }
+            } else if (dataType === 'vendor_tablet') {
+                // 設備供應商(平板)：在所有平台和平板平台顯示
+                if (platform === 'all') {
+                    platformData = dataInfo.all || dataInfo.tablet;
+                } else if (platform === 'tablet') {
+                    platformData = dataInfo.tablet || dataInfo.all;
+                } else {
+                    // 其他平台不顯示
+                    document.getElementById('loading').classList.add('hidden');
+                    document.getElementById('noData').classList.remove('hidden');
+                    return;
+                }
             } else {
-                platformData = dataInfo[platform];
+                // 其他數據類型：正常處理
+                if (platform === 'all') {
+                    platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                } else {
+                    platformData = dataInfo[platform];
+                }
             }
             
             // 支持舊格式
