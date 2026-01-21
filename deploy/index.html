@@ -841,6 +841,9 @@
             // 完全清空容器
             container.innerHTML = '';
             container.classList.remove('hidden');
+            // 確保容器是 full width
+            container.style.width = '100%';
+            container.style.maxWidth = '100%';
             document.getElementById('loading').classList.add('hidden');
             document.getElementById('noData').classList.add('hidden');
             
@@ -913,14 +916,29 @@
             
             // 建立 grid 容器，讓多個圖表卡片左右排列（三個為一行，平均寬度）
             const grid = document.createElement('div');
-            grid.className = 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4';
-            grid.style.gridTemplateColumns = 'repeat(3, minmax(0, 1fr))'; // 確保三個平均分配
+            grid.className = 'grid gap-4 w-full';
+            // 根據螢幕寬度動態設置列數，確保三個平均分配
+            const updateGridColumns = () => {
+                if (window.innerWidth >= 1024) {
+                    grid.style.gridTemplateColumns = 'repeat(3, minmax(0, 1fr))';
+                } else if (window.innerWidth >= 768) {
+                    grid.style.gridTemplateColumns = 'repeat(2, minmax(0, 1fr))';
+                } else {
+                    grid.style.gridTemplateColumns = 'repeat(1, minmax(0, 1fr))';
+                }
+            };
+            updateGridColumns();
+            // 監聽視窗大小變化
+            const resizeHandler = () => updateGridColumns();
+            window.addEventListener('resize', resizeHandler);
+            // 保存 resize handler 以便後續清理（如果需要）
+            grid._resizeHandler = resizeHandler;
             container.appendChild(grid);
 
             // 為每個數據類型創建圖表卡片
             allData.forEach((item, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-white rounded-lg p-4 shadow-md border border-gray-200 flex-1 min-w-0'; // 添加 flex-1 和 min-w-0 確保平均寬度
+                card.className = 'bg-white rounded-lg p-4 shadow-md border border-gray-200 w-full'; // 使用 w-full 確保卡片填滿 grid cell
 
                 // 使用唯一的ID
                 const canvasId = `chart_all_${index}_${Math.random().toString(36).substr(2, 9)}`;
