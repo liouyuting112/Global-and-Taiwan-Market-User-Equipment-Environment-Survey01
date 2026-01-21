@@ -1,7 +1,7 @@
 {
   "country_code": "pk",
   "country_name": "巴基斯坦",
-  "update_time": "2026-01-19 15:33:22",
+  "update_time": "2026-01-21 12:33:22",
   "data": {
     "platform": {
       "all": {
@@ -357,8 +357,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/pakistan",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/pakistan",
         "data": [
           {
             "name": "Infinix",
@@ -379,6 +379,83 @@
           {
             "name": "Tecno",
             "value": 10.19
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/pakistan",
+        "data": [
+          {
+            "name": "Infinix",
+            "value": 15.8
+          },
+          {
+            "name": "Vivo",
+            "value": 12.95
+          },
+          {
+            "name": "Samsung",
+            "value": 12.81
+          },
+          {
+            "name": "Oppo",
+            "value": 10.59
+          },
+          {
+            "name": "Tecno",
+            "value": 10.19
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/pakistan",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 34.49
+          },
+          {
+            "name": "Apple",
+            "value": 30.74
+          },
+          {
+            "name": "Unknown",
+            "value": 17.44
+          },
+          {
+            "name": "Amazon",
+            "value": 7.82
+          },
+          {
+            "name": "Huawei",
+            "value": 3.17
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/pakistan",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 34.49
+          },
+          {
+            "name": "Apple",
+            "value": 30.74
+          },
+          {
+            "name": "Unknown",
+            "value": 17.44
+          },
+          {
+            "name": "Amazon",
+            "value": 7.82
+          },
+          {
+            "name": "Huawei",
+            "value": 3.17
           }
         ]
       }

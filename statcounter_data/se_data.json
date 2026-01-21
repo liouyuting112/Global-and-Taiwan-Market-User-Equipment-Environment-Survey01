@@ -1,7 +1,7 @@
 {
   "country_code": "se",
   "country_name": "瑞典",
-  "update_time": "2026-01-19 15:36:46",
+  "update_time": "2026-01-21 12:37:09",
   "data": {
     "platform": {
       "all": {
@@ -341,8 +341,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/sweden",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
         "data": [
           {
             "name": "Apple",
@@ -363,6 +363,83 @@
           {
             "name": "Xiaomi",
             "value": 2.12
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 55.68
+          },
+          {
+            "name": "Samsung",
+            "value": 29.0
+          },
+          {
+            "name": "Google",
+            "value": 4.25
+          },
+          {
+            "name": "Unknown",
+            "value": 3.5
+          },
+          {
+            "name": "Xiaomi",
+            "value": 2.12
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 71.58
+          },
+          {
+            "name": "Samsung",
+            "value": 20.4
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.83
+          },
+          {
+            "name": "Unknown",
+            "value": 2.32
+          },
+          {
+            "name": "Huawei",
+            "value": 2.19
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 71.58
+          },
+          {
+            "name": "Samsung",
+            "value": 20.4
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.83
+          },
+          {
+            "name": "Unknown",
+            "value": 2.32
+          },
+          {
+            "name": "Huawei",
+            "value": 2.19
           }
         ]
       }

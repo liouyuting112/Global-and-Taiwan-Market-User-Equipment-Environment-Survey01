@@ -1,7 +1,7 @@
 {
   "country_code": "asia",
   "country_name": "亞洲",
-  "update_time": "2026-01-19 15:26:50",
+  "update_time": "2026-01-21 12:25:58",
   "data": {
     "platform": {
       "all": {
@@ -357,8 +357,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/asia",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/asia",
         "data": [
           {
             "name": "Apple",
@@ -379,6 +379,83 @@
           {
             "name": "Unknown",
             "value": 10.91
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/asia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 17.34
+          },
+          {
+            "name": "Samsung",
+            "value": 14.72
+          },
+          {
+            "name": "Xiaomi",
+            "value": 13.08
+          },
+          {
+            "name": "Vivo",
+            "value": 11.61
+          },
+          {
+            "name": "Unknown",
+            "value": 10.91
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/asia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.28
+          },
+          {
+            "name": "Samsung",
+            "value": 23.46
+          },
+          {
+            "name": "Unknown",
+            "value": 10.2
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.82
+          },
+          {
+            "name": "Huawei",
+            "value": 2.35
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/asia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.28
+          },
+          {
+            "name": "Samsung",
+            "value": 23.46
+          },
+          {
+            "name": "Unknown",
+            "value": 10.2
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.82
+          },
+          {
+            "name": "Huawei",
+            "value": 2.35
           }
         ]
       }

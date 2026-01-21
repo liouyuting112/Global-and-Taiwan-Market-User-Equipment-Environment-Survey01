@@ -1,7 +1,7 @@
 {
   "country_code": "ru",
   "country_name": "俄羅斯",
-  "update_time": "2026-01-20 11:48:16",
+  "update_time": "2026-01-21 12:44:42",
   "data": {
     "platform": {
       "all": {
@@ -349,8 +349,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/russian-federation",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/russian-federation",
         "data": [
           {
             "name": "Apple",
@@ -371,6 +371,83 @@
           {
             "name": "Realme",
             "value": 4.66
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 29.62
+          },
+          {
+            "name": "Samsung",
+            "value": 20.04
+          },
+          {
+            "name": "Xiaomi",
+            "value": 18.08
+          },
+          {
+            "name": "Google",
+            "value": 7.29
+          },
+          {
+            "name": "Realme",
+            "value": 4.66
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 32.04
+          },
+          {
+            "name": "Samsung",
+            "value": 30.14
+          },
+          {
+            "name": "Xiaomi",
+            "value": 16.35
+          },
+          {
+            "name": "Huawei",
+            "value": 8.17
+          },
+          {
+            "name": "Unknown",
+            "value": 7.0
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 32.04
+          },
+          {
+            "name": "Samsung",
+            "value": 30.14
+          },
+          {
+            "name": "Xiaomi",
+            "value": 16.35
+          },
+          {
+            "name": "Huawei",
+            "value": 8.17
+          },
+          {
+            "name": "Unknown",
+            "value": 7.0
           }
         ]
       }

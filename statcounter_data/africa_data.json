@@ -1,7 +1,7 @@
 {
   "country_code": "africa",
   "country_name": "非洲",
-  "update_time": "2026-01-19 15:33:30",
+  "update_time": "2026-01-21 12:33:28",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/africa",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
         "data": [
           {
             "name": "Samsung",
@@ -375,6 +375,83 @@
           {
             "name": "Tecno",
             "value": 7.09
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 34.52
+          },
+          {
+            "name": "Apple",
+            "value": 15.21
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.71
+          },
+          {
+            "name": "Unknown",
+            "value": 7.47
+          },
+          {
+            "name": "Tecno",
+            "value": 7.09
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 54.48
+          },
+          {
+            "name": "Apple",
+            "value": 19.64
+          },
+          {
+            "name": "Unknown",
+            "value": 17.36
+          },
+          {
+            "name": "Amazon",
+            "value": 1.93
+          },
+          {
+            "name": "Lenovo",
+            "value": 1.66
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 54.48
+          },
+          {
+            "name": "Apple",
+            "value": 19.64
+          },
+          {
+            "name": "Unknown",
+            "value": 17.36
+          },
+          {
+            "name": "Amazon",
+            "value": 1.93
+          },
+          {
+            "name": "Lenovo",
+            "value": 1.66
           }
         ]
       }

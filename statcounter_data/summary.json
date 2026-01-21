@@ -2,7 +2,7 @@
   "es": {
     "country_code": "es",
     "country_name": "西班牙",
-    "update_time": "2026-01-19 15:26:48",
+    "update_time": "2026-01-21 12:25:56",
     "data": {
       "platform": {
         "all": {
@@ -358,8 +358,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/spain",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/spain",
           "data": [
             {
               "name": "Apple",
@@ -380,6 +380,83 @@
             {
               "name": "Unknown",
               "value": 4.46
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/spain",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 27.2
+            },
+            {
+              "name": "Samsung",
+              "value": 26.89
+            },
+            {
+              "name": "Xiaomi",
+              "value": 23.44
+            },
+            {
+              "name": "Oppo",
+              "value": 5.64
+            },
+            {
+              "name": "Unknown",
+              "value": 4.46
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/spain",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 41.1
+            },
+            {
+              "name": "Samsung",
+              "value": 35.62
+            },
+            {
+              "name": "Huawei",
+              "value": 6.38
+            },
+            {
+              "name": "Unknown",
+              "value": 5.01
+            },
+            {
+              "name": "Xiaomi",
+              "value": 4.58
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/spain",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 41.1
+            },
+            {
+              "name": "Samsung",
+              "value": 35.62
+            },
+            {
+              "name": "Huawei",
+              "value": 6.38
+            },
+            {
+              "name": "Unknown",
+              "value": 5.01
+            },
+            {
+              "name": "Xiaomi",
+              "value": 4.58
             }
           ]
         }
@@ -593,7 +670,7 @@
   "pt": {
     "country_code": "pt",
     "country_name": "葡萄牙",
-    "update_time": "2026-01-19 15:30:06",
+    "update_time": "2026-01-21 12:29:40",
     "data": {
       "platform": {
         "all": {
@@ -937,8 +1014,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/portugal",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/portugal",
           "data": [
             {
               "name": "Apple",
@@ -959,6 +1036,83 @@
             {
               "name": "Unknown",
               "value": 4.58
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/portugal",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 35.43
+            },
+            {
+              "name": "Samsung",
+              "value": 29.99
+            },
+            {
+              "name": "Xiaomi",
+              "value": 13.84
+            },
+            {
+              "name": "Google",
+              "value": 6.38
+            },
+            {
+              "name": "Unknown",
+              "value": 4.58
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/portugal",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 48.44
+            },
+            {
+              "name": "Samsung",
+              "value": 27.81
+            },
+            {
+              "name": "Unknown",
+              "value": 6.34
+            },
+            {
+              "name": "Lenovo",
+              "value": 5.97
+            },
+            {
+              "name": "Huawei",
+              "value": 5.37
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/portugal",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 48.44
+            },
+            {
+              "name": "Samsung",
+              "value": 27.81
+            },
+            {
+              "name": "Unknown",
+              "value": 6.34
+            },
+            {
+              "name": "Lenovo",
+              "value": 5.97
+            },
+            {
+              "name": "Huawei",
+              "value": 5.37
             }
           ]
         }
@@ -1172,7 +1326,7 @@
   "it": {
     "country_code": "it",
     "country_name": "義大利",
-    "update_time": "2026-01-19 15:33:26",
+    "update_time": "2026-01-21 12:33:25",
     "data": {
       "platform": {
         "all": {
@@ -1516,8 +1670,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/italy",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/italy",
           "data": [
             {
               "name": "Apple",
@@ -1538,6 +1692,83 @@
             {
               "name": "Motorola",
               "value": 4.97
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/italy",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 31.94
+            },
+            {
+              "name": "Samsung",
+              "value": 28.97
+            },
+            {
+              "name": "Xiaomi",
+              "value": 10.8
+            },
+            {
+              "name": "Unknown",
+              "value": 5.14
+            },
+            {
+              "name": "Motorola",
+              "value": 4.97
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/italy",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 53.12
+            },
+            {
+              "name": "Samsung",
+              "value": 26.04
+            },
+            {
+              "name": "Unknown",
+              "value": 7.85
+            },
+            {
+              "name": "Huawei",
+              "value": 4.85
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.7
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/italy",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 53.12
+            },
+            {
+              "name": "Samsung",
+              "value": 26.04
+            },
+            {
+              "name": "Unknown",
+              "value": 7.85
+            },
+            {
+              "name": "Huawei",
+              "value": 4.85
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.7
             }
           ]
         }
@@ -1751,7 +1982,7 @@
   "se": {
     "country_code": "se",
     "country_name": "瑞典",
-    "update_time": "2026-01-19 15:36:46",
+    "update_time": "2026-01-21 12:37:09",
     "data": {
       "platform": {
         "all": {
@@ -2091,8 +2322,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/sweden",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
           "data": [
             {
               "name": "Apple",
@@ -2113,6 +2344,83 @@
             {
               "name": "Xiaomi",
               "value": 2.12
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 55.68
+            },
+            {
+              "name": "Samsung",
+              "value": 29.0
+            },
+            {
+              "name": "Google",
+              "value": 4.25
+            },
+            {
+              "name": "Unknown",
+              "value": 3.5
+            },
+            {
+              "name": "Xiaomi",
+              "value": 2.12
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 71.58
+            },
+            {
+              "name": "Samsung",
+              "value": 20.4
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.83
+            },
+            {
+              "name": "Unknown",
+              "value": 2.32
+            },
+            {
+              "name": "Huawei",
+              "value": 2.19
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 71.58
+            },
+            {
+              "name": "Samsung",
+              "value": 20.4
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.83
+            },
+            {
+              "name": "Unknown",
+              "value": 2.32
+            },
+            {
+              "name": "Huawei",
+              "value": 2.19
             }
           ]
         }
@@ -2326,7 +2634,7 @@
   "de": {
     "country_code": "de",
     "country_name": "德國",
-    "update_time": "2026-01-19 15:40:07",
+    "update_time": "2026-01-21 12:40:54",
     "data": {
       "platform": {
         "all": {
@@ -2678,8 +2986,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/germany",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/germany",
           "data": [
             {
               "name": "Apple",
@@ -2700,6 +3008,83 @@
             {
               "name": "Unknown",
               "value": 4.72
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/germany",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 44.36
+            },
+            {
+              "name": "Samsung",
+              "value": 31.09
+            },
+            {
+              "name": "Xiaomi",
+              "value": 8.1
+            },
+            {
+              "name": "Google",
+              "value": 5.47
+            },
+            {
+              "name": "Unknown",
+              "value": 4.72
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/germany",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 44.32
+            },
+            {
+              "name": "Samsung",
+              "value": 34.44
+            },
+            {
+              "name": "Unknown",
+              "value": 6.34
+            },
+            {
+              "name": "Amazon",
+              "value": 5.34
+            },
+            {
+              "name": "Huawei",
+              "value": 3.79
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/germany",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 44.32
+            },
+            {
+              "name": "Samsung",
+              "value": 34.44
+            },
+            {
+              "name": "Unknown",
+              "value": 6.34
+            },
+            {
+              "name": "Amazon",
+              "value": 5.34
+            },
+            {
+              "name": "Huawei",
+              "value": 3.79
             }
           ]
         }
@@ -2913,7 +3298,7 @@
   "dk": {
     "country_code": "dk",
     "country_name": "丹麥",
-    "update_time": "2026-01-19 15:43:24",
+    "update_time": "2026-01-21 12:44:38",
     "data": {
       "platform": {
         "all": {
@@ -3261,8 +3646,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/denmark",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/denmark",
           "data": [
             {
               "name": "Apple",
@@ -3283,6 +3668,83 @@
             {
               "name": "Motorola",
               "value": 2.76
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/denmark",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 62.99
+            },
+            {
+              "name": "Samsung",
+              "value": 20.79
+            },
+            {
+              "name": "OnePlus",
+              "value": 4.11
+            },
+            {
+              "name": "Unknown",
+              "value": 3.04
+            },
+            {
+              "name": "Motorola",
+              "value": 2.76
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/denmark",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 78.18
+            },
+            {
+              "name": "Samsung",
+              "value": 13.09
+            },
+            {
+              "name": "Lenovo",
+              "value": 3.77
+            },
+            {
+              "name": "Huawei",
+              "value": 3.35
+            },
+            {
+              "name": "Unknown",
+              "value": 0.99
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/denmark",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 78.18
+            },
+            {
+              "name": "Samsung",
+              "value": 13.09
+            },
+            {
+              "name": "Lenovo",
+              "value": 3.77
+            },
+            {
+              "name": "Huawei",
+              "value": 3.35
+            },
+            {
+              "name": "Unknown",
+              "value": 0.99
             }
           ]
         }
@@ -3496,7 +3958,7 @@
   "ro": {
     "country_code": "ro",
     "country_name": "羅馬尼亞",
-    "update_time": "2026-01-19 15:46:41",
+    "update_time": "2026-01-21 12:48:22",
     "data": {
       "platform": {
         "all": {
@@ -3844,8 +4306,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/romania",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/romania",
           "data": [
             {
               "name": "Samsung",
@@ -3866,6 +4328,83 @@
             {
               "name": "Motorola",
               "value": 4.92
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/romania",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 39.4
+            },
+            {
+              "name": "Apple",
+              "value": 27.77
+            },
+            {
+              "name": "Xiaomi",
+              "value": 10.3
+            },
+            {
+              "name": "Unknown",
+              "value": 5.41
+            },
+            {
+              "name": "Motorola",
+              "value": 4.92
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/romania",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 48.92
+            },
+            {
+              "name": "Apple",
+              "value": 38.02
+            },
+            {
+              "name": "Unknown",
+              "value": 5.32
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.68
+            },
+            {
+              "name": "Huawei",
+              "value": 2.11
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/romania",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 48.92
+            },
+            {
+              "name": "Apple",
+              "value": 38.02
+            },
+            {
+              "name": "Unknown",
+              "value": 5.32
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.68
+            },
+            {
+              "name": "Huawei",
+              "value": 2.11
             }
           ]
         }
@@ -4079,7 +4618,7 @@
   "nl": {
     "country_code": "nl",
     "country_name": "荷蘭",
-    "update_time": "2026-01-19 15:49:57",
+    "update_time": "2026-01-21 12:52:06",
     "data": {
       "platform": {
         "all": {
@@ -4431,8 +4970,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/netherlands",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
           "data": [
             {
               "name": "Apple",
@@ -4453,6 +4992,83 @@
             {
               "name": "Google",
               "value": 3.78
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 35.83
+            },
+            {
+              "name": "Samsung",
+              "value": 34.66
+            },
+            {
+              "name": "Xiaomi",
+              "value": 7.53
+            },
+            {
+              "name": "Unknown",
+              "value": 5.32
+            },
+            {
+              "name": "Google",
+              "value": 3.78
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 60.53
+            },
+            {
+              "name": "Samsung",
+              "value": 31.15
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.83
+            },
+            {
+              "name": "Unknown",
+              "value": 1.9
+            },
+            {
+              "name": "Xiaomi",
+              "value": 1.54
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 60.53
+            },
+            {
+              "name": "Samsung",
+              "value": 31.15
+            },
+            {
+              "name": "Lenovo",
+              "value": 2.83
+            },
+            {
+              "name": "Unknown",
+              "value": 1.9
+            },
+            {
+              "name": "Xiaomi",
+              "value": 1.54
             }
           ]
         }
@@ -4666,7 +5282,7 @@
   "gr": {
     "country_code": "gr",
     "country_name": "希臘",
-    "update_time": "2026-01-19 15:53:14",
+    "update_time": "2026-01-21 12:55:49",
     "data": {
       "platform": {
         "all": {
@@ -5014,8 +5630,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/greece",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/greece",
           "data": [
             {
               "name": "Apple",
@@ -5036,6 +5652,83 @@
             {
               "name": "Huawei",
               "value": 2.53
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/greece",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 25.92
+            },
+            {
+              "name": "Samsung",
+              "value": 25.68
+            },
+            {
+              "name": "Xiaomi",
+              "value": 23.86
+            },
+            {
+              "name": "Unknown",
+              "value": 13.4
+            },
+            {
+              "name": "Huawei",
+              "value": 2.53
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/greece",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 26.51
+            },
+            {
+              "name": "Google",
+              "value": 24.98
+            },
+            {
+              "name": "Apple",
+              "value": 20.48
+            },
+            {
+              "name": "Huawei",
+              "value": 8.27
+            },
+            {
+              "name": "Xiaomi",
+              "value": 5.36
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/greece",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 26.51
+            },
+            {
+              "name": "Google",
+              "value": 24.98
+            },
+            {
+              "name": "Apple",
+              "value": 20.48
+            },
+            {
+              "name": "Huawei",
+              "value": 8.27
+            },
+            {
+              "name": "Xiaomi",
+              "value": 5.36
             }
           ]
         }
@@ -5249,7 +5942,7 @@
   "fr": {
     "country_code": "fr",
     "country_name": "法國",
-    "update_time": "2026-01-19 15:56:32",
+    "update_time": "2026-01-21 12:59:32",
     "data": {
       "platform": {
         "all": {
@@ -5601,8 +6294,8 @@
         }
       },
       "vendor_mobile": {
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/france",
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/france",
           "data": [
             {
               "name": "Apple",
@@ -5623,6 +6316,83 @@
             {
               "name": "Google",
               "value": 3.92
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/france",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 33.42
+            },
+            {
+              "name": "Samsung",
+              "value": 32.07
+            },
+            {
+              "name": "Xiaomi",
+              "value": 11.44
+            },
+            {
+              "name": "Unknown",
+              "value": 6.74
+            },
+            {
+              "name": "Google",
+              "value": 3.92
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/france",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 45.38
+            },
+            {
+              "name": "Samsung",
+              "value": 38.09
+            },
+            {
+              "name": "Unknown",
+              "value": 5.73
+            },
+            {
+              "name": "Xiaomi",
+              "value": 3.34
+            },
+            {
+              "name": "Huawei",
+              "value": 2.91
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/france",
+          "data": [
+            {
+              "name": "Apple",
+              "value": 45.38
+            },
+            {
+              "name": "Samsung",
+              "value": 38.09
+            },
+            {
+              "name": "Unknown",
+              "value": 5.73
+            },
+            {
+              "name": "Xiaomi",
+              "value": 3.34
+            },
+            {
+              "name": "Huawei",
+              "value": 2.91
             }
           ]
         }

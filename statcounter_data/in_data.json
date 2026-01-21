@@ -1,7 +1,7 @@
 {
   "country_code": "in",
   "country_name": "印度",
-  "update_time": "2026-01-19 15:26:44",
+  "update_time": "2026-01-21 12:25:52",
   "data": {
     "platform": {
       "all": {
@@ -349,8 +349,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/india",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/india",
         "data": [
           {
             "name": "Vivo",
@@ -371,6 +371,83 @@
           {
             "name": "Samsung",
             "value": 11.38
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/india",
+        "data": [
+          {
+            "name": "Vivo",
+            "value": 19.07
+          },
+          {
+            "name": "Xiaomi",
+            "value": 17.0
+          },
+          {
+            "name": "Realme",
+            "value": 13.52
+          },
+          {
+            "name": "Oppo",
+            "value": 12.49
+          },
+          {
+            "name": "Samsung",
+            "value": 11.38
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/india",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 51.66
+          },
+          {
+            "name": "Apple",
+            "value": 20.44
+          },
+          {
+            "name": "Realme",
+            "value": 7.61
+          },
+          {
+            "name": "Acer",
+            "value": 6.54
+          },
+          {
+            "name": "Unknown",
+            "value": 5.32
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/india",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 51.66
+          },
+          {
+            "name": "Apple",
+            "value": 20.44
+          },
+          {
+            "name": "Realme",
+            "value": 7.61
+          },
+          {
+            "name": "Acer",
+            "value": 6.54
+          },
+          {
+            "name": "Unknown",
+            "value": 5.32
           }
         ]
       }

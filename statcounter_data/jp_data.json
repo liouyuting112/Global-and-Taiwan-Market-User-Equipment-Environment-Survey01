@@ -1,7 +1,7 @@
 {
   "country_code": "jp",
   "country_name": "日本",
-  "update_time": "2026-01-19 15:46:28",
+  "update_time": "2026-01-21 12:48:17",
   "data": {
     "platform": {
       "all": {
@@ -353,8 +353,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/japan",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/japan",
         "data": [
           {
             "name": "Apple",
@@ -375,6 +375,83 @@
           {
             "name": "Xiaomi",
             "value": 4.92
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/japan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.49
+          },
+          {
+            "name": "Google",
+            "value": 9.22
+          },
+          {
+            "name": "Samsung",
+            "value": 6.55
+          },
+          {
+            "name": "Unknown",
+            "value": 5.92
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.92
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/japan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 75.85
+          },
+          {
+            "name": "Unknown",
+            "value": 9.48
+          },
+          {
+            "name": "Amazon",
+            "value": 6.66
+          },
+          {
+            "name": "Huawei",
+            "value": 2.92
+          },
+          {
+            "name": "Samsung",
+            "value": 1.98
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/japan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 75.85
+          },
+          {
+            "name": "Unknown",
+            "value": 9.48
+          },
+          {
+            "name": "Amazon",
+            "value": 6.66
+          },
+          {
+            "name": "Huawei",
+            "value": 2.92
+          },
+          {
+            "name": "Samsung",
+            "value": 1.98
           }
         ]
       }

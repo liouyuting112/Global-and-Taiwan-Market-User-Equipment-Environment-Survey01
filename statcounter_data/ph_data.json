@@ -1,7 +1,7 @@
 {
   "country_code": "ph",
   "country_name": "菲律賓",
-  "update_time": "2026-01-19 15:30:29",
+  "update_time": "2026-01-21 12:28:30",
   "data": {
     "platform": {
       "all": {
@@ -345,8 +345,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/philippines",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/philippines",
         "data": [
           {
             "name": "Unknown",
@@ -367,6 +367,83 @@
           {
             "name": "Samsung",
             "value": 9.43
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/philippines",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 20.22
+          },
+          {
+            "name": "Oppo",
+            "value": 13.31
+          },
+          {
+            "name": "Realme",
+            "value": 12.55
+          },
+          {
+            "name": "Vivo",
+            "value": 11.06
+          },
+          {
+            "name": "Samsung",
+            "value": 9.43
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/philippines",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 32.8
+          },
+          {
+            "name": "Samsung",
+            "value": 29.09
+          },
+          {
+            "name": "Apple",
+            "value": 23.6
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.34
+          },
+          {
+            "name": "Realme",
+            "value": 4.16
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/philippines",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 32.8
+          },
+          {
+            "name": "Samsung",
+            "value": 29.09
+          },
+          {
+            "name": "Apple",
+            "value": 23.6
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.34
+          },
+          {
+            "name": "Realme",
+            "value": 4.16
           }
         ]
       }

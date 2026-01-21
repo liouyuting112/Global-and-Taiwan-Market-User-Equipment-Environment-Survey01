@@ -1,7 +1,7 @@
 {
   "country_code": "us",
   "country_name": "美國",
-  "update_time": "2026-01-19 15:30:40",
+  "update_time": "2026-01-21 12:29:10",
   "data": {
     "platform": {
       "all": {
@@ -357,8 +357,8 @@
       }
     },
     "vendor_mobile": {
-      "mobile": {
-        "url": "https://gs.statcounter.com/vendor-market-share/mobile-device/united-states-of-america",
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/united-states-of-america",
         "data": [
           {
             "name": "Apple",
@@ -379,6 +379,83 @@
           {
             "name": "Motorola",
             "value": 4.08
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 59.31
+          },
+          {
+            "name": "Samsung",
+            "value": 21.51
+          },
+          {
+            "name": "Unknown",
+            "value": 5.63
+          },
+          {
+            "name": "Google",
+            "value": 4.41
+          },
+          {
+            "name": "Motorola",
+            "value": 4.08
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 58.97
+          },
+          {
+            "name": "Amazon",
+            "value": 15.55
+          },
+          {
+            "name": "Samsung",
+            "value": 14.93
+          },
+          {
+            "name": "Unknown",
+            "value": 8.56
+          },
+          {
+            "name": "TCL",
+            "value": 0.44
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 58.97
+          },
+          {
+            "name": "Amazon",
+            "value": 15.55
+          },
+          {
+            "name": "Samsung",
+            "value": 14.93
+          },
+          {
+            "name": "Unknown",
+            "value": 8.56
+          },
+          {
+            "name": "TCL",
+            "value": 0.44
           }
         ]
       }
