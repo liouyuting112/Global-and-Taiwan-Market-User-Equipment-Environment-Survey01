@@ -18,13 +18,13 @@
         .data-item:hover { background-color: rgba(6, 182, 212, 0.1); }
     </style>
 </head>
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-50 text-gray-900">
     <div class="container mx-auto px-4 py-8 max-w-7xl">
         <!-- Header -->
         <header class="mb-8">
-            <h1 class="text-4xl font-bold mb-2">StatCounter 數據可視化儀表板</h1>
-            <p class="text-gray-400">全球與台灣市場數據分析</p>
-            <button onclick="refreshData()" class="mt-4 bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-lg text-sm">
+            <h1 class="text-4xl font-bold mb-2 text-gray-800">StatCounter 數據可視化儀表板</h1>
+            <p class="text-gray-600">全球與台灣市場數據分析</p>
+            <button onclick="refreshData()" class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm shadow-md">
                 🔄 刷新數據
             </button>
         </header>
@@ -32,26 +32,26 @@
         <!-- 上方：全球和台灣的主要數據顯示 -->
         <section class="mb-8">
             <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
-                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）市佔率前三</h2>
+                <h2 class="text-2xl font-bold text-gray-800">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）市佔率前三</h2>
             </div>
             <div class="grid grid-cols-1 gap-4 mb-6">
                 <!-- 全球數據卡片 -->
-                <div class="bg-blue-950/40 rounded-lg p-4 metric-card border-2 border-blue-400 shadow-lg shadow-blue-500/20">
-                    <h3 class="text-xl font-bold mb-4 text-blue-300">🌍 全球</h3>
+                <div class="bg-gradient-to-br from-blue-100 via-cyan-50 to-blue-100 rounded-lg p-4 metric-card border-2 border-blue-400 shadow-xl shadow-blue-300/30">
+                    <h3 class="text-xl font-bold mb-4 text-blue-700">🌍 全球</h3>
                     <div id="globalMetrics" class="space-y-4">
                         <div class="loading">
-                            <div class="text-gray-400">載入中...</div>
+                            <div class="text-gray-600">載入中...</div>
                         </div>
                     </div>
                 </div>
                 
                 <!-- 台灣數據卡片 -->
-                <div class="bg-green-950/40 rounded-lg p-4 metric-card border-2 border-green-400 shadow-lg shadow-green-500/20">
+                <div class="bg-gradient-to-br from-orange-100 via-amber-50 to-orange-100 rounded-lg p-4 metric-card border-2 border-orange-400 shadow-xl shadow-orange-300/30">
                     <div class="flex items-center mb-4 gap-3">
-                        <h3 class="text-xl font-bold text-green-300">🇹🇼 台灣</h3>
+                        <h3 id="twCountryTitle" class="text-xl font-bold text-orange-700">🇹🇼 台灣</h3>
                         <div class="flex items-center gap-2">
-                            <label for="twCountrySelect" class="text-sm font-medium text-green-300 whitespace-nowrap">選擇國家：</label>
-                            <select id="twCountrySelect" class="bg-gray-700 border border-green-500/50 rounded-lg px-3 py-1 text-white text-sm focus:outline-none focus:ring-2 focus:ring-green-500 min-w-[200px]">
+                            <label for="twCountrySelect" class="text-sm font-medium text-orange-700 whitespace-nowrap">選擇國家：</label>
+                            <select id="twCountrySelect" class="bg-white/90 border border-orange-400 rounded-lg px-3 py-1 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400 min-w-[200px]">
                                 <option value="tw">台灣</option>
                                 <option value="global">全球</option>
                                 <optgroup label="地區">
@@ -111,7 +111,7 @@
                     </div>
                     <div id="twMetrics" class="space-y-4">
                         <div class="loading">
-                            <div class="text-gray-400">載入中...</div>
+                            <div class="text-gray-600">載入中...</div>
                         </div>
                     </div>
                 </div>
@@ -119,18 +119,18 @@
         </section>
 
         <!-- 分隔線 -->
-        <div class="border-t border-gray-700 my-8"></div>
+        <div class="border-t border-gray-300 my-8"></div>
 
         <!-- 下方：其他國家篩選和詳細數據 -->
         <section>
-            <h2 class="text-2xl font-bold mb-4">其他細項數據查詢</h2>
+            <h2 class="text-2xl font-bold mb-4 text-gray-800">其他細項數據查詢</h2>
             
             <!-- 篩選器 -->
-            <div class="bg-gray-800 rounded-lg p-6 mb-6">
+            <div class="bg-white rounded-lg p-6 mb-6 shadow-md border border-gray-200">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
-                        <label for="countrySelect" class="block text-sm font-medium mb-2">選擇國家/地區：</label>
-                        <select id="countrySelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                        <label for="countrySelect" class="block text-sm font-medium mb-2 text-gray-700">選擇國家/地區：</label>
+                        <select id="countrySelect" class="w-full bg-white border border-gray-300 rounded-lg px-4 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             <option value="">-- 請選擇 --</option>
                             <option value="global">全球</option>
                             <option value="tw">台灣</option>
@@ -190,8 +190,8 @@
                     </div>
                     
                     <div>
-                        <label for="dataTypeSelect" class="block text-sm font-medium mb-2">選擇數據類型：</label>
-                        <select id="dataTypeSelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                        <label for="dataTypeSelect" class="block text-sm font-medium mb-2 text-gray-700">選擇數據類型：</label>
+                        <select id="dataTypeSelect" class="w-full bg-white border border-gray-300 rounded-lg px-4 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             <option value="all">全部</option>
                             <option value="platform">手機/電腦/平板市場佔有率</option>
                             <option value="os_all">作業系統</option>
@@ -204,8 +204,8 @@
                     </div>
 
                     <div>
-                        <label for="platformSelect" class="block text-sm font-medium mb-2">選擇平台：</label>
-                        <select id="platformSelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                        <label for="platformSelect" class="block text-sm font-medium mb-2 text-gray-700">選擇平台：</label>
+                        <select id="platformSelect" class="w-full bg-white border border-gray-300 rounded-lg px-4 py-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             <option value="all">所有平台</option>
                             <option value="mobile">手機</option>
                             <option value="desktop">電腦</option>
@@ -217,10 +217,10 @@
 
             <!-- 詳細圖表 -->
             <div id="detailSection" class="hidden">
-                <div class="bg-gray-800 rounded-lg p-6 mb-6">
-                    <h3 id="chartTitle" class="text-2xl font-bold mb-4">數據圖表</h3>
+                <div class="bg-white rounded-lg p-6 mb-6 shadow-md border border-gray-200">
+                    <h3 id="chartTitle" class="text-2xl font-bold mb-4 text-gray-800">數據圖表</h3>
                     <div id="loading" class="loading">
-                        <div class="text-gray-400">載入中...</div>
+                        <div class="text-gray-600">載入中...</div>
                     </div>
                     <div id="chartWrapper" class="hidden">
                         <div class="detail-chart-container">
@@ -228,22 +228,22 @@
                         </div>
                         <!-- 數據來源會動態添加在這裡 -->
                     </div>
-                    <div id="noData" class="hidden text-center text-gray-400 py-8">
+                    <div id="noData" class="hidden text-center text-gray-600 py-8">
                         暫無數據
                     </div>
                 </div>
 
                 <!-- 數據表格 -->
-                <div class="bg-gray-800 rounded-lg p-6">
-                    <h3 class="text-2xl font-bold mb-4">數據表格</h3>
+                <div class="bg-white rounded-lg p-6 shadow-md border border-gray-200">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-800">數據表格</h3>
                     <div id="dataTable" class="overflow-x-auto">
                         <table class="w-full text-left">
                             <thead>
-                                <tr class="border-b border-gray-700">
-                                    <th class="py-2 px-4">項目</th>
-                                    <th class="py-2 px-4">市場佔有率</th>
-                                    <th class="py-2 px-4">平台</th>
-                                    <th class="py-2 px-4">數據來源</th>
+                                <tr class="border-b border-gray-300 bg-gray-50">
+                                    <th class="py-2 px-4 text-gray-700 font-semibold">項目</th>
+                                    <th class="py-2 px-4 text-gray-700 font-semibold">市場佔有率</th>
+                                    <th class="py-2 px-4 text-gray-700 font-semibold">平台</th>
+                                    <th class="py-2 px-4 text-gray-700 font-semibold">數據來源</th>
                                 </tr>
                             </thead>
                             <tbody id="tableBody">
@@ -271,6 +271,50 @@
             'vendor_mobile': '手機品牌',
             'search_engine_all': '搜索引擎市佔率',
             'social_media_all': '社交媒體市佔率'
+        };
+
+        // 國家名稱和emoji映射
+        const countryEmojiMap = {
+            'global': { emoji: '🌍', name: '全球' },
+            'tw': { emoji: '🇹🇼', name: '台灣' },
+            'cn': { emoji: '🇨🇳', name: '中國' },
+            'hk': { emoji: '🇭🇰', name: '香港' },
+            'mo': { emoji: '🇲🇴', name: '澳門' },
+            'kr': { emoji: '🇰🇷', name: '韓國' },
+            'ph': { emoji: '🇵🇭', name: '菲律賓' },
+            'th': { emoji: '🇹🇭', name: '泰國' },
+            'vn': { emoji: '🇻🇳', name: '越南' },
+            'id': { emoji: '🇮🇩', name: '印尼' },
+            'mm': { emoji: '🇲🇲', name: '緬甸' },
+            'jp': { emoji: '🇯🇵', name: '日本' },
+            'my': { emoji: '🇲🇾', name: '馬來西亞' },
+            'in': { emoji: '🇮🇳', name: '印度' },
+            'bd': { emoji: '🇧🇩', name: '孟加拉國' },
+            'us': { emoji: '🇺🇸', name: '美國' },
+            'gb': { emoji: '🇬🇧', name: '英國' },
+            'ca': { emoji: '🇨🇦', name: '加拿大' },
+            'au': { emoji: '🇦🇺', name: '澳洲' },
+            'nz': { emoji: '🇳🇿', name: '紐西蘭' },
+            'ie': { emoji: '🇮🇪', name: '愛爾蘭' },
+            'za': { emoji: '🇿🇦', name: '南非' },
+            'es': { emoji: '🇪🇸', name: '西班牙' },
+            'pt': { emoji: '🇵🇹', name: '葡萄牙' },
+            'it': { emoji: '🇮🇹', name: '義大利' },
+            'se': { emoji: '🇸🇪', name: '瑞典' },
+            'de': { emoji: '🇩🇪', name: '德國' },
+            'dk': { emoji: '🇩🇰', name: '丹麥' },
+            'ro': { emoji: '🇷🇴', name: '羅馬尼亞' },
+            'nl': { emoji: '🇳🇱', name: '荷蘭' },
+            'gr': { emoji: '🇬🇷', name: '希臘' },
+            'fr': { emoji: '🇫🇷', name: '法國' },
+            'tr': { emoji: '🇹🇷', name: '土耳其' },
+            'ru': { emoji: '🇷🇺', name: '俄羅斯' },
+            'pk': { emoji: '🇵🇰', name: '巴基斯坦' },
+            'br': { emoji: '🇧🇷', name: '巴西' },
+            'asia': { emoji: '🌏', name: '亞洲' },
+            'europe': { emoji: '🇪🇺', name: '歐洲' },
+            'africa': { emoji: '🌍', name: '非洲' },
+            'north-america': { emoji: '🌎', name: '北美洲' }
         };
 
         // 國家名稱到URL slug的映射
@@ -382,6 +426,13 @@
         async function loadTwCountryData() {
             const selectedCountry = document.getElementById('twCountrySelect').value || 'tw';
             
+            // 更新標題
+            const countryInfo = countryEmojiMap[selectedCountry] || { emoji: '🌐', name: selectedCountry };
+            const titleElement = document.getElementById('twCountryTitle');
+            if (titleElement) {
+                titleElement.textContent = `${countryInfo.emoji} ${countryInfo.name}`;
+            }
+            
             try {
                 if (dataCache[selectedCountry]) {
                     displayMainMetrics(selectedCountry, dataCache[selectedCountry], 'twMetrics');
@@ -395,12 +446,12 @@
                         }
                         displayMainMetrics(selectedCountry, countryData, 'twMetrics');
                     } else {
-                        document.getElementById('twMetrics').innerHTML = '<div class="text-gray-400">暫無數據</div>';
+                        document.getElementById('twMetrics').innerHTML = '<div class="text-gray-600">暫無數據</div>';
                     }
                 }
             } catch (error) {
                 console.error('載入台灣/選擇國家數據失敗:', error);
-                document.getElementById('twMetrics').innerHTML = '<div class="text-gray-400">載入失敗</div>';
+                document.getElementById('twMetrics').innerHTML = '<div class="text-gray-600">載入失敗</div>';
             }
         }
 
@@ -418,8 +469,8 @@
             const container = document.getElementById(containerId);
             container.innerHTML = '';
             
-            if (!countryData || !countryData.data) {
-                container.innerHTML = '<div class="text-gray-400">暫無數據</div>';
+                if (!countryData || !countryData.data) {
+                container.innerHTML = '<div class="text-gray-600">暫無數據</div>';
                 return;
             }
 
@@ -431,12 +482,14 @@
                 tablet: '平板'
             };
 
-            // 根據容器ID決定顏色主題
+            // 根據容器ID決定顏色主題 - 明亮的配色方案
             const isGlobal = containerId === 'globalMetrics';
-            const borderColor = isGlobal ? 'border-blue-400' : 'border-green-400';
-            const textColor = isGlobal ? 'text-blue-300' : 'text-green-300';
-            const valueColor = isGlobal ? 'text-blue-400' : 'text-green-400';
-            const cardBgColor = isGlobal ? 'bg-blue-900/20' : 'bg-green-900/20';
+            // 全球：明亮的藍色/青色系（冷色）
+            // 台灣/選擇國家：明亮的橙色/琥珀色系（暖色）
+            const borderColor = isGlobal ? 'border-blue-400' : 'border-orange-400';
+            const textColor = isGlobal ? 'text-blue-700' : 'text-orange-700';
+            const valueColor = isGlobal ? 'text-blue-600' : 'text-orange-600';
+            const cardBgColor = isGlobal ? 'bg-blue-50/80' : 'bg-orange-50/80';
 
             // 4 個平台垂直排列，每一列是平台，細項（數據類型）水平排列且不超出卡片寬度
             platforms.forEach(platformKey => {
@@ -524,7 +577,7 @@
                     // 特殊處理 platform 類型
                     if (m.type === 'platform') {
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-white font-medium text-[11px]';
+                        contentEl.className = 'text-gray-800 font-medium text-[11px]';
                         const parts = [];
                         m.top3.forEach((item, idx) => {
                             const platformName = item.name === 'Mobile' ? 'Mobile' : item.name === 'Desktop' ? 'Desktop' : item.name === 'Tablet' ? 'Tablet' : item.name;
@@ -537,7 +590,7 @@
                     } else {
                         // 其他類型：顯示前三，每行一個
                         const contentEl = document.createElement('div');
-                        contentEl.className = 'text-white font-medium text-[11px] space-y-0.5';
+                        contentEl.className = 'text-gray-800 font-medium text-[11px] space-y-0.5';
                         m.top3.forEach((item, idx) => {
                             const itemDiv = document.createElement('div');
                             itemDiv.innerHTML = `${item.name}:<span class="${valueColor} font-bold">${item.value.toFixed(1)}%</span>`;
@@ -772,7 +825,7 @@
             // 為每個數據類型創建圖表卡片
             allData.forEach((item, index) => {
                 const card = document.createElement('div');
-                card.className = 'bg-gray-700 rounded-lg p-4';
+                card.className = 'bg-white rounded-lg p-4 shadow-md border border-gray-200';
 
                 // 使用唯一的ID
                 const canvasId = `chart_all_${index}_${Math.random().toString(36).substr(2, 9)}`;
@@ -800,14 +853,14 @@
                 dataList.className = 'mt-4 space-y-2';
                 item.data.forEach(d => {
                     const dataItem = document.createElement('div');
-                    dataItem.className = 'flex justify-between items-center p-2 rounded hover:bg-gray-600 data-item cursor-pointer';
+                    dataItem.className = 'flex justify-between items-center p-2 rounded hover:bg-gray-100 data-item cursor-pointer transition-colors';
                     if (item.url) {
                         dataItem.onclick = () => window.open(item.url, '_blank');
                         dataItem.title = '點擊查看數據來源';
                     }
                     dataItem.innerHTML = `
                         <span>${d.name}</span>
-                        <span class="font-bold text-cyan-400">${d.value.toFixed(2)}%</span>
+                        <span class="font-bold text-blue-600">${d.value.toFixed(2)}%</span>
                     `;
                     dataList.appendChild(dataItem);
                 });
@@ -816,10 +869,10 @@
                 // 來源鏈接
                 if (item.url) {
                     const sourceLink = document.createElement('div');
-                    sourceLink.className = 'mt-3 text-sm text-gray-500';
+                    sourceLink.className = 'mt-3 text-sm text-gray-600';
                     sourceLink.innerHTML = `
                         <span>數據來源：</span>
-                        <a href="${item.url}" target="_blank" class="text-cyan-400 hover:underline">
+                        <a href="${item.url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">
                             ${item.url}
                         </a>
                     `;
@@ -1099,10 +1152,10 @@
                         url = fixVendorUrl(url, countryCode, platform);
                     }
                     const sourceDiv = document.createElement('div');
-                    sourceDiv.className = 'mt-4 text-sm text-gray-500 chart-source-link';
+                    sourceDiv.className = 'mt-4 text-sm text-gray-600 chart-source-link';
                     sourceDiv.innerHTML = `
                         <span>數據來源：</span>
-                        <a href="${url}" target="_blank" class="text-cyan-400 hover:underline">
+                        <a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">
                             ${url}
                         </a>
                     `;
@@ -1118,13 +1171,13 @@
             
             data.forEach((item, index) => {
                 const row = document.createElement('tr');
-                row.className = index % 2 === 0 ? 'bg-gray-700/50' : '';
+                row.className = index % 2 === 0 ? 'bg-gray-50' : '';
                 row.innerHTML = `
-                    <td class="py-2 px-4">${item.name}</td>
-                    <td class="py-2 px-4 font-bold">${item.value.toFixed(2)}%</td>
-                    <td class="py-2 px-4">${platformNames[platform] || platform}</td>
+                    <td class="py-2 px-4 text-gray-800">${item.name}</td>
+                    <td class="py-2 px-4 font-bold text-gray-800">${item.value.toFixed(2)}%</td>
+                    <td class="py-2 px-4 text-gray-800">${platformNames[platform] || platform}</td>
                     <td class="py-2 px-4">
-                        ${url ? `<a href="${url}" target="_blank" class="text-cyan-400 hover:underline">查看來源</a>` : '-'}
+                        ${url ? `<a href="${url}" target="_blank" class="text-blue-600 hover:text-blue-800 hover:underline">查看來源</a>` : '<span class="text-gray-400">-</span>'}
                     </td>
                 `;
                 tbody.appendChild(row);
