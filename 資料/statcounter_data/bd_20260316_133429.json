@@ -1,0 +1,660 @@
+{
+  "country_code": "bd",
+  "country_name": "孟加拉國",
+  "update_time": "2026-03-16 13:30:46",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/bangladesh",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 73.5
+          },
+          {
+            "name": "Mobile",
+            "value": 26.31
+          },
+          {
+            "name": "Tablet",
+            "value": 0.18
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/bangladesh",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 66.49
+          },
+          {
+            "name": "Android",
+            "value": 24.59
+          },
+          {
+            "name": "Unknown",
+            "value": 3.46
+          },
+          {
+            "name": "iOS",
+            "value": 1.88
+          },
+          {
+            "name": "Linux",
+            "value": 1.81
+          },
+          {
+            "name": "macOS",
+            "value": 1.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Android",
+            "value": 93.01
+          },
+          {
+            "name": "iOS",
+            "value": 6.89
+          },
+          {
+            "name": "Samsung",
+            "value": 0.05
+          },
+          {
+            "name": "Unknown",
+            "value": 0.03
+          },
+          {
+            "name": "KaiOS",
+            "value": 0.01
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/bangladesh",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 90.45
+          },
+          {
+            "name": "Unknown",
+            "value": 4.7
+          },
+          {
+            "name": "Linux",
+            "value": 2.46
+          },
+          {
+            "name": "macOS",
+            "value": 1.46
+          },
+          {
+            "name": "OS X",
+            "value": 0.89
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.04
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Android",
+            "value": 66.37
+          },
+          {
+            "name": "iOS",
+            "value": 33.58
+          },
+          {
+            "name": "Unknown",
+            "value": 0.03
+          },
+          {
+            "name": "Linux",
+            "value": 0.02
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/bangladesh",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 91.37
+          },
+          {
+            "name": "Firefox",
+            "value": 3.93
+          },
+          {
+            "name": "Safari",
+            "value": 1.41
+          },
+          {
+            "name": "Opera",
+            "value": 0.92
+          },
+          {
+            "name": "Edge",
+            "value": 0.81
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.69
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 88.33
+          },
+          {
+            "name": "Safari",
+            "value": 4.59
+          },
+          {
+            "name": "UC Browser",
+            "value": 2.61
+          },
+          {
+            "name": "Opera",
+            "value": 2.37
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.05
+          },
+          {
+            "name": "Brave",
+            "value": 0.57
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/bangladesh",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 92.54
+          },
+          {
+            "name": "Firefox",
+            "value": 5.24
+          },
+          {
+            "name": "Edge",
+            "value": 1.08
+          },
+          {
+            "name": "Opera",
+            "value": 0.4
+          },
+          {
+            "name": "Safari",
+            "value": 0.24
+          },
+          {
+            "name": "Brave",
+            "value": 0.22
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.39
+          },
+          {
+            "name": "Android",
+            "value": 22.41
+          },
+          {
+            "name": "Safari",
+            "value": 16.08
+          },
+          {
+            "name": "Opera",
+            "value": 1.96
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.75
+          },
+          {
+            "name": "Edge",
+            "value": 0.22
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/bangladesh",
+        "data": [
+          {
+            "name": "1280x1200",
+            "value": 42.12
+          },
+          {
+            "name": "800x600",
+            "value": 14.25
+          },
+          {
+            "name": "360x800",
+            "value": 6.13
+          },
+          {
+            "name": "1920x1080",
+            "value": 2.5
+          },
+          {
+            "name": "360x806",
+            "value": 2.21
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/bangladesh",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 17.4
+          },
+          {
+            "name": "360x806",
+            "value": 6.75
+          },
+          {
+            "name": "385x854",
+            "value": 6.09
+          },
+          {
+            "name": "393x873",
+            "value": 5.2
+          },
+          {
+            "name": "412x915",
+            "value": 3.17
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/bangladesh",
+        "data": [
+          {
+            "name": "1280x1200",
+            "value": 60.6
+          },
+          {
+            "name": "800x600",
+            "value": 20.51
+          },
+          {
+            "name": "1920x1080",
+            "value": 3.53
+          },
+          {
+            "name": "1366x768",
+            "value": 2.53
+          },
+          {
+            "name": "1536x864",
+            "value": 1.54
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/bangladesh",
+        "data": [
+          {
+            "name": "1280x720",
+            "value": 16.61
+          },
+          {
+            "name": "601x962",
+            "value": 16.15
+          },
+          {
+            "name": "601x1007",
+            "value": 6.66
+          },
+          {
+            "name": "820x1180",
+            "value": 6.03
+          },
+          {
+            "name": "534x854",
+            "value": 4.0
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 22.28
+          },
+          {
+            "name": "Xiaomi",
+            "value": 14.93
+          },
+          {
+            "name": "Samsung",
+            "value": 14.17
+          },
+          {
+            "name": "Vivo",
+            "value": 10.05
+          },
+          {
+            "name": "Realme",
+            "value": 8.33
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 22.28
+          },
+          {
+            "name": "Xiaomi",
+            "value": 14.93
+          },
+          {
+            "name": "Samsung",
+            "value": 14.17
+          },
+          {
+            "name": "Vivo",
+            "value": 10.05
+          },
+          {
+            "name": "Realme",
+            "value": 8.33
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 38.65
+          },
+          {
+            "name": "Apple",
+            "value": 33.58
+          },
+          {
+            "name": "Unknown",
+            "value": 16.72
+          },
+          {
+            "name": "Huawei",
+            "value": 4.11
+          },
+          {
+            "name": "Honor",
+            "value": 1.93
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 38.65
+          },
+          {
+            "name": "Apple",
+            "value": 33.58
+          },
+          {
+            "name": "Unknown",
+            "value": 16.72
+          },
+          {
+            "name": "Huawei",
+            "value": 4.11
+          },
+          {
+            "name": "Honor",
+            "value": 1.93
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/bangladesh",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.31
+          },
+          {
+            "name": "bing",
+            "value": 2.33
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.59
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.39
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.31
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.78
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.84
+          },
+          {
+            "name": "bing",
+            "value": 0.63
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.38
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.29
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/bangladesh",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.23
+          },
+          {
+            "name": "bing",
+            "value": 4.75
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.53
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.23
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.2
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.76
+          },
+          {
+            "name": "bing",
+            "value": 4.76
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.65
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.4
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.37
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/bangladesh",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 70.68
+          },
+          {
+            "name": "YouTube",
+            "value": 26.58
+          },
+          {
+            "name": "Instagram",
+            "value": 0.85
+          },
+          {
+            "name": "Twitter",
+            "value": 0.63
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.6
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/bangladesh",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 76.23
+          },
+          {
+            "name": "YouTube",
+            "value": 22.29
+          },
+          {
+            "name": "Instagram",
+            "value": 0.81
+          },
+          {
+            "name": "Twitter",
+            "value": 0.41
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.18
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/bangladesh",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 64.77
+          },
+          {
+            "name": "Facebook",
+            "value": 21.43
+          },
+          {
+            "name": "LinkedIn",
+            "value": 4.47
+          },
+          {
+            "name": "Pinterest",
+            "value": 4.32
+          },
+          {
+            "name": "Twitter",
+            "value": 2.62
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/bangladesh",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 80.95
+          },
+          {
+            "name": "YouTube",
+            "value": 12.7
+          },
+          {
+            "name": "Pinterest",
+            "value": 4.76
+          },
+          {
+            "name": "reddit",
+            "value": 1.59
+          }
+        ]
+      }
+    }
+  }
+}

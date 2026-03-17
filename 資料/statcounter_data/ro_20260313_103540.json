@@ -1,0 +1,664 @@
+{
+  "country_code": "ro",
+  "country_name": "羅馬尼亞",
+  "update_time": "2026-03-13 10:31:57",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/romania",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 49.86
+          },
+          {
+            "name": "Desktop",
+            "value": 49.11
+          },
+          {
+            "name": "Tablet",
+            "value": 1.03
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/romania",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 39.72
+          },
+          {
+            "name": "Android",
+            "value": 37.43
+          },
+          {
+            "name": "iOS",
+            "value": 13.35
+          },
+          {
+            "name": "Unknown",
+            "value": 6.02
+          },
+          {
+            "name": "Linux",
+            "value": 1.18
+          },
+          {
+            "name": "OS X",
+            "value": 1.13
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/romania",
+        "data": [
+          {
+            "name": "Android",
+            "value": 73.93
+          },
+          {
+            "name": "iOS",
+            "value": 25.86
+          },
+          {
+            "name": "Samsung",
+            "value": 0.17
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/romania",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 80.87
+          },
+          {
+            "name": "Unknown",
+            "value": 12.26
+          },
+          {
+            "name": "Linux",
+            "value": 2.39
+          },
+          {
+            "name": "OS X",
+            "value": 2.3
+          },
+          {
+            "name": "macOS",
+            "value": 2.11
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.07
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/romania",
+        "data": [
+          {
+            "name": "Android",
+            "value": 55.41
+          },
+          {
+            "name": "iOS",
+            "value": 44.53
+          },
+          {
+            "name": "Linux",
+            "value": 0.05
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/romania",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 76.92
+          },
+          {
+            "name": "Safari",
+            "value": 11.14
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.28
+          },
+          {
+            "name": "Edge",
+            "value": 2.59
+          },
+          {
+            "name": "Firefox",
+            "value": 2.57
+          },
+          {
+            "name": "Opera",
+            "value": 1.95
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/romania",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 70.52
+          },
+          {
+            "name": "Safari",
+            "value": 19.93
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 6.57
+          },
+          {
+            "name": "Opera",
+            "value": 0.79
+          },
+          {
+            "name": "Firefox",
+            "value": 0.77
+          },
+          {
+            "name": "Brave",
+            "value": 0.58
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/romania",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 83.72
+          },
+          {
+            "name": "Edge",
+            "value": 5.1
+          },
+          {
+            "name": "Firefox",
+            "value": 4.46
+          },
+          {
+            "name": "Opera",
+            "value": 3.15
+          },
+          {
+            "name": "Safari",
+            "value": 1.86
+          },
+          {
+            "name": "Brave",
+            "value": 1.13
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/romania",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.69
+          },
+          {
+            "name": "Safari",
+            "value": 28.63
+          },
+          {
+            "name": "Android",
+            "value": 6.46
+          },
+          {
+            "name": "Opera",
+            "value": 0.88
+          },
+          {
+            "name": "Instabridge",
+            "value": 0.66
+          },
+          {
+            "name": "Edge",
+            "value": 0.29
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/romania",
+        "data": [
+          {
+            "name": "1536x864",
+            "value": 19.38
+          },
+          {
+            "name": "1920x1080",
+            "value": 9.84
+          },
+          {
+            "name": "384x832",
+            "value": 6.44
+          },
+          {
+            "name": "414x896",
+            "value": 5.2
+          },
+          {
+            "name": "360x780",
+            "value": 3.55
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/romania",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 10.41
+          },
+          {
+            "name": "384x832",
+            "value": 9.46
+          },
+          {
+            "name": "393x873",
+            "value": 6.46
+          },
+          {
+            "name": "360x780",
+            "value": 6.12
+          },
+          {
+            "name": "360x800",
+            "value": 5.95
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/romania",
+        "data": [
+          {
+            "name": "1536x864",
+            "value": 39.66
+          },
+          {
+            "name": "1920x1080",
+            "value": 20.1
+          },
+          {
+            "name": "1366x768",
+            "value": 5.17
+          },
+          {
+            "name": "384x832",
+            "value": 3.47
+          },
+          {
+            "name": "2560x1440",
+            "value": 3.34
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/romania",
+        "data": [
+          {
+            "name": "800x1280",
+            "value": 20.96
+          },
+          {
+            "name": "1280x800",
+            "value": 9.09
+          },
+          {
+            "name": "768x1024",
+            "value": 8.54
+          },
+          {
+            "name": "820x1180",
+            "value": 2.09
+          },
+          {
+            "name": "601x1007",
+            "value": 2.04
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/romania",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 40.98
+          },
+          {
+            "name": "Apple",
+            "value": 25.86
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.41
+          },
+          {
+            "name": "Motorola",
+            "value": 5.51
+          },
+          {
+            "name": "Unknown",
+            "value": 5.09
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/romania",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 40.98
+          },
+          {
+            "name": "Apple",
+            "value": 25.86
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.41
+          },
+          {
+            "name": "Motorola",
+            "value": 5.51
+          },
+          {
+            "name": "Unknown",
+            "value": 5.09
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/romania",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 44.53
+          },
+          {
+            "name": "Samsung",
+            "value": 43.47
+          },
+          {
+            "name": "Unknown",
+            "value": 3.65
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.54
+          },
+          {
+            "name": "Huawei",
+            "value": 2.32
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/romania",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 44.53
+          },
+          {
+            "name": "Samsung",
+            "value": 43.47
+          },
+          {
+            "name": "Unknown",
+            "value": 3.65
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.54
+          },
+          {
+            "name": "Huawei",
+            "value": 2.32
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/romania",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.76
+          },
+          {
+            "name": "bing",
+            "value": 2.84
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.47
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.42
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.33
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/romania",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.19
+          },
+          {
+            "name": "bing",
+            "value": 0.77
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.38
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.37
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.1
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/romania",
+        "data": [
+          {
+            "name": "Google",
+            "value": 91.64
+          },
+          {
+            "name": "bing",
+            "value": 6.33
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.71
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.62
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.5
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/romania",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.21
+          },
+          {
+            "name": "bing",
+            "value": 0.77
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.48
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.14
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/romania",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 91.9
+          },
+          {
+            "name": "YouTube",
+            "value": 3.62
+          },
+          {
+            "name": "Instagram",
+            "value": 3.37
+          },
+          {
+            "name": "Twitter",
+            "value": 0.49
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.44
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/romania",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 94.62
+          },
+          {
+            "name": "Instagram",
+            "value": 2.44
+          },
+          {
+            "name": "YouTube",
+            "value": 2.3
+          },
+          {
+            "name": "Twitter",
+            "value": 0.39
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.18
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/romania",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 72.82
+          },
+          {
+            "name": "YouTube",
+            "value": 12.19
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.27
+          },
+          {
+            "name": "Instagram",
+            "value": 4.74
+          },
+          {
+            "name": "Twitter",
+            "value": 2.62
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/romania",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 45.54
+          },
+          {
+            "name": "YouTube",
+            "value": 27.19
+          },
+          {
+            "name": "Instagram",
+            "value": 26.67
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.33
+          },
+          {
+            "name": "Twitter",
+            "value": 0.24
+          }
+        ]
+      }
+    }
+  }
+}

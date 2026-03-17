@@ -1,0 +1,644 @@
+{
+  "country_code": "se",
+  "country_name": "瑞典",
+  "update_time": "2026-03-16 07:38:30",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/sweden",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 49.64
+          },
+          {
+            "name": "Mobile",
+            "value": 48.54
+          },
+          {
+            "name": "Tablet",
+            "value": 1.82
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/sweden",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 32.64
+          },
+          {
+            "name": "iOS",
+            "value": 27.66
+          },
+          {
+            "name": "Android",
+            "value": 22.49
+          },
+          {
+            "name": "OS X",
+            "value": 5.39
+          },
+          {
+            "name": "macOS",
+            "value": 4.28
+          },
+          {
+            "name": "Unknown",
+            "value": 3.72
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 54.64
+          },
+          {
+            "name": "Android",
+            "value": 44.95
+          },
+          {
+            "name": "Samsung",
+            "value": 0.41
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/sweden",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 65.76
+          },
+          {
+            "name": "OS X",
+            "value": 10.87
+          },
+          {
+            "name": "macOS",
+            "value": 8.62
+          },
+          {
+            "name": "Unknown",
+            "value": 7.5
+          },
+          {
+            "name": "Chrome OS",
+            "value": 4.63
+          },
+          {
+            "name": "Linux",
+            "value": 2.63
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 62.76
+          },
+          {
+            "name": "Android",
+            "value": 37.23
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/sweden",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 53.73
+          },
+          {
+            "name": "Safari",
+            "value": 26.7
+          },
+          {
+            "name": "Edge",
+            "value": 8.32
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 4.09
+          },
+          {
+            "name": "Firefox",
+            "value": 3.99
+          },
+          {
+            "name": "Opera",
+            "value": 1.4
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "Safari",
+            "value": 44.85
+          },
+          {
+            "name": "Chrome",
+            "value": 43.28
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 8.44
+          },
+          {
+            "name": "Firefox",
+            "value": 1.44
+          },
+          {
+            "name": "Edge",
+            "value": 0.55
+          },
+          {
+            "name": "Brave",
+            "value": 0.48
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/sweden",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 63.93
+          },
+          {
+            "name": "Edge",
+            "value": 16.18
+          },
+          {
+            "name": "Safari",
+            "value": 8.53
+          },
+          {
+            "name": "Firefox",
+            "value": 6.62
+          },
+          {
+            "name": "Opera",
+            "value": 2.48
+          },
+          {
+            "name": "Brave",
+            "value": 1.78
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 54.55
+          },
+          {
+            "name": "Safari",
+            "value": 38.44
+          },
+          {
+            "name": "Android",
+            "value": 4.2
+          },
+          {
+            "name": "Opera",
+            "value": 1.3
+          },
+          {
+            "name": "Edge",
+            "value": 0.95
+          },
+          {
+            "name": "Instabridge",
+            "value": 0.32
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/sweden",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 15.55
+          },
+          {
+            "name": "414x896",
+            "value": 8.12
+          },
+          {
+            "name": "390x844",
+            "value": 7.54
+          },
+          {
+            "name": "375x812",
+            "value": 4.7
+          },
+          {
+            "name": "360x780",
+            "value": 4.05
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/sweden",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 16.56
+          },
+          {
+            "name": "390x844",
+            "value": 15.43
+          },
+          {
+            "name": "375x812",
+            "value": 9.62
+          },
+          {
+            "name": "360x780",
+            "value": 7.15
+          },
+          {
+            "name": "384x832",
+            "value": 5.35
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/sweden",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 31.32
+          },
+          {
+            "name": "1536x864",
+            "value": 7.12
+          },
+          {
+            "name": "2560x1440",
+            "value": 6.68
+          },
+          {
+            "name": "1280x720",
+            "value": 5.34
+          },
+          {
+            "name": "1366x768",
+            "value": 5.3
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/sweden",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 12.52
+          },
+          {
+            "name": "810x1080",
+            "value": 8.99
+          },
+          {
+            "name": "1280x800",
+            "value": 8.4
+          },
+          {
+            "name": "800x1280",
+            "value": 7.69
+          },
+          {
+            "name": "820x1180",
+            "value": 5.99
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.64
+          },
+          {
+            "name": "Samsung",
+            "value": 28.6
+          },
+          {
+            "name": "Google",
+            "value": 5.3
+          },
+          {
+            "name": "Unknown",
+            "value": 3.7
+          },
+          {
+            "name": "Xiaomi",
+            "value": 2.55
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 54.64
+          },
+          {
+            "name": "Samsung",
+            "value": 28.6
+          },
+          {
+            "name": "Google",
+            "value": 5.3
+          },
+          {
+            "name": "Unknown",
+            "value": 3.7
+          },
+          {
+            "name": "Xiaomi",
+            "value": 2.55
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 62.76
+          },
+          {
+            "name": "Samsung",
+            "value": 28.77
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.65
+          },
+          {
+            "name": "Huawei",
+            "value": 2.08
+          },
+          {
+            "name": "Unknown",
+            "value": 1.52
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 62.76
+          },
+          {
+            "name": "Samsung",
+            "value": 28.77
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.65
+          },
+          {
+            "name": "Huawei",
+            "value": 2.08
+          },
+          {
+            "name": "Unknown",
+            "value": 1.52
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/sweden",
+        "data": [
+          {
+            "name": "Google",
+            "value": 86.1
+          },
+          {
+            "name": "bing",
+            "value": 8.2
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.44
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.7
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.94
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/sweden",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.85
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.11
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.9
+          },
+          {
+            "name": "bing",
+            "value": 0.76
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.69
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/sweden",
+        "data": [
+          {
+            "name": "Google",
+            "value": 75.93
+          },
+          {
+            "name": "bing",
+            "value": 16.75
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.87
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.87
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.01
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/sweden",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.14
+          },
+          {
+            "name": "bing",
+            "value": 1.26
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.91
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.6
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.58
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/sweden",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 57.54
+          },
+          {
+            "name": "Twitter",
+            "value": 31.19
+          },
+          {
+            "name": "Instagram",
+            "value": 6.49
+          },
+          {
+            "name": "YouTube",
+            "value": 1.88
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.8
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/sweden",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 69.22
+          },
+          {
+            "name": "Twitter",
+            "value": 19.38
+          },
+          {
+            "name": "Instagram",
+            "value": 8.52
+          },
+          {
+            "name": "YouTube",
+            "value": 1.58
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.87
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/sweden",
+        "data": [
+          {
+            "name": "Twitter",
+            "value": 72.53
+          },
+          {
+            "name": "Facebook",
+            "value": 15.75
+          },
+          {
+            "name": "Pinterest",
+            "value": 4.32
+          },
+          {
+            "name": "YouTube",
+            "value": 3.18
+          },
+          {
+            "name": "LinkedIn",
+            "value": 1.22
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/sweden",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 62.0
+          },
+          {
+            "name": "Twitter",
+            "value": 30.89
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.22
+          },
+          {
+            "name": "Instagram",
+            "value": 0.97
+          },
+          {
+            "name": "YouTube",
+            "value": 0.76
+          }
+        ]
+      }
+    }
+  }
+}

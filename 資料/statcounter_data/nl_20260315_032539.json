@@ -1,0 +1,664 @@
+{
+  "country_code": "nl",
+  "country_name": "荷蘭",
+  "update_time": "2026-03-15 03:21:55",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/netherlands",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 53.62
+          },
+          {
+            "name": "Desktop",
+            "value": 44.45
+          },
+          {
+            "name": "Tablet",
+            "value": 1.93
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/netherlands",
+        "data": [
+          {
+            "name": "Android",
+            "value": 35.11
+          },
+          {
+            "name": "Windows",
+            "value": 27.06
+          },
+          {
+            "name": "iOS",
+            "value": 20.21
+          },
+          {
+            "name": "Unknown",
+            "value": 6.64
+          },
+          {
+            "name": "OS X",
+            "value": 4.66
+          },
+          {
+            "name": "macOS",
+            "value": 2.96
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Android",
+            "value": 63.81
+          },
+          {
+            "name": "iOS",
+            "value": 35.75
+          },
+          {
+            "name": "Samsung",
+            "value": 0.42
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/netherlands",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 60.88
+          },
+          {
+            "name": "Unknown",
+            "value": 14.93
+          },
+          {
+            "name": "OS X",
+            "value": 10.48
+          },
+          {
+            "name": "macOS",
+            "value": 6.67
+          },
+          {
+            "name": "Linux",
+            "value": 5.12
+          },
+          {
+            "name": "Chrome OS",
+            "value": 1.92
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 53.57
+          },
+          {
+            "name": "Android",
+            "value": 46.38
+          },
+          {
+            "name": "Linux",
+            "value": 0.04
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/netherlands",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 59.85
+          },
+          {
+            "name": "Safari",
+            "value": 19.02
+          },
+          {
+            "name": "Edge",
+            "value": 7.15
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 4.34
+          },
+          {
+            "name": "Firefox",
+            "value": 3.86
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 2.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 57.49
+          },
+          {
+            "name": "Safari",
+            "value": 27.16
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 8.09
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 2.66
+          },
+          {
+            "name": "Firefox",
+            "value": 1.45
+          },
+          {
+            "name": "Opera",
+            "value": 1.11
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/netherlands",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.59
+          },
+          {
+            "name": "Edge",
+            "value": 15.53
+          },
+          {
+            "name": "Safari",
+            "value": 8.77
+          },
+          {
+            "name": "Firefox",
+            "value": 6.94
+          },
+          {
+            "name": "Opera",
+            "value": 2.45
+          },
+          {
+            "name": "Brave",
+            "value": 1.89
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.75
+          },
+          {
+            "name": "Safari",
+            "value": 29.22
+          },
+          {
+            "name": "Android",
+            "value": 4.45
+          },
+          {
+            "name": "Opera",
+            "value": 1.23
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 0.99
+          },
+          {
+            "name": "Edge",
+            "value": 0.85
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/netherlands",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 10.6
+          },
+          {
+            "name": "414x896",
+            "value": 8.28
+          },
+          {
+            "name": "384x832",
+            "value": 5.82
+          },
+          {
+            "name": "1536x864",
+            "value": 4.61
+          },
+          {
+            "name": "390x844",
+            "value": 4.47
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/netherlands",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 15.33
+          },
+          {
+            "name": "390x844",
+            "value": 8.3
+          },
+          {
+            "name": "384x832",
+            "value": 7.78
+          },
+          {
+            "name": "360x780",
+            "value": 6.3
+          },
+          {
+            "name": "393x873",
+            "value": 6.15
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/netherlands",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 23.85
+          },
+          {
+            "name": "1536x864",
+            "value": 10.44
+          },
+          {
+            "name": "1280x720",
+            "value": 4.99
+          },
+          {
+            "name": "2560x1440",
+            "value": 4.68
+          },
+          {
+            "name": "1366x768",
+            "value": 3.97
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/netherlands",
+        "data": [
+          {
+            "name": "1280x800",
+            "value": 12.1
+          },
+          {
+            "name": "768x1024",
+            "value": 10.21
+          },
+          {
+            "name": "810x1080",
+            "value": 9.64
+          },
+          {
+            "name": "800x1280",
+            "value": 9.28
+          },
+          {
+            "name": "820x1180",
+            "value": 4.42
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 35.75
+          },
+          {
+            "name": "Samsung",
+            "value": 35.0
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.14
+          },
+          {
+            "name": "Unknown",
+            "value": 5.21
+          },
+          {
+            "name": "Google",
+            "value": 3.13
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 35.75
+          },
+          {
+            "name": "Samsung",
+            "value": 35.0
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.14
+          },
+          {
+            "name": "Unknown",
+            "value": 5.21
+          },
+          {
+            "name": "Google",
+            "value": 3.13
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.57
+          },
+          {
+            "name": "Samsung",
+            "value": 38.02
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.17
+          },
+          {
+            "name": "Unknown",
+            "value": 1.97
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.57
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.57
+          },
+          {
+            "name": "Samsung",
+            "value": 38.02
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.17
+          },
+          {
+            "name": "Unknown",
+            "value": 1.97
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.57
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/netherlands",
+        "data": [
+          {
+            "name": "Google",
+            "value": 85.9
+          },
+          {
+            "name": "bing",
+            "value": 5.37
+          },
+          {
+            "name": "YANDEX",
+            "value": 4.68
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.97
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.95
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/netherlands",
+        "data": [
+          {
+            "name": "Google",
+            "value": 90.64
+          },
+          {
+            "name": "YANDEX",
+            "value": 5.81
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.84
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.76
+          },
+          {
+            "name": "bing",
+            "value": 0.56
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/netherlands",
+        "data": [
+          {
+            "name": "Google",
+            "value": 80.46
+          },
+          {
+            "name": "bing",
+            "value": 10.72
+          },
+          {
+            "name": "YANDEX",
+            "value": 3.56
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.14
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.76
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/netherlands",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.84
+          },
+          {
+            "name": "YANDEX",
+            "value": 2.75
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.32
+          },
+          {
+            "name": "bing",
+            "value": 1.12
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.38
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/netherlands",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 66.36
+          },
+          {
+            "name": "Twitter",
+            "value": 14.42
+          },
+          {
+            "name": "Pinterest",
+            "value": 7.34
+          },
+          {
+            "name": "Instagram",
+            "value": 6.65
+          },
+          {
+            "name": "YouTube",
+            "value": 3.1
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/netherlands",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 74.16
+          },
+          {
+            "name": "Twitter",
+            "value": 11.01
+          },
+          {
+            "name": "Instagram",
+            "value": 8.34
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.19
+          },
+          {
+            "name": "YouTube",
+            "value": 2.14
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/netherlands",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 33.46
+          },
+          {
+            "name": "Twitter",
+            "value": 31.28
+          },
+          {
+            "name": "Pinterest",
+            "value": 17.59
+          },
+          {
+            "name": "YouTube",
+            "value": 8.63
+          },
+          {
+            "name": "LinkedIn",
+            "value": 3.49
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/netherlands",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 56.81
+          },
+          {
+            "name": "Pinterest",
+            "value": 28.25
+          },
+          {
+            "name": "Twitter",
+            "value": 13.14
+          },
+          {
+            "name": "YouTube",
+            "value": 1.06
+          },
+          {
+            "name": "Instagram",
+            "value": 0.35
+          }
+        ]
+      }
+    }
+  }
+}

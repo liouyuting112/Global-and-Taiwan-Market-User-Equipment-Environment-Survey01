@@ -1,0 +1,660 @@
+{
+  "country_code": "hk",
+  "country_name": "香港",
+  "update_time": "2026-03-16 03:07:18",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/hong-kong",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 57.33
+          },
+          {
+            "name": "Desktop",
+            "value": 40.08
+          },
+          {
+            "name": "Tablet",
+            "value": 2.59
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/hong-kong",
+        "data": [
+          {
+            "name": "Android",
+            "value": 30.12
+          },
+          {
+            "name": "iOS",
+            "value": 29.54
+          },
+          {
+            "name": "Windows",
+            "value": 22.55
+          },
+          {
+            "name": "Unknown",
+            "value": 10.47
+          },
+          {
+            "name": "OS X",
+            "value": 3.14
+          },
+          {
+            "name": "macOS",
+            "value": 2.56
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/hong-kong",
+        "data": [
+          {
+            "name": "Android",
+            "value": 51.51
+          },
+          {
+            "name": "iOS",
+            "value": 48.04
+          },
+          {
+            "name": "Samsung",
+            "value": 0.41
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/hong-kong",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 56.25
+          },
+          {
+            "name": "Unknown",
+            "value": 26.11
+          },
+          {
+            "name": "OS X",
+            "value": 7.85
+          },
+          {
+            "name": "macOS",
+            "value": 6.39
+          },
+          {
+            "name": "Linux",
+            "value": 3.37
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.03
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/hong-kong",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 77.08
+          },
+          {
+            "name": "Android",
+            "value": 22.85
+          },
+          {
+            "name": "Linux",
+            "value": 0.06
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/hong-kong",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 64.17
+          },
+          {
+            "name": "Safari",
+            "value": 19.14
+          },
+          {
+            "name": "Edge",
+            "value": 7.51
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 4.14
+          },
+          {
+            "name": "Firefox",
+            "value": 2.73
+          },
+          {
+            "name": "360 Safe",
+            "value": 0.57
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/hong-kong",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.38
+          },
+          {
+            "name": "Safari",
+            "value": 27.69
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 7.22
+          },
+          {
+            "name": "Firefox",
+            "value": 2.61
+          },
+          {
+            "name": "Edge",
+            "value": 2.57
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.59
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/hong-kong",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 71.78
+          },
+          {
+            "name": "Edge",
+            "value": 14.93
+          },
+          {
+            "name": "Safari",
+            "value": 6.83
+          },
+          {
+            "name": "Firefox",
+            "value": 3.07
+          },
+          {
+            "name": "360 Safe",
+            "value": 1.42
+          },
+          {
+            "name": "QQ Browser",
+            "value": 0.65
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/hong-kong",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 74.51
+          },
+          {
+            "name": "Safari",
+            "value": 20.25
+          },
+          {
+            "name": "Android",
+            "value": 2.45
+          },
+          {
+            "name": "Edge",
+            "value": 2.25
+          },
+          {
+            "name": "Opera",
+            "value": 0.2
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.13
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/hong-kong",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 13.71
+          },
+          {
+            "name": "1920x1080",
+            "value": 7.66
+          },
+          {
+            "name": "390x844",
+            "value": 4.94
+          },
+          {
+            "name": "2560x1440",
+            "value": 3.95
+          },
+          {
+            "name": "360x800",
+            "value": 3.19
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/hong-kong",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 23.45
+          },
+          {
+            "name": "390x844",
+            "value": 8.49
+          },
+          {
+            "name": "360x800",
+            "value": 4.66
+          },
+          {
+            "name": "412x915",
+            "value": 4.13
+          },
+          {
+            "name": "393x873",
+            "value": 3.84
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/hong-kong",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 19.47
+          },
+          {
+            "name": "2560x1440",
+            "value": 10.1
+          },
+          {
+            "name": "1536x864",
+            "value": 5.85
+          },
+          {
+            "name": "1440x900",
+            "value": 2.52
+          },
+          {
+            "name": "2048x1152",
+            "value": 2.25
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/hong-kong",
+        "data": [
+          {
+            "name": "810x1080",
+            "value": 8.93
+          },
+          {
+            "name": "820x1180",
+            "value": 8.58
+          },
+          {
+            "name": "768x1024",
+            "value": 7.0
+          },
+          {
+            "name": "834x1194",
+            "value": 4.58
+          },
+          {
+            "name": "1180x688",
+            "value": 3.79
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/hong-kong",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 48.04
+          },
+          {
+            "name": "Samsung",
+            "value": 16.63
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.12
+          },
+          {
+            "name": "Unknown",
+            "value": 6.5
+          },
+          {
+            "name": "Huawei",
+            "value": 4.44
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/hong-kong",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 48.04
+          },
+          {
+            "name": "Samsung",
+            "value": 16.63
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.12
+          },
+          {
+            "name": "Unknown",
+            "value": 6.5
+          },
+          {
+            "name": "Huawei",
+            "value": 4.44
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/hong-kong",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 77.08
+          },
+          {
+            "name": "Samsung",
+            "value": 12.24
+          },
+          {
+            "name": "Xiaomi",
+            "value": 5.14
+          },
+          {
+            "name": "Huawei",
+            "value": 2.53
+          },
+          {
+            "name": "Unknown",
+            "value": 1.64
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/hong-kong",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 77.08
+          },
+          {
+            "name": "Samsung",
+            "value": 12.24
+          },
+          {
+            "name": "Xiaomi",
+            "value": 5.14
+          },
+          {
+            "name": "Huawei",
+            "value": 2.53
+          },
+          {
+            "name": "Unknown",
+            "value": 1.64
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/hong-kong",
+        "data": [
+          {
+            "name": "Google",
+            "value": 92.26
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.45
+          },
+          {
+            "name": "bing",
+            "value": 2.85
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.73
+          },
+          {
+            "name": "Baidu",
+            "value": 0.43
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/hong-kong",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.56
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.43
+          },
+          {
+            "name": "bing",
+            "value": 0.75
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.73
+          },
+          {
+            "name": "Baidu",
+            "value": 0.24
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/hong-kong",
+        "data": [
+          {
+            "name": "Google",
+            "value": 88.64
+          },
+          {
+            "name": "bing",
+            "value": 6.06
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.55
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.74
+          },
+          {
+            "name": "Baidu",
+            "value": 0.71
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/hong-kong",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.1
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.53
+          },
+          {
+            "name": "bing",
+            "value": 0.66
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.35
+          },
+          {
+            "name": "Baidu",
+            "value": 0.16
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/hong-kong",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 45.23
+          },
+          {
+            "name": "Twitter",
+            "value": 33.64
+          },
+          {
+            "name": "Facebook",
+            "value": 13.29
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.61
+          },
+          {
+            "name": "Instagram",
+            "value": 2.46
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/hong-kong",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 49.77
+          },
+          {
+            "name": "Twitter",
+            "value": 31.09
+          },
+          {
+            "name": "Facebook",
+            "value": 14.76
+          },
+          {
+            "name": "Instagram",
+            "value": 2.89
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.92
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/hong-kong",
+        "data": [
+          {
+            "name": "Twitter",
+            "value": 39.32
+          },
+          {
+            "name": "YouTube",
+            "value": 35.77
+          },
+          {
+            "name": "Facebook",
+            "value": 9.44
+          },
+          {
+            "name": "Pinterest",
+            "value": 9.34
+          },
+          {
+            "name": "LinkedIn",
+            "value": 2.77
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/hong-kong",
+        "data": [
+          {
+            "name": "Twitter",
+            "value": 38.96
+          },
+          {
+            "name": "YouTube",
+            "value": 25.46
+          },
+          {
+            "name": "Facebook",
+            "value": 19.94
+          },
+          {
+            "name": "Pinterest",
+            "value": 12.88
+          },
+          {
+            "name": "Instagram",
+            "value": 2.15
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,652 @@
+{
+  "country_code": "vn",
+  "country_name": "越南",
+  "update_time": "2026-03-14 02:42:31",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/viet-nam",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 55.28
+          },
+          {
+            "name": "Mobile",
+            "value": 44.07
+          },
+          {
+            "name": "Tablet",
+            "value": 0.65
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/viet-nam",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 46.36
+          },
+          {
+            "name": "Android",
+            "value": 26.05
+          },
+          {
+            "name": "iOS",
+            "value": 18.59
+          },
+          {
+            "name": "Unknown",
+            "value": 5.48
+          },
+          {
+            "name": "macOS",
+            "value": 2.35
+          },
+          {
+            "name": "OS X",
+            "value": 0.57
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Android",
+            "value": 58.5
+          },
+          {
+            "name": "iOS",
+            "value": 41.32
+          },
+          {
+            "name": "Samsung",
+            "value": 0.16
+          },
+          {
+            "name": "Unknown",
+            "value": 0.02
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/viet-nam",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 83.87
+          },
+          {
+            "name": "Unknown",
+            "value": 9.9
+          },
+          {
+            "name": "macOS",
+            "value": 4.25
+          },
+          {
+            "name": "OS X",
+            "value": 1.04
+          },
+          {
+            "name": "Linux",
+            "value": 0.93
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.02
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/viet-nam",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 58.51
+          },
+          {
+            "name": "Android",
+            "value": 41.44
+          },
+          {
+            "name": "Linux",
+            "value": 0.04
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/viet-nam",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 78.43
+          },
+          {
+            "name": "Safari",
+            "value": 13.82
+          },
+          {
+            "name": "Coc Coc",
+            "value": 2.66
+          },
+          {
+            "name": "UC Browser",
+            "value": 1.97
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.41
+          },
+          {
+            "name": "Edge",
+            "value": 0.88
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.94
+          },
+          {
+            "name": "Safari",
+            "value": 29.87
+          },
+          {
+            "name": "UC Browser",
+            "value": 4.44
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.2
+          },
+          {
+            "name": "Coc Coc",
+            "value": 2.7
+          },
+          {
+            "name": "Opera",
+            "value": 0.35
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/viet-nam",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 94.16
+          },
+          {
+            "name": "Coc Coc",
+            "value": 2.65
+          },
+          {
+            "name": "Edge",
+            "value": 1.5
+          },
+          {
+            "name": "Safari",
+            "value": 0.8
+          },
+          {
+            "name": "Firefox",
+            "value": 0.4
+          },
+          {
+            "name": "Opera",
+            "value": 0.31
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/viet-nam",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 61.83
+          },
+          {
+            "name": "Safari",
+            "value": 31.94
+          },
+          {
+            "name": "UC Browser",
+            "value": 2.33
+          },
+          {
+            "name": "Coc Coc",
+            "value": 1.44
+          },
+          {
+            "name": "Android",
+            "value": 1.44
+          },
+          {
+            "name": "Opera",
+            "value": 0.72
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/viet-nam",
+        "data": [
+          {
+            "name": "1280x1200",
+            "value": 31.89
+          },
+          {
+            "name": "414x896",
+            "value": 7.93
+          },
+          {
+            "name": "800x600",
+            "value": 7.42
+          },
+          {
+            "name": "360x800",
+            "value": 5.44
+          },
+          {
+            "name": "1920x1080",
+            "value": 3.05
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/viet-nam",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 17.86
+          },
+          {
+            "name": "360x800",
+            "value": 11.01
+          },
+          {
+            "name": "393x873",
+            "value": 5.13
+          },
+          {
+            "name": "390x844",
+            "value": 4.8
+          },
+          {
+            "name": "428x926",
+            "value": 4.37
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/viet-nam",
+        "data": [
+          {
+            "name": "1280x1200",
+            "value": 57.84
+          },
+          {
+            "name": "800x600",
+            "value": 13.46
+          },
+          {
+            "name": "1920x1080",
+            "value": 5.39
+          },
+          {
+            "name": "1280x1024",
+            "value": 3.79
+          },
+          {
+            "name": "1536x864",
+            "value": 2.0
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/viet-nam",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 23.13
+          },
+          {
+            "name": "601x1007",
+            "value": 6.37
+          },
+          {
+            "name": "810x1080",
+            "value": 5.53
+          },
+          {
+            "name": "1920x1080",
+            "value": 4.25
+          },
+          {
+            "name": "601x962",
+            "value": 4.15
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 41.32
+          },
+          {
+            "name": "Samsung",
+            "value": 21.66
+          },
+          {
+            "name": "Oppo",
+            "value": 14.85
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.57
+          },
+          {
+            "name": "Vivo",
+            "value": 4.39
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 41.32
+          },
+          {
+            "name": "Samsung",
+            "value": 21.66
+          },
+          {
+            "name": "Oppo",
+            "value": 14.85
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.57
+          },
+          {
+            "name": "Vivo",
+            "value": 4.39
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/viet-nam",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 58.51
+          },
+          {
+            "name": "Samsung",
+            "value": 31.86
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.92
+          },
+          {
+            "name": "Huawei",
+            "value": 2.25
+          },
+          {
+            "name": "Unknown",
+            "value": 0.75
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/viet-nam",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 58.51
+          },
+          {
+            "name": "Samsung",
+            "value": 31.86
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.92
+          },
+          {
+            "name": "Huawei",
+            "value": 2.25
+          },
+          {
+            "name": "Unknown",
+            "value": 0.75
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/viet-nam",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.72
+          },
+          {
+            "name": "CocCoc",
+            "value": 5.12
+          },
+          {
+            "name": "bing",
+            "value": 0.57
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.46
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.42
+          },
+          {
+            "name": "CocCoc",
+            "value": 4.24
+          },
+          {
+            "name": "bing",
+            "value": 0.1
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.09
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.08
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/viet-nam",
+        "data": [
+          {
+            "name": "Google",
+            "value": 87.23
+          },
+          {
+            "name": "CocCoc",
+            "value": 8.45
+          },
+          {
+            "name": "bing",
+            "value": 2.31
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.83
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.07
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/viet-nam",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.24
+          },
+          {
+            "name": "CocCoc",
+            "value": 4.79
+          },
+          {
+            "name": "bing",
+            "value": 0.56
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.21
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.1
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/viet-nam",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 48.29
+          },
+          {
+            "name": "YouTube",
+            "value": 36.2
+          },
+          {
+            "name": "Twitter",
+            "value": 6.68
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.82
+          },
+          {
+            "name": "Instagram",
+            "value": 1.41
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/viet-nam",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 56.33
+          },
+          {
+            "name": "YouTube",
+            "value": 33.85
+          },
+          {
+            "name": "Twitter",
+            "value": 5.58
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.02
+          },
+          {
+            "name": "Instagram",
+            "value": 1.41
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/viet-nam",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 43.38
+          },
+          {
+            "name": "Facebook",
+            "value": 25.41
+          },
+          {
+            "name": "Pinterest",
+            "value": 16.2
+          },
+          {
+            "name": "Twitter",
+            "value": 9.71
+          },
+          {
+            "name": "LinkedIn",
+            "value": 1.96
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/viet-nam",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 47.47
+          },
+          {
+            "name": "YouTube",
+            "value": 22.78
+          },
+          {
+            "name": "Pinterest",
+            "value": 18.35
+          },
+          {
+            "name": "Twitter",
+            "value": 10.13
+          },
+          {
+            "name": "Instagram",
+            "value": 1.27
+          }
+        ]
+      }
+    }
+  }
+}

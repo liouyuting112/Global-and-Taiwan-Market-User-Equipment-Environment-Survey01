@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatCounter 數據可視化儀表板</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; }
+        .chart-container { position: relative; height: 300px; }
+        .detail-chart-container { position: relative; height: 250px; }
+        .loading { display: flex; justify-content: center; align-items: center; height: 200px; }
+        .metric-card { transition: transform 0.2s; }
+        .metric-card:hover { transform: translateY(-2px); }
+        .data-item { cursor: pointer; transition: background-color 0.2s; }
+        .data-item:hover { background-color: rgba(6, 182, 212, 0.1); }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <!-- Header -->
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold mb-2">StatCounter 數據可視化儀表板</h1>
+            <p class="text-gray-400">全球與台灣市場數據分析</p>
+            <button onclick="refreshData()" class="mt-4 bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-lg text-sm">
+                🔄 刷新數據
+            </button>
+        </header>
+
+        <!-- 上方：全球和台灣的主要數據顯示 -->
+        <section class="mb-8">
+            <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
+                <h2 class="text-2xl font-bold">主要數據 - 全球 & 台灣（所有平台 / 手機 / 電腦 / 平板）</h2>
+            </div>
+            <div class="grid grid-cols-1 gap-4 mb-6">
+                <!-- 全球數據卡片 -->
+                <div class="bg-gray-800 rounded-lg p-4 metric-card">
+                    <h3 class="text-xl font-bold mb-4 text-cyan-400">🌍 全球</h3>
+                    <div id="globalMetrics" class="space-y-4">
+                        <div class="loading">
+                            <div class="text-gray-400">載入中...</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 台灣數據卡片 -->
+                <div class="bg-gray-800 rounded-lg p-4 metric-card">
+                    <h3 class="text-xl font-bold mb-4 text-cyan-400">🇹🇼 台灣</h3>
+                    <div id="twMetrics" class="space-y-4">
+                        <div class="loading">
+                            <div class="text-gray-400">載入中...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 分隔線 -->
+        <div class="border-t border-gray-700 my-8"></div>
+
+        <!-- 下方：其他國家篩選和詳細數據 -->
+        <section>
+            <h2 class="text-2xl font-bold mb-4">其他國家/地區數據</h2>
+            
+            <!-- 篩選器 -->
+            <div class="bg-gray-800 rounded-lg p-6 mb-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                        <label for="countrySelect" class="block text-sm font-medium mb-2">選擇國家/地區：</label>
+                        <select id="countrySelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                            <option value="">-- 請選擇 --</option>
+                            <option value="global">全球</option>
+                            <option value="tw">台灣</option>
+                            <optgroup label="地區">
+                                <option value="asia">亞洲</option>
+                                <option value="europe">歐洲</option>
+                                <option value="africa">非洲</option>
+                                <option value="north-america">北美洲</option>
+                            </optgroup>
+                            <optgroup label="東亞">
+                                <option value="cn">中國</option>
+                                <option value="hk">香港</option>
+                                <option value="mo">澳門</option>
+                                <option value="jp">日本</option>
+                                <option value="kr">韓國</option>
+                            </optgroup>
+                            <optgroup label="東南亞">
+                                <option value="ph">菲律賓</option>
+                                <option value="th">泰國</option>
+                                <option value="vn">越南</option>
+                                <option value="id">印尼</option>
+                                <option value="mm">緬甸</option>
+                                <option value="my">馬來西亞</option>
+                            </optgroup>
+                            <optgroup label="南亞">
+                                <option value="in">印度</option>
+                                <option value="bd">孟加拉國</option>
+                                <option value="pk">巴基斯坦</option>
+                            </optgroup>
+                            <optgroup label="英語系國家">
+                                <option value="us">美國</option>
+                                <option value="gb">英國</option>
+                                <option value="ca">加拿大</option>
+                                <option value="au">澳洲</option>
+                                <option value="nz">紐西蘭</option>
+                                <option value="ie">愛爾蘭</option>
+                                <option value="za">南非</option>
+                            </optgroup>
+                            <optgroup label="歐洲其他">
+                                <option value="es">西班牙</option>
+                                <option value="pt">葡萄牙</option>
+                                <option value="it">義大利</option>
+                                <option value="se">瑞典</option>
+                                <option value="de">德國</option>
+                                <option value="dk">丹麥</option>
+                                <option value="ro">羅馬尼亞</option>
+                                <option value="nl">荷蘭</option>
+                                <option value="gr">希臘</option>
+                                <option value="fr">法國</option>
+                            </optgroup>
+                            <optgroup label="其他">
+                                <option value="tr">土耳其</option>
+                                <option value="ru">俄羅斯</option>
+                                <option value="br">巴西</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="dataTypeSelect" class="block text-sm font-medium mb-2">選擇數據類型：</label>
+                        <select id="dataTypeSelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                            <option value="all">全部</option>
+                            <option value="platform">平台市場佔有率</option>
+                            <option value="os_all">作業系統</option>
+                            <option value="browser_all">瀏覽器</option>
+                            <option value="resolution_all">屏幕分辨率</option>
+                            <option value="vendor_mobile">手機品牌</option>
+                            <option value="search_engine_all">搜索引擎</option>
+                            <option value="social_media_all">社交媒體</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="platformSelect" class="block text-sm font-medium mb-2">選擇平台：</label>
+                        <select id="platformSelect" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                            <option value="all">所有平台</option>
+                            <option value="mobile">手機</option>
+                            <option value="desktop">電腦</option>
+                            <option value="tablet">平板</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 詳細圖表 -->
+            <div id="detailSection" class="hidden">
+                <div class="bg-gray-800 rounded-lg p-6 mb-6">
+                    <h3 id="chartTitle" class="text-2xl font-bold mb-4">數據圖表</h3>
+                    <div id="loading" class="loading">
+                        <div class="text-gray-400">載入中...</div>
+                    </div>
+                    <div id="chartWrapper" class="hidden">
+                        <div class="detail-chart-container">
+                            <canvas id="dataChart"></canvas>
+                        </div>
+                        <!-- 數據來源會動態添加在這裡 -->
+                    </div>
+                    <div id="noData" class="hidden text-center text-gray-400 py-8">
+                        暫無數據
+                    </div>
+                </div>
+
+                <!-- 數據表格 -->
+                <div class="bg-gray-800 rounded-lg p-6">
+                    <h3 class="text-2xl font-bold mb-4">數據表格</h3>
+                    <div id="dataTable" class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="border-b border-gray-700">
+                                    <th class="py-2 px-4">項目</th>
+                                    <th class="py-2 px-4">市場佔有率</th>
+                                    <th class="py-2 px-4">平台</th>
+                                    <th class="py-2 px-4">數據來源</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        let currentChart = null;
+        let allCharts = []; // 管理所有圖表實例
+        let dataCache = {};
+        let globalData = null;
+        let twData = null;
+
+        // 數據類型名稱映射
+        const typeNames = {
+            'platform': '平台市場佔有率',
+            'os_all': '作業系統',
+            'browser_all': '瀏覽器',
+            'resolution_all': '屏幕分辨率',
+            'vendor_mobile': '手機品牌',
+            'search_engine_all': '搜索引擎',
+            'social_media_all': '社交媒體'
+        };
+
+        // 平台名稱映射
+        const platformNames = {
+            'all': '所有平台',
+            'mobile': '手機',
+            'desktop': '電腦',
+            'tablet': '平板'
+        };
+
+        // 載入所有數據（全球 & 台灣）
+        async function loadAllData() {
+            console.log('開始載入數據...');
+            
+            try {
+                // 載入全球數據
+                const globalResponse = await fetch('statcounter_data/global_data.json');
+                if (globalResponse.ok) {
+                    globalData = await globalResponse.json();
+                    dataCache['global'] = globalData;
+                    displayMainMetrics('global', globalData, 'globalMetrics');
+                }
+                
+                // 載入台灣數據
+                const twResponse = await fetch('statcounter_data/tw_data.json');
+                if (twResponse.ok) {
+                    twData = await twResponse.json();
+                    dataCache['tw'] = twData;
+                    displayMainMetrics('tw', twData, 'twMetrics');
+                }
+            } catch (error) {
+                console.error('載入數據失敗:', error);
+            }
+        }
+
+        // 刷新數據
+        function refreshData() {
+            dataCache = {};
+            loadAllData();
+            if (document.getElementById('countrySelect').value) {
+                loadCountryData();
+            }
+        }
+
+        // 顯示主要指標（全球 / 台灣：4 個平台垂直排列，細項水平排列）
+        function displayMainMetrics(countryCode, countryData, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+            
+            if (!countryData || !countryData.data) {
+                container.innerHTML = '<div class="text-gray-400">暫無數據</div>';
+                return;
+            }
+
+            const platforms = ['all', 'mobile', 'desktop', 'tablet']; // 上到下：所有平台 / 手機 / 電腦 / 平板
+            const platformLabels = {
+                all: '所有平台',
+                mobile: '手機',
+                desktop: '電腦',
+                tablet: '平板'
+            };
+
+            // 4 個平台垂直排列，每一列是平台，細項（數據類型）水平排列且不超出卡片寬度
+            platforms.forEach(platformKey => {
+                // 收集這個平台所有數據類型的最高值
+                const metrics = [];
+
+                Object.keys(countryData.data).forEach(dataType => {
+                    const dataInfo = countryData.data[dataType];
+                    if (!dataInfo) return;
+
+                    let platformData = null;
+                    if (platformKey === 'all') {
+                        platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                    } else {
+                        platformData = dataInfo[platformKey];
+                    }
+
+                    if (!platformData || !platformData.data || platformData.data.length === 0) return;
+
+                    const topItem = platformData.data[0];
+                    metrics.push({
+                        type: dataType,
+                        typeName: typeNames[dataType] || dataType,
+                        name: topItem.name,
+                        value: topItem.value,
+                        url: platformData.url || dataInfo.url
+                    });
+                });
+
+                if (metrics.length === 0) return;
+
+                // 平台一列
+                const row = document.createElement('div');
+                row.className = 'mb-2';
+
+                // 平台標題
+                const title = document.createElement('div');
+                title.className = 'text-sm font-bold mb-1 text-cyan-300';
+                title.textContent = platformLabels[platformKey] || platformKey;
+                row.appendChild(title);
+
+                // 細項水平排列（每個平台一條橫列，不換行；方框內垂直置中）
+                const list = document.createElement('div');
+                // 使用 flex-wrap 讓方框在卡片內換行，不會超出全球 / 台灣卡片寬度
+                list.className = 'flex flex-wrap gap-2';
+
+                metrics.forEach(m => {
+                    const itemCard = document.createElement('div');
+                    // 方框：垂直排列「類型」「名稱」「數值」，全部置中顯示
+                    itemCard.className = 'bg-gray-800 rounded-lg px-3 py-2 text-[11px] flex flex-col items-center justify-center gap-1 border border-cyan-700/60 shadow-sm flex-1 min-w-[150px] max-w-[200px] text-center';
+
+                    if (m.url) {
+                        itemCard.onclick = () => window.open(m.url, '_blank');
+                        itemCard.className += ' cursor-pointer';
+                        itemCard.title = '點擊查看數據來源';
+                    }
+
+                    const typeEl = document.createElement('div');
+                    typeEl.className = 'text-gray-300';
+                    typeEl.textContent = `${m.typeName}：`;
+
+                    const nameEl = document.createElement('div');
+                    nameEl.className = 'text-gray-100 font-medium';
+                    nameEl.textContent = m.name;
+
+                    const valueEl = document.createElement('div');
+                    valueEl.className = 'font-semibold text-cyan-400';
+                    valueEl.textContent = `${m.value.toFixed(1)}%`;
+
+                    itemCard.appendChild(typeEl);
+                    itemCard.appendChild(nameEl);
+                    itemCard.appendChild(valueEl);
+                    list.appendChild(itemCard);
+                });
+
+                row.appendChild(list);
+                container.appendChild(row);
+            });
+        }
+
+        // 根據實際可用數據，動態更新平台選項（避免選到沒有數據的平台）
+        function updatePlatformOptions(countryData, dataType) {
+            const platformSelect = document.getElementById('platformSelect');
+            if (!platformSelect) return;
+
+            const allPlatforms = [
+                { value: 'all', label: platformNames['all'] || '所有平台' },
+                { value: 'mobile', label: platformNames['mobile'] || '手機' },
+                { value: 'desktop', label: platformNames['desktop'] || '電腦' },
+                { value: 'tablet', label: platformNames['tablet'] || '平板' },
+            ];
+
+            const available = new Set();
+
+            if (!countryData || !countryData.data) {
+                // 沒有數據時，至少保留「所有平台」
+                available.add('all');
+            } else if (dataType === 'all') {
+                // 「全部」時，根據所有數據類型綜合判斷有哪些平台有數據
+                Object.keys(countryData.data).forEach(typeKey => {
+                    const info = countryData.data[typeKey];
+                    if (!info) return;
+                    if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                    if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                    if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
+                    if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                });
+            } else {
+                // 特定數據類型時，只看該類型
+                const info = countryData.data[dataType];
+                if (info) {
+                    if (info.all && info.all.data && info.all.data.length > 0) available.add('all');
+                    if (info.mobile && info.mobile.data && info.mobile.data.length > 0) available.add('mobile');
+                    if (info.desktop && info.desktop.data && info.desktop.data.length > 0) available.add('desktop');
+                    if (info.tablet && info.tablet.data && info.tablet.data.length > 0) available.add('tablet');
+                }
+            }
+
+            // 如果什麼都沒有偵測到，保底給一個 all
+            if (available.size === 0) {
+                available.add('all');
+            }
+
+            const previousValue = platformSelect.value;
+            platformSelect.innerHTML = '';
+
+            let firstValue = null;
+            allPlatforms.forEach(p => {
+                if (available.has(p.value)) {
+                    const opt = document.createElement('option');
+                    opt.value = p.value;
+                    opt.textContent = p.label;
+                    platformSelect.appendChild(opt);
+                    if (!firstValue) firstValue = p.value;
+                }
+            });
+
+            // 優先保留原本選擇，如果已經不在可用清單，就改成第一個
+            if (available.has(previousValue)) {
+                platformSelect.value = previousValue;
+            } else if (firstValue) {
+                platformSelect.value = firstValue;
+            }
+        }
+
+        // 載入單個國家數據
+        let isLoading = false; // 防止重複加載
+        
+        async function loadCountryData() {
+            // 防止重複調用
+            if (isLoading) {
+                return;
+            }
+            
+            const country = document.getElementById('countrySelect').value;
+            const dataType = document.getElementById('dataTypeSelect').value;
+            const platform = document.getElementById('platformSelect').value;
+            
+            if (!country) {
+                document.getElementById('detailSection').classList.add('hidden');
+                // 清除所有圖表
+                allCharts.forEach(chart => {
+                    if (chart && typeof chart.destroy === 'function') {
+                        try {
+                            chart.destroy();
+                        } catch (e) {}
+                    }
+                });
+                allCharts = [];
+                return;
+            }
+
+            isLoading = true;
+            
+            // 先清除所有舊的圖表
+            allCharts.forEach(chart => {
+                if (chart && typeof chart.destroy === 'function') {
+                    try {
+                        chart.destroy();
+                    } catch (e) {}
+                }
+            });
+            allCharts = [];
+
+            document.getElementById('detailSection').classList.remove('hidden');
+            document.getElementById('loading').classList.remove('hidden');
+            document.getElementById('chartWrapper').classList.add('hidden');
+            document.getElementById('noData').classList.add('hidden');
+
+            try {
+                let countryData;
+                
+                if (dataCache[country]) {
+                    countryData = dataCache[country];
+                } else {
+                    const response = await fetch(`statcounter_data/${country}_data.json`);
+                    if (!response.ok) {
+                        throw new Error('數據文件不存在');
+                    }
+                    countryData = await response.json();
+                    dataCache[country] = countryData;
+                }
+
+                // 根據實際數據動態更新平台選項（移除沒有數據的平台）
+                updatePlatformOptions(countryData, dataType);
+                
+                console.log('載入數據:', { 
+                    country, 
+                    dataType, 
+                    platform, 
+                    availableDataTypes: Object.keys(countryData.data || {}) 
+                });
+                
+                if (dataType === 'all') {
+                    displayAllDataTypes(countryData, platform);
+                } else {
+                    displayChart(countryData, dataType, platform);
+                }
+                
+            } catch (error) {
+                console.error('載入數據失敗:', error);
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('noData').classList.remove('hidden');
+            } finally {
+                isLoading = false;
+            }
+        }
+
+        // 顯示所有數據類型（用圖表顯示，卡片左右排列）
+        function displayAllDataTypes(countryData, platform) {
+            // 先清除所有舊的圖表實例
+            allCharts.forEach(chart => {
+                if (chart && typeof chart.destroy === 'function') {
+                    try {
+                        chart.destroy();
+                    } catch (e) {
+                        console.error('銷毀圖表時出錯:', e);
+                    }
+                }
+            });
+            allCharts = [];
+            
+            const container = document.getElementById('chartWrapper');
+            // 完全清空容器
+            container.innerHTML = '';
+            container.classList.remove('hidden');
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('noData').classList.add('hidden');
+            
+            const allData = [];
+            
+            Object.keys(countryData.data).forEach(dataType => {
+                const dataInfo = countryData.data[dataType];
+                if (dataInfo) {
+                    let platformData = null;
+                    
+                    if (platform === 'all') {
+                        // 優先使用all平台，否則使用第一個可用的平台
+                        platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+                    } else {
+                        platformData = dataInfo[platform];
+                    }
+                    
+                    if (platformData && platformData.data && platformData.data.length > 0) {
+                        allData.push({
+                            type: dataType,
+                            typeName: typeNames[dataType] || dataType,
+                            data: platformData.data,
+                            url: platformData.url
+                        });
+                    }
+                }
+            });
+            
+            if (allData.length === 0) {
+                document.getElementById('noData').classList.remove('hidden');
+                return;
+            }
+            
+            // 更新標題
+            document.getElementById('chartTitle').textContent = 
+                `${countryData.country_name} - 所有數據類型 (${platformNames[platform] || platform})`;
+            
+            // 建立 grid 容器，讓多個圖表卡片左右排列
+            const grid = document.createElement('div');
+            grid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4';
+            container.appendChild(grid);
+
+            // 為每個數據類型創建圖表卡片
+            allData.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'bg-gray-700 rounded-lg p-4';
+
+                // 使用唯一的ID
+                const canvasId = `chart_all_${index}_${Math.random().toString(36).substr(2, 9)}`;
+                const canvas = document.createElement('canvas');
+                canvas.id = canvasId;
+                canvas.style.height = '200px';
+                canvas.style.width = '100%';
+                
+                card.innerHTML = `
+                    <h4 class="text-lg font-bold mb-3">${item.typeName}</h4>
+                `;
+                
+                // 創建圖表容器，固定高度
+                const chartContainer = document.createElement('div');
+                chartContainer.className = 'chart-container';
+                chartContainer.style.height = '200px';
+                chartContainer.style.position = 'relative';
+                chartContainer.style.width = '100%';
+                chartContainer.style.marginBottom = '1rem';
+                chartContainer.appendChild(canvas);
+                card.appendChild(chartContainer);
+                
+                // 數據列表
+                const dataList = document.createElement('div');
+                dataList.className = 'mt-4 space-y-2';
+                item.data.forEach(d => {
+                    const dataItem = document.createElement('div');
+                    dataItem.className = 'flex justify-between items-center p-2 rounded hover:bg-gray-600 data-item cursor-pointer';
+                    if (item.url) {
+                        dataItem.onclick = () => window.open(item.url, '_blank');
+                        dataItem.title = '點擊查看數據來源';
+                    }
+                    dataItem.innerHTML = `
+                        <span>${d.name}</span>
+                        <span class="font-bold text-cyan-400">${d.value.toFixed(2)}%</span>
+                    `;
+                    dataList.appendChild(dataItem);
+                });
+                card.appendChild(dataList);
+                
+                // 來源鏈接
+                if (item.url) {
+                    const sourceLink = document.createElement('div');
+                    sourceLink.className = 'mt-3 text-sm text-gray-500';
+                    sourceLink.innerHTML = `
+                        <span>數據來源：</span>
+                        <a href="${item.url}" target="_blank" class="text-cyan-400 hover:underline">
+                            ${item.url}
+                        </a>
+                    `;
+                    card.appendChild(sourceLink);
+                }
+                
+                grid.appendChild(card);
+                
+                // 創建圖表 - 使用requestAnimationFrame確保DOM已更新
+                requestAnimationFrame(() => {
+                    setTimeout(() => {
+                        try {
+                            const canvasElement = document.getElementById(canvasId);
+                            if (!canvasElement) {
+                                console.error('找不到canvas元素:', canvasId);
+                                return;
+                            }
+                            
+                            // 檢查是否已經有圖表實例
+                            if (canvasElement.chart) {
+                                try {
+                                    canvasElement.chart.destroy();
+                                } catch (e) {
+                                    console.error('銷毀舊圖表時出錯:', e);
+                                }
+                            }
+                            
+                            const chartCtx = canvasElement.getContext('2d');
+                            if (!chartCtx) {
+                                console.error('無法獲取canvas context');
+                                return;
+                            }
+                            
+                            const labels = item.data.map(d => d.name);
+                            const values = item.data.map(d => d.value);
+                            
+                            let chartType = 'bar';
+                            if (item.type === 'platform' || item.type === 'os_all') {
+                                chartType = 'doughnut';
+                            }
+                            
+                            const chart = new Chart(chartCtx, {
+                                type: chartType,
+                                data: {
+                                    labels: labels,
+                                    datasets: [{
+                                        label: '市場佔有率 (%)',
+                                        data: values,
+                                        backgroundColor: [
+                                            '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
+                                            '#10B981', '#F97316', '#8B5CF6', '#EF4444',
+                                            '#14B8A6', '#3B82F6'
+                                        ],
+                                        borderWidth: 0
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    animation: {
+                                        duration: 0 // 禁用動畫，避免重複渲染
+                                    },
+                                    plugins: {
+                                        legend: {
+                                            position: 'bottom',
+                                            labels: { 
+                                                color: '#9CA3AF', 
+                                                padding: 8,
+                                                font: { size: 10 }
+                                            }
+                                        },
+                                        tooltip: {
+                                            callbacks: {
+                                                label: function(context) {
+                                                    return context.label + ': ' + context.parsed + '%';
+                                                }
+                                            },
+                                            padding: 6,
+                                            titleFont: { size: 11 },
+                                            bodyFont: { size: 10 }
+                                        }
+                                    },
+                                    scales: chartType === 'bar' ? {
+                                        x: { 
+                                            ticks: { 
+                                                color: '#9CA3AF',
+                                                font: { size: 9 }
+                                            }, 
+                                            grid: { color: '#374151' } 
+                                        },
+                                        y: { 
+                                            ticks: { 
+                                                color: '#9CA3AF',
+                                                font: { size: 9 },
+                                                callback: function(value) { return value + '%'; }
+                                            },
+                                            grid: { color: '#374151' }
+                                        }
+                                    } : {}
+                                }
+                            });
+                            
+                            // 將圖表實例保存到canvas元素上
+                            canvasElement.chart = chart;
+                            allCharts.push(chart);
+                        } catch (error) {
+                            console.error('創建圖表時出錯:', error, item);
+                        }
+                    }, index * 150);
+                });
+            });
+        }
+
+        // 顯示圖表（單一數據類型）
+        function displayChart(countryData, dataType, platform) {
+            console.log('displayChart called:', { dataType, platform, countryDataKeys: Object.keys(countryData.data || {}) });
+            
+            const dataInfo = countryData.data[dataType];
+            if (!dataInfo) {
+                console.error('找不到數據類型:', dataType, '可用的類型:', Object.keys(countryData.data || {}));
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('noData').classList.remove('hidden');
+                return;
+            }
+            
+            console.log('找到數據:', dataInfo, '平台:', platform);
+            
+            // 根據平台選擇數據
+            let platformData = null;
+            if (platform === 'all') {
+                platformData = dataInfo.all || dataInfo.mobile || dataInfo.desktop || dataInfo.tablet;
+            } else {
+                platformData = dataInfo[platform];
+            }
+            
+            // 支持舊格式
+            if (!platformData && dataInfo.data) {
+                platformData = dataInfo;
+            }
+            
+            if (!platformData || !platformData.data || platformData.data.length === 0) {
+                console.error('找不到平台數據:', { platform, platformData, dataInfo });
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('noData').classList.remove('hidden');
+                return;
+            }
+            
+            console.log('成功獲取數據:', platformData);
+
+            const chartData = platformData.data;
+            const labels = chartData.map(item => item.name);
+            const values = chartData.map(item => item.value);
+
+            document.getElementById('chartTitle').textContent = 
+                `${countryData.country_name} - ${typeNames[dataType] || dataType} (${platformNames[platform] || platform})`;
+
+            // 先清除容器，確保只顯示當前選擇的數據類型
+            const container = document.getElementById('chartWrapper');
+            container.innerHTML = ''; // 清空所有內容
+            
+            // 重新創建圖表容器
+            const chartContainer = document.createElement('div');
+            chartContainer.className = 'detail-chart-container';
+            const canvas = document.createElement('canvas');
+            canvas.id = 'dataChart';
+            chartContainer.appendChild(canvas);
+            container.appendChild(chartContainer);
+            
+            // 顯示圖表和表格
+            document.getElementById('loading').classList.add('hidden');
+            container.classList.remove('hidden');
+            document.getElementById('noData').classList.add('hidden');
+
+            // 清除所有圖表實例
+            if (currentChart) {
+                try {
+                    currentChart.destroy();
+                } catch (e) {
+                    console.error('銷毀圖表時出錯:', e);
+                }
+            }
+            allCharts.forEach(chart => {
+                if (chart && typeof chart.destroy === 'function') {
+                    try {
+                        chart.destroy();
+                    } catch (e) {
+                        console.error('銷毀圖表時出錯:', e);
+                    }
+                }
+            });
+            allCharts = [];
+            currentChart = null;
+
+            // 等待DOM更新後再創建圖表
+            setTimeout(() => {
+                const ctx = document.getElementById('dataChart').getContext('2d');
+                let chartType = 'bar';
+                if (dataType === 'platform' || dataType === 'os_all') {
+                    chartType = 'doughnut';
+                }
+
+                currentChart = new Chart(ctx, {
+                    type: chartType,
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: '市場佔有率 (%)',
+                            data: values,
+                            backgroundColor: [
+                                '#06B6D4', '#6366F1', '#EC4899', '#F59E0B',
+                                '#10B981', '#F97316', '#8B5CF6', '#EF4444',
+                                '#14B8A6', '#3B82F6'
+                            ],
+                            borderWidth: 0
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: { 
+                                    color: '#9CA3AF', 
+                                    padding: 10,
+                                    font: { size: 11 }
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.label + ': ' + context.parsed + '%';
+                                    }
+                                },
+                                padding: 8,
+                                titleFont: { size: 12 },
+                                bodyFont: { size: 11 }
+                            }
+                        },
+                        scales: chartType === 'bar' ? {
+                            x: { 
+                                ticks: { 
+                                    color: '#9CA3AF',
+                                    font: { size: 10 }
+                                }, 
+                                grid: { color: '#374151' } 
+                            },
+                            y: { 
+                                ticks: { 
+                                    color: '#9CA3AF',
+                                    font: { size: 10 },
+                                    callback: function(value) { return value + '%'; }
+                                },
+                                grid: { color: '#374151' }
+                            }
+                        } : {}
+                    }
+                });
+                
+                allCharts.push(currentChart);
+                
+                // 更新表格
+                updateTable(chartData, platformData.url, platform);
+                
+                // 確保數據來源顯示在圖表下方
+                const chartWrapper = document.getElementById('chartWrapper');
+                const existingSource = chartWrapper.querySelector('.chart-source-link');
+                if (existingSource) {
+                    existingSource.remove();
+                }
+                
+                if (platformData.url) {
+                    const sourceDiv = document.createElement('div');
+                    sourceDiv.className = 'mt-4 text-sm text-gray-500 chart-source-link';
+                    sourceDiv.innerHTML = `
+                        <span>數據來源：</span>
+                        <a href="${platformData.url}" target="_blank" class="text-cyan-400 hover:underline">
+                            ${platformData.url}
+                        </a>
+                    `;
+                    chartWrapper.appendChild(sourceDiv);
+                }
+            }, 100);
+        }
+
+        // 更新表格
+        function updateTable(data, url, platform) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            
+            data.forEach((item, index) => {
+                const row = document.createElement('tr');
+                row.className = index % 2 === 0 ? 'bg-gray-700/50' : '';
+                row.innerHTML = `
+                    <td class="py-2 px-4">${item.name}</td>
+                    <td class="py-2 px-4 font-bold">${item.value.toFixed(2)}%</td>
+                    <td class="py-2 px-4">${platformNames[platform] || platform}</td>
+                    <td class="py-2 px-4">
+                        ${url ? `<a href="${url}" target="_blank" class="text-cyan-400 hover:underline">查看來源</a>` : '-'}
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        // 事件監聽 - 其他國家/地區數據
+        document.getElementById('countrySelect').addEventListener('change', function() {
+            if (this.value) {
+                loadCountryData();
+            } else {
+                document.getElementById('detailSection').classList.add('hidden');
+            }
+        });
+        
+        document.getElementById('dataTypeSelect').addEventListener('change', function() {
+            const country = document.getElementById('countrySelect').value;
+            if (country) {
+                loadCountryData();
+            }
+        });
+        
+        document.getElementById('platformSelect').addEventListener('change', function() {
+            const country = document.getElementById('countrySelect').value;
+            if (country) {
+                loadCountryData();
+            }
+        });
+
+        // 初始化
+        window.onload = () => {
+            loadAllData();
+            // 每5秒自動刷新（檢查新數據）
+            setInterval(() => {
+                if (!document.getElementById('countrySelect').value) {
+                    loadAllData();
+                }
+            }, 5000);
+        };
+    </script>
+</body>
+</html>

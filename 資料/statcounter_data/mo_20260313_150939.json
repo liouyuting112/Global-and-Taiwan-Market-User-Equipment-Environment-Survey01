@@ -1,0 +1,632 @@
+{
+  "country_code": "mo",
+  "country_name": "澳門",
+  "update_time": "2026-03-13 15:05:50",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/macao",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 59.07
+          },
+          {
+            "name": "Desktop",
+            "value": 37.83
+          },
+          {
+            "name": "Tablet",
+            "value": 3.1
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/macao",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 38.53
+          },
+          {
+            "name": "Android",
+            "value": 23.17
+          },
+          {
+            "name": "Windows",
+            "value": 22.61
+          },
+          {
+            "name": "Unknown",
+            "value": 8.09
+          },
+          {
+            "name": "OS X",
+            "value": 4.46
+          },
+          {
+            "name": "macOS",
+            "value": 1.79
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 60.66
+          },
+          {
+            "name": "Android",
+            "value": 38.54
+          },
+          {
+            "name": "Samsung",
+            "value": 0.59
+          },
+          {
+            "name": "Unknown",
+            "value": 0.21
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/macao",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 59.75
+          },
+          {
+            "name": "Unknown",
+            "value": 21.05
+          },
+          {
+            "name": "OS X",
+            "value": 11.79
+          },
+          {
+            "name": "macOS",
+            "value": 4.74
+          },
+          {
+            "name": "Linux",
+            "value": 2.57
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.09
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 87.18
+          },
+          {
+            "name": "Android",
+            "value": 12.81
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/macao",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 57.15
+          },
+          {
+            "name": "Safari",
+            "value": 27.5
+          },
+          {
+            "name": "Edge",
+            "value": 7.29
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.63
+          },
+          {
+            "name": "Firefox",
+            "value": 2.3
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.77
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 51.36
+          },
+          {
+            "name": "Safari",
+            "value": 38.56
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 6.15
+          },
+          {
+            "name": "Firefox",
+            "value": 1.28
+          },
+          {
+            "name": "UC Browser",
+            "value": 1.27
+          },
+          {
+            "name": "Edge",
+            "value": 0.78
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/macao",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 64.79
+          },
+          {
+            "name": "Edge",
+            "value": 17.62
+          },
+          {
+            "name": "Safari",
+            "value": 11.05
+          },
+          {
+            "name": "Firefox",
+            "value": 4.09
+          },
+          {
+            "name": "Opera",
+            "value": 0.7
+          },
+          {
+            "name": "360 Safe",
+            "value": 0.68
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 74.18
+          },
+          {
+            "name": "Safari",
+            "value": 17.52
+          },
+          {
+            "name": "Edge",
+            "value": 5.23
+          },
+          {
+            "name": "Android",
+            "value": 2.61
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.46
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/macao",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 18.69
+          },
+          {
+            "name": "1920x1080",
+            "value": 9.81
+          },
+          {
+            "name": "390x844",
+            "value": 4.81
+          },
+          {
+            "name": "2560x1440",
+            "value": 2.78
+          },
+          {
+            "name": "1536x864",
+            "value": 2.44
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/macao",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 30.95
+          },
+          {
+            "name": "390x844",
+            "value": 7.88
+          },
+          {
+            "name": "430x932",
+            "value": 4.05
+          },
+          {
+            "name": "393x852",
+            "value": 3.84
+          },
+          {
+            "name": "360x800",
+            "value": 3.42
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/macao",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 26.91
+          },
+          {
+            "name": "2560x1440",
+            "value": 7.64
+          },
+          {
+            "name": "1536x864",
+            "value": 6.69
+          },
+          {
+            "name": "1280x720",
+            "value": 2.47
+          },
+          {
+            "name": "1440x900",
+            "value": 2.18
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/macao",
+        "data": [
+          {
+            "name": "1180x688",
+            "value": 11.13
+          },
+          {
+            "name": "820x1180",
+            "value": 9.55
+          },
+          {
+            "name": "810x1080",
+            "value": 9.15
+          },
+          {
+            "name": "768x1024",
+            "value": 8.76
+          },
+          {
+            "name": "834x1194",
+            "value": 6.56
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.66
+          },
+          {
+            "name": "Samsung",
+            "value": 13.16
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.28
+          },
+          {
+            "name": "Huawei",
+            "value": 6.13
+          },
+          {
+            "name": "Unknown",
+            "value": 4.91
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.66
+          },
+          {
+            "name": "Samsung",
+            "value": 13.16
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.28
+          },
+          {
+            "name": "Huawei",
+            "value": 6.13
+          },
+          {
+            "name": "Unknown",
+            "value": 4.91
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 87.37
+          },
+          {
+            "name": "Samsung",
+            "value": 5.78
+          },
+          {
+            "name": "Unknown",
+            "value": 2.46
+          },
+          {
+            "name": "Asus",
+            "value": 1.67
+          },
+          {
+            "name": "Huawei",
+            "value": 1.5
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 87.37
+          },
+          {
+            "name": "Samsung",
+            "value": 5.78
+          },
+          {
+            "name": "Unknown",
+            "value": 2.46
+          },
+          {
+            "name": "Asus",
+            "value": 1.67
+          },
+          {
+            "name": "Huawei",
+            "value": 1.5
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/macao",
+        "data": [
+          {
+            "name": "Google",
+            "value": 90.72
+          },
+          {
+            "name": "bing",
+            "value": 4.74
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.25
+          },
+          {
+            "name": "Baidu",
+            "value": 0.69
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.31
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/macao",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.12
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.07
+          },
+          {
+            "name": "bing",
+            "value": 1.26
+          },
+          {
+            "name": "Baidu",
+            "value": 0.94
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.26
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/macao",
+        "data": [
+          {
+            "name": "Google",
+            "value": 86.11
+          },
+          {
+            "name": "bing",
+            "value": 9.31
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.57
+          },
+          {
+            "name": "Baidu",
+            "value": 0.4
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.39
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/macao",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.63
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.68
+          },
+          {
+            "name": "bing",
+            "value": 0.17
+          },
+          {
+            "name": "CocCoc",
+            "value": 0.17
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.17
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/macao",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 56.98
+          },
+          {
+            "name": "Twitter",
+            "value": 26.79
+          },
+          {
+            "name": "Pinterest",
+            "value": 7.17
+          },
+          {
+            "name": "YouTube",
+            "value": 3.77
+          },
+          {
+            "name": "Instagram",
+            "value": 3.77
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/macao",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 67.0
+          },
+          {
+            "name": "Twitter",
+            "value": 22.66
+          },
+          {
+            "name": "Instagram",
+            "value": 3.94
+          },
+          {
+            "name": "YouTube",
+            "value": 2.96
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.97
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/macao",
+        "data": [
+          {
+            "name": "Twitter",
+            "value": 42.11
+          },
+          {
+            "name": "Facebook",
+            "value": 26.32
+          },
+          {
+            "name": "Pinterest",
+            "value": 19.3
+          },
+          {
+            "name": "YouTube",
+            "value": 7.02
+          },
+          {
+            "name": "Instagram",
+            "value": 3.51
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/macao",
+        "data": [
+          {
+            "name": "Pinterest",
+            "value": 80.0
+          },
+          {
+            "name": "Twitter",
+            "value": 20.0
+          }
+        ]
+      }
+    }
+  }
+}

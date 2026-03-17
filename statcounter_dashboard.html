@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatCounter 數據大盤 - 全視角精位儀表板</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'Noto Sans TC', 'sans-serif'] },
+                    colors: { 'brand-blue': '#0561FF', 'brand-orange': '#EA580C', 'brand-indigo': '#4F46E5', 'heading-dark': '#0F172A' }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-size: 14px; background-color: #F8FAFC; letter-spacing: -0.01em; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .glass-card { background: #FFFFFF; border: 1px solid #E2E8F0; box-shadow: 0 1px 3px 0 rgb(0 0 0/0.05); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); border-radius: 0.75rem; }
+        .glass-card:hover { border-color: #0561FF; box-shadow: 0 10px 15px -3px rgb(0 0 0/0.1); transform: translateY(-2px); z-index: 10; }
+        .platform-row-label { font-size: 1.15rem; font-weight: 900; color: #1e293b; min-width: 90px; padding: 0.5rem 0.8rem; background: #e2e8f0; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: fit-content; flex-shrink: 0; }
+        .senior-value { font-size: 1.25rem; font-weight: 900; color: #0561FF; }
+        .senior-name { font-size: 1.05rem; font-weight: 800; color: #475569; }
+        .compact-card { width: 185px; flex-shrink: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
+        .chart-box { background: white; border-radius: 1.25rem; padding: 1.25rem; border: 1px solid #E2E8F0; min-height: 380px; }
+        select { font-size: 1rem !important; padding: 0.5rem 0.8rem !important; border-radius: 0.5rem !important; border: 2px solid #CBD5E1 !important; }
+        .data-table-text { font-size: 1rem; line-height: 1.6; }
+        canvas { max-height: 140px !important; }
+    </style>
+</head>
+<body class="text-slate-900 antialiased font-medium">
+    <div class="max-w-[1680px] mx-auto px-4 py-4">
+        
+        <!-- Header -->
+        <header class="mb-4 flex flex-col md:flex-row justify-between items-center bg-white p-4 rounded-2xl shadow-sm border border-slate-100 gap-4">
+            <h1 class="text-2xl font-black tracking-tighter text-heading-dark flex items-center gap-2">
+                <span class="bg-brand-blue text-white w-9 h-9 flex items-center justify-center rounded-lg">SC</span>
+                <span class="bg-gradient-to-r from-brand-blue to-purple-600 text-transparent bg-clip-text">StatCounter 全視角精位儀表板</span>
+            </h1>
+            <div class="flex flex-wrap items-center gap-4 text-slate-500 font-bold bg-slate-50 px-5 py-3 rounded-xl text-base">
+                <div class="flex items-center gap-5">
+                    <span id="dataDate" class="text-brand-indigo text-lg font-black">📅 數據日期：--</span>
+                    <span id="lastUpdated" class="text-emerald-600 text-lg font-black">🕒 最後同步：--</span>
+                </div>
+                <a href="https://gs.statcounter.com/" target="_blank" class="text-brand-blue text-lg font-black hover:underline decoration-2">StatCounter 官網</a>
+            </div>
+        </header>
+
+        <!-- 第一部分：全球全維度 -->
+        <section class="mb-6 bg-blue-50/30 p-4 rounded-2xl border border-blue-100">
+            <h2 class="text-xl font-black mb-4 flex items-center gap-2">🌏 全球數據 (橫向平鋪分析)</h2>
+            <div id="globalContainer" class="flex flex-col gap-3">
+                <!-- Rows: All, Mobile, Desktop, Tablet -->
+            </div>
+        </section>
+
+        <!-- 第二部分：指定市場全維度 -->
+        <section class="mb-6 bg-orange-50/30 p-4 rounded-2xl border border-orange-100">
+            <div class="flex flex-wrap items-center justify-between gap-4 mb-3">
+                <h2 class="text-xl font-black flex items-center gap-2 text-brand-orange">📍 指定市場 <span id="currentMarketName" class="text-slate-400">---</span></h2>
+                <div class="flex items-center gap-2">
+                    <span class="font-bold text-slate-500 text-sm">切換區域：</span>
+                    <select id="marketSelect" onchange="updateMarketView()" class="min-w-[180px]"></select>
+                </div>
+            </div>
+            <div id="marketContainer" class="flex flex-col gap-3">
+                <!-- Rows injected here -->
+            </div>
+        </section>
+
+        <!-- 第三部分：其他細項數據查詢 -->
+        <section class="mb-10">
+            <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm mb-6">
+                <h2 class="text-xl font-black mb-5 border-l-4 border-brand-indigo pl-3 italic">其他細項數據查詢</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="flex flex-col gap-1">
+                        <label class="text-xs font-bold text-slate-400">選擇國家：</label>
+                        <select id="filterCountry"></select>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <label class="text-xs font-bold text-slate-400">選擇類別：</label>
+                        <select id="filterCategory"></select>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <label class="text-xs font-bold text-slate-400">選擇平台：</label>
+                        <select id="filterPlatform"></select>
+                    </div>
+                </div>
+            </div>
+            <div id="detailGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- Charts and Data Tables -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Row Template -->
+    <template id="platformRowTemplate">
+        <div class="flex items-start gap-3">
+            <div class="platform-row-label">平台</div>
+            <div class="cards-wrapper flex gap-2 min-w-0">
+                <!-- Data Cards Injected Here -->
+            </div>
+        </div>
+    </template>
+
+    <script>
+        const COUNTRIES = {
+            'global': '🌍 全球 Worldwide', 'tw': '🇹🇼 台灣 Taiwan', 'cn': '🇨🇳 中國 China', 'hk': '🇭🇰 香港 Hong Kong', 'mo': '🇲🇴 澳門 Macao',
+            'kr': '🇰🇷 韓國 South Korea', 'ph': '🇵🇭 菲律賓 Philippines', 'th': '🇹🇭 泰國 Thailand', 'vn': '🇻🇳 越南 Vietnam', 'id': '🇮🇩 印尼 Indonesia', 'mm': '🇲🇲 緬甸 Myanmar', 'jp': '🇯🇵 日本 Japan', 'my': '🇲🇾 馬來西亞 Malaysia',
+            'in': '🇮🇳 印度 India', 'bd': '🇧🇩 孟加拉國 Bangladesh', 'pk': '🇵🇰 巴基斯坦 Pakistan', 'asia': '🌏 亞洲 Asia', 'europe': '🇪🇺 歐洲 Europe', 'africa': '🌍 非洲 Africa', 'north-america': '🌎 北美洲 North America',
+            'us': '🇺🇸 美國 USA', 'gb': '🇬🇧 英國 UK', 'ca': '🇨🇦 加拿大 Canada', 'au': '🇦🇺 澳洲 Australia', 'nz': '🇳🇿 紐西蘭 New Zealand', 'ie': '🇮🇪 愛爾蘭 Ireland', 'za': '🇿🇦 南非 South Africa',
+            'es': '🇪🇸 西班牙 Spain', 'pt': '🇵🇹 葡萄牙 Portugal', 'it': '🇮🇹 義大利 Italy', 'se': '🇸🇪 瑞典 Sweden', 'de': '🇩🇪 德國 Germany', 'dk': '丹麥 Denmark', 'ro': '羅馬尼亞 Romania', 'nl': '荷蘭 Netherlands', 'gr': '希臘 Greece', 'fr': '法國 France',
+            'tr': '土耳其 Turkey', 'ru': '俄羅斯 Russia', 'br': '巴西 Brazil'
+        };
+
+        const CATEGORIES = [
+            { id: 'platform', label: '裝置類型' },
+            { id: 'os_all', label: '作業系統' },
+            { id: 'browser_all', label: '瀏覽器市佔' },
+            { id: 'resolution_all', label: '解析度' },
+            { id: 'search_engine_all', label: '搜尋引擎' },
+            { id: 'social_media_all', label: '社群媒體' },
+            { id: 'vendor_mobile', label: '供應商(手機)' },
+            { id: 'vendor_tablet', label: '供應商(平板)' }
+        ];
+
+        const PLATFORMS = { 'all': '所有', 'mobile': '手機', 'desktop': '電腦', 'tablet': '平板' };
+        let cache = {};
+
+        async function getJSON(code) {
+            if (cache[code]) return cache[code];
+            const ts = new Date().getTime();
+            try {
+                const r = await fetch(`statcounter_data/${code}_data.json?v=${ts}`, { cache: 'no-store' });
+                if (!r.ok) return null;
+                const d = await r.json(); cache[code] = d; return d;
+            } catch { return null; }
+        }
+
+        window.onload = async () => {
+            initInputs();
+            await renderFullView('global', 'globalContainer', '#0561FF');
+            await renderFullView('tw', 'marketContainer', '#EA580C');
+            await updateDetailGrid();
+        };
+
+        function initInputs() {
+            const ms = document.getElementById('marketSelect');
+            const fc = document.getElementById('filterCountry');
+            const fca = document.getElementById('filterCategory');
+            const fp = document.getElementById('filterPlatform');
+
+            Object.entries(COUNTRIES).forEach(([id, name]) => {
+                const op = (c, v) => { const o = document.createElement('option'); o.value=v; o.textContent=c; return o; };
+                ms.appendChild(op(name, id));
+                fc.appendChild(op(name, id));
+            });
+
+            const allCat = document.createElement('option'); allCat.value='all_types'; allCat.textContent='全部類別'; fca.appendChild(allCat);
+            CATEGORIES.forEach(c => { const o = document.createElement('option'); o.value=c.id; o.textContent=c.label; fca.appendChild(o); });
+            Object.entries(PLATFORMS).forEach(([id, name]) => { const o = document.createElement('option'); o.value=id; o.textContent=name; fp.appendChild(o); });
+
+            ms.value = fc.value = 'tw';
+            fca.value = 'all_types';
+            fp.value = 'all';
+
+            [fc, fca, fp].forEach(e => e.addEventListener('change', updateDetailGrid));
+        }
+
+        async function renderFullView(code, containerId, color) {
+            const data = await getJSON(code);
+            const container = document.getElementById(containerId);
+            if (!data) { container.innerHTML = '<p class="p-8 text-center font-bold text-slate-400">數據同步中...</p>'; return; }
+
+            if (code === 'global') {
+                document.getElementById('lastUpdated').textContent = `🕒 最後同步：${data.update_time}`;
+                
+                // 計算「統計至昨日」的日期
+                try {
+                    const syncDateStr = data.update_time.split(' ')[0]; // 取得 YYYY-MM-DD
+                    const syncDate = new Date(syncDateStr);
+                    syncDate.setDate(syncDate.getDate() - 1);
+                    const yesterdayStr = syncDate.toISOString().split('T')[0];
+                    document.getElementById('dataDate').textContent = `📊 數據統計至昨日：${yesterdayStr}`;
+                } catch (e) {
+                    document.getElementById('dataDate').textContent = `📅 數據日期：${data.data_date || '當前月份'}`;
+                }
+            }
+            if (code === document.getElementById('marketSelect').value) {
+                document.getElementById('currentMarketName').textContent = COUNTRIES[code] || code;
+            }
+
+            container.innerHTML = '';
+            Object.entries(PLATFORMS).forEach(([platId, platName]) => {
+                const rowTemp = document.getElementById('platformRowTemplate');
+                const row = rowTemp.content.cloneNode(true);
+                row.querySelector('.platform-row-label').textContent = platName;
+                const cardsBox = row.querySelector('.cards-wrapper');
+
+                CATEGORIES.forEach(cat => {
+                    const key = cat.id.includes('_all') ? cat.id.replace('_all', '_market_share') : cat.id;
+                    const catDataObj = data.data[cat.id] || data.data[key];
+                    if (!catDataObj || !catDataObj[platId]) return;
+
+                    const activeData = catDataObj[platId];
+                    const card = document.createElement('div');
+                    card.className = "compact-card glass-card flex flex-col gap-2 relative";
+                    card.style.borderTopColor = color;
+                    card.onclick = () => window.open(activeData.url, '_blank');
+                    
+                    let inner = `
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm font-black text-slate-600 truncate tracking-wider">${cat.label}</span>
+                            <span class="text-slate-300"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></span>
+                        </div>
+                        <div class="flex flex-col gap-0.5">
+                    `;
+                    activeData.data.slice(0, 3).forEach(item => {
+                        inner += `<div class="flex justify-between items-center"><span class="senior-name truncate max-w-[95px]">${item.name}</span><span class="senior-value">${item.value.toFixed(1)}%</span></div>`;
+                    });
+                    inner += `</div>`;
+                    card.innerHTML = inner;
+                    cardsBox.appendChild(card);
+                });
+                container.appendChild(row);
+            });
+        }
+
+        async function updateMarketView() {
+            const code = document.getElementById('marketSelect').value;
+            await renderFullView(code, 'marketContainer', '#EA580C');
+        }
+
+        async function updateDetailGrid() {
+            const country = document.getElementById('filterCountry').value;
+            const catId = document.getElementById('filterCategory').value;
+            const platId = document.getElementById('filterPlatform').value;
+            const grid = document.getElementById('detailGrid');
+            
+            const data = await getJSON(country);
+            if (!data) { grid.innerHTML = '<div class="col-span-full py-10 text-center font-bold text-slate-400">數據未就緒</div>'; return; }
+
+            grid.innerHTML = '';
+            const targets = catId === 'all_types' ? CATEGORIES : CATEGORIES.filter(c => c.id === catId);
+
+            targets.forEach(cat => {
+                const key = cat.id.includes('_all') ? cat.id.replace('_all', '_market_share') : cat.id;
+                const catDataObj = data.data[cat.id] || data.data[key];
+                if (!catDataObj || !catDataObj[platId]) return;
+
+                const activeData = catDataObj[platId];
+                const box = document.createElement('div');
+                box.className = 'chart-box flex flex-col gap-4';
+                
+                let tableHtml = `<div class="mt-2 border-t pt-2"><table class="w-full data-table-text">`;
+                activeData.data.slice(0, 6).forEach(item => {
+                    tableHtml += `<tr><td class="font-bold text-slate-600 py-0.5">${item.name}</td><td class="text-right font-black text-brand-blue">${item.value.toFixed(2)}%</td></tr>`;
+                });
+                tableHtml += `</table></div>`;
+
+                box.innerHTML = `
+                    <div class="flex justify-between items-start">
+                        <div class="cursor-pointer" onclick="window.open('${activeData.url}', '_blank')">
+                            <h4 class="text-xl font-black text-slate-700 leading-tight hover:text-brand-blue">${cat.label}</h4>
+                            <span class="text-sm font-bold text-brand-indigo">${PLATFORMS[platId]}平台</span>
+                        </div>
+                        <a href="${activeData.url}" target="_blank" class="bg-brand-indigo/10 text-brand-indigo px-2.5 py-1 rounded-full text-[10px] font-bold hover:bg-brand-indigo/20">查看來源</a>
+                    </div>
+                    <div class="flex-grow min-h-[140px] flex items-center justify-center relative"><canvas></canvas></div>
+                    ${tableHtml}
+                `;
+                grid.appendChild(box);
+
+                const canvas = box.querySelector('canvas');
+                new Chart(canvas, {
+                    type: 'doughnut',
+                    data: {
+                        labels: activeData.data.slice(0, 6).map(i => i.name),
+                        datasets: [{
+                            data: activeData.data.slice(0, 6).map(i => i.value),
+                            backgroundColor: ['#0561FF', '#EA580C', '#4F46E5', '#10B981', '#F59E0B', '#6366F1'],
+                            borderWidth: 2,
+                            borderColor: '#ffffff'
+                        }]
+                    },
+                    options: {
+                        responsive: true, maintainAspectRatio: false,
+                        plugins: { legend: { display: false } },
+                        cutout: '70%',
+                        animation: { animateRotate: true, animateScale: true }
+                    }
+                });
+            });
+        }
+    </script>
+</body>
+</html>

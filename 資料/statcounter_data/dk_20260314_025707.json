@@ -1,0 +1,652 @@
+{
+  "country_code": "dk",
+  "country_name": "丹麥",
+  "update_time": "2026-03-14 02:53:25",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/denmark",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 61.55
+          },
+          {
+            "name": "Mobile",
+            "value": 36.29
+          },
+          {
+            "name": "Tablet",
+            "value": 2.16
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/denmark",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 41.75
+          },
+          {
+            "name": "iOS",
+            "value": 23.57
+          },
+          {
+            "name": "Android",
+            "value": 14.73
+          },
+          {
+            "name": "macOS",
+            "value": 7.48
+          },
+          {
+            "name": "OS X",
+            "value": 7.35
+          },
+          {
+            "name": "Unknown",
+            "value": 2.78
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/denmark",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 60.52
+          },
+          {
+            "name": "Android",
+            "value": 39.09
+          },
+          {
+            "name": "Samsung",
+            "value": 0.39
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/denmark",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 67.84
+          },
+          {
+            "name": "macOS",
+            "value": 12.16
+          },
+          {
+            "name": "OS X",
+            "value": 11.95
+          },
+          {
+            "name": "Unknown",
+            "value": 4.52
+          },
+          {
+            "name": "Chrome OS",
+            "value": 2.02
+          },
+          {
+            "name": "Linux",
+            "value": 1.53
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/denmark",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 74.53
+          },
+          {
+            "name": "Android",
+            "value": 25.45
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/denmark",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 55.82
+          },
+          {
+            "name": "Safari",
+            "value": 26.13
+          },
+          {
+            "name": "Edge",
+            "value": 9.36
+          },
+          {
+            "name": "Firefox",
+            "value": 3.19
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.13
+          },
+          {
+            "name": "Opera",
+            "value": 1.99
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/denmark",
+        "data": [
+          {
+            "name": "Safari",
+            "value": 51.14
+          },
+          {
+            "name": "Chrome",
+            "value": 39.82
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.86
+          },
+          {
+            "name": "Firefox",
+            "value": 1.12
+          },
+          {
+            "name": "Edge",
+            "value": 0.42
+          },
+          {
+            "name": "Opera",
+            "value": 0.39
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/denmark",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 65.46
+          },
+          {
+            "name": "Edge",
+            "value": 14.93
+          },
+          {
+            "name": "Safari",
+            "value": 10.73
+          },
+          {
+            "name": "Firefox",
+            "value": 4.51
+          },
+          {
+            "name": "Opera",
+            "value": 2.98
+          },
+          {
+            "name": "Brave",
+            "value": 1.12
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/denmark",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 50.17
+          },
+          {
+            "name": "Safari",
+            "value": 45.16
+          },
+          {
+            "name": "Android",
+            "value": 2.95
+          },
+          {
+            "name": "Edge",
+            "value": 0.85
+          },
+          {
+            "name": "Opera",
+            "value": 0.62
+          },
+          {
+            "name": "Unknown",
+            "value": 0.1
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/denmark",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 19.63
+          },
+          {
+            "name": "414x896",
+            "value": 8.8
+          },
+          {
+            "name": "390x844",
+            "value": 6.86
+          },
+          {
+            "name": "1536x864",
+            "value": 5.13
+          },
+          {
+            "name": "2560x1440",
+            "value": 4.43
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/denmark",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 24.17
+          },
+          {
+            "name": "390x844",
+            "value": 18.83
+          },
+          {
+            "name": "360x780",
+            "value": 5.35
+          },
+          {
+            "name": "375x667",
+            "value": 5.04
+          },
+          {
+            "name": "384x832",
+            "value": 4.77
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/denmark",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 31.8
+          },
+          {
+            "name": "1536x864",
+            "value": 8.36
+          },
+          {
+            "name": "2560x1440",
+            "value": 7.22
+          },
+          {
+            "name": "1440x900",
+            "value": 7.12
+          },
+          {
+            "name": "1280x720",
+            "value": 4.78
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/denmark",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 11.95
+          },
+          {
+            "name": "810x1080",
+            "value": 10.0
+          },
+          {
+            "name": "820x1180",
+            "value": 6.17
+          },
+          {
+            "name": "1280x800",
+            "value": 6.11
+          },
+          {
+            "name": "800x1280",
+            "value": 4.72
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/denmark",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.52
+          },
+          {
+            "name": "Samsung",
+            "value": 22.02
+          },
+          {
+            "name": "OnePlus",
+            "value": 4.26
+          },
+          {
+            "name": "Unknown",
+            "value": 3.2
+          },
+          {
+            "name": "Motorola",
+            "value": 2.99
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/denmark",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 60.52
+          },
+          {
+            "name": "Samsung",
+            "value": 22.02
+          },
+          {
+            "name": "OnePlus",
+            "value": 4.26
+          },
+          {
+            "name": "Unknown",
+            "value": 3.2
+          },
+          {
+            "name": "Motorola",
+            "value": 2.99
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/denmark",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 74.53
+          },
+          {
+            "name": "Samsung",
+            "value": 17.79
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.4
+          },
+          {
+            "name": "Huawei",
+            "value": 2.52
+          },
+          {
+            "name": "Unknown",
+            "value": 1.16
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/denmark",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 74.53
+          },
+          {
+            "name": "Samsung",
+            "value": 17.79
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.4
+          },
+          {
+            "name": "Huawei",
+            "value": 2.52
+          },
+          {
+            "name": "Unknown",
+            "value": 1.16
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/denmark",
+        "data": [
+          {
+            "name": "Google",
+            "value": 86.45
+          },
+          {
+            "name": "bing",
+            "value": 8.43
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.96
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.48
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.83
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/denmark",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.08
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.35
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.2
+          },
+          {
+            "name": "bing",
+            "value": 0.74
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.73
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/denmark",
+        "data": [
+          {
+            "name": "Google",
+            "value": 80.81
+          },
+          {
+            "name": "bing",
+            "value": 13.38
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.94
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.58
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.61
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/denmark",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.34
+          },
+          {
+            "name": "bing",
+            "value": 1.6
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.75
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.47
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.43
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/denmark",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 86.93
+          },
+          {
+            "name": "Pinterest",
+            "value": 4.32
+          },
+          {
+            "name": "Instagram",
+            "value": 3.33
+          },
+          {
+            "name": "Twitter",
+            "value": 2.74
+          },
+          {
+            "name": "YouTube",
+            "value": 1.12
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/denmark",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 91.18
+          },
+          {
+            "name": "Instagram",
+            "value": 3.94
+          },
+          {
+            "name": "Twitter",
+            "value": 2.19
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.6
+          },
+          {
+            "name": "YouTube",
+            "value": 0.56
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/denmark",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 56.11
+          },
+          {
+            "name": "Pinterest",
+            "value": 18.19
+          },
+          {
+            "name": "Twitter",
+            "value": 8.42
+          },
+          {
+            "name": "YouTube",
+            "value": 6.13
+          },
+          {
+            "name": "LinkedIn",
+            "value": 3.34
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/denmark",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 84.89
+          },
+          {
+            "name": "Pinterest",
+            "value": 13.48
+          },
+          {
+            "name": "Twitter",
+            "value": 0.75
+          },
+          {
+            "name": "Instagram",
+            "value": 0.57
+          },
+          {
+            "name": "YouTube",
+            "value": 0.13
+          }
+        ]
+      }
+    }
+  }
+}
