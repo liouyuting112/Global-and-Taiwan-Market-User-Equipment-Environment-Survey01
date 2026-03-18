@@ -10,7 +10,7 @@ import re
 import time
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from typing import Dict, List, Any
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -326,7 +326,7 @@ def scrape_country_data(driver, country_code):
     scraped_data = {
         'country_code': country_code,
         'country_name': country_name,
-        'update_time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'update_time': datetime.now(timezone(timedelta(hours=8))).strftime('%Y-%m-%d %H:%M:%S'),
         'data': {}
     }
     
@@ -389,7 +389,9 @@ def save_data_to_json(data, output_dir='statcounter_data'):
     
     country_code = data['country_code']
     # 格式化為 {country_code}_{YYYYMMDD_HHMMSS}.json，以支援月度更新腳本
-    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    # 強制使用台灣時間 (UTC+8) 作為檔名時間戳
+    tw_now = datetime.now(timezone(timedelta(hours=8)))
+    timestamp = tw_now.strftime('%Y%m%d_%H%M%S')
     filename = f"{country_code}_{timestamp}.json"
     filepath = os.path.join(output_dir, filename)
     
