@@ -1,7 +1,7 @@
 {
   "country_code": "mo",
   "country_name": "澳門",
-  "update_time": "2026-03-24 07:40:18",
+  "update_time": "2026-03-25 07:39:36",
   "data": {
     "platform": {
       "all": {
@@ -524,15 +524,15 @@
             "value": 0.67
           },
           {
-            "name": "bing",
-            "value": 0.17
-          },
-          {
             "name": "CocCoc",
             "value": 0.17
           },
           {
             "name": "DuckDuckGo",
+            "value": 0.17
+          },
+          {
+            "name": "YANDEX",
             "value": 0.17
           }
         ]
@@ -580,11 +580,11 @@
             "value": 3.7
           },
           {
-            "name": "YouTube",
+            "name": "Pinterest",
             "value": 2.47
           },
           {
-            "name": "Pinterest",
+            "name": "YouTube",
             "value": 2.47
           }
         ]
