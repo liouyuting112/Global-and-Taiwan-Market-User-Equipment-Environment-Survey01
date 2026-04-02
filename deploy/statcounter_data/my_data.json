@@ -1,7 +1,7 @@
 {
   "country_code": "my",
   "country_name": "馬來西亞",
-  "update_time": "2026-04-01 07:46:05",
+  "update_time": "2026-04-02 07:54:28",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Desktop",
-            "value": 60.83
+            "value": 55.53
           },
           {
             "name": "Mobile",
-            "value": 38.29
+            "value": 43.19
           },
           {
             "name": "Tablet",
-            "value": 0.89
+            "value": 1.28
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 43.44
+            "value": 38.23
           },
           {
             "name": "Android",
-            "value": 23.55
+            "value": 23.46
           },
           {
             "name": "iOS",
-            "value": 15.45
+            "value": 20.8
           },
           {
             "name": "Unknown",
-            "value": 7.17
-          },
-          {
-            "name": "Chrome OS",
-            "value": 4.88
+            "value": 8.14
           },
           {
             "name": "OS X",
-            "value": 2.65
+            "value": 3.34
+          },
+          {
+            "name": "Linux",
+            "value": 2.33
           }
         ]
       },
@@ -57,19 +57,19 @@
         "data": [
           {
             "name": "Android",
-            "value": 60.41
+            "value": 52.85
           },
           {
             "name": "iOS",
-            "value": 39.13
+            "value": 46.68
           },
           {
             "name": "Samsung",
-            "value": 0.27
+            "value": 0.32
           },
           {
             "name": "Unknown",
-            "value": 0.18
+            "value": 0.14
           },
           {
             "name": "Linux",
@@ -82,27 +82,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 71.41
+            "value": 68.85
           },
           {
             "name": "Unknown",
-            "value": 11.68
-          },
-          {
-            "name": "Chrome OS",
-            "value": 8.02
+            "value": 14.55
           },
           {
             "name": "OS X",
-            "value": 4.35
+            "value": 6.01
           },
           {
             "name": "Linux",
-            "value": 2.44
+            "value": 4.18
+          },
+          {
+            "name": "Chrome OS",
+            "value": 4.14
           },
           {
             "name": "macOS",
-            "value": 2.1
+            "value": 2.27
           }
         ]
       },
@@ -111,15 +111,15 @@
         "data": [
           {
             "name": "iOS",
-            "value": 52.46
+            "value": 50.22
           },
           {
             "name": "Android",
-            "value": 47.48
+            "value": 49.75
           },
           {
             "name": "Linux",
-            "value": 0.05
+            "value": 0.03
           }
         ]
       }
@@ -130,19 +130,19 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 76.53
+            "value": 71.2
           },
           {
             "name": "Safari",
-            "value": 14.18
+            "value": 19.95
           },
           {
             "name": "Edge",
-            "value": 3.67
+            "value": 3.74
           },
           {
             "name": "Firefox",
-            "value": 1.81
+            "value": 1.5
           },
           {
             "name": "Opera",
@@ -150,7 +150,7 @@
           },
           {
             "name": "Samsung Internet",
-            "value": 1.17
+            "value": 1.18
           }
         ]
       },
@@ -159,27 +159,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 61.3
+            "value": 54.8
           },
           {
             "name": "Safari",
-            "value": 31.47
+            "value": 39.11
           },
           {
             "name": "Samsung Internet",
-            "value": 3.07
+            "value": 2.73
           },
           {
             "name": "UC Browser",
-            "value": 1.73
+            "value": 1.3
           },
           {
             "name": "Opera",
-            "value": 1.15
+            "value": 1.0
           },
           {
             "name": "Firefox",
-            "value": 0.52
+            "value": 0.44
           }
         ]
       },
@@ -188,27 +188,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 86.2
+            "value": 83.9
           },
           {
             "name": "Edge",
-            "value": 5.91
+            "value": 6.61
           },
           {
             "name": "Safari",
-            "value": 3.19
+            "value": 4.99
           },
           {
             "name": "Firefox",
-            "value": 2.65
+            "value": 2.36
           },
           {
             "name": "Opera",
-            "value": 1.35
+            "value": 1.48
           },
           {
             "name": "Brave",
-            "value": 0.51
+            "value": 0.49
           }
         ]
       },
@@ -217,27 +217,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 71.44
+            "value": 73.37
           },
           {
             "name": "Safari",
-            "value": 21.77
+            "value": 22.76
           },
           {
             "name": "Android",
-            "value": 3.91
+            "value": 1.76
           },
           {
             "name": "Opera",
-            "value": 1.24
+            "value": 1.07
           },
           {
             "name": "UC Browser",
-            "value": 1.0
+            "value": 0.66
           },
           {
             "name": "Edge",
-            "value": 0.46
+            "value": 0.28
           }
         ]
       }
@@ -247,24 +247,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/all/malaysia",
         "data": [
           {
-            "name": "1366x768",
-            "value": 9.95
-          },
-          {
             "name": "1920x1080",
-            "value": 9.71
+            "value": 11.14
           },
           {
             "name": "414x896",
-            "value": 6.87
+            "value": 9.64
           },
           {
             "name": "1536x864",
-            "value": 6.82
+            "value": 8.77
           },
           {
-            "name": "1280x1200",
-            "value": 6.73
+            "name": "1366x768",
+            "value": 7.14
+          },
+          {
+            "name": "390x844",
+            "value": 4.69
           }
         ]
       },
@@ -273,23 +273,23 @@
         "data": [
           {
             "name": "414x896",
-            "value": 17.33
-          },
-          {
-            "name": "360x800",
-            "value": 9.4
+            "value": 21.72
           },
           {
             "name": "390x844",
-            "value": 6.96
+            "value": 10.62
+          },
+          {
+            "name": "360x800",
+            "value": 8.13
           },
           {
             "name": "393x873",
-            "value": 4.64
+            "value": 4.44
           },
           {
             "name": "384x832",
-            "value": 2.99
+            "value": 2.92
           }
         ]
       },
@@ -297,24 +297,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/malaysia",
         "data": [
           {
-            "name": "1366x768",
-            "value": 16.67
-          },
-          {
             "name": "1920x1080",
-            "value": 16.22
+            "value": 20.41
           },
           {
             "name": "1536x864",
-            "value": 11.43
+            "value": 16.09
           },
           {
-            "name": "1280x1200",
-            "value": 11.28
+            "name": "1366x768",
+            "value": 13.09
           },
           {
             "name": "1280x720",
-            "value": 7.06
+            "value": 6.22
+          },
+          {
+            "name": "1600x900",
+            "value": 2.47
           }
         ]
       },
@@ -322,24 +322,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/malaysia",
         "data": [
           {
-            "name": "820x1180",
-            "value": 9.05
-          },
-          {
             "name": "1280x800",
-            "value": 6.9
+            "value": 12.25
           },
           {
-            "name": "768x1024",
-            "value": 6.3
+            "name": "820x1180",
+            "value": 10.69
           },
           {
             "name": "800x1280",
-            "value": 4.82
+            "value": 7.97
+          },
+          {
+            "name": "768x1024",
+            "value": 4.38
           },
           {
             "name": "810x1080",
-            "value": 4.17
+            "value": 3.92
           }
         ]
       }
@@ -350,23 +350,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 39.13
+            "value": 46.68
           },
           {
             "name": "Samsung",
-            "value": 12.75
+            "value": 11.58
           },
           {
             "name": "Oppo",
-            "value": 9.07
-          },
-          {
-            "name": "Unknown",
-            "value": 8.55
+            "value": 7.73
           },
           {
             "name": "Xiaomi",
-            "value": 7.65
+            "value": 7.1
+          },
+          {
+            "name": "Unknown",
+            "value": 6.65
           }
         ]
       },
@@ -375,23 +375,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 39.13
+            "value": 46.68
           },
           {
             "name": "Samsung",
-            "value": 12.75
+            "value": 11.58
           },
           {
             "name": "Oppo",
-            "value": 9.07
-          },
-          {
-            "name": "Unknown",
-            "value": 8.55
+            "value": 7.73
           },
           {
             "name": "Xiaomi",
-            "value": 7.65
+            "value": 7.1
+          },
+          {
+            "name": "Unknown",
+            "value": 6.65
           }
         ]
       }
@@ -402,23 +402,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 52.46
+            "value": 50.22
           },
           {
             "name": "Samsung",
-            "value": 28.97
+            "value": 34.37
           },
           {
             "name": "Xiaomi",
-            "value": 5.45
+            "value": 4.88
           },
           {
             "name": "Honor",
-            "value": 3.6
+            "value": 3.34
           },
           {
-            "name": "Unknown",
-            "value": 2.97
+            "name": "Huawei",
+            "value": 1.87
           }
         ]
       },
@@ -427,23 +427,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 52.46
+            "value": 50.22
           },
           {
             "name": "Samsung",
-            "value": 28.97
+            "value": 34.37
           },
           {
             "name": "Xiaomi",
-            "value": 5.45
+            "value": 4.88
           },
           {
             "name": "Honor",
-            "value": 3.6
+            "value": 3.34
           },
           {
-            "name": "Unknown",
-            "value": 2.97
+            "name": "Huawei",
+            "value": 1.87
           }
         ]
       }
@@ -454,23 +454,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 93.89
+            "value": 93.51
           },
           {
             "name": "bing",
-            "value": 3.49
+            "value": 3.74
           },
           {
             "name": "Yahoo!",
-            "value": 1.46
+            "value": 1.56
           },
           {
             "name": "YANDEX",
-            "value": 0.77
+            "value": 0.82
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.26
+            "value": 0.24
           }
         ]
       },
@@ -479,23 +479,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 97.42
+            "value": 97.47
           },
           {
             "name": "YANDEX",
-            "value": 1.09
+            "value": 1.17
           },
           {
             "name": "bing",
-            "value": 0.71
+            "value": 0.69
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.37
+            "value": 0.33
           },
           {
             "name": "Yahoo!",
-            "value": 0.23
+            "value": 0.16
           }
         ]
       },
@@ -504,23 +504,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 89.9
+            "value": 89.42
           },
           {
             "name": "bing",
-            "value": 6.62
+            "value": 6.9
           },
           {
             "name": "Yahoo!",
-            "value": 2.85
+            "value": 3.01
           },
           {
             "name": "YANDEX",
-            "value": 0.42
+            "value": 0.45
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.15
+            "value": 0.14
           }
         ]
       },
@@ -529,23 +529,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 98.18
-          },
-          {
-            "name": "bing",
-            "value": 0.81
+            "value": 97.44
           },
           {
             "name": "YANDEX",
-            "value": 0.63
+            "value": 1.2
+          },
+          {
+            "name": "bing",
+            "value": 0.72
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.16
+            "value": 0.27
           },
           {
             "name": "Yahoo!",
-            "value": 0.1
+            "value": 0.19
           }
         ]
       }
@@ -556,23 +556,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 69.97
-          },
-          {
-            "name": "Twitter",
-            "value": 8.18
+            "value": 47.22
           },
           {
             "name": "YouTube",
-            "value": 8.02
+            "value": 36.25
           },
           {
-            "name": "Pinterest",
-            "value": 7.56
+            "name": "Twitter",
+            "value": 5.39
           },
           {
             "name": "Instagram",
-            "value": 4.59
+            "value": 4.94
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.94
           }
         ]
       },
@@ -581,23 +581,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 79.12
-          },
-          {
-            "name": "Twitter",
-            "value": 7.12
+            "value": 56.85
           },
           {
             "name": "YouTube",
-            "value": 5.35
+            "value": 30.24
           },
           {
             "name": "Instagram",
-            "value": 5.21
+            "value": 6.07
+          },
+          {
+            "name": "Twitter",
+            "value": 4.53
           },
           {
             "name": "Pinterest",
-            "value": 2.38
+            "value": 1.26
           }
         ]
       },
@@ -605,24 +605,24 @@
         "url": "https://gs.statcounter.com/social-media-stats/desktop/malaysia",
         "data": [
           {
+            "name": "YouTube",
+            "value": 59.74
+          },
+          {
             "name": "Pinterest",
-            "value": 31.56
+            "value": 13.16
           },
           {
             "name": "Facebook",
-            "value": 26.37
-          },
-          {
-            "name": "YouTube",
-            "value": 21.1
+            "value": 10.93
           },
           {
             "name": "Twitter",
-            "value": 13.35
+            "value": 8.66
           },
           {
-            "name": "LinkedIn",
-            "value": 2.84
+            "name": "reddit",
+            "value": 4.63
           }
         ]
       },
@@ -631,23 +631,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 55.01
+            "value": 55.33
           },
           {
             "name": "Pinterest",
-            "value": 22.76
+            "value": 16.79
           },
           {
             "name": "YouTube",
-            "value": 8.4
+            "value": 16.64
+          },
+          {
+            "name": "Instagram",
+            "value": 4.2
           },
           {
             "name": "Twitter",
-            "value": 8.4
-          },
-          {
-            "name": "reddit",
-            "value": 2.44
+            "value": 3.86
           }
         ]
       }
