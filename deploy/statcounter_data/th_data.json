@@ -1,7 +1,7 @@
 {
   "country_code": "th",
   "country_name": "泰國",
-  "update_time": "2026-04-02 07:33:47",
+  "update_time": "2026-04-03 07:31:20",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 67.36
+            "value": 67.34
           },
           {
             "name": "Desktop",
-            "value": 30.15
+            "value": 30.18
           },
           {
             "name": "Tablet",
-            "value": 2.49
+            "value": 2.48
           }
         ]
       }
@@ -28,23 +28,23 @@
         "data": [
           {
             "name": "Android",
-            "value": 46.32
+            "value": 46.3
           },
           {
             "name": "iOS",
-            "value": 23.24
+            "value": 23.23
           },
           {
             "name": "Unknown",
-            "value": 17.4
+            "value": 17.42
           },
           {
             "name": "Windows",
-            "value": 9.73
+            "value": 9.75
           },
           {
             "name": "OS X",
-            "value": 1.52
+            "value": 1.51
           },
           {
             "name": "Linux",
@@ -61,11 +61,11 @@
           },
           {
             "name": "iOS",
-            "value": 32.13
+            "value": 32.14
           },
           {
             "name": "Samsung",
-            "value": 0.37
+            "value": 0.36
           },
           {
             "name": "Unknown",
@@ -86,15 +86,15 @@
         "data": [
           {
             "name": "Unknown",
-            "value": 57.64
+            "value": 57.63
           },
           {
             "name": "Windows",
-            "value": 32.25
+            "value": 32.29
           },
           {
             "name": "OS X",
-            "value": 5.04
+            "value": 5.02
           },
           {
             "name": "Linux",
@@ -115,11 +115,11 @@
         "data": [
           {
             "name": "iOS",
-            "value": 64.04
+            "value": 64.0
           },
           {
             "name": "Android",
-            "value": 35.95
+            "value": 35.99
           },
           {
             "name": "Linux",
@@ -134,11 +134,11 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 75.66
+            "value": 75.67
           },
           {
             "name": "Safari",
-            "value": 17.34
+            "value": 17.33
           },
           {
             "name": "Samsung Internet",
@@ -160,11 +160,61 @@
       },
       "mobile": {
         "url": "https://gs.statcounter.com/browser-market-share/mobile/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 70.77
+          },
+          {
+            "name": "Safari",
+            "value": 22.56
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.09
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.47
+          },
+          {
+            "name": "Opera",
+            "value": 0.45
+          },
+          {
+            "name": "Firefox",
+            "value": 0.3
+          }
+        ]
       },
       "desktop": {
         "url": "https://gs.statcounter.com/browser-market-share/desktop/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 87.08
+          },
+          {
+            "name": "Safari",
+            "value": 4.79
+          },
+          {
+            "name": "Edge",
+            "value": 3.84
+          },
+          {
+            "name": "Firefox",
+            "value": 1.42
+          },
+          {
+            "name": "Pale Moon",
+            "value": 1.36
+          },
+          {
+            "name": "Opera",
+            "value": 0.85
+          }
+        ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/browser-market-share/tablet/thailand",
@@ -175,7 +225,7 @@
           },
           {
             "name": "Safari",
-            "value": 27.94
+            "value": 27.95
           },
           {
             "name": "Android",
@@ -199,11 +249,53 @@
     "resolution_all": {
       "all": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/all/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "414x896",
+            "value": 11.19
+          },
+          {
+            "name": "360x800",
+            "value": 9.64
+          },
+          {
+            "name": "390x844",
+            "value": 5.58
+          },
+          {
+            "name": "384x832",
+            "value": 5.54
+          },
+          {
+            "name": "1920x1080",
+            "value": 3.96
+          }
+        ]
       },
       "mobile": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "414x896",
+            "value": 16.52
+          },
+          {
+            "name": "360x800",
+            "value": 11.91
+          },
+          {
+            "name": "390x844",
+            "value": 8.26
+          },
+          {
+            "name": "384x832",
+            "value": 5.11
+          },
+          {
+            "name": "360x806",
+            "value": 3.94
+          }
+        ]
       },
       "desktop": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/thailand",
@@ -214,7 +306,7 @@
           },
           {
             "name": "384x832",
-            "value": 6.97
+            "value": 6.96
           },
           {
             "name": "360x800",
@@ -222,7 +314,7 @@
           },
           {
             "name": "1536x864",
-            "value": 5.28
+            "value": 5.29
           },
           {
             "name": "360x802",
@@ -232,17 +324,80 @@
       },
       "tablet": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "820x1180",
+            "value": 9.58
+          },
+          {
+            "name": "768x1024",
+            "value": 6.38
+          },
+          {
+            "name": "810x1080",
+            "value": 6.28
+          },
+          {
+            "name": "601x1007",
+            "value": 4.58
+          },
+          {
+            "name": "820x1048",
+            "value": 2.81
+          }
+        ]
       }
     },
     "vendor_mobile": {
       "all": {
         "url": "https://gs.statcounter.com/vendor-market-share/mobile/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Apple",
+            "value": 32.14
+          },
+          {
+            "name": "Samsung",
+            "value": 21.37
+          },
+          {
+            "name": "Oppo",
+            "value": 16.75
+          },
+          {
+            "name": "Vivo",
+            "value": 10.94
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.0
+          }
+        ]
       },
       "mobile": {
         "url": "https://gs.statcounter.com/vendor-market-share/mobile/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Apple",
+            "value": 32.14
+          },
+          {
+            "name": "Samsung",
+            "value": 21.37
+          },
+          {
+            "name": "Oppo",
+            "value": 16.75
+          },
+          {
+            "name": "Vivo",
+            "value": 10.94
+          },
+          {
+            "name": "Xiaomi",
+            "value": 7.0
+          }
+        ]
       }
     },
     "vendor_tablet": {
@@ -251,23 +406,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 64.04
+            "value": 64.0
           },
           {
             "name": "Samsung",
-            "value": 26.48
+            "value": 26.55
           },
           {
             "name": "Xiaomi",
-            "value": 3.89
+            "value": 3.87
           },
           {
             "name": "Huawei",
-            "value": 2.14
+            "value": 2.15
           },
           {
             "name": "Realme",
-            "value": 1.07
+            "value": 1.08
           }
         ]
       },
@@ -276,23 +431,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 64.04
+            "value": 64.0
           },
           {
             "name": "Samsung",
-            "value": 26.48
+            "value": 26.55
           },
           {
             "name": "Xiaomi",
-            "value": 3.89
+            "value": 3.87
           },
           {
             "name": "Huawei",
-            "value": 2.14
+            "value": 2.15
           },
           {
             "name": "Realme",
-            "value": 1.07
+            "value": 1.08
           }
         ]
       }
@@ -353,7 +508,7 @@
         "data": [
           {
             "name": "Google",
-            "value": 98.68
+            "value": 98.67
           },
           {
             "name": "bing",
@@ -401,23 +556,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 55.88
+            "value": 55.99
           },
           {
             "name": "Twitter",
-            "value": 22.89
+            "value": 22.82
           },
           {
             "name": "YouTube",
-            "value": 14.49
+            "value": 14.29
           },
           {
             "name": "Instagram",
-            "value": 3.79
+            "value": 3.91
           },
           {
             "name": "Pinterest",
-            "value": 1.53
+            "value": 1.55
           }
         ]
       },
@@ -426,23 +581,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 60.45
+            "value": 60.55
           },
           {
             "name": "Twitter",
-            "value": 21.15
+            "value": 21.05
           },
           {
             "name": "YouTube",
-            "value": 12.79
+            "value": 12.6
           },
           {
             "name": "Instagram",
-            "value": 4.49
+            "value": 4.64
           },
           {
             "name": "VKontakte",
-            "value": 0.42
+            "value": 0.45
           }
         ]
       },
@@ -451,29 +606,50 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 34.15
+            "value": 34.31
           },
           {
             "name": "Twitter",
-            "value": 32.01
+            "value": 32.03
           },
           {
             "name": "YouTube",
-            "value": 23.08
+            "value": 22.78
           },
           {
             "name": "Pinterest",
-            "value": 5.82
+            "value": 5.9
           },
           {
             "name": "reddit",
-            "value": 1.93
+            "value": 1.92
           }
         ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/social-media-stats/tablet/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 73.9
+          },
+          {
+            "name": "Twitter",
+            "value": 9.28
+          },
+          {
+            "name": "Pinterest",
+            "value": 6.63
+          },
+          {
+            "name": "Instagram",
+            "value": 5.53
+          },
+          {
+            "name": "YouTube",
+            "value": 3.83
+          }
+        ]
       }
     }
   }
