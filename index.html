@@ -26,14 +26,14 @@
         @media (max-width: 768px) {
             .platform-row-label { min-width: 60px; font-size: 0.9rem; padding: 0.4rem; }
         }
-        .senior-value { font-size: 1.25rem; font-weight: 900; color: #0561FF; }
-        .senior-name { font-size: 1.05rem; font-weight: 800; color: #475569; }
+        .senior-value { font-size: 1.1rem; font-weight: 900; color: #0561FF; flex-shrink: 0; }
+        .senior-name { font-size: 0.95rem; font-weight: 800; color: #475569; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
         @media (max-width: 768px) {
-            .senior-value { font-size: clamp(0.75rem, 3.5vw, 1.1rem); }
-            .senior-name { font-size: clamp(0.6rem, 2.8vw, 0.9rem); }
+            .senior-value { font-size: clamp(0.75rem, 3.5vw, 1rem); }
+            .senior-name { font-size: clamp(0.6rem, 2.8vw, 0.85rem); }
         }
-        .compact-card { min-width: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
-        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; min-width: 0; flex: 1; }
+        .compact-card { min-width: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; overflow: hidden; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); gap: 0.5rem; min-width: 0; flex: 1; }
         @media (max-width: 768px) {
             .cards-grid { grid-template-columns: repeat(2, 1fr); }
         }
@@ -231,7 +231,7 @@
                         <div class="flex flex-col gap-0.5">
                     `;
                     activeData.data.slice(0, 3).forEach(item => {
-                        inner += `<div class="flex justify-between items-center gap-1 pb-0.5 overflow-hidden whitespace-nowrap"><span class="senior-name">${item.name}</span><span class="senior-value tabular-nums">${item.value.toFixed(1)}%</span></div>`;
+                        inner += `<div class="flex justify-between items-center gap-2 pb-0.5 min-w-0"><span class="senior-name">${item.name}</span><span class="senior-value tabular-nums">${item.value.toFixed(1)}%</span></div>`;
                     });
                     inner += `</div>`;
                     card.innerHTML = inner;
