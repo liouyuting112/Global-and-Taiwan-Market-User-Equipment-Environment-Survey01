@@ -23,9 +23,20 @@
         .glass-card { background: #FFFFFF; border: 1px solid #E2E8F0; box-shadow: 0 1px 3px 0 rgb(0 0 0/0.05); transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); border-radius: 0.75rem; }
         .glass-card:hover { border-color: #0561FF; box-shadow: 0 10px 15px -3px rgb(0 0 0/0.1); transform: translateY(-2px); z-index: 10; }
         .platform-row-label { font-size: 1.15rem; font-weight: 900; color: #1e293b; min-width: 90px; padding: 0.5rem 0.8rem; background: #e2e8f0; border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; height: fit-content; flex-shrink: 0; }
+        @media (max-width: 768px) {
+            .platform-row-label { min-width: 60px; font-size: 0.9rem; padding: 0.4rem; }
+        }
         .senior-value { font-size: 1.25rem; font-weight: 900; color: #0561FF; }
         .senior-name { font-size: 1.05rem; font-weight: 800; color: #475569; }
-        .compact-card { width: 185px; flex-shrink: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
+        @media (max-width: 768px) {
+            .senior-value { font-size: clamp(0.75rem, 3.5vw, 1.1rem); }
+            .senior-name { font-size: clamp(0.6rem, 2.8vw, 0.9rem); }
+        }
+        .compact-card { min-width: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; min-width: 0; flex: 1; }
+        @media (max-width: 768px) {
+            .cards-grid { grid-template-columns: repeat(2, 1fr); }
+        }
         .chart-box { background: white; border-radius: 1.25rem; padding: 1.25rem; border: 1px solid #E2E8F0; min-height: 380px; }
         select { font-size: 1rem !important; padding: 0.5rem 0.8rem !important; border-radius: 0.5rem !important; border: 2px solid #CBD5E1 !important; }
         .data-table-text { font-size: 1rem; line-height: 1.6; }
@@ -37,16 +48,16 @@
         
         <!-- Header -->
         <header class="mb-4 flex flex-col md:flex-row justify-between items-center bg-white p-4 rounded-2xl shadow-sm border border-slate-100 gap-4">
-            <h1 class="text-2xl font-black tracking-tighter text-heading-dark flex items-center gap-2">
-                <span class="bg-brand-blue text-white w-9 h-9 flex items-center justify-center rounded-lg">SC</span>
+            <h1 class="text-xl md:text-2xl font-black tracking-tighter text-heading-dark flex items-center gap-2 text-center md:text-left">
+                <span class="bg-brand-blue text-white w-8 h-8 md:w-9 md:h-9 flex items-center justify-center rounded-lg flex-shrink-0">SC</span>
                 <span class="bg-gradient-to-r from-brand-blue to-purple-600 text-transparent bg-clip-text">StatCounter 全視角精位儀表板</span>
             </h1>
-            <div class="flex flex-wrap items-center gap-4 text-slate-500 font-bold bg-slate-50 px-5 py-3 rounded-xl text-base">
-                <div class="flex items-center gap-5">
-                    <span id="dataDate" class="text-brand-indigo text-lg font-black">📅 數據日期：--</span>
-                    <span id="lastUpdated" class="text-emerald-600 text-lg font-black">🕒 最後同步：--</span>
+            <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-end gap-2 md:gap-4 text-slate-500 font-bold bg-slate-50 px-3 md:px-5 py-2 md:py-3 rounded-xl text-sm md:text-base w-full md:w-auto">
+                <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-5 text-center sm:text-left">
+                    <span id="dataDate" class="text-brand-indigo text-base md:text-lg font-black">📅 數據日期：--</span>
+                    <span id="lastUpdated" class="text-emerald-600 text-base md:text-lg font-black">🕒 最後同步：--</span>
                 </div>
-                <a href="https://gs.statcounter.com/" target="_blank" class="text-brand-blue text-lg font-black hover:underline decoration-2">StatCounter 官網</a>
+                <a href="https://gs.statcounter.com/" target="_blank" class="text-brand-blue text-base md:text-lg font-black hover:underline decoration-2">StatCounter 官網</a>
             </div>
         </header>
 
@@ -101,7 +112,7 @@
     <template id="platformRowTemplate">
         <div class="flex items-start gap-3">
             <div class="platform-row-label">平台</div>
-            <div class="cards-wrapper flex gap-2 min-w-0">
+            <div class="cards-wrapper cards-grid">
                 <!-- Data Cards Injected Here -->
             </div>
         </div>
@@ -214,13 +225,13 @@
                     
                     let inner = `
                         <div class="flex justify-between items-center">
-                            <span class="text-sm font-black text-slate-600 truncate tracking-wider">${cat.label}</span>
+                            <span class="text-sm font-black text-slate-600 tracking-wider">${cat.label}</span>
                             <span class="text-slate-300"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg></span>
                         </div>
                         <div class="flex flex-col gap-0.5">
                     `;
                     activeData.data.slice(0, 3).forEach(item => {
-                        inner += `<div class="flex justify-between items-center"><span class="senior-name truncate max-w-[95px]">${item.name}</span><span class="senior-value">${item.value.toFixed(1)}%</span></div>`;
+                        inner += `<div class="flex justify-between items-center gap-1 pb-0.5 overflow-hidden whitespace-nowrap"><span class="senior-name">${item.name}</span><span class="senior-value tabular-nums">${item.value.toFixed(1)}%</span></div>`;
                     });
                     inner += `</div>`;
                     card.innerHTML = inner;
@@ -256,9 +267,18 @@
                 const box = document.createElement('div');
                 box.className = 'chart-box flex flex-col gap-4';
                 
+                const colors = ['#3B82F6', '#F59E0B', '#10B981', '#EC4899', '#8B5CF6', '#6366F1'];
                 let tableHtml = `<div class="mt-2 border-t pt-2"><table class="w-full data-table-text">`;
-                activeData.data.slice(0, 6).forEach(item => {
-                    tableHtml += `<tr><td class="font-bold text-slate-600 py-0.5">${item.name}</td><td class="text-right font-black text-brand-blue">${item.value.toFixed(2)}%</td></tr>`;
+                activeData.data.slice(0, 6).forEach((item, idx) => {
+                    const dotColor = colors[idx] || '#cbd5e1';
+                    tableHtml += `
+                        <tr>
+                            <td class="font-bold text-slate-600 py-1 flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full flex-shrink-0" style="background-color: ${dotColor}"></span>
+                                ${item.name}
+                            </td>
+                            <td class="text-right font-black text-brand-blue">${item.value.toFixed(2)}%</td>
+                        </tr>`;
                 });
                 tableHtml += `</table></div>`;
 
@@ -282,7 +302,14 @@
                         labels: activeData.data.slice(0, 6).map(i => i.name),
                         datasets: [{
                             data: activeData.data.slice(0, 6).map(i => i.value),
-                            backgroundColor: ['#0561FF', '#EA580C', '#4F46E5', '#10B981', '#F59E0B', '#6366F1'],
+                            backgroundColor: [
+                                '#3B82F6', // Blue
+                                '#F59E0B', // Amber
+                                '#10B981', // Emerald
+                                '#EC4899', // Pink
+                                '#8B5CF6', // Violet
+                                '#6366F1'  // Indigo
+                            ],
                             borderWidth: 2,
                             borderColor: '#ffffff'
                         }]
