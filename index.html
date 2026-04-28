@@ -32,9 +32,10 @@
             .senior-value { font-size: clamp(0.75rem, 3.5vw, 1.1rem); }
             .senior-name { font-size: clamp(0.6rem, 2.8vw, 0.9rem); }
         }
-        .compact-card { width: 185px; flex-shrink: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
+        .compact-card { min-width: 0; padding: 0.75rem; border-top-width: 4px; cursor: pointer; }
+        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.5rem; min-width: 0; flex: 1; }
         @media (max-width: 768px) {
-            .compact-card { width: calc(50% - 0.5rem); flex-grow: 1; }
+            .cards-grid { grid-template-columns: repeat(2, 1fr); }
         }
         .chart-box { background: white; border-radius: 1.25rem; padding: 1.25rem; border: 1px solid #E2E8F0; min-height: 380px; }
         select { font-size: 1rem !important; padding: 0.5rem 0.8rem !important; border-radius: 0.5rem !important; border: 2px solid #CBD5E1 !important; }
@@ -111,7 +112,7 @@
     <template id="platformRowTemplate">
         <div class="flex items-start gap-3">
             <div class="platform-row-label">平台</div>
-            <div class="cards-wrapper flex flex-wrap md:flex-nowrap gap-2 min-w-0 overflow-x-auto no-scrollbar">
+            <div class="cards-wrapper cards-grid">
                 <!-- Data Cards Injected Here -->
             </div>
         </div>
