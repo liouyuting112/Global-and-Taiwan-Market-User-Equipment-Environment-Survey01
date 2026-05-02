@@ -1,7 +1,7 @@
 {
   "country_code": "mm",
   "country_name": "緬甸",
-  "update_time": "2026-05-01 07:58:44",
+  "update_time": "2026-05-02 07:58:48",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 65.31
+            "value": 59.5
           },
           {
             "name": "Desktop",
-            "value": 33.88
+            "value": 39.54
           },
           {
             "name": "Tablet",
-            "value": 0.81
+            "value": 0.96
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Android",
-            "value": 55.6
-          },
-          {
-            "name": "Unknown",
-            "value": 15.76
+            "value": 50.51
           },
           {
             "name": "Windows",
-            "value": 14.88
+            "value": 21.65
+          },
+          {
+            "name": "Unknown",
+            "value": 15.15
           },
           {
             "name": "iOS",
-            "value": 10.47
+            "value": 9.91
           },
           {
             "name": "Linux",
-            "value": 1.26
+            "value": 1.29
           },
           {
             "name": "OS X",
-            "value": 1.05
+            "value": 0.82
           }
         ]
       },
@@ -57,15 +57,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 84.41
+            "value": 83.95
           },
           {
             "name": "iOS",
-            "value": 15.52
-          },
-          {
-            "name": "Samsung",
-            "value": 0.04
+            "value": 16.0
           },
           {
             "name": "Unknown",
@@ -73,6 +69,10 @@
           },
           {
             "name": "Linux",
+            "value": 0.02
+          },
+          {
+            "name": "Samsung",
             "value": 0.01
           }
         ]
@@ -81,28 +81,28 @@
         "url": "https://gs.statcounter.com/os-market-share/desktop/myanmar",
         "data": [
           {
-            "name": "Unknown",
-            "value": 46.46
+            "name": "Windows",
+            "value": 54.75
           },
           {
-            "name": "Windows",
-            "value": 43.93
+            "name": "Unknown",
+            "value": 38.28
           },
           {
             "name": "Linux",
-            "value": 3.72
+            "value": 3.24
           },
           {
             "name": "OS X",
-            "value": 3.1
+            "value": 2.08
           },
           {
             "name": "macOS",
-            "value": 2.78
+            "value": 1.62
           },
           {
             "name": "Chrome OS",
-            "value": 0.03
+            "value": 0.04
           }
         ]
       },
@@ -111,15 +111,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 58.75
+            "value": 59.05
           },
           {
             "name": "iOS",
-            "value": 41.23
-          },
-          {
-            "name": "Unknown",
-            "value": 0.03
+            "value": 40.95
           }
         ]
       }
@@ -130,27 +126,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 86.67
+            "value": 87.46
           },
           {
             "name": "Safari",
-            "value": 7.38
+            "value": 7.1
           },
           {
             "name": "Edge",
-            "value": 1.82
+            "value": 1.64
           },
           {
             "name": "Firefox",
-            "value": 1.36
+            "value": 1.24
           },
           {
             "name": "UC Browser",
-            "value": 0.88
+            "value": 0.89
           },
           {
             "name": "Samsung Internet",
-            "value": 0.67
+            "value": 0.55
           }
         ]
       },
@@ -159,27 +155,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 86.64
+            "value": 86.41
           },
           {
             "name": "Safari",
-            "value": 9.63
+            "value": 10.43
           },
           {
             "name": "UC Browser",
-            "value": 1.32
+            "value": 1.47
           },
           {
             "name": "Samsung Internet",
-            "value": 1.03
+            "value": 0.64
           },
           {
             "name": "Opera",
-            "value": 0.39
+            "value": 0.28
           },
           {
             "name": "Firefox",
-            "value": 0.36
+            "value": 0.2
           }
         ]
       },
@@ -188,27 +184,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 87.11
+            "value": 89.48
           },
           {
             "name": "Edge",
-            "value": 5.2
+            "value": 4.06
           },
           {
             "name": "Firefox",
-            "value": 3.31
+            "value": 2.83
           },
           {
             "name": "Safari",
-            "value": 2.86
+            "value": 1.84
           },
           {
             "name": "Opera",
-            "value": 0.83
+            "value": 0.7
           },
           {
-            "name": "Brave",
-            "value": 0.28
+            "name": "Samsung Internet",
+            "value": 0.38
           }
         ]
       },
@@ -217,27 +213,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 71.22
+            "value": 69.77
           },
           {
             "name": "Safari",
-            "value": 15.24
+            "value": 17.39
           },
           {
             "name": "Android",
-            "value": 11.23
+            "value": 9.0
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.72
           },
           {
             "name": "UC Browser",
-            "value": 1.69
+            "value": 1.47
           },
           {
             "name": "Instabridge",
-            "value": 0.39
-          },
-          {
-            "name": "Opera",
-            "value": 0.1
+            "value": 0.3
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "country_code": "mo",
   "country_name": "澳門",
-  "update_time": "2026-05-01 07:58:49",
+  "update_time": "2026-05-02 07:58:48",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 60.09
+            "value": 58.12
           },
           {
             "name": "Desktop",
-            "value": 37.27
+            "value": 39.48
           },
           {
             "name": "Tablet",
-            "value": 2.64
+            "value": 2.4
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "iOS",
-            "value": 39.85
-          },
-          {
-            "name": "Android",
-            "value": 22.3
+            "value": 39.29
           },
           {
             "name": "Windows",
-            "value": 22.19
+            "value": 22.4
+          },
+          {
+            "name": "Android",
+            "value": 21.08
           },
           {
             "name": "Unknown",
-            "value": 7.9
+            "value": 8.8
           },
           {
             "name": "OS X",
-            "value": 4.52
+            "value": 4.79
           },
           {
             "name": "macOS",
-            "value": 1.71
+            "value": 2.07
           }
         ]
       },
@@ -57,19 +57,19 @@
         "data": [
           {
             "name": "iOS",
-            "value": 62.67
+            "value": 64.13
           },
           {
             "name": "Android",
-            "value": 36.36
+            "value": 35.62
           },
           {
             "name": "Samsung",
-            "value": 0.96
+            "value": 0.23
           },
           {
             "name": "Unknown",
-            "value": 0.01
+            "value": 0.02
           }
         ]
       },
@@ -78,11 +78,11 @@
         "data": [
           {
             "name": "Windows",
-            "value": 59.53
+            "value": 56.74
           },
           {
             "name": "Unknown",
-            "value": 21.18
+            "value": 22.25
           },
           {
             "name": "OS X",
@@ -90,15 +90,15 @@
           },
           {
             "name": "macOS",
-            "value": 4.58
+            "value": 5.24
           },
           {
             "name": "Linux",
-            "value": 2.55
+            "value": 3.53
           },
           {
             "name": "Chrome OS",
-            "value": 0.02
+            "value": 0.1
           }
         ]
       },
@@ -107,14 +107,18 @@
         "data": [
           {
             "name": "iOS",
-            "value": 82.85
+            "value": 84.22
           },
           {
             "name": "Android",
-            "value": 17.14
+            "value": 15.77
           },
           {
             "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "Unknown",
             "value": 0.01
           }
         ]
@@ -126,27 +130,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 53.39
+            "value": 53.71
           },
           {
             "name": "Safari",
-            "value": 30.75
+            "value": 30.6
           },
           {
             "name": "Edge",
-            "value": 6.78
+            "value": 6.94
           },
           {
             "name": "Samsung Internet",
-            "value": 3.84
+            "value": 3.66
           },
           {
             "name": "Firefox",
-            "value": 2.8
+            "value": 2.71
           },
           {
             "name": "UC Browser",
-            "value": 0.85
+            "value": 0.78
           }
         ]
       },
@@ -155,27 +159,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 45.9
+            "value": 46.6
           },
           {
             "name": "Safari",
-            "value": 43.09
+            "value": 44.15
           },
           {
             "name": "Samsung Internet",
-            "value": 6.39
+            "value": 4.93
           },
           {
             "name": "Firefox",
-            "value": 1.91
+            "value": 1.83
           },
           {
             "name": "UC Browser",
-            "value": 1.41
+            "value": 1.34
           },
           {
             "name": "Edge",
-            "value": 0.68
+            "value": 0.67
           }
         ]
       },
@@ -184,27 +188,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 64.42
+            "value": 63.02
           },
           {
             "name": "Edge",
-            "value": 16.84
+            "value": 16.5
           },
           {
             "name": "Safari",
-            "value": 11.33
+            "value": 11.22
           },
           {
             "name": "Firefox",
-            "value": 4.43
+            "value": 4.18
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.02
           },
           {
             "name": "360 Safe",
-            "value": 1.04
-          },
-          {
-            "name": "Opera",
-            "value": 0.77
+            "value": 1.23
           }
         ]
       },
