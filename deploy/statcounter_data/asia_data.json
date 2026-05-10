@@ -1,7 +1,7 @@
 {
   "country_code": "asia",
   "country_name": "亞洲",
-  "update_time": "2026-05-09 07:48:44",
+  "update_time": "2026-05-10 07:39:03",
   "data": {
     "platform": {
       "all": {
@@ -9,11 +9,11 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 58.3
+            "value": 58.14
           },
           {
             "name": "Desktop",
-            "value": 40.61
+            "value": 40.77
           },
           {
             "name": "Tablet",
@@ -28,15 +28,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 45.89
+            "value": 45.8
           },
           {
             "name": "Windows",
-            "value": 25.76
+            "value": 25.92
           },
           {
             "name": "iOS",
-            "value": 13.43
+            "value": 13.36
           },
           {
             "name": "Unknown",
@@ -57,11 +57,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 77.79
+            "value": 77.84
           },
           {
             "name": "iOS",
-            "value": 22.09
+            "value": 22.04
           },
           {
             "name": "Unknown",
@@ -77,7 +77,7 @@
           },
           {
             "name": "Linux",
-            "value": 0.01
+            "value": 0.02
           }
         ]
       },
@@ -86,23 +86,23 @@
         "data": [
           {
             "name": "Windows",
-            "value": 63.43
+            "value": 63.58
           },
           {
             "name": "Unknown",
-            "value": 27.2
+            "value": 27.09
           },
           {
             "name": "OS X",
-            "value": 3.58
+            "value": 3.57
           },
           {
             "name": "Linux",
-            "value": 3.13
+            "value": 3.12
           },
           {
             "name": "macOS",
-            "value": 2.27
+            "value": 2.26
           },
           {
             "name": "Chrome OS",
@@ -115,11 +115,11 @@
         "data": [
           {
             "name": "iOS",
-            "value": 50.3
+            "value": 50.29
           },
           {
             "name": "Android",
-            "value": 49.53
+            "value": 49.54
           },
           {
             "name": "Linux",
@@ -138,19 +138,19 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 77.14
+            "value": 77.2
           },
           {
             "name": "Safari",
-            "value": 10.88
+            "value": 10.83
           },
           {
             "name": "Edge",
-            "value": 4.09
+            "value": 4.08
           },
           {
             "name": "Samsung Internet",
-            "value": 1.68
+            "value": 1.67
           },
           {
             "name": "Opera",
@@ -167,19 +167,19 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 74.83
+            "value": 74.85
           },
           {
             "name": "Safari",
-            "value": 16.43
+            "value": 16.39
           },
           {
             "name": "Samsung Internet",
-            "value": 2.13
+            "value": 2.12
           },
           {
             "name": "UC Browser",
-            "value": 2.03
+            "value": 2.02
           },
           {
             "name": "Opera",
@@ -187,7 +187,7 @@
           },
           {
             "name": "Android",
-            "value": 0.76
+            "value": 0.79
           }
         ]
       },
@@ -196,15 +196,15 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 81.06
+            "value": 81.16
           },
           {
             "name": "Edge",
-            "value": 9.19
+            "value": 9.15
           },
           {
             "name": "Safari",
-            "value": 2.49
+            "value": 2.47
           },
           {
             "name": "Firefox",
@@ -225,15 +225,15 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 55.1
+            "value": 55.08
           },
           {
             "name": "Safari",
-            "value": 26.89
+            "value": 26.91
           },
           {
             "name": "Android",
-            "value": 13.3
+            "value": 13.28
           },
           {
             "name": "Edge",
@@ -241,7 +241,7 @@
           },
           {
             "name": "Samsung Internet",
-            "value": 1.17
+            "value": 1.19
           },
           {
             "name": "Opera",
@@ -256,23 +256,23 @@
         "data": [
           {
             "name": "360x800",
-            "value": 8.94
-          },
-          {
-            "name": "414x896",
-            "value": 5.86
+            "value": 8.93
           },
           {
             "name": "1920x1080",
+            "value": 5.86
+          },
+          {
+            "name": "414x896",
             "value": 5.84
           },
           {
             "name": "1280x1200",
-            "value": 5.26
+            "value": 5.34
           },
           {
             "name": "393x873",
-            "value": 3.3
+            "value": 3.29
           }
         ]
       },
@@ -281,11 +281,11 @@
         "data": [
           {
             "name": "360x800",
-            "value": 13.02
+            "value": 13.03
           },
           {
             "name": "414x896",
-            "value": 9.72
+            "value": 9.7
           },
           {
             "name": "393x873",
@@ -293,11 +293,11 @@
           },
           {
             "name": "390x844",
-            "value": 4.09
+            "value": 4.08
           },
           {
             "name": "360x806",
-            "value": 3.31
+            "value": 3.32
           }
         ]
       },
@@ -310,19 +310,19 @@
           },
           {
             "name": "1280x1200",
-            "value": 13.52
+            "value": 13.68
           },
           {
             "name": "1536x864",
-            "value": 6.75
+            "value": 6.72
           },
           {
             "name": "1366x768",
-            "value": 6.25
+            "value": 6.24
           },
           {
             "name": "800x600",
-            "value": 4.25
+            "value": 4.37
           }
         ]
       },
@@ -358,15 +358,15 @@
         "data": [
           {
             "name": "Apple",
-            "value": 22.09
+            "value": 22.04
           },
           {
             "name": "Samsung",
-            "value": 14.28
+            "value": 14.25
           },
           {
             "name": "Unknown",
-            "value": 13.27
+            "value": 13.3
           },
           {
             "name": "Xiaomi",
@@ -374,7 +374,7 @@
           },
           {
             "name": "Vivo",
-            "value": 9.81
+            "value": 9.82
           }
         ]
       },
@@ -383,15 +383,15 @@
         "data": [
           {
             "name": "Apple",
-            "value": 22.09
+            "value": 22.04
           },
           {
             "name": "Samsung",
-            "value": 14.28
+            "value": 14.25
           },
           {
             "name": "Unknown",
-            "value": 13.27
+            "value": 13.3
           },
           {
             "name": "Xiaomi",
@@ -399,7 +399,7 @@
           },
           {
             "name": "Vivo",
-            "value": 9.81
+            "value": 9.82
           }
         ]
       }
@@ -410,23 +410,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 50.3
+            "value": 50.29
           },
           {
             "name": "Samsung",
-            "value": 25.61
+            "value": 25.64
           },
           {
             "name": "Unknown",
-            "value": 10.35
+            "value": 10.32
           },
           {
             "name": "Xiaomi",
-            "value": 4.9
+            "value": 4.89
           },
           {
             "name": "Huawei",
-            "value": 2.75
+            "value": 2.76
           }
         ]
       },
@@ -435,23 +435,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 50.3
+            "value": 50.29
           },
           {
             "name": "Samsung",
-            "value": 25.61
+            "value": 25.64
           },
           {
             "name": "Unknown",
-            "value": 10.35
+            "value": 10.32
           },
           {
             "name": "Xiaomi",
-            "value": 4.9
+            "value": 4.89
           },
           {
             "name": "Huawei",
-            "value": 2.75
+            "value": 2.76
           }
         ]
       }
@@ -462,7 +462,7 @@
         "data": [
           {
             "name": "Google",
-            "value": 92.67
+            "value": 92.65
           },
           {
             "name": "bing",
@@ -478,7 +478,7 @@
           },
           {
             "name": "YANDEX",
-            "value": 0.84
+            "value": 0.85
           }
         ]
       },
@@ -487,19 +487,19 @@
         "data": [
           {
             "name": "Google",
-            "value": 95.73
+            "value": 95.71
           },
           {
             "name": "Baidu",
-            "value": 1.02
+            "value": 1.03
           },
           {
             "name": "YANDEX",
-            "value": 0.84
+            "value": 0.86
           },
           {
             "name": "Naver",
-            "value": 0.61
+            "value": 0.6
           },
           {
             "name": "CocCoc",
@@ -528,7 +528,7 @@
           },
           {
             "name": "YANDEX",
-            "value": 0.82
+            "value": 0.83
           }
         ]
       },
@@ -537,23 +537,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 94.02
+            "value": 94.01
           },
           {
             "name": "Baidu",
-            "value": 1.24
+            "value": 1.25
           },
           {
             "name": "YANDEX",
-            "value": 1.18
+            "value": 1.2
           },
           {
             "name": "bing",
-            "value": 1.1
+            "value": 1.09
           },
           {
             "name": "Naver",
-            "value": 0.82
+            "value": 0.81
           }
         ]
       }
@@ -564,7 +564,7 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 72.62
+            "value": 72.63
           },
           {
             "name": "YouTube",
@@ -572,11 +572,11 @@
           },
           {
             "name": "Instagram",
-            "value": 7.74
+            "value": 7.76
           },
           {
             "name": "Twitter",
-            "value": 3.93
+            "value": 3.89
           },
           {
             "name": "Pinterest",
@@ -589,19 +589,19 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 77.95
+            "value": 77.98
           },
           {
             "name": "YouTube",
-            "value": 10.06
+            "value": 10.04
           },
           {
             "name": "Instagram",
-            "value": 8.45
+            "value": 8.47
           },
           {
             "name": "Twitter",
-            "value": 2.91
+            "value": 2.88
           },
           {
             "name": "Pinterest",
@@ -614,23 +614,23 @@
         "data": [
           {
             "name": "YouTube",
-            "value": 51.71
+            "value": 51.91
           },
           {
             "name": "Facebook",
-            "value": 18.12
+            "value": 18.08
           },
           {
             "name": "Twitter",
-            "value": 14.41
+            "value": 14.27
           },
           {
             "name": "Pinterest",
-            "value": 7.41
+            "value": 7.37
           },
           {
             "name": "reddit",
-            "value": 3.63
+            "value": 3.62
           }
         ]
       },
@@ -639,23 +639,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 76.5
+            "value": 76.4
           },
           {
             "name": "YouTube",
-            "value": 10.47
+            "value": 10.54
           },
           {
             "name": "Pinterest",
-            "value": 5.79
+            "value": 5.78
           },
           {
             "name": "Instagram",
-            "value": 3.64
+            "value": 3.69
           },
           {
             "name": "Twitter",
-            "value": 2.74
+            "value": 2.7
           }
         ]
       }
