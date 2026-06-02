@@ -1,7 +1,7 @@
 {
   "country_code": "es",
   "country_name": "西班牙",
-  "update_time": "2026-06-01 07:59:15",
+  "update_time": "2026-06-02 08:07:36",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 51.86
+            "value": 50.68
           },
           {
             "name": "Desktop",
-            "value": 46.33
+            "value": 47.6
           },
           {
             "name": "Tablet",
-            "value": 1.81
+            "value": 1.72
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Android",
-            "value": 36.54
+            "value": 35.21
           },
           {
             "name": "Windows",
-            "value": 26.88
+            "value": 26.77
           },
           {
             "name": "iOS",
-            "value": 17.07
+            "value": 17.18
           },
           {
             "name": "Unknown",
-            "value": 11.76
+            "value": 12.42
           },
           {
             "name": "OS X",
-            "value": 3.1
+            "value": 4.06
           },
           {
             "name": "macOS",
-            "value": 1.9
+            "value": 1.79
           }
         ]
       },
@@ -57,15 +57,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 68.21
+            "value": 67.33
           },
           {
             "name": "iOS",
-            "value": 31.7
-          },
-          {
-            "name": "Samsung",
-            "value": 0.08
+            "value": 32.66
           }
         ]
       },
@@ -74,27 +70,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 58.01
+            "value": 56.25
           },
           {
             "name": "Unknown",
-            "value": 25.38
+            "value": 26.09
           },
           {
             "name": "OS X",
-            "value": 6.68
+            "value": 8.54
           },
           {
             "name": "macOS",
-            "value": 4.09
+            "value": 3.76
           },
           {
             "name": "Linux",
-            "value": 3.42
+            "value": 3.38
           },
           {
             "name": "Chrome OS",
-            "value": 2.41
+            "value": 1.97
           }
         ]
       },
@@ -103,23 +99,19 @@
         "data": [
           {
             "name": "Android",
-            "value": 64.93
+            "value": 63.28
           },
           {
             "name": "iOS",
-            "value": 34.98
+            "value": 36.6
           },
           {
             "name": "Unknown",
-            "value": 0.04
+            "value": 0.07
           },
           {
             "name": "Linux",
-            "value": 0.03
-          },
-          {
-            "name": "Windows",
-            "value": 0.01
+            "value": 0.05
           }
         ]
       }

@@ -1,7 +1,7 @@
 {
   "country_code": "asia",
   "country_name": "亞洲",
-  "update_time": "2026-06-01 07:59:07",
+  "update_time": "2026-06-02 08:07:41",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 58.14
+            "value": 54.87
           },
           {
             "name": "Desktop",
-            "value": 40.77
+            "value": 44.11
           },
           {
             "name": "Tablet",
-            "value": 1.09
+            "value": 1.02
           }
         ]
       }
@@ -28,23 +28,23 @@
         "data": [
           {
             "name": "Android",
-            "value": 45.8
+            "value": 43.51
           },
           {
             "name": "Windows",
-            "value": 25.92
+            "value": 27.9
           },
           {
             "name": "iOS",
-            "value": 13.36
+            "value": 12.32
           },
           {
             "name": "Unknown",
-            "value": 11.07
+            "value": 11.54
           },
           {
             "name": "OS X",
-            "value": 1.45
+            "value": 2.2
           },
           {
             "name": "Linux",
@@ -57,27 +57,27 @@
         "data": [
           {
             "name": "Android",
-            "value": 77.84
+            "value": 78.38
           },
           {
             "name": "iOS",
-            "value": 22.04
+            "value": 21.52
           },
           {
             "name": "Unknown",
             "value": 0.05
           },
           {
-            "name": "Samsung",
-            "value": 0.03
+            "name": "Linux",
+            "value": 0.02
           },
           {
             "name": "KaiOS",
-            "value": 0.02
+            "value": 0.01
           },
           {
-            "name": "Linux",
-            "value": 0.02
+            "name": "Windows",
+            "value": 0.01
           }
         ]
       },
@@ -86,27 +86,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 63.58
+            "value": 63.25
           },
           {
             "name": "Unknown",
-            "value": 27.09
+            "value": 26.11
           },
           {
             "name": "OS X",
-            "value": 3.57
+            "value": 5.0
           },
           {
             "name": "Linux",
-            "value": 3.12
+            "value": 2.86
           },
           {
             "name": "macOS",
-            "value": 2.26
+            "value": 2.21
           },
           {
             "name": "Chrome OS",
-            "value": 0.38
+            "value": 0.56
           }
         ]
       },
@@ -115,19 +115,23 @@
         "data": [
           {
             "name": "iOS",
-            "value": 50.29
+            "value": 50.31
           },
           {
             "name": "Android",
-            "value": 49.54
+            "value": 49.41
           },
           {
             "name": "Linux",
-            "value": 0.16
+            "value": 0.25
           },
           {
             "name": "Unknown",
             "value": 0.02
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
           }
         ]
       }
@@ -138,27 +142,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 77.2
+            "value": 78.94
           },
           {
             "name": "Safari",
-            "value": 10.83
+            "value": 9.8
           },
           {
             "name": "Edge",
-            "value": 4.08
+            "value": 3.75
           },
           {
             "name": "Samsung Internet",
-            "value": 1.67
+            "value": 1.54
           },
           {
             "name": "Opera",
-            "value": 1.55
+            "value": 1.46
           },
           {
             "name": "UC Browser",
-            "value": 1.19
+            "value": 1.08
           }
         ]
       },

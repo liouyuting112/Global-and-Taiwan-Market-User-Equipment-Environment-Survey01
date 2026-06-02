@@ -1,7 +1,7 @@
 {
   "country_code": "us",
   "country_name": "美國",
-  "update_time": "2026-06-01 07:59:09",
+  "update_time": "2026-06-02 08:07:42",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Desktop",
-            "value": 53.0
+            "value": 55.45
           },
           {
             "name": "Mobile",
-            "value": 44.61
+            "value": 42.35
           },
           {
             "name": "Tablet",
-            "value": 2.38
+            "value": 2.2
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 31.65
+            "value": 32.46
           },
           {
             "name": "iOS",
-            "value": 29.51
+            "value": 27.3
           },
           {
             "name": "Android",
-            "value": 17.43
+            "value": 17.2
           },
           {
             "name": "OS X",
-            "value": 7.99
+            "value": 9.67
           },
           {
             "name": "Unknown",
-            "value": 4.99
+            "value": 5.01
           },
           {
             "name": "macOS",
-            "value": 4.65
+            "value": 4.32
           }
         ]
       },
@@ -57,19 +57,15 @@
         "data": [
           {
             "name": "iOS",
-            "value": 63.08
+            "value": 61.51
           },
           {
             "name": "Android",
-            "value": 36.85
-          },
-          {
-            "name": "Samsung",
-            "value": 0.05
+            "value": 38.46
           },
           {
             "name": "KaiOS",
-            "value": 0.02
+            "value": 0.01
           }
         ]
       },
@@ -78,27 +74,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 59.74
+            "value": 58.58
           },
           {
             "name": "OS X",
-            "value": 15.09
+            "value": 17.45
           },
           {
             "name": "Unknown",
-            "value": 9.42
+            "value": 9.04
           },
           {
             "name": "macOS",
-            "value": 8.78
+            "value": 7.81
           },
           {
             "name": "Chrome OS",
-            "value": 4.34
+            "value": 3.74
           },
           {
             "name": "Linux",
-            "value": 2.63
+            "value": 3.39
           }
         ]
       },
@@ -107,15 +103,15 @@
         "data": [
           {
             "name": "iOS",
-            "value": 58.17
+            "value": 57.64
           },
           {
             "name": "Android",
-            "value": 41.72
+            "value": 42.26
           },
           {
             "name": "Linux",
-            "value": 0.1
+            "value": 0.09
           },
           {
             "name": "Unknown",
@@ -130,27 +126,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 50.03
+            "value": 53.34
           },
           {
             "name": "Safari",
-            "value": 31.86
+            "value": 29.24
           },
           {
             "name": "Edge",
-            "value": 8.12
+            "value": 7.65
           },
           {
             "name": "Firefox",
-            "value": 3.75
+            "value": 3.81
           },
           {
             "name": "Brave",
-            "value": 2.69
+            "value": 2.28
           },
           {
             "name": "Samsung Internet",
-            "value": 1.44
+            "value": 1.42
           }
         ]
       },
