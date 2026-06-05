@@ -2,7 +2,7 @@
   "global": {
     "country_code": "global",
     "country_name": "全球",
-    "update_time": "2026-06-04 08:25:40",
+    "update_time": "2026-06-05 07:59:36",
     "data": {
       "platform": {
         "all": {
@@ -666,7 +666,7 @@
   "tw": {
     "country_code": "tw",
     "country_name": "台灣",
-    "update_time": "2026-06-04 08:29:24",
+    "update_time": "2026-06-05 08:03:20",
     "data": {
       "platform": {
         "all": {
@@ -1314,7 +1314,7 @@
   "cn": {
     "country_code": "cn",
     "country_name": "中國",
-    "update_time": "2026-06-04 08:33:05",
+    "update_time": "2026-06-05 08:07:02",
     "data": {
       "platform": {
         "all": {
@@ -1978,7 +1978,7 @@
   "hk": {
     "country_code": "hk",
     "country_name": "香港",
-    "update_time": "2026-06-04 08:36:46",
+    "update_time": "2026-06-05 08:10:45",
     "data": {
       "platform": {
         "all": {
@@ -2638,7 +2638,7 @@
   "mo": {
     "country_code": "mo",
     "country_name": "澳門",
-    "update_time": "2026-06-04 08:40:28",
+    "update_time": "2026-06-05 08:14:34",
     "data": {
       "platform": {
         "all": {
@@ -3278,7 +3278,7 @@
   "kr": {
     "country_code": "kr",
     "country_name": "韓國",
-    "update_time": "2026-06-04 08:44:10",
+    "update_time": "2026-06-05 08:18:17",
     "data": {
       "platform": {
         "all": {
@@ -3926,7 +3926,7 @@
   "jp": {
     "country_code": "jp",
     "country_name": "日本",
-    "update_time": "2026-06-04 08:47:51",
+    "update_time": "2026-06-05 08:21:58",
     "data": {
       "platform": {
         "all": {
@@ -4571,29 +4571,33 @@
       }
     }
   }
-}
-              "name": "Tablet",
-              "value": 2.12
+}"data": [
+            {
+              "name": "Facebook",
+              "value": 62.55
+            },
+            {
+              "name": "Pinterest",
+              "value": 29.45
+            },
+            {
+              "name": "Instagram",
+              "value": 2.79
+            },
+            {
+              "name": "Twitter",
+              "value": 2.29
+            },
+            {
+              "name": "YouTube",
+              "value": 2.05
             }
           ]
         }
-      },
-      "os_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/os-market-share/all/netherlands",
-          "data": [
-            {
-              "name": "Android",
-              "value": 27.54
-            },
-            {
-              "name": "Windows",
-              "value": 26.68
-            },
-            {
-              "name": "iOS",
-              "value": 20.97
-            },
+      }
+    }
+  }
+},
             {
               "name": "OS X",
               "value": 9.81
@@ -5217,7 +5221,7 @@
   "gr": {
     "country_code": "gr",
     "country_name": "希臘",
-    "update_time": "2026-06-04 08:55:14",
+    "update_time": "2026-06-05 08:29:04",
     "data": {
       "platform": {
         "all": {
@@ -5869,7 +5873,7 @@
   "fr": {
     "country_code": "fr",
     "country_name": "法國",
-    "update_time": "2026-06-04 08:58:57",
+    "update_time": "2026-06-05 08:32:45",
     "data": {
       "platform": {
         "all": {
