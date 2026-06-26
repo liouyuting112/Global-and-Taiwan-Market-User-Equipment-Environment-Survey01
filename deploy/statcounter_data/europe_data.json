@@ -1,7 +1,7 @@
 {
   "country_code": "europe",
   "country_name": "歐洲",
-  "update_time": "2026-06-25 08:04:29",
+  "update_time": "2026-06-26 08:08:19",
   "data": {
     "platform": {
       "all": {
@@ -611,7 +611,28 @@
       },
       "desktop": {
         "url": "https://gs.statcounter.com/social-media-stats/desktop/europe",
-        "data": []
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 45.58
+          },
+          {
+            "name": "Pinterest",
+            "value": 22.83
+          },
+          {
+            "name": "YouTube",
+            "value": 11.57
+          },
+          {
+            "name": "Twitter",
+            "value": 7.7
+          },
+          {
+            "name": "reddit",
+            "value": 5.9
+          }
+        ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/social-media-stats/tablet/europe",
