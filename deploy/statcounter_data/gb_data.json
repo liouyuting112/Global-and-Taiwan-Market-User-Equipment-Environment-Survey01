@@ -1,7 +1,7 @@
 {
   "country_code": "gb",
   "country_name": "英國",
-  "update_time": "2026-07-03 08:00:38",
+  "update_time": "2026-07-04 08:01:54",
   "data": {
     "platform": {
       "all": {
@@ -391,28 +391,7 @@
     "vendor_tablet": {
       "all": {
         "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-kingdom",
-        "data": [
-          {
-            "name": "Apple",
-            "value": 56.64
-          },
-          {
-            "name": "Samsung",
-            "value": 15.51
-          },
-          {
-            "name": "Amazon",
-            "value": 12.11
-          },
-          {
-            "name": "Unknown",
-            "value": 10.7
-          },
-          {
-            "name": "Lenovo",
-            "value": 2.7
-          }
-        ]
+        "data": []
       },
       "tablet": {
         "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-kingdom",

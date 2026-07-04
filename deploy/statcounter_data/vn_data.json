@@ -1,7 +1,7 @@
 {
   "country_code": "vn",
   "country_name": "越南",
-  "update_time": "2026-07-03 08:04:59",
+  "update_time": "2026-07-04 08:07:52",
   "data": {
     "platform": {
       "all": {
@@ -295,28 +295,7 @@
       },
       "desktop": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/viet-nam",
-        "data": [
-          {
-            "name": "1280x1200",
-            "value": 28.55
-          },
-          {
-            "name": "800x600",
-            "value": 9.59
-          },
-          {
-            "name": "1920x1080",
-            "value": 9.23
-          },
-          {
-            "name": "384x832",
-            "value": 4.93
-          },
-          {
-            "name": "1536x864",
-            "value": 4.04
-          }
-        ]
+        "data": []
       },
       "tablet": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/viet-nam",
@@ -451,28 +430,7 @@
     "search_engine_all": {
       "all": {
         "url": "https://gs.statcounter.com/search-engine-market-share/all/viet-nam",
-        "data": [
-          {
-            "name": "Google",
-            "value": 95.59
-          },
-          {
-            "name": "CocCoc",
-            "value": 3.62
-          },
-          {
-            "name": "bing",
-            "value": 0.44
-          },
-          {
-            "name": "Yahoo!",
-            "value": 0.27
-          },
-          {
-            "name": "DuckDuckGo",
-            "value": 0.04
-          }
-        ]
+        "data": []
       },
       "mobile": {
         "url": "https://gs.statcounter.com/search-engine-market-share/mobile/viet-nam",
