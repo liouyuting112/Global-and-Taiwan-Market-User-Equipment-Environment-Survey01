@@ -1,7 +1,7 @@
 {
   "country_code": "ca",
   "country_name": "加拿大",
-  "update_time": "2026-07-04 08:07:14",
+  "update_time": "2026-07-05 08:02:00",
   "data": {
     "platform": {
       "all": {
@@ -291,7 +291,28 @@
       },
       "desktop": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/canada",
-        "data": []
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 20.55
+          },
+          {
+            "name": "1536x864",
+            "value": 7.81
+          },
+          {
+            "name": "800x600",
+            "value": 5.89
+          },
+          {
+            "name": "375x812",
+            "value": 5.64
+          },
+          {
+            "name": "1366x768",
+            "value": 5.08
+          }
+        ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/canada",

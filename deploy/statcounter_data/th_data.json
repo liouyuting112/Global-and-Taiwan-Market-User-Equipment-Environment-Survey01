@@ -1,7 +1,7 @@
 {
   "country_code": "th",
   "country_name": "泰國",
-  "update_time": "2026-07-04 08:02:35",
+  "update_time": "2026-07-05 07:58:22",
   "data": {
     "platform": {
       "all": {
@@ -526,13 +526,55 @@
       },
       "tablet": {
         "url": "https://gs.statcounter.com/search-engine-market-share/tablet/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Google",
+            "value": 99.91
+          },
+          {
+            "name": "bing",
+            "value": 0.04
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.02
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.02
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.01
+          }
+        ]
       }
     },
     "social_media_all": {
       "all": {
         "url": "https://gs.statcounter.com/social-media-stats/all/thailand",
-        "data": []
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 66.9
+          },
+          {
+            "name": "YouTube",
+            "value": 14.8
+          },
+          {
+            "name": "Twitter",
+            "value": 10.36
+          },
+          {
+            "name": "Instagram",
+            "value": 4.11
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.2
+          }
+        ]
       },
       "mobile": {
         "url": "https://gs.statcounter.com/social-media-stats/mobile/thailand",

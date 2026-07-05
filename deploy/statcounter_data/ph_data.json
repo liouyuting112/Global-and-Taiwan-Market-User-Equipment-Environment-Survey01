@@ -1,7 +1,7 @@
 {
   "country_code": "ph",
   "country_name": "菲律賓",
-  "update_time": "2026-07-04 07:57:33",
+  "update_time": "2026-07-05 07:54:39",
   "data": {
     "platform": {
       "all": {
@@ -185,7 +185,32 @@
       },
       "desktop": {
         "url": "https://gs.statcounter.com/browser-market-share/desktop/philippines",
-        "data": []
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 84.47
+          },
+          {
+            "name": "Edge",
+            "value": 8.89
+          },
+          {
+            "name": "Safari",
+            "value": 2.11
+          },
+          {
+            "name": "Opera",
+            "value": 1.9
+          },
+          {
+            "name": "Firefox",
+            "value": 1.57
+          },
+          {
+            "name": "Brave",
+            "value": 0.63
+          }
+        ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/browser-market-share/tablet/philippines",

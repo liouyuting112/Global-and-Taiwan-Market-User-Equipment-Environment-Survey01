@@ -1,7 +1,7 @@
 {
   "country_code": "kr",
   "country_name": "韓國",
-  "update_time": "2026-07-04 08:20:17",
+  "update_time": "2026-07-05 08:13:05",
   "data": {
     "platform": {
       "all": {
@@ -181,21 +181,113 @@
       },
       "desktop": {
         "url": "https://gs.statcounter.com/browser-market-share/desktop/south-korea",
-        "data": []
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 70.36
+          },
+          {
+            "name": "Edge",
+            "value": 14.0
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 6.96
+          },
+          {
+            "name": "Whale Browser",
+            "value": 4.12
+          },
+          {
+            "name": "Safari",
+            "value": 1.53
+          },
+          {
+            "name": "Firefox",
+            "value": 1.21
+          }
+        ]
       },
       "tablet": {
         "url": "https://gs.statcounter.com/browser-market-share/tablet/south-korea",
-        "data": []
+        "data": [
+          {
+            "name": "Safari",
+            "value": 36.24
+          },
+          {
+            "name": "Chrome",
+            "value": 34.09
+          },
+          {
+            "name": "Android",
+            "value": 22.97
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.82
+          },
+          {
+            "name": "Edge",
+            "value": 0.69
+          },
+          {
+            "name": "Opera",
+            "value": 0.66
+          }
+        ]
       }
     },
     "resolution_all": {
       "all": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/all/south-korea",
-        "data": []
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 20.72
+          },
+          {
+            "name": "2560x1440",
+            "value": 8.68
+          },
+          {
+            "name": "414x896",
+            "value": 6.95
+          },
+          {
+            "name": "384x832",
+            "value": 6.4
+          },
+          {
+            "name": "360x780",
+            "value": 5.17
+          }
+        ]
       },
       "mobile": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/south-korea",
-        "data": []
+        "data": [
+          {
+            "name": "414x896",
+            "value": 17.74
+          },
+          {
+            "name": "384x832",
+            "value": 9.19
+          },
+          {
+            "name": "360x780",
+            "value": 8.9
+          },
+          {
+            "name": "412x892",
+            "value": 6.88
+          },
+          {
+            "name": "375x812",
+            "value": 5.78
+          }
+        ]
       },
       "desktop": {
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/south-korea",
