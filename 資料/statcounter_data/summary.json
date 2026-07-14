@@ -2,7 +2,7 @@
   "us": {
     "country_code": "us",
     "country_name": "美國",
-    "update_time": "2026-07-13 07:43:48",
+    "update_time": "2026-07-14 07:44:16",
     "data": {
       "platform": {
         "all": {
@@ -654,7 +654,7 @@
   "gb": {
     "country_code": "gb",
     "country_name": "英國",
-    "update_time": "2026-07-13 07:47:30",
+    "update_time": "2026-07-14 07:48:00",
     "data": {
       "platform": {
         "all": {
@@ -1302,7 +1302,7 @@
   "ca": {
     "country_code": "ca",
     "country_name": "加拿大",
-    "update_time": "2026-07-13 07:51:11",
+    "update_time": "2026-07-14 07:51:43",
     "data": {
       "platform": {
         "all": {
@@ -1954,7 +1954,7 @@
   "au": {
     "country_code": "au",
     "country_name": "澳洲",
-    "update_time": "2026-07-13 07:54:53",
+    "update_time": "2026-07-14 07:55:26",
     "data": {
       "platform": {
         "all": {
@@ -2606,7 +2606,7 @@
   "nz": {
     "country_code": "nz",
     "country_name": "紐西蘭",
-    "update_time": "2026-07-13 07:58:35",
+    "update_time": "2026-07-14 07:59:09",
     "data": {
       "platform": {
         "all": {
@@ -3254,7 +3254,7 @@
   "ie": {
     "country_code": "ie",
     "country_name": "愛爾蘭",
-    "update_time": "2026-07-13 08:02:16",
+    "update_time": "2026-07-14 08:02:51",
     "data": {
       "platform": {
         "all": {
@@ -3906,7 +3906,7 @@
   "za": {
     "country_code": "za",
     "country_name": "南非",
-    "update_time": "2026-07-13 08:05:57",
+    "update_time": "2026-07-14 08:06:34",
     "data": {
       "platform": {
         "all": {
@@ -4549,6 +4549,26 @@
             {
               "name": "Twitter",
               "value": 1.15
+            }
+          ]
+        }
+      }
+    }
+  }
+}          "name": "Pinterest",
+              "value": 14.95
+            },
+            {
+              "name": "Instagram",
+              "value": 13.64
+            },
+            {
+              "name": "YouTube",
+              "value": 7.93
+            },
+            {
+              "name": "Twitter",
+              "value": 4.28
             }
           ]
         }
