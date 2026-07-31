@@ -1,7 +1,7 @@
 {
   "country_code": "gr",
   "country_name": "希臘",
-  "update_time": "2026-07-30 08:24:45",
+  "update_time": "2026-07-31 08:24:36",
   "data": {
     "platform": {
       "all": {
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 49.94
+            "value": 53.51
           },
           {
             "name": "Android",
-            "value": 25.32
+            "value": 27.05
           },
           {
             "name": "iOS",
-            "value": 10.03
-          },
-          {
-            "name": "Unknown",
-            "value": 6.66
+            "value": 10.79
           },
           {
             "name": "Linux",
-            "value": 3.81
+            "value": 4.1
           },
           {
             "name": "OS X",
-            "value": 1.71
+            "value": 1.82
+          },
+          {
+            "name": "macOS",
+            "value": 1.34
           }
         ]
       },
@@ -57,19 +57,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 71.46
+            "value": 71.51
           },
           {
             "name": "iOS",
-            "value": 28.18
-          },
-          {
-            "name": "Unknown",
-            "value": 0.23
+            "value": 28.35
           },
           {
             "name": "Linux",
-            "value": 0.09
+            "value": 0.1
           },
           {
             "name": "Windows",
@@ -86,27 +82,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 77.39
-          },
-          {
-            "name": "Unknown",
-            "value": 10.2
+            "value": 86.16
           },
           {
             "name": "Linux",
-            "value": 5.86
+            "value": 6.55
           },
           {
             "name": "OS X",
-            "value": 2.64
+            "value": 2.93
           },
           {
             "name": "macOS",
-            "value": 1.92
+            "value": 2.17
           },
           {
             "name": "Chrome OS",
-            "value": 1.44
+            "value": 1.59
+          },
+          {
+            "name": "FreeBSD",
+            "value": 0.6
           }
         ]
       },
@@ -115,15 +111,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 69.97
+            "value": 69.26
           },
           {
             "name": "iOS",
-            "value": 29.93
+            "value": 30.63
           },
           {
             "name": "Linux",
-            "value": 0.1
+            "value": 0.11
           }
         ]
       }
@@ -277,23 +273,23 @@
         "data": [
           {
             "name": "414x896",
-            "value": 12.61
+            "value": 12.66
           },
           {
             "name": "393x873",
-            "value": 11.71
+            "value": 11.69
           },
           {
             "name": "384x832",
-            "value": 7.83
+            "value": 7.84
           },
           {
             "name": "360x800",
-            "value": 7.79
+            "value": 7.77
           },
           {
             "name": "390x844",
-            "value": 6.38
+            "value": 6.39
           }
         ]
       },
@@ -354,23 +350,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 28.18
+            "value": 28.28
           },
           {
             "name": "Samsung",
-            "value": 22.41
+            "value": 22.39
           },
           {
             "name": "Xiaomi",
-            "value": 19.58
+            "value": 19.57
           },
           {
             "name": "Unknown",
-            "value": 18.64
+            "value": 18.58
           },
           {
             "name": "Motorola",
-            "value": 2.08
+            "value": 2.09
           }
         ]
       },
@@ -379,23 +375,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 28.18
+            "value": 28.28
           },
           {
             "name": "Samsung",
-            "value": 22.41
+            "value": 22.39
           },
           {
             "name": "Xiaomi",
-            "value": 19.58
+            "value": 19.57
           },
           {
             "name": "Unknown",
-            "value": 18.64
+            "value": 18.58
           },
           {
             "name": "Motorola",
-            "value": 2.08
+            "value": 2.09
           }
         ]
       }
@@ -491,7 +487,7 @@
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.45
+            "value": 0.46
           },
           {
             "name": "YANDEX",
@@ -560,23 +556,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 92.77
+            "value": 92.7
           },
           {
             "name": "Instagram",
-            "value": 2.17
+            "value": 2.19
           },
           {
             "name": "YouTube",
-            "value": 1.97
+            "value": 1.99
           },
           {
             "name": "Twitter",
-            "value": 1.21
+            "value": 1.22
           },
           {
             "name": "Pinterest",
-            "value": 1.19
+            "value": 1.2
           }
         ]
       },

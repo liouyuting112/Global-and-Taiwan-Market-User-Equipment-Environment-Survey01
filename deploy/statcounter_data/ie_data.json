@@ -1,7 +1,7 @@
 {
   "country_code": "ie",
   "country_name": "愛爾蘭",
-  "update_time": "2026-07-30 08:13:46",
+  "update_time": "2026-07-31 08:13:41",
   "data": {
     "platform": {
       "all": {
@@ -57,11 +57,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 50.14
+            "value": 50.1
           },
           {
             "name": "iOS",
-            "value": 49.85
+            "value": 49.89
           },
           {
             "name": "KaiOS",
@@ -74,27 +74,23 @@
         "data": [
           {
             "name": "Windows",
-            "value": 49.76
-          },
-          {
-            "name": "Unknown",
-            "value": 23.63
+            "value": 65.5
           },
           {
             "name": "OS X",
-            "value": 17.15
+            "value": 22.05
           },
           {
             "name": "macOS",
-            "value": 5.12
+            "value": 6.72
           },
           {
             "name": "Linux",
-            "value": 3.23
+            "value": 4.3
           },
           {
             "name": "Chrome OS",
-            "value": 1.1
+            "value": 1.43
           }
         ]
       },
@@ -103,19 +99,15 @@
         "data": [
           {
             "name": "iOS",
-            "value": 59.78
+            "value": 59.68
           },
           {
             "name": "Android",
-            "value": 39.23
+            "value": 39.36
           },
           {
             "name": "Linux",
-            "value": 0.99
-          },
-          {
-            "name": "Unknown",
-            "value": 0.01
+            "value": 0.96
           }
         ]
       }
@@ -450,11 +442,11 @@
         "data": [
           {
             "name": "Google",
-            "value": 94.09
+            "value": 94.08
           },
           {
             "name": "bing",
-            "value": 3.53
+            "value": 3.54
           },
           {
             "name": "DuckDuckGo",
@@ -466,7 +458,7 @@
           },
           {
             "name": "Ecosia",
-            "value": 0.32
+            "value": 0.33
           }
         ]
       },
@@ -525,23 +517,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 90.19
+            "value": 90.14
           },
           {
             "name": "bing",
-            "value": 6.72
+            "value": 6.74
           },
           {
             "name": "Yahoo!",
-            "value": 2.07
+            "value": 2.11
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.42
+            "value": 0.41
           },
           {
             "name": "YANDEX",
-            "value": 0.29
+            "value": 0.28
           }
         ]
       }
@@ -552,23 +544,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 89.29
+            "value": 89.23
           },
           {
             "name": "Instagram",
-            "value": 7.0
+            "value": 6.97
           },
           {
             "name": "Twitter",
-            "value": 1.62
+            "value": 1.59
           },
           {
             "name": "YouTube",
-            "value": 0.88
+            "value": 1.01
           },
           {
             "name": "reddit",
-            "value": 0.63
+            "value": 0.62
           }
         ]
       },

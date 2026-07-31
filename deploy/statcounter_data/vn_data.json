@@ -1,7 +1,7 @@
 {
   "country_code": "vn",
   "country_name": "越南",
-  "update_time": "2026-07-30 08:02:31",
+  "update_time": "2026-07-31 08:02:34",
   "data": {
     "platform": {
       "all": {
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Android",
-            "value": 38.77
+            "value": 43.93
           },
           {
             "name": "iOS",
-            "value": 25.41
+            "value": 28.76
           },
           {
             "name": "Windows",
-            "value": 21.52
-          },
-          {
-            "name": "Unknown",
-            "value": 11.36
+            "value": 24.0
           },
           {
             "name": "OS X",
-            "value": 1.25
+            "value": 1.4
           },
           {
             "name": "Linux",
-            "value": 0.89
+            "value": 1.01
+          },
+          {
+            "name": "macOS",
+            "value": 0.9
           }
         ]
       },
@@ -78,27 +78,23 @@
         "data": [
           {
             "name": "Windows",
-            "value": 60.11
-          },
-          {
-            "name": "Unknown",
-            "value": 31.71
+            "value": 87.92
           },
           {
             "name": "OS X",
-            "value": 3.48
+            "value": 5.12
           },
           {
             "name": "Linux",
-            "value": 2.45
+            "value": 3.65
           },
           {
             "name": "macOS",
-            "value": 2.23
+            "value": 3.29
           },
           {
             "name": "Chrome OS",
-            "value": 0.02
+            "value": 0.03
           }
         ]
       },

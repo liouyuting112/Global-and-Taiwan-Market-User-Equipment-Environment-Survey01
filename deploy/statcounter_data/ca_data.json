@@ -1,7 +1,7 @@
 {
   "country_code": "ca",
   "country_name": "加拿大",
-  "update_time": "2026-07-30 08:02:26",
+  "update_time": "2026-07-31 08:02:34",
   "data": {
     "platform": {
       "all": {
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 29.94
+            "value": 31.52
           },
           {
             "name": "iOS",
-            "value": 27.54
+            "value": 29.03
           },
           {
             "name": "Android",
-            "value": 17.17
+            "value": 18.05
           },
           {
             "name": "OS X",
-            "value": 12.21
-          },
-          {
-            "name": "Unknown",
-            "value": 4.97
+            "value": 12.79
           },
           {
             "name": "macOS",
-            "value": 3.47
+            "value": 3.68
+          },
+          {
+            "name": "Linux",
+            "value": 2.96
           }
         ]
       },
@@ -319,23 +319,23 @@
         "data": [
           {
             "name": "768x1024",
-            "value": 15.08
+            "value": 15.2
           },
           {
             "name": "810x1080",
-            "value": 8.19
+            "value": 8.15
           },
           {
             "name": "820x1180",
-            "value": 6.98
+            "value": 6.99
           },
           {
             "name": "1280x800",
-            "value": 3.96
+            "value": 3.95
           },
           {
             "name": "800x1280",
-            "value": 3.93
+            "value": 3.92
           }
         ]
       }
