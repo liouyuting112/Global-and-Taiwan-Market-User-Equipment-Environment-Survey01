@@ -2,7 +2,7 @@
   "global": {
     "country_code": "global",
     "country_name": "全球",
-    "update_time": "2026-08-16 07:12:28",
+    "update_time": "2026-08-17 07:11:53",
     "data": {
       "platform": {
         "all": {
@@ -654,7 +654,7 @@
   "tw": {
     "country_code": "tw",
     "country_name": "台灣",
-    "update_time": "2026-08-16 07:16:15",
+    "update_time": "2026-08-17 07:15:39",
     "data": {
       "platform": {
         "all": {
@@ -1294,7 +1294,7 @@
   "cn": {
     "country_code": "cn",
     "country_name": "中國",
-    "update_time": "2026-08-16 07:19:58",
+    "update_time": "2026-08-17 07:19:22",
     "data": {
       "platform": {
         "all": {
@@ -1942,7 +1942,7 @@
   "hk": {
     "country_code": "hk",
     "country_name": "香港",
-    "update_time": "2026-08-16 07:23:41",
+    "update_time": "2026-08-17 07:23:07",
     "data": {
       "platform": {
         "all": {
@@ -2586,7 +2586,7 @@
   "mo": {
     "country_code": "mo",
     "country_name": "澳門",
-    "update_time": "2026-08-16 07:27:24",
+    "update_time": "2026-08-17 07:26:51",
     "data": {
       "platform": {
         "all": {
@@ -3210,7 +3210,7 @@
   "kr": {
     "country_code": "kr",
     "country_name": "韓國",
-    "update_time": "2026-08-16 07:31:06",
+    "update_time": "2026-08-17 07:30:34",
     "data": {
       "platform": {
         "all": {
@@ -3854,7 +3854,7 @@
   "jp": {
     "country_code": "jp",
     "country_name": "日本",
-    "update_time": "2026-08-16 07:34:49",
+    "update_time": "2026-08-17 07:34:18",
     "data": {
       "platform": {
         "all": {
@@ -4485,6 +4485,55 @@
             {
               "name": "YouTube",
               "value": 6.62
+            }
+          ]
+        }
+      }
+    }
+  }
+},
+              "value": 46.99
+            },
+            {
+              "name": "Pinterest",
+              "value": 14.11
+            },
+            {
+              "name": "reddit",
+              "value": 10.32
+            },
+            {
+              "name": "Facebook",
+              "value": 10.25
+            },
+            {
+              "name": "Twitter",
+              "value": 8.32
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/social-media-stats/tablet/brazil",
+          "data": [
+            {
+              "name": "Facebook",
+              "value": 36.98
+            },
+            {
+              "name": "Pinterest",
+              "value": 20.32
+            },
+            {
+              "name": "YouTube",
+              "value": 17.2
+            },
+            {
+              "name": "Instagram",
+              "value": 14.34
+            },
+            {
+              "name": "Twitter",
+              "value": 5.61
             }
           ]
         }
