@@ -1,7 +1,7 @@
 {
   "country_code": "bd",
   "country_name": "孟加拉國",
-  "update_time": "2026-08-31 09:04:41",
+  "update_time": "2026-09-01 09:35:13",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Desktop",
-            "value": 58.36
+            "value": 71.67
           },
           {
             "name": "Mobile",
-            "value": 41.27
+            "value": 28.08
           },
           {
             "name": "Tablet",
-            "value": 0.37
+            "value": 0.25
           }
         ]
       }
@@ -27,28 +27,28 @@
         "url": "https://gs.statcounter.com/os-market-share/all/bangladesh",
         "data": [
           {
-            "name": "Android",
-            "value": 42.26
+            "name": "Windows",
+            "value": 36.75
           },
           {
-            "name": "Windows",
-            "value": 40.11
+            "name": "Android",
+            "value": 28.16
           },
           {
             "name": "macOS",
-            "value": 6.31
-          },
-          {
-            "name": "iOS",
-            "value": 4.3
+            "value": 22.75
           },
           {
             "name": "Linux",
-            "value": 4.06
+            "value": 4.95
           },
           {
             "name": "OS X",
-            "value": 2.86
+            "value": 4.54
+          },
+          {
+            "name": "iOS",
+            "value": 2.78
           }
         ]
       },
@@ -57,26 +57,22 @@
         "data": [
           {
             "name": "Android",
-            "value": 91.01
+            "value": 91.21
           },
           {
             "name": "iOS",
-            "value": 8.93
+            "value": 8.72
           },
           {
             "name": "KaiOS",
-            "value": 0.04
+            "value": 0.03
           },
           {
             "name": "Linux",
-            "value": 0.01
+            "value": 0.02
           },
           {
             "name": "Windows",
-            "value": 0.01
-          },
-          {
-            "name": "Sony Ericsson",
             "value": 0.01
           }
         ]
@@ -86,23 +82,23 @@
         "data": [
           {
             "name": "Windows",
-            "value": 75.11
+            "value": 53.23
           },
           {
             "name": "macOS",
-            "value": 11.82
+            "value": 32.96
           },
           {
             "name": "Linux",
-            "value": 7.6
+            "value": 7.16
           },
           {
             "name": "OS X",
-            "value": 5.35
+            "value": 6.58
           },
           {
             "name": "Chrome OS",
-            "value": 0.12
+            "value": 0.07
           }
         ]
       },
@@ -111,19 +107,19 @@
         "data": [
           {
             "name": "Android",
-            "value": 56.15
+            "value": 61.06
           },
           {
             "name": "iOS",
-            "value": 43.71
+            "value": 38.33
           },
           {
             "name": "Linux",
-            "value": 0.08
+            "value": 0.36
           },
           {
             "name": "BlackBerry OS",
-            "value": 0.05
+            "value": 0.24
           }
         ]
       }
@@ -134,27 +130,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 85.39
+            "value": 81.68
           },
           {
             "name": "Firefox",
-            "value": 4.73
-          },
-          {
-            "name": "Safari",
-            "value": 2.96
-          },
-          {
-            "name": "Opera",
-            "value": 1.96
+            "value": 8.25
           },
           {
             "name": "Edge",
-            "value": 1.54
+            "value": 3.85
+          },
+          {
+            "name": "Opera",
+            "value": 1.97
+          },
+          {
+            "name": "Safari",
+            "value": 1.94
           },
           {
             "name": "UC Browser",
-            "value": 1.45
+            "value": 1.32
           }
         ]
       },
@@ -163,27 +159,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 82.79
+            "value": 82.71
           },
           {
             "name": "Safari",
-            "value": 6.37
-          },
-          {
-            "name": "Opera",
-            "value": 3.61
+            "value": 5.92
           },
           {
             "name": "UC Browser",
-            "value": 3.49
+            "value": 4.68
+          },
+          {
+            "name": "Opera",
+            "value": 4.47
           },
           {
             "name": "Samsung Internet",
-            "value": 2.32
+            "value": 0.87
           },
           {
-            "name": "Firefox",
-            "value": 0.62
+            "name": "Brave",
+            "value": 0.68
           }
         ]
       },
@@ -192,27 +188,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 87.44
+            "value": 81.37
           },
           {
             "name": "Firefox",
-            "value": 7.67
+            "value": 11.35
           },
           {
             "name": "Edge",
-            "value": 2.59
+            "value": 5.35
           },
           {
             "name": "Opera",
-            "value": 0.79
+            "value": 0.99
           },
           {
             "name": "Brave",
-            "value": 0.63
+            "value": 0.47
           },
           {
-            "name": "Samsung Internet",
-            "value": 0.45
+            "name": "Safari",
+            "value": 0.29
           }
         ]
       },
@@ -221,27 +217,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 51.22
+            "value": 55.27
           },
           {
             "name": "Safari",
-            "value": 30.37
+            "value": 25.16
           },
           {
             "name": "Android",
-            "value": 13.2
+            "value": 13.21
           },
           {
             "name": "Opera",
-            "value": 2.83
-          },
-          {
-            "name": "Samsung Internet",
-            "value": 1.11
+            "value": 3.7
           },
           {
             "name": "UC Browser",
-            "value": 0.79
+            "value": 1.07
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.66
           }
         ]
       }
@@ -251,24 +247,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/all/bangladesh",
         "data": [
           {
-            "name": "1280x1200",
-            "value": 13.34
-          },
-          {
             "name": "1920x1080",
-            "value": 13.14
-          },
-          {
-            "name": "360x800",
-            "value": 8.05
+            "value": 22.82
           },
           {
             "name": "1366x1366",
-            "value": 6.29
+            "value": 20.36
           },
           {
-            "name": "393x873",
-            "value": 4.48
+            "name": "360x800",
+            "value": 6.89
+          },
+          {
+            "name": "1280x1200",
+            "value": 5.3
+          },
+          {
+            "name": "1366x768",
+            "value": 2.8
           }
         ]
       },
@@ -277,23 +273,23 @@
         "data": [
           {
             "name": "360x800",
-            "value": 13.81
+            "value": 17.49
           },
           {
             "name": "393x873",
-            "value": 9.87
+            "value": 7.28
           },
           {
             "name": "385x854",
-            "value": 5.6
+            "value": 5.64
           },
           {
-            "name": "412x915",
-            "value": 4.42
+            "name": "360x806",
+            "value": 4.84
           },
           {
-            "name": "384x832",
-            "value": 4.16
+            "name": "414x896",
+            "value": 3.33
           }
         ]
       },
@@ -301,24 +297,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/bangladesh",
         "data": [
           {
-            "name": "1280x1200",
-            "value": 23.88
-          },
-          {
             "name": "1920x1080",
-            "value": 23.52
+            "value": 32.54
           },
           {
             "name": "1366x1366",
-            "value": 11.26
+            "value": 29.04
+          },
+          {
+            "name": "1280x1200",
+            "value": 7.55
           },
           {
             "name": "1366x768",
-            "value": 5.18
+            "value": 3.99
           },
           {
-            "name": "1280x720",
-            "value": 4.77
+            "name": "1536x864",
+            "value": 3.12
           }
         ]
       },
@@ -327,23 +323,23 @@
         "data": [
           {
             "name": "1280x720",
-            "value": 27.07
+            "value": 17.46
           },
           {
             "name": "601x962",
-            "value": 10.29
-          },
-          {
-            "name": "601x1007",
-            "value": 5.69
+            "value": 13.14
           },
           {
             "name": "768x1024",
-            "value": 5.38
+            "value": 6.04
           },
           {
-            "name": "820x1180",
-            "value": 4.9
+            "name": "601x1007",
+            "value": 5.02
+          },
+          {
+            "name": "800x1280",
+            "value": 3.46
           }
         ]
       }
@@ -353,24 +349,24 @@
         "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
         "data": [
           {
-            "name": "Samsung",
-            "value": 26.36
+            "name": "Xiaomi",
+            "value": 17.61
           },
           {
-            "name": "Xiaomi",
-            "value": 20.88
+            "name": "Samsung",
+            "value": 15.31
           },
           {
             "name": "Unknown",
-            "value": 9.64
+            "value": 12.86
           },
           {
-            "name": "Apple",
-            "value": 8.93
+            "name": "Vivo",
+            "value": 10.51
           },
           {
             "name": "Realme",
-            "value": 7.38
+            "value": 9.8
           }
         ]
       },
@@ -378,24 +374,24 @@
         "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
         "data": [
           {
-            "name": "Samsung",
-            "value": 26.36
+            "name": "Xiaomi",
+            "value": 17.61
           },
           {
-            "name": "Xiaomi",
-            "value": 20.88
+            "name": "Samsung",
+            "value": 15.31
           },
           {
             "name": "Unknown",
-            "value": 9.64
+            "value": 12.86
           },
           {
-            "name": "Apple",
-            "value": 8.93
+            "name": "Vivo",
+            "value": 10.51
           },
           {
             "name": "Realme",
-            "value": 7.38
+            "value": 9.8
           }
         ]
       }
@@ -406,23 +402,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 43.7
+            "value": 38.33
           },
           {
             "name": "Samsung",
-            "value": 31.34
+            "value": 33.01
           },
           {
             "name": "Unknown",
-            "value": 12.74
+            "value": 13.85
           },
           {
             "name": "Huawei",
-            "value": 5.33
+            "value": 5.5
           },
           {
             "name": "Xiaomi",
-            "value": 2.17
+            "value": 3.61
           }
         ]
       },
@@ -431,23 +427,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 43.7
+            "value": 38.33
           },
           {
             "name": "Samsung",
-            "value": 31.34
+            "value": 33.01
           },
           {
             "name": "Unknown",
-            "value": 12.74
+            "value": 13.85
           },
           {
             "name": "Huawei",
-            "value": 5.33
+            "value": 5.5
           },
           {
             "name": "Xiaomi",
-            "value": 2.17
+            "value": 3.61
           }
         ]
       }
@@ -458,11 +454,11 @@
         "data": [
           {
             "name": "Google",
-            "value": 97.82
+            "value": 97.7
           },
           {
             "name": "bing",
-            "value": 1.48
+            "value": 1.53
           },
           {
             "name": "DuckDuckGo",
@@ -470,11 +466,11 @@
           },
           {
             "name": "Yahoo!",
-            "value": 0.23
+            "value": 0.24
           },
           {
             "name": "YANDEX",
-            "value": 0.18
+            "value": 0.23
           }
         ]
       },
@@ -483,19 +479,19 @@
         "data": [
           {
             "name": "Google",
-            "value": 99.04
+            "value": 98.91
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.3
+            "value": 0.33
           },
           {
             "name": "bing",
-            "value": 0.28
+            "value": 0.3
           },
           {
             "name": "YANDEX",
-            "value": 0.21
+            "value": 0.3
           },
           {
             "name": "Yahoo!",
@@ -508,19 +504,19 @@
         "data": [
           {
             "name": "Google",
-            "value": 96.05
+            "value": 96.19
           },
           {
             "name": "bing",
-            "value": 3.22
+            "value": 3.07
           },
           {
             "name": "Yahoo!",
-            "value": 0.42
+            "value": 0.41
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.15
+            "value": 0.14
           },
           {
             "name": "YANDEX",
@@ -533,23 +529,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 96.89
+            "value": 95.75
           },
           {
             "name": "bing",
-            "value": 2.44
+            "value": 2.61
           },
           {
             "name": "YANDEX",
-            "value": 0.33
+            "value": 0.83
           },
           {
             "name": "Yahoo!",
-            "value": 0.21
+            "value": 0.52
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.06
+            "value": 0.16
           }
         ]
       }
@@ -560,23 +556,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 72.36
+            "value": 72.1
           },
           {
             "name": "YouTube",
-            "value": 20.3
+            "value": 23.32
           },
           {
             "name": "Instagram",
-            "value": 3.89
-          },
-          {
-            "name": "Twitter",
-            "value": 1.02
+            "value": 1.97
           },
           {
             "name": "Pinterest",
-            "value": 0.99
+            "value": 0.83
+          },
+          {
+            "name": "Twitter",
+            "value": 0.54
           }
         ]
       },
@@ -585,23 +581,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 78.83
+            "value": 80.01
           },
           {
             "name": "YouTube",
-            "value": 15.55
+            "value": 17.28
           },
           {
             "name": "Instagram",
-            "value": 4.13
+            "value": 1.62
           },
           {
             "name": "Twitter",
-            "value": 0.62
+            "value": 0.34
           },
           {
             "name": "reddit",
-            "value": 0.44
+            "value": 0.26
           }
         ]
       },
@@ -610,23 +606,23 @@
         "data": [
           {
             "name": "YouTube",
-            "value": 60.21
+            "value": 65.9
           },
           {
             "name": "Facebook",
-            "value": 18.13
+            "value": 17.45
           },
           {
             "name": "Pinterest",
-            "value": 6.38
+            "value": 4.58
+          },
+          {
+            "name": "Instagram",
+            "value": 4.07
           },
           {
             "name": "LinkedIn",
-            "value": 5.12
-          },
-          {
-            "name": "Twitter",
-            "value": 4.18
+            "value": 2.84
           }
         ]
       },
@@ -635,23 +631,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 53.37
+            "value": 51.48
           },
           {
             "name": "YouTube",
-            "value": 31.8
+            "value": 14.45
           },
           {
-            "name": "Twitter",
-            "value": 6.61
+            "name": "Instagram",
+            "value": 12.73
           },
           {
             "name": "Pinterest",
-            "value": 3.24
+            "value": 9.57
           },
           {
-            "name": "reddit",
-            "value": 2.49
+            "name": "Tumblr",
+            "value": 7.56
           }
         ]
       }

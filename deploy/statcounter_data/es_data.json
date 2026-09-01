@@ -1,7 +1,7 @@
 {
   "country_code": "es",
   "country_name": "西班牙",
-  "update_time": "2026-08-31 09:00:53",
+  "update_time": "2026-09-01 09:32:01",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Mobile",
-            "value": 49.37
+            "value": 54.35
           },
           {
             "name": "Desktop",
-            "value": 49.27
+            "value": 44.35
           },
           {
             "name": "Tablet",
-            "value": 1.36
+            "value": 1.3
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Android",
-            "value": 40.08
-          },
-          {
-            "name": "Windows",
-            "value": 30.46
+            "value": 47.33
           },
           {
             "name": "iOS",
-            "value": 19.86
+            "value": 21.74
+          },
+          {
+            "name": "Windows",
+            "value": 21.69
           },
           {
             "name": "macOS",
-            "value": 3.77
+            "value": 3.26
           },
           {
             "name": "OS X",
-            "value": 2.92
+            "value": 3.11
           },
           {
             "name": "Linux",
-            "value": 1.99
+            "value": 2.02
           }
         ]
       },
@@ -57,11 +57,11 @@
         "data": [
           {
             "name": "Android",
-            "value": 66.98
+            "value": 68.64
           },
           {
             "name": "iOS",
-            "value": 33.01
+            "value": 31.35
           },
           {
             "name": "Linux",
@@ -74,23 +74,23 @@
         "data": [
           {
             "name": "Windows",
-            "value": 76.1
+            "value": 70.18
           },
           {
             "name": "macOS",
-            "value": 9.42
+            "value": 10.56
           },
           {
             "name": "OS X",
-            "value": 7.3
+            "value": 10.06
           },
           {
             "name": "Linux",
-            "value": 4.95
+            "value": 6.53
           },
           {
             "name": "Chrome OS",
-            "value": 2.23
+            "value": 2.67
           }
         ]
       },
@@ -99,15 +99,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 62.47
+            "value": 63.44
           },
           {
             "name": "iOS",
-            "value": 37.44
+            "value": 36.49
           },
           {
             "name": "Linux",
-            "value": 0.09
+            "value": 0.06
           }
         ]
       }
@@ -118,27 +118,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 71.72
+            "value": 74.6
           },
           {
             "name": "Safari",
-            "value": 14.12
+            "value": 13.96
           },
           {
             "name": "Edge",
-            "value": 4.43
-          },
-          {
-            "name": "Firefox",
-            "value": 4.08
+            "value": 3.05
           },
           {
             "name": "Samsung Internet",
-            "value": 2.64
+            "value": 2.86
+          },
+          {
+            "name": "Firefox",
+            "value": 2.85
           },
           {
             "name": "Opera",
-            "value": 1.62
+            "value": 1.35
           }
         ]
       },
@@ -147,19 +147,19 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 69.33
+            "value": 71.15
           },
           {
             "name": "Safari",
-            "value": 24.24
+            "value": 22.43
           },
           {
             "name": "Samsung Internet",
-            "value": 3.14
+            "value": 3.03
           },
           {
             "name": "Firefox",
-            "value": 1.09
+            "value": 1.19
           },
           {
             "name": "Brave",
@@ -167,7 +167,7 @@
           },
           {
             "name": "Opera",
-            "value": 0.74
+            "value": 0.81
           }
         ]
       },
@@ -176,27 +176,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 74.31
+            "value": 79.05
           },
           {
             "name": "Edge",
-            "value": 8.73
+            "value": 6.57
           },
           {
             "name": "Firefox",
-            "value": 7.19
+            "value": 4.97
           },
           {
             "name": "Safari",
-            "value": 3.83
-          },
-          {
-            "name": "Opera",
-            "value": 2.49
+            "value": 3.44
           },
           {
             "name": "Samsung Internet",
-            "value": 2.16
+            "value": 2.71
+          },
+          {
+            "name": "Opera",
+            "value": 1.99
           }
         ]
       },
@@ -205,27 +205,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 65.49
+            "value": 67.6
           },
           {
             "name": "Safari",
-            "value": 19.84
+            "value": 18.7
           },
           {
             "name": "Android",
-            "value": 9.29
+            "value": 8.92
           },
           {
             "name": "Opera",
-            "value": 2.21
+            "value": 2.11
           },
           {
             "name": "Samsung Internet",
-            "value": 1.81
+            "value": 1.5
           },
           {
             "name": "Edge",
-            "value": 0.56
+            "value": 0.41
           }
         ]
       }
@@ -235,24 +235,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/all/spain",
         "data": [
           {
-            "name": "1920x1080",
-            "value": 13.48
-          },
-          {
             "name": "414x896",
-            "value": 8.2
+            "value": 8.82
           },
           {
             "name": "384x832",
-            "value": 6.45
+            "value": 7.92
+          },
+          {
+            "name": "1920x1080",
+            "value": 7.82
           },
           {
             "name": "360x800",
-            "value": 5.53
+            "value": 6.5
           },
           {
             "name": "393x873",
-            "value": 5.49
+            "value": 6.23
           }
         ]
       },
@@ -261,23 +261,23 @@
         "data": [
           {
             "name": "414x896",
-            "value": 16.43
+            "value": 16.07
           },
           {
             "name": "393x873",
-            "value": 10.58
+            "value": 10.92
           },
           {
             "name": "360x800",
-            "value": 8.49
+            "value": 8.71
           },
           {
             "name": "390x844",
-            "value": 8.18
+            "value": 7.51
           },
           {
             "name": "384x832",
-            "value": 6.12
+            "value": 6.51
           }
         ]
       },
@@ -286,23 +286,23 @@
         "data": [
           {
             "name": "1920x1080",
-            "value": 27.59
-          },
-          {
-            "name": "1536x864",
-            "value": 8.49
+            "value": 17.8
           },
           {
             "name": "384x832",
-            "value": 6.97
+            "value": 9.91
+          },
+          {
+            "name": "1536x864",
+            "value": 6.7
           },
           {
             "name": "1366x768",
-            "value": 5.52
+            "value": 4.83
           },
           {
-            "name": "1280x720",
-            "value": 3.47
+            "name": "384x854",
+            "value": 4.03
           }
         ]
       },
@@ -310,24 +310,24 @@
         "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/spain",
         "data": [
           {
-            "name": "768x1024",
-            "value": 10.82
-          },
-          {
             "name": "800x1280",
-            "value": 10.36
+            "value": 11.1
           },
           {
             "name": "1280x800",
-            "value": 10.19
+            "value": 10.69
+          },
+          {
+            "name": "768x1024",
+            "value": 10.04
+          },
+          {
+            "name": "1334x800",
+            "value": 3.25
           },
           {
             "name": "810x1080",
-            "value": 3.57
-          },
-          {
-            "name": "686x1098",
-            "value": 3.5
+            "value": 3.2
           }
         ]
       }
@@ -338,23 +338,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 33.01
+            "value": 31.35
           },
           {
             "name": "Samsung",
-            "value": 24.31
+            "value": 24.93
           },
           {
             "name": "Xiaomi",
-            "value": 21.23
+            "value": 22.22
           },
           {
             "name": "Oppo",
-            "value": 5.21
+            "value": 5.4
           },
           {
             "name": "Unknown",
-            "value": 4.76
+            "value": 4.41
           }
         ]
       },
@@ -363,23 +363,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 33.01
+            "value": 31.35
           },
           {
             "name": "Samsung",
-            "value": 24.31
+            "value": 24.93
           },
           {
             "name": "Xiaomi",
-            "value": 21.23
+            "value": 22.22
           },
           {
             "name": "Oppo",
-            "value": 5.21
+            "value": 5.4
           },
           {
             "name": "Unknown",
-            "value": 4.76
+            "value": 4.41
           }
         ]
       }
@@ -389,24 +389,24 @@
         "url": "https://gs.statcounter.com/vendor-market-share/tablet/spain",
         "data": [
           {
-            "name": "Apple",
-            "value": 37.41
+            "name": "Samsung",
+            "value": 38.89
           },
           {
-            "name": "Samsung",
-            "value": 35.68
+            "name": "Apple",
+            "value": 36.47
           },
           {
             "name": "Xiaomi",
-            "value": 8.69
+            "value": 7.36
           },
           {
             "name": "Unknown",
-            "value": 6.35
+            "value": 6.32
           },
           {
             "name": "Huawei",
-            "value": 4.93
+            "value": 4.77
           }
         ]
       },
@@ -414,24 +414,24 @@
         "url": "https://gs.statcounter.com/vendor-market-share/tablet/spain",
         "data": [
           {
-            "name": "Apple",
-            "value": 37.41
+            "name": "Samsung",
+            "value": 38.89
           },
           {
-            "name": "Samsung",
-            "value": 35.68
+            "name": "Apple",
+            "value": 36.47
           },
           {
             "name": "Xiaomi",
-            "value": 8.69
+            "value": 7.36
           },
           {
             "name": "Unknown",
-            "value": 6.35
+            "value": 6.32
           },
           {
             "name": "Huawei",
-            "value": 4.93
+            "value": 4.77
           }
         ]
       }
@@ -442,23 +442,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 93.77
+            "value": 94.84
           },
           {
             "name": "bing",
-            "value": 3.31
+            "value": 2.73
           },
           {
             "name": "Yahoo!",
-            "value": 2.06
+            "value": 1.63
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.44
+            "value": 0.42
           },
           {
             "name": "Ecosia",
-            "value": 0.19
+            "value": 0.17
           }
         ]
       },
@@ -467,7 +467,7 @@
         "data": [
           {
             "name": "Google",
-            "value": 98.54
+            "value": 98.62
           },
           {
             "name": "bing",
@@ -475,15 +475,15 @@
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.38
+            "value": 0.37
           },
           {
             "name": "Yahoo!",
-            "value": 0.28
+            "value": 0.25
           },
           {
             "name": "Ecosia",
-            "value": 0.2
+            "value": 0.17
           }
         ]
       },
@@ -492,23 +492,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 87.88
+            "value": 90.05
           },
           {
             "name": "bing",
-            "value": 6.85
+            "value": 5.64
           },
           {
             "name": "Yahoo!",
-            "value": 4.31
+            "value": 3.44
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.52
+            "value": 0.48
           },
           {
             "name": "Ecosia",
-            "value": 0.19
+            "value": 0.17
           }
         ]
       },
@@ -517,23 +517,23 @@
         "data": [
           {
             "name": "Google",
-            "value": 94.92
+            "value": 94.47
           },
           {
             "name": "bing",
-            "value": 3.82
+            "value": 4.15
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.47
+            "value": 0.55
           },
           {
             "name": "Yahoo!",
-            "value": 0.34
+            "value": 0.38
           },
           {
             "name": "YANDEX",
-            "value": 0.19
+            "value": 0.23
           }
         ]
       }
@@ -544,23 +544,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 88.37
+            "value": 87.78
           },
           {
             "name": "Instagram",
-            "value": 6.43
+            "value": 6.56
           },
           {
             "name": "Twitter",
-            "value": 1.94
+            "value": 2.61
           },
           {
             "name": "YouTube",
-            "value": 1.61
+            "value": 1.53
           },
           {
             "name": "Pinterest",
-            "value": 0.59
+            "value": 0.53
           }
         ]
       },
@@ -569,23 +569,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 90.42
+            "value": 89.86
           },
           {
             "name": "Instagram",
-            "value": 6.83
+            "value": 6.93
           },
           {
             "name": "Twitter",
-            "value": 1.18
+            "value": 1.74
           },
           {
             "name": "YouTube",
-            "value": 1.0
+            "value": 0.91
           },
           {
             "name": "reddit",
-            "value": 0.23
+            "value": 0.22
           }
         ]
       },
@@ -594,23 +594,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 51.21
+            "value": 48.34
           },
           {
             "name": "Twitter",
-            "value": 15.63
+            "value": 18.85
           },
           {
             "name": "YouTube",
-            "value": 12.35
+            "value": 13.02
           },
           {
             "name": "Pinterest",
-            "value": 6.56
+            "value": 6.14
           },
           {
             "name": "LinkedIn",
-            "value": 6.17
+            "value": 5.27
           }
         ]
       },
@@ -619,23 +619,23 @@
         "data": [
           {
             "name": "Facebook",
-            "value": 92.72
+            "value": 90.41
           },
           {
             "name": "Pinterest",
-            "value": 2.95
-          },
-          {
-            "name": "Instagram",
-            "value": 1.73
-          },
-          {
-            "name": "YouTube",
-            "value": 1.16
+            "value": 2.94
           },
           {
             "name": "Twitter",
-            "value": 0.96
+            "value": 2.49
+          },
+          {
+            "name": "Instagram",
+            "value": 2.23
+          },
+          {
+            "name": "YouTube",
+            "value": 1.48
           }
         ]
       }
