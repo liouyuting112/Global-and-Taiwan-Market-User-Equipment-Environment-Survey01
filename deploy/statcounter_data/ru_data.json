@@ -1,7 +1,7 @@
 {
   "country_code": "ru",
   "country_name": "俄羅斯",
-  "update_time": "2026-09-30 10:05:04",
+  "update_time": "2026-10-01 10:01:34",
   "data": {
     "platform": {
       "all": {
@@ -9,15 +9,15 @@
         "data": [
           {
             "name": "Desktop",
-            "value": 74.88
+            "value": 64.82
           },
           {
             "name": "Mobile",
-            "value": 24.5
+            "value": 34.17
           },
           {
             "name": "Tablet",
-            "value": 0.62
+            "value": 1.01
           }
         ]
       }
@@ -28,27 +28,27 @@
         "data": [
           {
             "name": "Windows",
-            "value": 55.62
+            "value": 58.13
           },
           {
             "name": "Android",
-            "value": 19.01
-          },
-          {
-            "name": "macOS",
-            "value": 9.56
+            "value": 26.48
           },
           {
             "name": "iOS",
-            "value": 8.48
-          },
-          {
-            "name": "OS X",
-            "value": 4.77
+            "value": 9.57
           },
           {
             "name": "Linux",
-            "value": 2.55
+            "value": 2.59
+          },
+          {
+            "name": "OS X",
+            "value": 1.63
+          },
+          {
+            "name": "macOS",
+            "value": 1.59
           }
         ]
       },
@@ -57,11 +57,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 69.19
+            "value": 73.58
           },
           {
             "name": "iOS",
-            "value": 30.8
+            "value": 26.41
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
           }
         ]
       },
@@ -70,23 +74,19 @@
         "data": [
           {
             "name": "Windows",
-            "value": 76.71
-          },
-          {
-            "name": "macOS",
-            "value": 13.19
-          },
-          {
-            "name": "OS X",
-            "value": 6.58
+            "value": 90.91
           },
           {
             "name": "Linux",
-            "value": 3.51
+            "value": 4.05
           },
           {
-            "name": "Chrome OS",
-            "value": 0.01
+            "name": "OS X",
+            "value": 2.55
+          },
+          {
+            "name": "macOS",
+            "value": 2.48
           }
         ]
       },
@@ -95,15 +95,15 @@
         "data": [
           {
             "name": "Android",
-            "value": 66.88
+            "value": 68.65
           },
           {
             "name": "iOS",
-            "value": 32.85
+            "value": 31.22
           },
           {
             "name": "Linux",
-            "value": 0.26
+            "value": 0.13
           }
         ]
       }
@@ -114,27 +114,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 51.76
+            "value": 47.11
           },
           {
             "name": "Yandex Browser",
-            "value": 26.1
+            "value": 29.31
           },
           {
             "name": "Safari",
-            "value": 5.86
+            "value": 7.08
           },
           {
             "name": "Opera",
-            "value": 5.31
+            "value": 6.16
           },
           {
             "name": "Edge",
-            "value": 5.14
+            "value": 5.1
           },
           {
             "name": "Firefox",
-            "value": 4.65
+            "value": 3.98
           }
         ]
       },
@@ -143,27 +143,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 53.11
+            "value": 54.99
           },
           {
             "name": "Yandex Browser",
-            "value": 21.82
+            "value": 22.82
           },
           {
             "name": "Safari",
-            "value": 19.05
+            "value": 16.53
           },
           {
             "name": "Opera",
-            "value": 2.2
+            "value": 2.36
           },
           {
             "name": "Samsung Internet",
-            "value": 1.75
+            "value": 1.9
           },
           {
             "name": "Firefox",
-            "value": 1.35
+            "value": 1.02
           }
         ]
       },
@@ -172,27 +172,27 @@
         "data": [
           {
             "name": "Chrome",
-            "value": 51.44
+            "value": 43.16
           },
           {
             "name": "Yandex Browser",
-            "value": 27.42
-          },
-          {
-            "name": "Edge",
-            "value": 6.82
+            "value": 32.62
           },
           {
             "name": "Opera",
-            "value": 6.35
+            "value": 8.19
+          },
+          {
+            "name": "Edge",
+            "value": 7.8
           },
           {
             "name": "Firefox",
-            "value": 5.77
+            "value": 5.6
           },
           {
             "name": "Safari",
-            "value": 1.48
+            "value": 1.95
           }
         ]
       },
@@ -200,28 +200,28 @@
         "url": "https://gs.statcounter.com/browser-market-share/tablet/russian-federation",
         "data": [
           {
-            "name": "Chrome",
-            "value": 37.97
+            "name": "Yandex Browser",
+            "value": 36.17
           },
           {
-            "name": "Yandex Browser",
-            "value": 35.57
+            "name": "Chrome",
+            "value": 34.28
           },
           {
             "name": "Safari",
-            "value": 12.92
+            "value": 16.57
           },
           {
             "name": "Android",
-            "value": 8.4
+            "value": 5.8
           },
           {
             "name": "Opera",
-            "value": 2.97
+            "value": 4.79
           },
           {
             "name": "Samsung Internet",
-            "value": 1.78
+            "value": 1.9
           }
         ]
       }
@@ -232,23 +232,23 @@
         "data": [
           {
             "name": "1920x1080",
-            "value": 23.9
-          },
-          {
-            "name": "1366x1366",
-            "value": 8.36
+            "value": 24.06
           },
           {
             "name": "1536x864",
-            "value": 5.71
+            "value": 6.35
           },
           {
             "name": "1366x768",
-            "value": 4.73
+            "value": 4.97
           },
           {
             "name": "414x896",
-            "value": 3.89
+            "value": 4.72
+          },
+          {
+            "name": "1280x1200",
+            "value": 4.72
           }
         ]
       },
@@ -257,23 +257,23 @@
         "data": [
           {
             "name": "414x896",
-            "value": 15.74
-          },
-          {
-            "name": "393x873",
-            "value": 10.12
+            "value": 13.64
           },
           {
             "name": "360x800",
-            "value": 9.85
+            "value": 10.19
           },
           {
-            "name": "390x844",
-            "value": 6.02
+            "name": "393x873",
+            "value": 8.22
           },
           {
             "name": "384x832",
-            "value": 3.52
+            "value": 5.97
+          },
+          {
+            "name": "390x844",
+            "value": 5.1
           }
         ]
       },
@@ -282,23 +282,23 @@
         "data": [
           {
             "name": "1920x1080",
-            "value": 31.97
-          },
-          {
-            "name": "1366x1366",
-            "value": 11.19
+            "value": 37.29
           },
           {
             "name": "1536x864",
-            "value": 7.64
+            "value": 9.84
           },
           {
             "name": "1366x768",
-            "value": 6.34
+            "value": 7.7
           },
           {
             "name": "1280x1200",
-            "value": 4.08
+            "value": 7.31
+          },
+          {
+            "name": "2560x1440",
+            "value": 4.79
           }
         ]
       },
@@ -307,23 +307,23 @@
         "data": [
           {
             "name": "768x1024",
-            "value": 15.43
+            "value": 18.54
           },
           {
             "name": "1280x800",
-            "value": 8.62
-          },
-          {
-            "name": "1143x686",
-            "value": 8.2
+            "value": 7.08
           },
           {
             "name": "686x1098",
-            "value": 3.74
+            "value": 5.76
+          },
+          {
+            "name": "1143x686",
+            "value": 5.35
           },
           {
             "name": "1098x686",
-            "value": 3.16
+            "value": 5.09
           }
         ]
       }
@@ -334,23 +334,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 30.8
+            "value": 26.41
           },
           {
             "name": "Xiaomi",
-            "value": 19.96
+            "value": 21.86
           },
           {
             "name": "Samsung",
-            "value": 17.87
+            "value": 18.73
           },
           {
-            "name": "Unknown",
-            "value": 5.56
+            "name": "Honor",
+            "value": 6.43
           },
           {
-            "name": "Realme",
-            "value": 5.43
+            "name": "Tecno",
+            "value": 5.88
           }
         ]
       },
@@ -359,23 +359,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 30.8
+            "value": 26.41
           },
           {
             "name": "Xiaomi",
-            "value": 19.96
+            "value": 21.86
           },
           {
             "name": "Samsung",
-            "value": 17.87
+            "value": 18.73
           },
           {
-            "name": "Unknown",
-            "value": 5.56
+            "name": "Honor",
+            "value": 6.43
           },
           {
-            "name": "Realme",
-            "value": 5.43
+            "name": "Tecno",
+            "value": 5.88
           }
         ]
       }
@@ -386,23 +386,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 32.78
+            "value": 31.2
           },
           {
             "name": "Samsung",
-            "value": 27.05
+            "value": 22.74
           },
           {
             "name": "Xiaomi",
-            "value": 15.62
+            "value": 16.89
           },
           {
             "name": "Huawei",
-            "value": 10.14
+            "value": 13.03
           },
           {
-            "name": "Unknown",
-            "value": 7.41
+            "name": "Honor",
+            "value": 9.48
           }
         ]
       },
@@ -411,23 +411,23 @@
         "data": [
           {
             "name": "Apple",
-            "value": 32.78
+            "value": 31.2
           },
           {
             "name": "Samsung",
-            "value": 27.05
+            "value": 22.74
           },
           {
             "name": "Xiaomi",
-            "value": 15.62
+            "value": 16.89
           },
           {
             "name": "Huawei",
-            "value": 10.14
+            "value": 13.03
           },
           {
-            "name": "Unknown",
-            "value": 7.41
+            "name": "Honor",
+            "value": 9.48
           }
         ]
       }
@@ -438,23 +438,23 @@
         "data": [
           {
             "name": "YANDEX",
-            "value": 70.35
+            "value": 70.33
           },
           {
             "name": "Google",
-            "value": 27.79
+            "value": 28.12
           },
           {
             "name": "bing",
-            "value": 0.77
+            "value": 0.74
           },
           {
             "name": "Mail.ru",
-            "value": 0.77
+            "value": 0.46
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.22
+            "value": 0.21
           }
         ]
       },
@@ -463,23 +463,23 @@
         "data": [
           {
             "name": "YANDEX",
-            "value": 67.98
+            "value": 68.85
           },
           {
             "name": "Google",
-            "value": 30.09
+            "value": 30.26
           },
           {
             "name": "Mail.ru",
-            "value": 1.48
+            "value": 0.44
           },
           {
             "name": "bing",
-            "value": 0.17
+            "value": 0.18
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.15
+            "value": 0.11
           }
         ]
       },
@@ -488,23 +488,23 @@
         "data": [
           {
             "name": "YANDEX",
-            "value": 71.62
+            "value": 71.54
           },
           {
             "name": "Google",
-            "value": 26.55
+            "value": 26.34
           },
           {
             "name": "bing",
-            "value": 1.11
+            "value": 1.23
           },
           {
             "name": "Mail.ru",
-            "value": 0.38
+            "value": 0.47
           },
           {
             "name": "DuckDuckGo",
-            "value": 0.27
+            "value": 0.29
           }
         ]
       },
@@ -513,23 +513,23 @@
         "data": [
           {
             "name": "YANDEX",
-            "value": 73.39
+            "value": 72.66
           },
           {
             "name": "Google",
-            "value": 25.6
+            "value": 26.48
           },
           {
             "name": "Yahoo!",
-            "value": 0.49
-          },
-          {
-            "name": "Mail.ru",
-            "value": 0.21
+            "value": 0.46
           },
           {
             "name": "bing",
-            "value": 0.15
+            "value": 0.18
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.12
           }
         ]
       }
@@ -539,24 +539,24 @@
         "url": "https://gs.statcounter.com/social-media-stats/all/russian-federation",
         "data": [
           {
-            "name": "reddit",
-            "value": 28.51
-          },
-          {
             "name": "Pinterest",
-            "value": 26.84
+            "value": 26.48
           },
           {
-            "name": "YouTube",
-            "value": 18.73
+            "name": "reddit",
+            "value": 22.68
           },
           {
             "name": "Facebook",
-            "value": 10.98
+            "value": 18.33
+          },
+          {
+            "name": "YouTube",
+            "value": 14.59
           },
           {
             "name": "VKontakte",
-            "value": 4.24
+            "value": 9.23
           }
         ]
       },
@@ -564,24 +564,24 @@
         "url": "https://gs.statcounter.com/social-media-stats/mobile/russian-federation",
         "data": [
           {
-            "name": "Pinterest",
-            "value": 28.16
+            "name": "Facebook",
+            "value": 37.16
           },
           {
-            "name": "Facebook",
-            "value": 23.94
+            "name": "Pinterest",
+            "value": 21.84
           },
           {
             "name": "reddit",
-            "value": 21.65
+            "value": 14.53
           },
           {
-            "name": "Instagram",
-            "value": 7.82
+            "name": "VKontakte",
+            "value": 10.93
           },
           {
             "name": "YouTube",
-            "value": 6.49
+            "value": 5.56
           }
         ]
       },
@@ -589,24 +589,24 @@
         "url": "https://gs.statcounter.com/social-media-stats/desktop/russian-federation",
         "data": [
           {
-            "name": "reddit",
-            "value": 31.46
+            "name": "Pinterest",
+            "value": 28.26
           },
           {
-            "name": "Pinterest",
-            "value": 25.59
+            "name": "reddit",
+            "value": 27.34
           },
           {
             "name": "YouTube",
-            "value": 23.64
-          },
-          {
-            "name": "Facebook",
-            "value": 6.1
+            "value": 19.67
           },
           {
             "name": "VKontakte",
-            "value": 4.15
+            "value": 8.48
+          },
+          {
+            "name": "Facebook",
+            "value": 8.34
           }
         ]
       },
@@ -615,23 +615,23 @@
         "data": [
           {
             "name": "Pinterest",
-            "value": 79.72
-          },
-          {
-            "name": "reddit",
-            "value": 5.59
+            "value": 64.09
           },
           {
             "name": "Facebook",
-            "value": 4.9
+            "value": 10.5
           },
           {
-            "name": "YouTube",
-            "value": 3.5
+            "name": "reddit",
+            "value": 8.29
           },
           {
-            "name": "Instagram",
-            "value": 2.1
+            "name": "Tumblr",
+            "value": 6.63
+          },
+          {
+            "name": "Twitter",
+            "value": 6.08
           }
         ]
       }
