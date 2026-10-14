@@ -1,0 +1,644 @@
+{
+  "country_code": "ie",
+  "country_name": "愛爾蘭",
+  "update_time": "2026-10-14 09:48:21",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/ireland",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 67.52
+          },
+          {
+            "name": "Desktop",
+            "value": 30.07
+          },
+          {
+            "name": "Tablet",
+            "value": 2.41
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/ireland",
+        "data": [
+          {
+            "name": "Android",
+            "value": 37.15
+          },
+          {
+            "name": "iOS",
+            "value": 33.85
+          },
+          {
+            "name": "Windows",
+            "value": 20.64
+          },
+          {
+            "name": "OS X",
+            "value": 4.23
+          },
+          {
+            "name": "macOS",
+            "value": 2.13
+          },
+          {
+            "name": "Linux",
+            "value": 0.99
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/ireland",
+        "data": [
+          {
+            "name": "Android",
+            "value": 52.62
+          },
+          {
+            "name": "iOS",
+            "value": 47.37
+          },
+          {
+            "name": "KaiOS",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/ireland",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 71.29
+          },
+          {
+            "name": "OS X",
+            "value": 14.61
+          },
+          {
+            "name": "macOS",
+            "value": 7.36
+          },
+          {
+            "name": "Linux",
+            "value": 3.4
+          },
+          {
+            "name": "Chrome OS",
+            "value": 3.34
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/ireland",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 56.07
+          },
+          {
+            "name": "Android",
+            "value": 43.82
+          },
+          {
+            "name": "Linux",
+            "value": 0.11
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/ireland",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 55.49
+          },
+          {
+            "name": "Safari",
+            "value": 30.18
+          },
+          {
+            "name": "Edge",
+            "value": 6.57
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 4.06
+          },
+          {
+            "name": "Firefox",
+            "value": 1.66
+          },
+          {
+            "name": "Mozilla",
+            "value": 0.61
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/ireland",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 54.31
+          },
+          {
+            "name": "Safari",
+            "value": 38.81
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.31
+          },
+          {
+            "name": "Firefox",
+            "value": 0.61
+          },
+          {
+            "name": "Edge",
+            "value": 0.34
+          },
+          {
+            "name": "Opera",
+            "value": 0.23
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/ireland",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.3
+          },
+          {
+            "name": "Edge",
+            "value": 20.94
+          },
+          {
+            "name": "Safari",
+            "value": 10.73
+          },
+          {
+            "name": "Firefox",
+            "value": 4.16
+          },
+          {
+            "name": "Mozilla",
+            "value": 2.03
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.45
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/ireland",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 54.48
+          },
+          {
+            "name": "Safari",
+            "value": 31.35
+          },
+          {
+            "name": "Android",
+            "value": 11.25
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.71
+          },
+          {
+            "name": "Edge",
+            "value": 0.51
+          },
+          {
+            "name": "Opera",
+            "value": 0.37
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/ireland",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 13.25
+          },
+          {
+            "name": "390x844",
+            "value": 10.45
+          },
+          {
+            "name": "384x832",
+            "value": 9.73
+          },
+          {
+            "name": "1920x1080",
+            "value": 9.03
+          },
+          {
+            "name": "360x780",
+            "value": 5.98
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/ireland",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 19.52
+          },
+          {
+            "name": "390x844",
+            "value": 15.42
+          },
+          {
+            "name": "384x832",
+            "value": 13.52
+          },
+          {
+            "name": "360x780",
+            "value": 8.5
+          },
+          {
+            "name": "360x800",
+            "value": 3.39
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/ireland",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 30.23
+          },
+          {
+            "name": "1536x864",
+            "value": 10.09
+          },
+          {
+            "name": "1280x720",
+            "value": 5.98
+          },
+          {
+            "name": "1366x768",
+            "value": 5.22
+          },
+          {
+            "name": "2560x1440",
+            "value": 3.08
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/ireland",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 12.25
+          },
+          {
+            "name": "1280x800",
+            "value": 10.02
+          },
+          {
+            "name": "810x1080",
+            "value": 9.0
+          },
+          {
+            "name": "800x1280",
+            "value": 8.35
+          },
+          {
+            "name": "820x1180",
+            "value": 4.52
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/ireland",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 47.37
+          },
+          {
+            "name": "Samsung",
+            "value": 39.46
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.36
+          },
+          {
+            "name": "Google",
+            "value": 2.17
+          },
+          {
+            "name": "Unknown",
+            "value": 2.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/ireland",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 47.37
+          },
+          {
+            "name": "Samsung",
+            "value": 39.46
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.36
+          },
+          {
+            "name": "Google",
+            "value": 2.17
+          },
+          {
+            "name": "Unknown",
+            "value": 2.07
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/ireland",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 56.07
+          },
+          {
+            "name": "Samsung",
+            "value": 29.67
+          },
+          {
+            "name": "Amazon",
+            "value": 6.36
+          },
+          {
+            "name": "Unknown",
+            "value": 3.08
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.33
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/ireland",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 56.07
+          },
+          {
+            "name": "Samsung",
+            "value": 29.67
+          },
+          {
+            "name": "Amazon",
+            "value": 6.36
+          },
+          {
+            "name": "Unknown",
+            "value": 3.08
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.33
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/ireland",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.47
+          },
+          {
+            "name": "bing",
+            "value": 4.21
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.88
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.79
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.34
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/ireland",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.21
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.61
+          },
+          {
+            "name": "bing",
+            "value": 0.32
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.31
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.25
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/ireland",
+        "data": [
+          {
+            "name": "Google",
+            "value": 80.82
+          },
+          {
+            "name": "bing",
+            "value": 14.54
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.56
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.32
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.46
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/ireland",
+        "data": [
+          {
+            "name": "Google",
+            "value": 91.52
+          },
+          {
+            "name": "bing",
+            "value": 6.27
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.12
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.43
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.3
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/ireland",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 89.68
+          },
+          {
+            "name": "Instagram",
+            "value": 5.31
+          },
+          {
+            "name": "Twitter",
+            "value": 2.18
+          },
+          {
+            "name": "YouTube",
+            "value": 1.63
+          },
+          {
+            "name": "reddit",
+            "value": 0.59
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/ireland",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 90.53
+          },
+          {
+            "name": "Instagram",
+            "value": 5.44
+          },
+          {
+            "name": "Twitter",
+            "value": 1.99
+          },
+          {
+            "name": "YouTube",
+            "value": 1.37
+          },
+          {
+            "name": "reddit",
+            "value": 0.45
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/ireland",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 47.13
+          },
+          {
+            "name": "Pinterest",
+            "value": 13.11
+          },
+          {
+            "name": "YouTube",
+            "value": 11.2
+          },
+          {
+            "name": "Twitter",
+            "value": 11.1
+          },
+          {
+            "name": "reddit",
+            "value": 7.93
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/ireland",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 85.18
+          },
+          {
+            "name": "YouTube",
+            "value": 6.89
+          },
+          {
+            "name": "Twitter",
+            "value": 3.77
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.73
+          },
+          {
+            "name": "Instagram",
+            "value": 0.72
+          }
+        ]
+      }
+    }
+  }
+}
