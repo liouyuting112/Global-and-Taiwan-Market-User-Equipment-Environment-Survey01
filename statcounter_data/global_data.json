@@ -1,12 +1,25 @@
 {
   "country_code": "global",
   "country_name": "全球",
-  "update_time": "2026-10-15 09:08:58",
+  "update_time": "2026-10-16 08:54:38",
   "data": {
     "platform": {
       "all": {
         "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide",
-        "data": []
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 58.99
+          },
+          {
+            "name": "Desktop",
+            "value": 39.26
+          },
+          {
+            "name": "Tablet",
+            "value": 1.76
+          }
+        ]
       }
     },
     "os_all": {
