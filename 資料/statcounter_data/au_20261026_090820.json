@@ -1,0 +1,640 @@
+{
+  "country_code": "au",
+  "country_name": "澳洲",
+  "update_time": "2026-10-26 09:04:38",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/australia",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 48.57
+          },
+          {
+            "name": "Desktop",
+            "value": 48.48
+          },
+          {
+            "name": "Tablet",
+            "value": 2.95
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/australia",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 32.84
+          },
+          {
+            "name": "Windows",
+            "value": 31.01
+          },
+          {
+            "name": "Android",
+            "value": 19.27
+          },
+          {
+            "name": "OS X",
+            "value": 8.73
+          },
+          {
+            "name": "macOS",
+            "value": 5.8
+          },
+          {
+            "name": "Linux",
+            "value": 1.34
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/australia",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 62.59
+          },
+          {
+            "name": "Android",
+            "value": 37.4
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/australia",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 64.83
+          },
+          {
+            "name": "OS X",
+            "value": 18.25
+          },
+          {
+            "name": "macOS",
+            "value": 12.13
+          },
+          {
+            "name": "Linux",
+            "value": 2.8
+          },
+          {
+            "name": "Chrome OS",
+            "value": 1.99
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/australia",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 70.08
+          },
+          {
+            "name": "Android",
+            "value": 29.87
+          },
+          {
+            "name": "Linux",
+            "value": 0.05
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/australia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 50.23
+          },
+          {
+            "name": "Safari",
+            "value": 32.43
+          },
+          {
+            "name": "Edge",
+            "value": 8.77
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.25
+          },
+          {
+            "name": "Firefox",
+            "value": 2.83
+          },
+          {
+            "name": "Opera",
+            "value": 1.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/australia",
+        "data": [
+          {
+            "name": "Safari",
+            "value": 50.01
+          },
+          {
+            "name": "Chrome",
+            "value": 42.1
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.72
+          },
+          {
+            "name": "Firefox",
+            "value": 1.05
+          },
+          {
+            "name": "Edge",
+            "value": 0.51
+          },
+          {
+            "name": "Opera",
+            "value": 0.28
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/australia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.38
+          },
+          {
+            "name": "Edge",
+            "value": 17.4
+          },
+          {
+            "name": "Safari",
+            "value": 14.34
+          },
+          {
+            "name": "Firefox",
+            "value": 4.78
+          },
+          {
+            "name": "Opera",
+            "value": 1.89
+          },
+          {
+            "name": "Brave",
+            "value": 1.27
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/australia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 51.37
+          },
+          {
+            "name": "Safari",
+            "value": 40.87
+          },
+          {
+            "name": "Android",
+            "value": 3.41
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.5
+          },
+          {
+            "name": "Edge",
+            "value": 1.14
+          },
+          {
+            "name": "Opera",
+            "value": 0.48
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/australia",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 14.55
+          },
+          {
+            "name": "1920x1080",
+            "value": 11.54
+          },
+          {
+            "name": "390x844",
+            "value": 6.01
+          },
+          {
+            "name": "384x832",
+            "value": 4.1
+          },
+          {
+            "name": "1536x864",
+            "value": 3.79
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/australia",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 29.62
+          },
+          {
+            "name": "390x844",
+            "value": 12.22
+          },
+          {
+            "name": "384x832",
+            "value": 7.83
+          },
+          {
+            "name": "360x780",
+            "value": 4.5
+          },
+          {
+            "name": "375x812",
+            "value": 4.46
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/australia",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 24.02
+          },
+          {
+            "name": "1536x864",
+            "value": 7.91
+          },
+          {
+            "name": "2560x1440",
+            "value": 5.77
+          },
+          {
+            "name": "1440x900",
+            "value": 5.19
+          },
+          {
+            "name": "1280x720",
+            "value": 4.68
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/australia",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 13.32
+          },
+          {
+            "name": "800x1280",
+            "value": 7.2
+          },
+          {
+            "name": "810x1080",
+            "value": 6.65
+          },
+          {
+            "name": "820x1180",
+            "value": 5.61
+          },
+          {
+            "name": "1280x800",
+            "value": 5.45
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/australia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 62.58
+          },
+          {
+            "name": "Samsung",
+            "value": 25.04
+          },
+          {
+            "name": "Google",
+            "value": 3.62
+          },
+          {
+            "name": "Oppo",
+            "value": 2.2
+          },
+          {
+            "name": "Unknown",
+            "value": 2.19
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/australia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 62.58
+          },
+          {
+            "name": "Samsung",
+            "value": 25.04
+          },
+          {
+            "name": "Google",
+            "value": 3.62
+          },
+          {
+            "name": "Oppo",
+            "value": 2.2
+          },
+          {
+            "name": "Unknown",
+            "value": 2.19
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/australia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 70.07
+          },
+          {
+            "name": "Samsung",
+            "value": 23.43
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.49
+          },
+          {
+            "name": "Unknown",
+            "value": 1.35
+          },
+          {
+            "name": "Sony",
+            "value": 1.08
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/australia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 70.07
+          },
+          {
+            "name": "Samsung",
+            "value": 23.43
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.49
+          },
+          {
+            "name": "Unknown",
+            "value": 1.35
+          },
+          {
+            "name": "Sony",
+            "value": 1.08
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/australia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 87.9
+          },
+          {
+            "name": "bing",
+            "value": 9.17
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.54
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.92
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.21
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/australia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.64
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.9
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.51
+          },
+          {
+            "name": "bing",
+            "value": 0.5
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.21
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/australia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 76.84
+          },
+          {
+            "name": "bing",
+            "value": 18.94
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.73
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.99
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.22
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/australia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.93
+          },
+          {
+            "name": "bing",
+            "value": 1.05
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.43
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.28
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.18
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/australia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 73.21
+          },
+          {
+            "name": "Instagram",
+            "value": 8.36
+          },
+          {
+            "name": "Twitter",
+            "value": 7.23
+          },
+          {
+            "name": "Pinterest",
+            "value": 4.86
+          },
+          {
+            "name": "reddit",
+            "value": 3.55
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/australia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 76.71
+          },
+          {
+            "name": "Instagram",
+            "value": 10.07
+          },
+          {
+            "name": "Twitter",
+            "value": 7.06
+          },
+          {
+            "name": "reddit",
+            "value": 2.77
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.69
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/australia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 45.01
+          },
+          {
+            "name": "Pinterest",
+            "value": 21.37
+          },
+          {
+            "name": "Twitter",
+            "value": 10.83
+          },
+          {
+            "name": "reddit",
+            "value": 10.26
+          },
+          {
+            "name": "YouTube",
+            "value": 6.27
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/australia",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 81.96
+          },
+          {
+            "name": "Pinterest",
+            "value": 11.69
+          },
+          {
+            "name": "Twitter",
+            "value": 3.26
+          },
+          {
+            "name": "Instagram",
+            "value": 1.0
+          },
+          {
+            "name": "YouTube",
+            "value": 0.98
+          }
+        ]
+      }
+    }
+  }
+}
