@@ -1,0 +1,644 @@
+{
+  "country_code": "id",
+  "country_name": "印尼",
+  "update_time": "2026-10-29 10:12:09",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/indonesia",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 55.83
+          },
+          {
+            "name": "Mobile",
+            "value": 43.62
+          },
+          {
+            "name": "Tablet",
+            "value": 0.55
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/indonesia",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 47.71
+          },
+          {
+            "name": "Android",
+            "value": 35.38
+          },
+          {
+            "name": "iOS",
+            "value": 9.41
+          },
+          {
+            "name": "OS X",
+            "value": 3.45
+          },
+          {
+            "name": "Linux",
+            "value": 2.46
+          },
+          {
+            "name": "macOS",
+            "value": 1.45
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/indonesia",
+        "data": [
+          {
+            "name": "Android",
+            "value": 79.16
+          },
+          {
+            "name": "iOS",
+            "value": 20.79
+          },
+          {
+            "name": "Linux",
+            "value": 0.04
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/indonesia",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 86.46
+          },
+          {
+            "name": "OS X",
+            "value": 6.25
+          },
+          {
+            "name": "Linux",
+            "value": 4.43
+          },
+          {
+            "name": "macOS",
+            "value": 2.63
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.23
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/indonesia",
+        "data": [
+          {
+            "name": "Android",
+            "value": 62.21
+          },
+          {
+            "name": "iOS",
+            "value": 37.74
+          },
+          {
+            "name": "Linux",
+            "value": 0.04
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/indonesia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 77.23
+          },
+          {
+            "name": "Safari",
+            "value": 9.82
+          },
+          {
+            "name": "Edge",
+            "value": 6.2
+          },
+          {
+            "name": "Firefox",
+            "value": 3.3
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.59
+          },
+          {
+            "name": "Opera",
+            "value": 0.9
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/indonesia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 75.95
+          },
+          {
+            "name": "Safari",
+            "value": 17.79
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.33
+          },
+          {
+            "name": "UC Browser",
+            "value": 1.28
+          },
+          {
+            "name": "Opera",
+            "value": 1.1
+          },
+          {
+            "name": "Firefox",
+            "value": 0.24
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/indonesia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 78.29
+          },
+          {
+            "name": "Edge",
+            "value": 11.03
+          },
+          {
+            "name": "Firefox",
+            "value": 5.73
+          },
+          {
+            "name": "Safari",
+            "value": 3.49
+          },
+          {
+            "name": "Opera",
+            "value": 0.73
+          },
+          {
+            "name": "Brave",
+            "value": 0.38
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/indonesia",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 71.11
+          },
+          {
+            "name": "Safari",
+            "value": 19.66
+          },
+          {
+            "name": "Android",
+            "value": 3.63
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.92
+          },
+          {
+            "name": "Opera",
+            "value": 1.51
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.52
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/indonesia",
+        "data": [
+          {
+            "name": "1280x720",
+            "value": 7.7
+          },
+          {
+            "name": "1366x768",
+            "value": 7.49
+          },
+          {
+            "name": "1920x1080",
+            "value": 6.8
+          },
+          {
+            "name": "1536x864",
+            "value": 6.34
+          },
+          {
+            "name": "360x800",
+            "value": 5.39
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/indonesia",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 8.94
+          },
+          {
+            "name": "414x896",
+            "value": 4.83
+          },
+          {
+            "name": "384x832",
+            "value": 4.49
+          },
+          {
+            "name": "393x873",
+            "value": 3.8
+          },
+          {
+            "name": "390x844",
+            "value": 3.52
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/indonesia",
+        "data": [
+          {
+            "name": "1280x720",
+            "value": 18.15
+          },
+          {
+            "name": "1366x768",
+            "value": 17.48
+          },
+          {
+            "name": "1920x1080",
+            "value": 15.9
+          },
+          {
+            "name": "1536x864",
+            "value": 14.93
+          },
+          {
+            "name": "1280x800",
+            "value": 5.56
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/indonesia",
+        "data": [
+          {
+            "name": "1138x712",
+            "value": 7.36
+          },
+          {
+            "name": "1098x686",
+            "value": 7.36
+          },
+          {
+            "name": "820x1180",
+            "value": 6.79
+          },
+          {
+            "name": "601x1007",
+            "value": 4.64
+          },
+          {
+            "name": "712x1138",
+            "value": 4.55
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/indonesia",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 22.15
+          },
+          {
+            "name": "Apple",
+            "value": 20.78
+          },
+          {
+            "name": "Samsung",
+            "value": 14.15
+          },
+          {
+            "name": "Oppo",
+            "value": 11.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.85
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/indonesia",
+        "data": [
+          {
+            "name": "Unknown",
+            "value": 22.15
+          },
+          {
+            "name": "Apple",
+            "value": 20.78
+          },
+          {
+            "name": "Samsung",
+            "value": 14.15
+          },
+          {
+            "name": "Oppo",
+            "value": 11.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 10.85
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/indonesia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 37.74
+          },
+          {
+            "name": "Samsung",
+            "value": 26.98
+          },
+          {
+            "name": "Xiaomi",
+            "value": 24.2
+          },
+          {
+            "name": "Huawei",
+            "value": 3.58
+          },
+          {
+            "name": "Infinix",
+            "value": 2.7
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/indonesia",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 37.74
+          },
+          {
+            "name": "Samsung",
+            "value": 26.98
+          },
+          {
+            "name": "Xiaomi",
+            "value": 24.2
+          },
+          {
+            "name": "Huawei",
+            "value": 3.58
+          },
+          {
+            "name": "Infinix",
+            "value": 2.7
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/indonesia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 92.26
+          },
+          {
+            "name": "bing",
+            "value": 3.05
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.21
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.74
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.69
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/indonesia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.26
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 3.6
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.12
+          },
+          {
+            "name": "bing",
+            "value": 0.77
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.2
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/indonesia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 89.44
+          },
+          {
+            "name": "bing",
+            "value": 6.23
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.88
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.3
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.12
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/indonesia",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.29
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.44
+          },
+          {
+            "name": "bing",
+            "value": 0.73
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.45
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.07
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/indonesia",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 52.81
+          },
+          {
+            "name": "Facebook",
+            "value": 33.25
+          },
+          {
+            "name": "Instagram",
+            "value": 10.28
+          },
+          {
+            "name": "Twitter",
+            "value": 1.87
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.07
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/indonesia",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 48.37
+          },
+          {
+            "name": "Facebook",
+            "value": 37.92
+          },
+          {
+            "name": "Instagram",
+            "value": 11.58
+          },
+          {
+            "name": "Twitter",
+            "value": 1.58
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.29
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/indonesia",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 75.73
+          },
+          {
+            "name": "Pinterest",
+            "value": 7.73
+          },
+          {
+            "name": "Twitter",
+            "value": 4.81
+          },
+          {
+            "name": "Facebook",
+            "value": 4.35
+          },
+          {
+            "name": "LinkedIn",
+            "value": 3.23
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/indonesia",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 93.65
+          },
+          {
+            "name": "Facebook",
+            "value": 3.49
+          },
+          {
+            "name": "Instagram",
+            "value": 1.23
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.92
+          },
+          {
+            "name": "Twitter",
+            "value": 0.61
+          }
+        ]
+      }
+    }
+  }
+}

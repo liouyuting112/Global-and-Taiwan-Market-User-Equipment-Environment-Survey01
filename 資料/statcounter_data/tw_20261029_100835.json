@@ -1,0 +1,644 @@
+{
+  "country_code": "tw",
+  "country_name": "台灣",
+  "update_time": "2026-10-29 10:04:52",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/taiwan",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 58.05
+          },
+          {
+            "name": "Desktop",
+            "value": 38.58
+          },
+          {
+            "name": "Tablet",
+            "value": 3.37
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/taiwan",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 32.93
+          },
+          {
+            "name": "Windows",
+            "value": 30.99
+          },
+          {
+            "name": "Android",
+            "value": 29.74
+          },
+          {
+            "name": "OS X",
+            "value": 3.53
+          },
+          {
+            "name": "Linux",
+            "value": 1.56
+          },
+          {
+            "name": "macOS",
+            "value": 1.21
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/taiwan",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 51.66
+          },
+          {
+            "name": "Android",
+            "value": 48.34
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/taiwan",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 83.02
+          },
+          {
+            "name": "OS X",
+            "value": 9.47
+          },
+          {
+            "name": "Linux",
+            "value": 4.16
+          },
+          {
+            "name": "macOS",
+            "value": 3.24
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.1
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/taiwan",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 67.71
+          },
+          {
+            "name": "Android",
+            "value": 32.22
+          },
+          {
+            "name": "Windows",
+            "value": 0.04
+          },
+          {
+            "name": "Linux",
+            "value": 0.02
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/taiwan",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.11
+          },
+          {
+            "name": "Safari",
+            "value": 26.63
+          },
+          {
+            "name": "Edge",
+            "value": 4.98
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.42
+          },
+          {
+            "name": "Firefox",
+            "value": 1.55
+          },
+          {
+            "name": "Opera",
+            "value": 0.38
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/taiwan",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 54.47
+          },
+          {
+            "name": "Safari",
+            "value": 38.77
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 4.91
+          },
+          {
+            "name": "Edge",
+            "value": 0.61
+          },
+          {
+            "name": "Firefox",
+            "value": 0.45
+          },
+          {
+            "name": "Opera",
+            "value": 0.31
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/taiwan",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 73.48
+          },
+          {
+            "name": "Edge",
+            "value": 11.9
+          },
+          {
+            "name": "Safari",
+            "value": 8.04
+          },
+          {
+            "name": "Firefox",
+            "value": 3.34
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.15
+          },
+          {
+            "name": "Brave",
+            "value": 0.75
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/taiwan",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 63.38
+          },
+          {
+            "name": "Safari",
+            "value": 30.27
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.8
+          },
+          {
+            "name": "Edge",
+            "value": 1.13
+          },
+          {
+            "name": "Android",
+            "value": 1.07
+          },
+          {
+            "name": "Opera",
+            "value": 0.16
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/taiwan",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 16.28
+          },
+          {
+            "name": "1920x1080",
+            "value": 11.16
+          },
+          {
+            "name": "390x844",
+            "value": 5.52
+          },
+          {
+            "name": "384x832",
+            "value": 4.31
+          },
+          {
+            "name": "1536x864",
+            "value": 3.88
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/taiwan",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 26.81
+          },
+          {
+            "name": "390x844",
+            "value": 9.06
+          },
+          {
+            "name": "384x832",
+            "value": 6.59
+          },
+          {
+            "name": "360x800",
+            "value": 3.44
+          },
+          {
+            "name": "412x915",
+            "value": 2.41
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/taiwan",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 30.82
+          },
+          {
+            "name": "1536x864",
+            "value": 10.73
+          },
+          {
+            "name": "2560x1440",
+            "value": 6.36
+          },
+          {
+            "name": "1280x720",
+            "value": 5.75
+          },
+          {
+            "name": "1366x768",
+            "value": 2.78
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/taiwan",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 6.25
+          },
+          {
+            "name": "820x1180",
+            "value": 6.19
+          },
+          {
+            "name": "1280x800",
+            "value": 3.69
+          },
+          {
+            "name": "810x1080",
+            "value": 3.5
+          },
+          {
+            "name": "800x1280",
+            "value": 3.05
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/taiwan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.65
+          },
+          {
+            "name": "Samsung",
+            "value": 18.3
+          },
+          {
+            "name": "Oppo",
+            "value": 6.34
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.34
+          },
+          {
+            "name": "Unknown",
+            "value": 5.15
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/taiwan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.65
+          },
+          {
+            "name": "Samsung",
+            "value": 18.3
+          },
+          {
+            "name": "Oppo",
+            "value": 6.34
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.34
+          },
+          {
+            "name": "Unknown",
+            "value": 5.15
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/taiwan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 67.71
+          },
+          {
+            "name": "Samsung",
+            "value": 22.13
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.02
+          },
+          {
+            "name": "Lenovo",
+            "value": 1.3
+          },
+          {
+            "name": "Huawei",
+            "value": 0.58
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/taiwan",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 67.71
+          },
+          {
+            "name": "Samsung",
+            "value": 22.13
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.02
+          },
+          {
+            "name": "Lenovo",
+            "value": 1.3
+          },
+          {
+            "name": "Huawei",
+            "value": 0.58
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/taiwan",
+        "data": [
+          {
+            "name": "Google",
+            "value": 79.48
+          },
+          {
+            "name": "Yahoo!",
+            "value": 11.37
+          },
+          {
+            "name": "bing",
+            "value": 8.24
+          },
+          {
+            "name": "CocCoc",
+            "value": 0.43
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.24
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/taiwan",
+        "data": [
+          {
+            "name": "Google",
+            "value": 90.5
+          },
+          {
+            "name": "Yahoo!",
+            "value": 7.82
+          },
+          {
+            "name": "CocCoc",
+            "value": 0.73
+          },
+          {
+            "name": "bing",
+            "value": 0.41
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.32
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/taiwan",
+        "data": [
+          {
+            "name": "Google",
+            "value": 66.17
+          },
+          {
+            "name": "bing",
+            "value": 17.61
+          },
+          {
+            "name": "Yahoo!",
+            "value": 15.72
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.16
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.12
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/taiwan",
+        "data": [
+          {
+            "name": "Google",
+            "value": 93.66
+          },
+          {
+            "name": "Yahoo!",
+            "value": 4.8
+          },
+          {
+            "name": "CocCoc",
+            "value": 0.59
+          },
+          {
+            "name": "bing",
+            "value": 0.49
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.36
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/taiwan",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 46.15
+          },
+          {
+            "name": "YouTube",
+            "value": 29.95
+          },
+          {
+            "name": "Twitter",
+            "value": 10.02
+          },
+          {
+            "name": "Instagram",
+            "value": 7.87
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.93
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/taiwan",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 50.7
+          },
+          {
+            "name": "YouTube",
+            "value": 30.18
+          },
+          {
+            "name": "Instagram",
+            "value": 9.32
+          },
+          {
+            "name": "Twitter",
+            "value": 7.93
+          },
+          {
+            "name": "reddit",
+            "value": 1.07
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/taiwan",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 27.3
+          },
+          {
+            "name": "Facebook",
+            "value": 27.18
+          },
+          {
+            "name": "Twitter",
+            "value": 19.41
+          },
+          {
+            "name": "Pinterest",
+            "value": 12.67
+          },
+          {
+            "name": "reddit",
+            "value": 8.21
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/taiwan",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 43.51
+          },
+          {
+            "name": "Facebook",
+            "value": 35.02
+          },
+          {
+            "name": "Twitter",
+            "value": 9.26
+          },
+          {
+            "name": "Pinterest",
+            "value": 6.25
+          },
+          {
+            "name": "Instagram",
+            "value": 4.84
+          }
+        ]
+      }
+    }
+  }
+}
