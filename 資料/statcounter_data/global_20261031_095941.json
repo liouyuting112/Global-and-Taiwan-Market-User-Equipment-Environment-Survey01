@@ -1,0 +1,652 @@
+{
+  "country_code": "global",
+  "country_name": "全球",
+  "update_time": "2026-10-31 09:55:57",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/worldwide",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 59.06
+          },
+          {
+            "name": "Desktop",
+            "value": 39.2
+          },
+          {
+            "name": "Tablet",
+            "value": 1.75
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/worldwide",
+        "data": [
+          {
+            "name": "Android",
+            "value": 42.65
+          },
+          {
+            "name": "Windows",
+            "value": 28.98
+          },
+          {
+            "name": "iOS",
+            "value": 19.37
+          },
+          {
+            "name": "OS X",
+            "value": 4.04
+          },
+          {
+            "name": "macOS",
+            "value": 2.31
+          },
+          {
+            "name": "Linux",
+            "value": 1.73
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/worldwide",
+        "data": [
+          {
+            "name": "Android",
+            "value": 69.31
+          },
+          {
+            "name": "iOS",
+            "value": 30.66
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          },
+          {
+            "name": "KaiOS",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/worldwide",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 76.41
+          },
+          {
+            "name": "OS X",
+            "value": 10.65
+          },
+          {
+            "name": "macOS",
+            "value": 6.09
+          },
+          {
+            "name": "Linux",
+            "value": 4.54
+          },
+          {
+            "name": "Chrome OS",
+            "value": 2.31
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/worldwide",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 50.29
+          },
+          {
+            "name": "Android",
+            "value": 49.64
+          },
+          {
+            "name": "Linux",
+            "value": 0.07
+          },
+          {
+            "name": "Windows",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/worldwide",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 66.45
+          },
+          {
+            "name": "Safari",
+            "value": 18.2
+          },
+          {
+            "name": "Edge",
+            "value": 6.02
+          },
+          {
+            "name": "Firefox",
+            "value": 2.79
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.31
+          },
+          {
+            "name": "Opera",
+            "value": 1.77
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/worldwide",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 67.77
+          },
+          {
+            "name": "Safari",
+            "value": 24.59
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.49
+          },
+          {
+            "name": "Opera",
+            "value": 1.4
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.79
+          },
+          {
+            "name": "Firefox",
+            "value": 0.68
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/worldwide",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 65.14
+          },
+          {
+            "name": "Edge",
+            "value": 14.64
+          },
+          {
+            "name": "Safari",
+            "value": 8.06
+          },
+          {
+            "name": "Firefox",
+            "value": 6.09
+          },
+          {
+            "name": "Opera",
+            "value": 2.38
+          },
+          {
+            "name": "Brave",
+            "value": 1.11
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/worldwide",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 53.05
+          },
+          {
+            "name": "Safari",
+            "value": 30.51
+          },
+          {
+            "name": "Android",
+            "value": 12.24
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.51
+          },
+          {
+            "name": "Opera",
+            "value": 0.97
+          },
+          {
+            "name": "Edge",
+            "value": 0.96
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/worldwide",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 10.7
+          },
+          {
+            "name": "414x896",
+            "value": 8.03
+          },
+          {
+            "name": "360x800",
+            "value": 4.82
+          },
+          {
+            "name": "384x832",
+            "value": 4.57
+          },
+          {
+            "name": "1536x864",
+            "value": 3.8
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 13.3
+          },
+          {
+            "name": "360x800",
+            "value": 7.58
+          },
+          {
+            "name": "384x832",
+            "value": 7.1
+          },
+          {
+            "name": "390x844",
+            "value": 6.02
+          },
+          {
+            "name": "393x873",
+            "value": 4.19
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/worldwide",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 28.08
+          },
+          {
+            "name": "1536x864",
+            "value": 9.99
+          },
+          {
+            "name": "1366x768",
+            "value": 7.95
+          },
+          {
+            "name": "1280x720",
+            "value": 4.7
+          },
+          {
+            "name": "2560x1440",
+            "value": 3.95
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/worldwide",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 8.08
+          },
+          {
+            "name": "1280x800",
+            "value": 7.86
+          },
+          {
+            "name": "800x1280",
+            "value": 7.86
+          },
+          {
+            "name": "820x1180",
+            "value": 5.06
+          },
+          {
+            "name": "810x1080",
+            "value": 5.03
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 30.65
+          },
+          {
+            "name": "Samsung",
+            "value": 23.47
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.09
+          },
+          {
+            "name": "Unknown",
+            "value": 7.43
+          },
+          {
+            "name": "Oppo",
+            "value": 5.85
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 30.65
+          },
+          {
+            "name": "Samsung",
+            "value": 23.47
+          },
+          {
+            "name": "Xiaomi",
+            "value": 11.09
+          },
+          {
+            "name": "Unknown",
+            "value": 7.43
+          },
+          {
+            "name": "Oppo",
+            "value": 5.85
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 50.27
+          },
+          {
+            "name": "Samsung",
+            "value": 25.72
+          },
+          {
+            "name": "Amazon",
+            "value": 8.89
+          },
+          {
+            "name": "Unknown",
+            "value": 4.41
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.13
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 50.27
+          },
+          {
+            "name": "Samsung",
+            "value": 25.72
+          },
+          {
+            "name": "Amazon",
+            "value": 8.89
+          },
+          {
+            "name": "Unknown",
+            "value": 4.41
+          },
+          {
+            "name": "Xiaomi",
+            "value": 3.13
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/worldwide",
+        "data": [
+          {
+            "name": "Google",
+            "value": 89.94
+          },
+          {
+            "name": "bing",
+            "value": 5.29
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.36
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.31
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.74
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/worldwide",
+        "data": [
+          {
+            "name": "Google",
+            "value": 95.68
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.22
+          },
+          {
+            "name": "bing",
+            "value": 0.69
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.64
+          },
+          {
+            "name": "Baidu",
+            "value": 0.48
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/worldwide",
+        "data": [
+          {
+            "name": "Google",
+            "value": 78.09
+          },
+          {
+            "name": "bing",
+            "value": 14.65
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.35
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.51
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.94
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/worldwide",
+        "data": [
+          {
+            "name": "Google",
+            "value": 84.9
+          },
+          {
+            "name": "bing",
+            "value": 11.48
+          },
+          {
+            "name": "YANDEX",
+            "value": 1.12
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.98
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.58
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/worldwide",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 71.32
+          },
+          {
+            "name": "Twitter",
+            "value": 7.42
+          },
+          {
+            "name": "Instagram",
+            "value": 7.39
+          },
+          {
+            "name": "YouTube",
+            "value": 7.25
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.38
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/worldwide",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 74.9
+          },
+          {
+            "name": "Instagram",
+            "value": 8.2
+          },
+          {
+            "name": "Twitter",
+            "value": 6.71
+          },
+          {
+            "name": "YouTube",
+            "value": 6.55
+          },
+          {
+            "name": "reddit",
+            "value": 1.94
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/worldwide",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 38.36
+          },
+          {
+            "name": "Pinterest",
+            "value": 17.6
+          },
+          {
+            "name": "YouTube",
+            "value": 14.5
+          },
+          {
+            "name": "Twitter",
+            "value": 13.6
+          },
+          {
+            "name": "reddit",
+            "value": 7.54
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/worldwide",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 70.11
+          },
+          {
+            "name": "Pinterest",
+            "value": 12.71
+          },
+          {
+            "name": "Twitter",
+            "value": 8.3
+          },
+          {
+            "name": "YouTube",
+            "value": 5.61
+          },
+          {
+            "name": "Instagram",
+            "value": 2.22
+          }
+        ]
+      }
+    }
+  }
+}

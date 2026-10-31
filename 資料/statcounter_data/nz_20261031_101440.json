@@ -1,0 +1,640 @@
+{
+  "country_code": "nz",
+  "country_name": "紐西蘭",
+  "update_time": "2026-10-31 10:10:58",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/new-zealand",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 54.91
+          },
+          {
+            "name": "Mobile",
+            "value": 42.15
+          },
+          {
+            "name": "Tablet",
+            "value": 2.94
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/new-zealand",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 36.34
+          },
+          {
+            "name": "iOS",
+            "value": 23.05
+          },
+          {
+            "name": "Android",
+            "value": 22.63
+          },
+          {
+            "name": "OS X",
+            "value": 7.8
+          },
+          {
+            "name": "macOS",
+            "value": 5.81
+          },
+          {
+            "name": "Chrome OS",
+            "value": 2.51
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Android",
+            "value": 50.34
+          },
+          {
+            "name": "iOS",
+            "value": 49.66
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/new-zealand",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 67.0
+          },
+          {
+            "name": "OS X",
+            "value": 14.38
+          },
+          {
+            "name": "macOS",
+            "value": 10.71
+          },
+          {
+            "name": "Chrome OS",
+            "value": 4.62
+          },
+          {
+            "name": "Linux",
+            "value": 3.29
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/new-zealand",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 61.71
+          },
+          {
+            "name": "Android",
+            "value": 38.0
+          },
+          {
+            "name": "Linux",
+            "value": 0.29
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/new-zealand",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 56.77
+          },
+          {
+            "name": "Safari",
+            "value": 24.28
+          },
+          {
+            "name": "Edge",
+            "value": 9.33
+          },
+          {
+            "name": "Firefox",
+            "value": 3.57
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.18
+          },
+          {
+            "name": "Opera",
+            "value": 1.19
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 51.21
+          },
+          {
+            "name": "Safari",
+            "value": 39.35
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 6.09
+          },
+          {
+            "name": "Firefox",
+            "value": 1.62
+          },
+          {
+            "name": "Edge",
+            "value": 0.76
+          },
+          {
+            "name": "Opera",
+            "value": 0.44
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/new-zealand",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 60.99
+          },
+          {
+            "name": "Edge",
+            "value": 16.27
+          },
+          {
+            "name": "Safari",
+            "value": 12.3
+          },
+          {
+            "name": "Firefox",
+            "value": 5.26
+          },
+          {
+            "name": "Opera",
+            "value": 1.79
+          },
+          {
+            "name": "Brave",
+            "value": 1.78
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/new-zealand",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 58.95
+          },
+          {
+            "name": "Safari",
+            "value": 32.62
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.64
+          },
+          {
+            "name": "Android",
+            "value": 2.58
+          },
+          {
+            "name": "Edge",
+            "value": 1.2
+          },
+          {
+            "name": "Opera",
+            "value": 0.59
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/new-zealand",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 13.48
+          },
+          {
+            "name": "414x896",
+            "value": 9.1
+          },
+          {
+            "name": "1536x864",
+            "value": 5.29
+          },
+          {
+            "name": "384x832",
+            "value": 4.75
+          },
+          {
+            "name": "390x844",
+            "value": 4.57
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/new-zealand",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 21.34
+          },
+          {
+            "name": "390x844",
+            "value": 10.69
+          },
+          {
+            "name": "384x832",
+            "value": 10.44
+          },
+          {
+            "name": "360x780",
+            "value": 5.12
+          },
+          {
+            "name": "360x800",
+            "value": 3.94
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/new-zealand",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 24.72
+          },
+          {
+            "name": "1536x864",
+            "value": 9.72
+          },
+          {
+            "name": "1366x768",
+            "value": 7.8
+          },
+          {
+            "name": "1440x900",
+            "value": 5.05
+          },
+          {
+            "name": "2560x1440",
+            "value": 4.91
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/new-zealand",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 10.55
+          },
+          {
+            "name": "1280x800",
+            "value": 10.52
+          },
+          {
+            "name": "820x1180",
+            "value": 7.26
+          },
+          {
+            "name": "810x1080",
+            "value": 6.44
+          },
+          {
+            "name": "800x1280",
+            "value": 5.56
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 49.64
+          },
+          {
+            "name": "Samsung",
+            "value": 35.72
+          },
+          {
+            "name": "Oppo",
+            "value": 5.36
+          },
+          {
+            "name": "Unknown",
+            "value": 3.1
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.62
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 49.64
+          },
+          {
+            "name": "Samsung",
+            "value": 35.72
+          },
+          {
+            "name": "Oppo",
+            "value": 5.36
+          },
+          {
+            "name": "Unknown",
+            "value": 3.1
+          },
+          {
+            "name": "Xiaomi",
+            "value": 1.62
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/new-zealand",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 61.71
+          },
+          {
+            "name": "Samsung",
+            "value": 33.36
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.99
+          },
+          {
+            "name": "Unknown",
+            "value": 0.77
+          },
+          {
+            "name": "Amazon",
+            "value": 0.6
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/new-zealand",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 61.71
+          },
+          {
+            "name": "Samsung",
+            "value": 33.36
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.99
+          },
+          {
+            "name": "Unknown",
+            "value": 0.77
+          },
+          {
+            "name": "Amazon",
+            "value": 0.6
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/new-zealand",
+        "data": [
+          {
+            "name": "Google",
+            "value": 89.0
+          },
+          {
+            "name": "bing",
+            "value": 7.73
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.25
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.14
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.28
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.67
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.92
+          },
+          {
+            "name": "bing",
+            "value": 0.44
+          },
+          {
+            "name": "Ecosia",
+            "value": 0.33
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.29
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/new-zealand",
+        "data": [
+          {
+            "name": "Google",
+            "value": 80.85
+          },
+          {
+            "name": "bing",
+            "value": 14.52
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.18
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.37
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.37
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/new-zealand",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.2
+          },
+          {
+            "name": "bing",
+            "value": 0.82
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.52
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.24
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.1
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/new-zealand",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 69.35
+          },
+          {
+            "name": "Pinterest",
+            "value": 7.39
+          },
+          {
+            "name": "Twitter",
+            "value": 7.17
+          },
+          {
+            "name": "reddit",
+            "value": 5.41
+          },
+          {
+            "name": "YouTube",
+            "value": 4.83
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/new-zealand",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 75.49
+          },
+          {
+            "name": "Twitter",
+            "value": 6.83
+          },
+          {
+            "name": "Instagram",
+            "value": 5.9
+          },
+          {
+            "name": "YouTube",
+            "value": 4.59
+          },
+          {
+            "name": "reddit",
+            "value": 4.42
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/new-zealand",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 34.36
+          },
+          {
+            "name": "Pinterest",
+            "value": 28.74
+          },
+          {
+            "name": "reddit",
+            "value": 12.42
+          },
+          {
+            "name": "Twitter",
+            "value": 10.74
+          },
+          {
+            "name": "YouTube",
+            "value": 7.88
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/new-zealand",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 81.74
+          },
+          {
+            "name": "Pinterest",
+            "value": 11.64
+          },
+          {
+            "name": "Twitter",
+            "value": 3.36
+          },
+          {
+            "name": "YouTube",
+            "value": 1.28
+          },
+          {
+            "name": "reddit",
+            "value": 0.84
+          }
+        ]
+      }
+    }
+  }
+}
