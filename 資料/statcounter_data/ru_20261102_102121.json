@@ -1,0 +1,644 @@
+{
+  "country_code": "ru",
+  "country_name": "俄羅斯",
+  "update_time": "2026-11-02 10:17:38",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/russian-federation",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 65.37
+          },
+          {
+            "name": "Mobile",
+            "value": 33.67
+          },
+          {
+            "name": "Tablet",
+            "value": 0.95
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/russian-federation",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 59.41
+          },
+          {
+            "name": "Android",
+            "value": 25.32
+          },
+          {
+            "name": "iOS",
+            "value": 9.77
+          },
+          {
+            "name": "Linux",
+            "value": 2.97
+          },
+          {
+            "name": "OS X",
+            "value": 1.4
+          },
+          {
+            "name": "macOS",
+            "value": 1.12
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Android",
+            "value": 72.15
+          },
+          {
+            "name": "iOS",
+            "value": 27.83
+          },
+          {
+            "name": "Linux",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/russian-federation",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 91.54
+          },
+          {
+            "name": "Linux",
+            "value": 4.56
+          },
+          {
+            "name": "OS X",
+            "value": 2.15
+          },
+          {
+            "name": "macOS",
+            "value": 1.73
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.01
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Android",
+            "value": 71.82
+          },
+          {
+            "name": "iOS",
+            "value": 28.07
+          },
+          {
+            "name": "Linux",
+            "value": 0.11
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/russian-federation",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 50.49
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 27.66
+          },
+          {
+            "name": "Safari",
+            "value": 7.27
+          },
+          {
+            "name": "Opera",
+            "value": 5.46
+          },
+          {
+            "name": "Edge",
+            "value": 4.62
+          },
+          {
+            "name": "Firefox",
+            "value": 3.26
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 55.39
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 21.44
+          },
+          {
+            "name": "Safari",
+            "value": 17.79
+          },
+          {
+            "name": "Opera",
+            "value": 2.31
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.85
+          },
+          {
+            "name": "Firefox",
+            "value": 0.83
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/russian-federation",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 48.2
+          },
+          {
+            "name": "Yandex Browser",
+            "value": 30.71
+          },
+          {
+            "name": "Opera",
+            "value": 7.1
+          },
+          {
+            "name": "Edge",
+            "value": 7.01
+          },
+          {
+            "name": "Firefox",
+            "value": 4.55
+          },
+          {
+            "name": "Safari",
+            "value": 1.77
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Yandex Browser",
+            "value": 39.19
+          },
+          {
+            "name": "Chrome",
+            "value": 35.62
+          },
+          {
+            "name": "Safari",
+            "value": 12.78
+          },
+          {
+            "name": "Android",
+            "value": 6.53
+          },
+          {
+            "name": "Opera",
+            "value": 4.6
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.02
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/russian-federation",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 22.83
+          },
+          {
+            "name": "1536x864",
+            "value": 6.05
+          },
+          {
+            "name": "800x600",
+            "value": 5.82
+          },
+          {
+            "name": "414x896",
+            "value": 5.09
+          },
+          {
+            "name": "1366x768",
+            "value": 4.35
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/russian-federation",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 14.96
+          },
+          {
+            "name": "360x800",
+            "value": 9.74
+          },
+          {
+            "name": "393x873",
+            "value": 7.83
+          },
+          {
+            "name": "384x832",
+            "value": 6.32
+          },
+          {
+            "name": "390x844",
+            "value": 5.22
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/russian-federation",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 35.05
+          },
+          {
+            "name": "1536x864",
+            "value": 9.29
+          },
+          {
+            "name": "800x600",
+            "value": 8.93
+          },
+          {
+            "name": "1366x768",
+            "value": 6.68
+          },
+          {
+            "name": "1280x1200",
+            "value": 6.55
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/russian-federation",
+        "data": [
+          {
+            "name": "768x1024",
+            "value": 14.05
+          },
+          {
+            "name": "1280x800",
+            "value": 6.38
+          },
+          {
+            "name": "1098x686",
+            "value": 5.89
+          },
+          {
+            "name": "686x1098",
+            "value": 5.42
+          },
+          {
+            "name": "1138x712",
+            "value": 3.93
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 27.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 21.78
+          },
+          {
+            "name": "Samsung",
+            "value": 18.99
+          },
+          {
+            "name": "Honor",
+            "value": 6.01
+          },
+          {
+            "name": "Tecno",
+            "value": 5.61
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 27.83
+          },
+          {
+            "name": "Xiaomi",
+            "value": 21.78
+          },
+          {
+            "name": "Samsung",
+            "value": 18.99
+          },
+          {
+            "name": "Honor",
+            "value": 6.01
+          },
+          {
+            "name": "Tecno",
+            "value": 5.61
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 28.04
+          },
+          {
+            "name": "Samsung",
+            "value": 23.06
+          },
+          {
+            "name": "Xiaomi",
+            "value": 16.78
+          },
+          {
+            "name": "Huawei",
+            "value": 15.61
+          },
+          {
+            "name": "Honor",
+            "value": 9.24
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 28.04
+          },
+          {
+            "name": "Samsung",
+            "value": 23.06
+          },
+          {
+            "name": "Xiaomi",
+            "value": 16.78
+          },
+          {
+            "name": "Huawei",
+            "value": 15.61
+          },
+          {
+            "name": "Honor",
+            "value": 9.24
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/russian-federation",
+        "data": [
+          {
+            "name": "YANDEX",
+            "value": 70.22
+          },
+          {
+            "name": "Google",
+            "value": 28.36
+          },
+          {
+            "name": "bing",
+            "value": 0.82
+          },
+          {
+            "name": "Mail.ru",
+            "value": 0.3
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.18
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/russian-federation",
+        "data": [
+          {
+            "name": "YANDEX",
+            "value": 68.38
+          },
+          {
+            "name": "Google",
+            "value": 30.86
+          },
+          {
+            "name": "Mail.ru",
+            "value": 0.34
+          },
+          {
+            "name": "bing",
+            "value": 0.17
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.1
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/russian-federation",
+        "data": [
+          {
+            "name": "YANDEX",
+            "value": 71.81
+          },
+          {
+            "name": "Google",
+            "value": 26.17
+          },
+          {
+            "name": "bing",
+            "value": 1.39
+          },
+          {
+            "name": "Mail.ru",
+            "value": 0.28
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.26
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/russian-federation",
+        "data": [
+          {
+            "name": "YANDEX",
+            "value": 72.4
+          },
+          {
+            "name": "Google",
+            "value": 26.86
+          },
+          {
+            "name": "bing",
+            "value": 0.44
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.1
+          },
+          {
+            "name": "Mail.ru",
+            "value": 0.1
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/russian-federation",
+        "data": [
+          {
+            "name": "Pinterest",
+            "value": 36.43
+          },
+          {
+            "name": "Facebook",
+            "value": 24.42
+          },
+          {
+            "name": "reddit",
+            "value": 12.99
+          },
+          {
+            "name": "YouTube",
+            "value": 11.42
+          },
+          {
+            "name": "VKontakte",
+            "value": 5.96
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/russian-federation",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 38.9
+          },
+          {
+            "name": "Pinterest",
+            "value": 35.59
+          },
+          {
+            "name": "reddit",
+            "value": 7.16
+          },
+          {
+            "name": "VKontakte",
+            "value": 6.37
+          },
+          {
+            "name": "Instagram",
+            "value": 5.62
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/russian-federation",
+        "data": [
+          {
+            "name": "Pinterest",
+            "value": 36.39
+          },
+          {
+            "name": "YouTube",
+            "value": 18.96
+          },
+          {
+            "name": "reddit",
+            "value": 18.21
+          },
+          {
+            "name": "Facebook",
+            "value": 12.08
+          },
+          {
+            "name": "VKontakte",
+            "value": 5.8
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/russian-federation",
+        "data": [
+          {
+            "name": "Pinterest",
+            "value": 61.11
+          },
+          {
+            "name": "Facebook",
+            "value": 19.75
+          },
+          {
+            "name": "reddit",
+            "value": 6.79
+          },
+          {
+            "name": "Tumblr",
+            "value": 6.48
+          },
+          {
+            "name": "Instagram",
+            "value": 2.78
+          }
+        ]
+      }
+    }
+  }
+}
