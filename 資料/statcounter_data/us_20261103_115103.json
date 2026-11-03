@@ -1,0 +1,644 @@
+{
+  "country_code": "us",
+  "country_name": "美國",
+  "update_time": "2026-11-03 11:47:19",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 52.4
+          },
+          {
+            "name": "Mobile",
+            "value": 45.43
+          },
+          {
+            "name": "Tablet",
+            "value": 2.17
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/united-states-of-america",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 34.1
+          },
+          {
+            "name": "iOS",
+            "value": 24.86
+          },
+          {
+            "name": "Android",
+            "value": 22.92
+          },
+          {
+            "name": "OS X",
+            "value": 8.3
+          },
+          {
+            "name": "macOS",
+            "value": 4.44
+          },
+          {
+            "name": "Linux",
+            "value": 2.91
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 51.96
+          },
+          {
+            "name": "Android",
+            "value": 48.02
+          },
+          {
+            "name": "KaiOS",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/united-states-of-america",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 65.4
+          },
+          {
+            "name": "OS X",
+            "value": 15.92
+          },
+          {
+            "name": "macOS",
+            "value": 8.51
+          },
+          {
+            "name": "Linux",
+            "value": 5.57
+          },
+          {
+            "name": "Chrome OS",
+            "value": 4.6
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "iOS",
+            "value": 53.37
+          },
+          {
+            "name": "Android",
+            "value": 46.51
+          },
+          {
+            "name": "Linux",
+            "value": 0.11
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/united-states-of-america",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 56.0
+          },
+          {
+            "name": "Safari",
+            "value": 28.03
+          },
+          {
+            "name": "Edge",
+            "value": 7.11
+          },
+          {
+            "name": "Firefox",
+            "value": 3.64
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.63
+          },
+          {
+            "name": "Opera",
+            "value": 1.62
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 48.92
+          },
+          {
+            "name": "Safari",
+            "value": 44.74
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.32
+          },
+          {
+            "name": "Firefox",
+            "value": 1.3
+          },
+          {
+            "name": "Opera",
+            "value": 0.8
+          },
+          {
+            "name": "Edge",
+            "value": 0.47
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/united-states-of-america",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 62.63
+          },
+          {
+            "name": "Safari",
+            "value": 13.35
+          },
+          {
+            "name": "Edge",
+            "value": 13.0
+          },
+          {
+            "name": "Firefox",
+            "value": 5.82
+          },
+          {
+            "name": "Opera",
+            "value": 2.37
+          },
+          {
+            "name": "Mozilla",
+            "value": 1.57
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 45.68
+          },
+          {
+            "name": "Safari",
+            "value": 33.88
+          },
+          {
+            "name": "Android",
+            "value": 17.07
+          },
+          {
+            "name": "Edge",
+            "value": 1.6
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.82
+          },
+          {
+            "name": "Opera",
+            "value": 0.66
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/united-states-of-america",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 14.97
+          },
+          {
+            "name": "414x896",
+            "value": 9.34
+          },
+          {
+            "name": "800x600",
+            "value": 5.92
+          },
+          {
+            "name": "390x844",
+            "value": 4.38
+          },
+          {
+            "name": "384x832",
+            "value": 4.17
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 20.25
+          },
+          {
+            "name": "390x844",
+            "value": 9.48
+          },
+          {
+            "name": "384x832",
+            "value": 8.97
+          },
+          {
+            "name": "360x780",
+            "value": 4.58
+          },
+          {
+            "name": "402x874",
+            "value": 4.26
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/united-states-of-america",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 28.84
+          },
+          {
+            "name": "800x600",
+            "value": 11.35
+          },
+          {
+            "name": "1536x864",
+            "value": 6.22
+          },
+          {
+            "name": "1366x768",
+            "value": 5.91
+          },
+          {
+            "name": "2560x1440",
+            "value": 3.7
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "800x1280",
+            "value": 10.87
+          },
+          {
+            "name": "1280x800",
+            "value": 9.8
+          },
+          {
+            "name": "820x1180",
+            "value": 7.75
+          },
+          {
+            "name": "768x1024",
+            "value": 7.33
+          },
+          {
+            "name": "810x1080",
+            "value": 6.34
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.96
+          },
+          {
+            "name": "Samsung",
+            "value": 28.94
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.6
+          },
+          {
+            "name": "Motorola",
+            "value": 3.44
+          },
+          {
+            "name": "Google",
+            "value": 3.24
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 51.96
+          },
+          {
+            "name": "Samsung",
+            "value": 28.94
+          },
+          {
+            "name": "Xiaomi",
+            "value": 6.6
+          },
+          {
+            "name": "Motorola",
+            "value": 3.44
+          },
+          {
+            "name": "Google",
+            "value": 3.24
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.37
+          },
+          {
+            "name": "Amazon",
+            "value": 21.76
+          },
+          {
+            "name": "Samsung",
+            "value": 18.57
+          },
+          {
+            "name": "Unknown",
+            "value": 3.06
+          },
+          {
+            "name": "T-Mobile",
+            "value": 0.81
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Apple",
+            "value": 53.37
+          },
+          {
+            "name": "Amazon",
+            "value": 21.76
+          },
+          {
+            "name": "Samsung",
+            "value": 18.57
+          },
+          {
+            "name": "Unknown",
+            "value": 3.06
+          },
+          {
+            "name": "T-Mobile",
+            "value": 0.81
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/united-states-of-america",
+        "data": [
+          {
+            "name": "Google",
+            "value": 85.45
+          },
+          {
+            "name": "bing",
+            "value": 9.78
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.54
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.74
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.32
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Google",
+            "value": 94.12
+          },
+          {
+            "name": "bing",
+            "value": 2.26
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.53
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.51
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.38
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/united-states-of-america",
+        "data": [
+          {
+            "name": "Google",
+            "value": 74.86
+          },
+          {
+            "name": "bing",
+            "value": 18.8
+          },
+          {
+            "name": "Yahoo!",
+            "value": 3.98
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 1.96
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.23
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Google",
+            "value": 69.48
+          },
+          {
+            "name": "bing",
+            "value": 26.26
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 2.77
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.01
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.41
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/united-states-of-america",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 60.92
+          },
+          {
+            "name": "Twitter",
+            "value": 15.18
+          },
+          {
+            "name": "reddit",
+            "value": 8.5
+          },
+          {
+            "name": "Pinterest",
+            "value": 6.63
+          },
+          {
+            "name": "Instagram",
+            "value": 5.15
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/united-states-of-america",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 63.61
+          },
+          {
+            "name": "Twitter",
+            "value": 15.28
+          },
+          {
+            "name": "reddit",
+            "value": 8.73
+          },
+          {
+            "name": "Instagram",
+            "value": 6.12
+          },
+          {
+            "name": "Pinterest",
+            "value": 3.48
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/united-states-of-america",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 39.47
+          },
+          {
+            "name": "Pinterest",
+            "value": 21.8
+          },
+          {
+            "name": "Twitter",
+            "value": 16.82
+          },
+          {
+            "name": "reddit",
+            "value": 10.97
+          },
+          {
+            "name": "YouTube",
+            "value": 5.28
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/united-states-of-america",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 71.28
+          },
+          {
+            "name": "Pinterest",
+            "value": 12.65
+          },
+          {
+            "name": "Twitter",
+            "value": 11.11
+          },
+          {
+            "name": "Instagram",
+            "value": 1.82
+          },
+          {
+            "name": "reddit",
+            "value": 1.58
+          }
+        ]
+      }
+    }
+  }
+}
