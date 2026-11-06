@@ -1,7 +1,7 @@
 {
   "country_code": "fr",
   "country_name": "法國",
-  "update_time": "2026-11-05 11:31:52",
+  "update_time": "2026-11-06 11:32:54",
   "data": {
     "platform": {
       "all": {
@@ -416,55 +416,13 @@
       },
       "tablet": {
         "url": "https://gs.statcounter.com/vendor-market-share/tablet/france",
-        "data": [
-          {
-            "name": "Samsung",
-            "value": 44.08
-          },
-          {
-            "name": "Apple",
-            "value": 36.77
-          },
-          {
-            "name": "Xiaomi",
-            "value": 6.61
-          },
-          {
-            "name": "Unknown",
-            "value": 4.1
-          },
-          {
-            "name": "Lenovo",
-            "value": 3.53
-          }
-        ]
+        "data": []
       }
     },
     "search_engine_all": {
       "all": {
         "url": "https://gs.statcounter.com/search-engine-market-share/all/france",
-        "data": [
-          {
-            "name": "Google",
-            "value": 89.24
-          },
-          {
-            "name": "bing",
-            "value": 5.18
-          },
-          {
-            "name": "Yahoo!",
-            "value": 2.34
-          },
-          {
-            "name": "Ecosia",
-            "value": 1.23
-          },
-          {
-            "name": "Qwant",
-            "value": 0.76
-          }
-        ]
+        "data": []
       },
       "mobile": {
         "url": "https://gs.statcounter.com/search-engine-market-share/mobile/france",
