@@ -1,0 +1,644 @@
+{
+  "country_code": "br",
+  "country_name": "巴西",
+  "update_time": "2026-11-08 10:20:03",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/brazil",
+        "data": [
+          {
+            "name": "Desktop",
+            "value": 64.72
+          },
+          {
+            "name": "Mobile",
+            "value": 34.67
+          },
+          {
+            "name": "Tablet",
+            "value": 0.61
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/brazil",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 56.76
+          },
+          {
+            "name": "Android",
+            "value": 26.13
+          },
+          {
+            "name": "iOS",
+            "value": 9.23
+          },
+          {
+            "name": "Linux",
+            "value": 3.87
+          },
+          {
+            "name": "macOS",
+            "value": 2.17
+          },
+          {
+            "name": "OS X",
+            "value": 1.26
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/brazil",
+        "data": [
+          {
+            "name": "Android",
+            "value": 73.76
+          },
+          {
+            "name": "iOS",
+            "value": 26.23
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/brazil",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 87.92
+          },
+          {
+            "name": "Linux",
+            "value": 5.99
+          },
+          {
+            "name": "macOS",
+            "value": 3.35
+          },
+          {
+            "name": "OS X",
+            "value": 1.95
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.78
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/brazil",
+        "data": [
+          {
+            "name": "Android",
+            "value": 81.13
+          },
+          {
+            "name": "iOS",
+            "value": 18.81
+          },
+          {
+            "name": "Linux",
+            "value": 0.04
+          },
+          {
+            "name": "BlackBerry OS",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/brazil",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 79.11
+          },
+          {
+            "name": "Safari",
+            "value": 7.68
+          },
+          {
+            "name": "Edge",
+            "value": 6.38
+          },
+          {
+            "name": "Firefox",
+            "value": 2.72
+          },
+          {
+            "name": "Opera",
+            "value": 2.4
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 0.99
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/brazil",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 76.56
+          },
+          {
+            "name": "Safari",
+            "value": 19.66
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 2.63
+          },
+          {
+            "name": "Opera",
+            "value": 0.48
+          },
+          {
+            "name": "Firefox",
+            "value": 0.33
+          },
+          {
+            "name": "Edge",
+            "value": 0.18
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/brazil",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 80.53
+          },
+          {
+            "name": "Edge",
+            "value": 9.69
+          },
+          {
+            "name": "Firefox",
+            "value": 4.02
+          },
+          {
+            "name": "Opera",
+            "value": 3.44
+          },
+          {
+            "name": "Safari",
+            "value": 1.26
+          },
+          {
+            "name": "Brave",
+            "value": 0.77
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/brazil",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 83.55
+          },
+          {
+            "name": "Safari",
+            "value": 9.24
+          },
+          {
+            "name": "Android",
+            "value": 4.57
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.19
+          },
+          {
+            "name": "Opera",
+            "value": 0.94
+          },
+          {
+            "name": "Edge",
+            "value": 0.3
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/brazil",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 19.18
+          },
+          {
+            "name": "800x600",
+            "value": 8.5
+          },
+          {
+            "name": "1366x768",
+            "value": 7.22
+          },
+          {
+            "name": "1280x1200",
+            "value": 6.33
+          },
+          {
+            "name": "1536x864",
+            "value": 5.97
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/brazil",
+        "data": [
+          {
+            "name": "414x896",
+            "value": 11.33
+          },
+          {
+            "name": "384x832",
+            "value": 10.87
+          },
+          {
+            "name": "390x844",
+            "value": 6.41
+          },
+          {
+            "name": "412x915",
+            "value": 5.51
+          },
+          {
+            "name": "393x873",
+            "value": 4.9
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/brazil",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 29.69
+          },
+          {
+            "name": "800x600",
+            "value": 13.18
+          },
+          {
+            "name": "1366x768",
+            "value": 11.2
+          },
+          {
+            "name": "1280x1200",
+            "value": 9.82
+          },
+          {
+            "name": "1536x864",
+            "value": 9.27
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/brazil",
+        "data": [
+          {
+            "name": "1280x800",
+            "value": 21.79
+          },
+          {
+            "name": "800x1280",
+            "value": 10.61
+          },
+          {
+            "name": "1334x800",
+            "value": 7.47
+          },
+          {
+            "name": "601x1007",
+            "value": 5.61
+          },
+          {
+            "name": "800x1334",
+            "value": 4.44
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/brazil",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 31.68
+          },
+          {
+            "name": "Apple",
+            "value": 26.23
+          },
+          {
+            "name": "Motorola",
+            "value": 16.18
+          },
+          {
+            "name": "Xiaomi",
+            "value": 15.88
+          },
+          {
+            "name": "Unknown",
+            "value": 6.24
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/brazil",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 31.68
+          },
+          {
+            "name": "Apple",
+            "value": 26.23
+          },
+          {
+            "name": "Motorola",
+            "value": 16.18
+          },
+          {
+            "name": "Xiaomi",
+            "value": 15.88
+          },
+          {
+            "name": "Unknown",
+            "value": 6.24
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/brazil",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 65.57
+          },
+          {
+            "name": "Apple",
+            "value": 18.81
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.49
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.58
+          },
+          {
+            "name": "Vaio",
+            "value": 2.39
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/brazil",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 65.57
+          },
+          {
+            "name": "Apple",
+            "value": 18.81
+          },
+          {
+            "name": "Xiaomi",
+            "value": 4.49
+          },
+          {
+            "name": "Lenovo",
+            "value": 3.58
+          },
+          {
+            "name": "Vaio",
+            "value": 2.39
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/brazil",
+        "data": [
+          {
+            "name": "Google",
+            "value": 92.01
+          },
+          {
+            "name": "bing",
+            "value": 6.64
+          },
+          {
+            "name": "Yahoo!",
+            "value": 1.07
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.14
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.1
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/brazil",
+        "data": [
+          {
+            "name": "Google",
+            "value": 99.48
+          },
+          {
+            "name": "bing",
+            "value": 0.18
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.12
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.11
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.09
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/brazil",
+        "data": [
+          {
+            "name": "Google",
+            "value": 81.27
+          },
+          {
+            "name": "bing",
+            "value": 15.91
+          },
+          {
+            "name": "Yahoo!",
+            "value": 2.51
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.18
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.1
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/brazil",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.04
+          },
+          {
+            "name": "bing",
+            "value": 1.56
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.18
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.13
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.06
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/brazil",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 58.69
+          },
+          {
+            "name": "Instagram",
+            "value": 22.8
+          },
+          {
+            "name": "YouTube",
+            "value": 9.21
+          },
+          {
+            "name": "Twitter",
+            "value": 4.18
+          },
+          {
+            "name": "Pinterest",
+            "value": 2.55
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/brazil",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 64.4
+          },
+          {
+            "name": "Instagram",
+            "value": 25.45
+          },
+          {
+            "name": "YouTube",
+            "value": 5.27
+          },
+          {
+            "name": "Twitter",
+            "value": 3.4
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.66
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/brazil",
+        "data": [
+          {
+            "name": "YouTube",
+            "value": 37.94
+          },
+          {
+            "name": "Facebook",
+            "value": 16.71
+          },
+          {
+            "name": "Pinterest",
+            "value": 16.28
+          },
+          {
+            "name": "Twitter",
+            "value": 9.68
+          },
+          {
+            "name": "reddit",
+            "value": 6.84
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/brazil",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 57.07
+          },
+          {
+            "name": "YouTube",
+            "value": 15.39
+          },
+          {
+            "name": "Twitter",
+            "value": 9.05
+          },
+          {
+            "name": "Pinterest",
+            "value": 7.63
+          },
+          {
+            "name": "Instagram",
+            "value": 7.23
+          }
+        ]
+      }
+    }
+  }
+}
