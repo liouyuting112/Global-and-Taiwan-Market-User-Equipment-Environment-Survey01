@@ -1,0 +1,656 @@
+{
+  "country_code": "africa",
+  "country_name": "非洲",
+  "update_time": "2026-11-09 10:22:53",
+  "data": {
+    "platform": {
+      "all": {
+        "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/africa",
+        "data": [
+          {
+            "name": "Mobile",
+            "value": 67.78
+          },
+          {
+            "name": "Desktop",
+            "value": 31.29
+          },
+          {
+            "name": "Tablet",
+            "value": 0.94
+          }
+        ]
+      }
+    },
+    "os_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/os-market-share/all/africa",
+        "data": [
+          {
+            "name": "Android",
+            "value": 58.24
+          },
+          {
+            "name": "Windows",
+            "value": 25.52
+          },
+          {
+            "name": "iOS",
+            "value": 11.9
+          },
+          {
+            "name": "Linux",
+            "value": 2.04
+          },
+          {
+            "name": "macOS",
+            "value": 1.31
+          },
+          {
+            "name": "OS X",
+            "value": 0.87
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/os-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Android",
+            "value": 83.03
+          },
+          {
+            "name": "iOS",
+            "value": 16.92
+          },
+          {
+            "name": "Linux",
+            "value": 0.03
+          },
+          {
+            "name": "KaiOS",
+            "value": 0.01
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/os-market-share/desktop/africa",
+        "data": [
+          {
+            "name": "Windows",
+            "value": 85.6
+          },
+          {
+            "name": "Linux",
+            "value": 6.77
+          },
+          {
+            "name": "macOS",
+            "value": 4.4
+          },
+          {
+            "name": "OS X",
+            "value": 2.92
+          },
+          {
+            "name": "Chrome OS",
+            "value": 0.31
+          },
+          {
+            "name": "FreeBSD",
+            "value": 0.01
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/os-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Android",
+            "value": 80.69
+          },
+          {
+            "name": "iOS",
+            "value": 19.24
+          },
+          {
+            "name": "Linux",
+            "value": 0.06
+          },
+          {
+            "name": "BlackBerry OS",
+            "value": 0.01
+          }
+        ]
+      }
+    },
+    "browser_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/browser-market-share/all/africa",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 75.47
+          },
+          {
+            "name": "Safari",
+            "value": 9.09
+          },
+          {
+            "name": "Opera",
+            "value": 4.91
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 3.59
+          },
+          {
+            "name": "Edge",
+            "value": 3.39
+          },
+          {
+            "name": "Firefox",
+            "value": 2.26
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/browser-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 74.91
+          },
+          {
+            "name": "Safari",
+            "value": 12.34
+          },
+          {
+            "name": "Opera",
+            "value": 6.17
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 5.03
+          },
+          {
+            "name": "Firefox",
+            "value": 0.53
+          },
+          {
+            "name": "UC Browser",
+            "value": 0.53
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/browser-market-share/desktop/africa",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 76.81
+          },
+          {
+            "name": "Edge",
+            "value": 10.39
+          },
+          {
+            "name": "Firefox",
+            "value": 6.05
+          },
+          {
+            "name": "Opera",
+            "value": 2.23
+          },
+          {
+            "name": "Safari",
+            "value": 2.01
+          },
+          {
+            "name": "Brave",
+            "value": 1.65
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/browser-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 73.2
+          },
+          {
+            "name": "Safari",
+            "value": 11.08
+          },
+          {
+            "name": "Android",
+            "value": 9.15
+          },
+          {
+            "name": "Opera",
+            "value": 3.75
+          },
+          {
+            "name": "Samsung Internet",
+            "value": 1.52
+          },
+          {
+            "name": "Instabridge",
+            "value": 0.42
+          }
+        ]
+      }
+    },
+    "resolution_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/all/africa",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 8.76
+          },
+          {
+            "name": "384x832",
+            "value": 7.52
+          },
+          {
+            "name": "1920x1080",
+            "value": 6.39
+          },
+          {
+            "name": "414x896",
+            "value": 6.16
+          },
+          {
+            "name": "385x854",
+            "value": 4.47
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/africa",
+        "data": [
+          {
+            "name": "360x800",
+            "value": 12.35
+          },
+          {
+            "name": "384x832",
+            "value": 10.87
+          },
+          {
+            "name": "414x896",
+            "value": 9.01
+          },
+          {
+            "name": "385x854",
+            "value": 6.49
+          },
+          {
+            "name": "360x806",
+            "value": 5.74
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/africa",
+        "data": [
+          {
+            "name": "1920x1080",
+            "value": 20.57
+          },
+          {
+            "name": "800x600",
+            "value": 13.95
+          },
+          {
+            "name": "1366x768",
+            "value": 11.89
+          },
+          {
+            "name": "1536x864",
+            "value": 8.75
+          },
+          {
+            "name": "1280x1200",
+            "value": 7.17
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/africa",
+        "data": [
+          {
+            "name": "1280x800",
+            "value": 12.61
+          },
+          {
+            "name": "800x1280",
+            "value": 10.63
+          },
+          {
+            "name": "601x1007",
+            "value": 8.4
+          },
+          {
+            "name": "1334x800",
+            "value": 7.44
+          },
+          {
+            "name": "800x1334",
+            "value": 6.69
+          }
+        ]
+      }
+    },
+    "vendor_mobile": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 36.92
+          },
+          {
+            "name": "Apple",
+            "value": 16.92
+          },
+          {
+            "name": "Xiaomi",
+            "value": 8.56
+          },
+          {
+            "name": "Tecno",
+            "value": 6.09
+          },
+          {
+            "name": "Honor",
+            "value": 5.36
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 36.92
+          },
+          {
+            "name": "Apple",
+            "value": 16.92
+          },
+          {
+            "name": "Xiaomi",
+            "value": 8.56
+          },
+          {
+            "name": "Tecno",
+            "value": 6.09
+          },
+          {
+            "name": "Honor",
+            "value": 5.36
+          }
+        ]
+      }
+    },
+    "vendor_tablet": {
+      "all": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 57.52
+          },
+          {
+            "name": "Apple",
+            "value": 19.19
+          },
+          {
+            "name": "Unknown",
+            "value": 8.19
+          },
+          {
+            "name": "Honor",
+            "value": 2.79
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.7
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Samsung",
+            "value": 57.52
+          },
+          {
+            "name": "Apple",
+            "value": 19.19
+          },
+          {
+            "name": "Unknown",
+            "value": 8.19
+          },
+          {
+            "name": "Honor",
+            "value": 2.79
+          },
+          {
+            "name": "Lenovo",
+            "value": 2.7
+          }
+        ]
+      }
+    },
+    "search_engine_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/all/africa",
+        "data": [
+          {
+            "name": "Google",
+            "value": 96.22
+          },
+          {
+            "name": "bing",
+            "value": 3.03
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.24
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.23
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.13
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/mobile/africa",
+        "data": [
+          {
+            "name": "Google",
+            "value": 98.58
+          },
+          {
+            "name": "bing",
+            "value": 0.85
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.24
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.1
+          },
+          {
+            "name": "Petal Search",
+            "value": 0.1
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/desktop/africa",
+        "data": [
+          {
+            "name": "Google",
+            "value": 87.13
+          },
+          {
+            "name": "bing",
+            "value": 11.39
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.86
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.24
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.23
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/search-engine-market-share/tablet/africa",
+        "data": [
+          {
+            "name": "Google",
+            "value": 97.72
+          },
+          {
+            "name": "bing",
+            "value": 1.57
+          },
+          {
+            "name": "YANDEX",
+            "value": 0.29
+          },
+          {
+            "name": "DuckDuckGo",
+            "value": 0.21
+          },
+          {
+            "name": "Yahoo!",
+            "value": 0.14
+          }
+        ]
+      }
+    },
+    "social_media_all": {
+      "all": {
+        "url": "https://gs.statcounter.com/social-media-stats/all/africa",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 67.76
+          },
+          {
+            "name": "YouTube",
+            "value": 15.48
+          },
+          {
+            "name": "Twitter",
+            "value": 7.49
+          },
+          {
+            "name": "Instagram",
+            "value": 5.8
+          },
+          {
+            "name": "Pinterest",
+            "value": 1.73
+          }
+        ]
+      },
+      "mobile": {
+        "url": "https://gs.statcounter.com/social-media-stats/mobile/africa",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 70.97
+          },
+          {
+            "name": "YouTube",
+            "value": 14.77
+          },
+          {
+            "name": "Twitter",
+            "value": 6.41
+          },
+          {
+            "name": "Instagram",
+            "value": 6.23
+          },
+          {
+            "name": "Pinterest",
+            "value": 0.78
+          }
+        ]
+      },
+      "desktop": {
+        "url": "https://gs.statcounter.com/social-media-stats/desktop/africa",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 35.59
+          },
+          {
+            "name": "YouTube",
+            "value": 20.9
+          },
+          {
+            "name": "Twitter",
+            "value": 18.61
+          },
+          {
+            "name": "Pinterest",
+            "value": 11.52
+          },
+          {
+            "name": "LinkedIn",
+            "value": 8.21
+          }
+        ]
+      },
+      "tablet": {
+        "url": "https://gs.statcounter.com/social-media-stats/tablet/africa",
+        "data": [
+          {
+            "name": "Facebook",
+            "value": 47.53
+          },
+          {
+            "name": "YouTube",
+            "value": 30.89
+          },
+          {
+            "name": "Twitter",
+            "value": 11.88
+          },
+          {
+            "name": "Pinterest",
+            "value": 5.89
+          },
+          {
+            "name": "Instagram",
+            "value": 2.61
+          }
+        ]
+      }
+    }
+  }
+}
