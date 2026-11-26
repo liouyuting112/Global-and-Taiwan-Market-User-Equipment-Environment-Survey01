@@ -1,1426 +1,1430 @@
 {
-  "asia": {
-    "country_code": "asia",
-    "country_name": "亞洲",
-    "update_time": "2026-11-25 13:09:48",
+  "in": {
+    "country_code": "in",
+    "country_name": "印度",
+    "update_time": "2026-11-26 12:37:09",
     "data": {
       "platform": {
         "all": {
-          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/asia",
+          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/india",
           "data": [
             {
               "name": "Mobile",
-              "value": 71.29
+              "value": 84.21
             },
             {
               "name": "Desktop",
-              "value": 27.51
+              "value": 15.17
             },
             {
               "name": "Tablet",
-              "value": 1.2
+              "value": 0.62
             }
           ]
         }
       },
       "os_all": {
         "all": {
-          "url": "https://gs.statcounter.com/os-market-share/all/asia",
+          "url": "https://gs.statcounter.com/os-market-share/all/india",
           "data": [
             {
               "name": "Android",
-              "value": 60.38
+              "value": 80.95
             },
             {
               "name": "Windows",
-              "value": 22.37
+              "value": 11.85
             },
             {
               "name": "iOS",
-              "value": 12.94
+              "value": 4.45
             },
             {
               "name": "Linux",
-              "value": 1.76
-            },
-            {
-              "name": "OS X",
-              "value": 1.41
+              "value": 1.81
             },
             {
               "name": "macOS",
-              "value": 0.91
+              "value": 0.48
+            },
+            {
+              "name": "OS X",
+              "value": 0.38
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/os-market-share/mobile/asia",
+          "url": "https://gs.statcounter.com/os-market-share/mobile/india",
           "data": [
             {
               "name": "Android",
-              "value": 82.8
+              "value": 94.84
             },
             {
               "name": "iOS",
-              "value": 17.16
+              "value": 5.1
+            },
+            {
+              "name": "KaiOS",
+              "value": 0.03
+            },
+            {
+              "name": "Linux",
+              "value": 0.02
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/os-market-share/desktop/india",
+          "data": [
+            {
+              "name": "Windows",
+              "value": 81.42
+            },
+            {
+              "name": "Linux",
+              "value": 12.26
+            },
+            {
+              "name": "macOS",
+              "value": 3.33
+            },
+            {
+              "name": "OS X",
+              "value": 2.59
+            },
+            {
+              "name": "Chrome OS",
+              "value": 0.41
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/os-market-share/tablet/india",
+          "data": [
+            {
+              "name": "Android",
+              "value": 81.3
+            },
+            {
+              "name": "iOS",
+              "value": 18.67
             },
             {
               "name": "Linux",
               "value": 0.02
             },
             {
-              "name": "KaiOS",
+              "name": "Windows",
               "value": 0.01
+            }
+          ]
+        }
+      },
+      "browser_all": {
+        "all": {
+          "url": "https://gs.statcounter.com/browser-market-share/all/india",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 89.55
+            },
+            {
+              "name": "Opera",
+              "value": 3.86
+            },
+            {
+              "name": "Safari",
+              "value": 2.66
+            },
+            {
+              "name": "Edge",
+              "value": 1.13
+            },
+            {
+              "name": "UC Browser",
+              "value": 1.0
+            },
+            {
+              "name": "Firefox",
+              "value": 0.82
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/browser-market-share/mobile/india",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 90.65
+            },
+            {
+              "name": "Opera",
+              "value": 4.32
+            },
+            {
+              "name": "Safari",
+              "value": 2.83
+            },
+            {
+              "name": "UC Browser",
+              "value": 1.17
+            },
+            {
+              "name": "Samsung Internet",
+              "value": 0.63
+            },
+            {
+              "name": "Firefox",
+              "value": 0.23
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/os-market-share/desktop/asia",
+          "url": "https://gs.statcounter.com/browser-market-share/desktop/india",
           "data": [
             {
-              "name": "Windows",
-              "value": 83.95
+              "name": "Chrome",
+              "value": 83.74
             },
             {
-              "name": "Linux",
-              "value": 6.56
+              "name": "Edge",
+              "value": 7.27
             },
             {
-              "name": "OS X",
-              "value": 5.29
+              "name": "Firefox",
+              "value": 4.16
             },
             {
-              "name": "macOS",
-              "value": 3.43
+              "name": "Safari",
+              "value": 1.54
             },
             {
-              "name": "Chrome OS",
-              "value": 0.77
+              "name": "Opera",
+              "value": 1.33
+            },
+            {
+              "name": "Brave",
+              "value": 1.23
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/os-market-share/tablet/asia",
+          "url": "https://gs.statcounter.com/browser-market-share/tablet/india",
           "data": [
             {
+              "name": "Chrome",
+              "value": 82.94
+            },
+            {
+              "name": "Safari",
+              "value": 6.32
+            },
+            {
               "name": "Android",
-              "value": 53.63
+              "value": 5.63
             },
             {
-              "name": "iOS",
-              "value": 46.25
+              "name": "Opera",
+              "value": 3.53
             },
             {
-              "name": "Linux",
-              "value": 0.08
+              "name": "Samsung Internet",
+              "value": 0.77
             },
             {
-              "name": "Windows",
+              "name": "UC Browser",
+              "value": 0.61
+            }
+          ]
+        }
+      },
+      "resolution_all": {
+        "all": {
+          "url": "https://gs.statcounter.com/screen-resolution-stats/all/india",
+          "data": [
+            {
+              "name": "360x800",
+              "value": 13.67
+            },
+            {
+              "name": "393x873",
+              "value": 5.81
+            },
+            {
+              "name": "384x832",
+              "value": 3.72
+            },
+            {
+              "name": "385x854",
+              "value": 3.43
+            },
+            {
+              "name": "393x876",
+              "value": 3.31
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/india",
+          "data": [
+            {
+              "name": "360x800",
+              "value": 15.71
+            },
+            {
+              "name": "393x873",
+              "value": 6.72
+            },
+            {
+              "name": "384x832",
+              "value": 4.3
+            },
+            {
+              "name": "385x854",
+              "value": 3.96
+            },
+            {
+              "name": "393x876",
+              "value": 3.87
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/india",
+          "data": [
+            {
+              "name": "1366x768",
+              "value": 16.71
+            },
+            {
+              "name": "1920x1080",
+              "value": 16.49
+            },
+            {
+              "name": "1536x864",
+              "value": 15.23
+            },
+            {
+              "name": "1280x720",
+              "value": 7.04
+            },
+            {
+              "name": "800x600",
+              "value": 6.51
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/india",
+          "data": [
+            {
+              "name": "601x1007",
+              "value": 23.33
+            },
+            {
+              "name": "800x1280",
+              "value": 5.61
+            },
+            {
+              "name": "1280x720",
+              "value": 4.63
+            },
+            {
+              "name": "1280x800",
+              "value": 4.55
+            },
+            {
+              "name": "686x1143",
+              "value": 4.55
+            }
+          ]
+        }
+      },
+      "vendor_mobile": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/india",
+          "data": [
+            {
+              "name": "Vivo",
+              "value": 22.06
+            },
+            {
+              "name": "Oppo",
+              "value": 16.06
+            },
+            {
+              "name": "Xiaomi",
+              "value": 14.95
+            },
+            {
+              "name": "Samsung",
+              "value": 12.17
+            },
+            {
+              "name": "Realme",
+              "value": 9.17
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/india",
+          "data": [
+            {
+              "name": "Vivo",
+              "value": 22.06
+            },
+            {
+              "name": "Oppo",
+              "value": 16.06
+            },
+            {
+              "name": "Xiaomi",
+              "value": 14.95
+            },
+            {
+              "name": "Samsung",
+              "value": 12.17
+            },
+            {
+              "name": "Realme",
+              "value": 9.17
+            }
+          ]
+        }
+      },
+      "vendor_tablet": {
+        "all": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/india",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 47.62
+            },
+            {
+              "name": "Apple",
+              "value": 18.67
+            },
+            {
+              "name": "Realme",
+              "value": 8.74
+            },
+            {
+              "name": "Xiaomi",
+              "value": 8.67
+            },
+            {
+              "name": "Unknown",
+              "value": 4.76
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/india",
+          "data": [
+            {
+              "name": "Samsung",
+              "value": 47.62
+            },
+            {
+              "name": "Apple",
+              "value": 18.67
+            },
+            {
+              "name": "Realme",
+              "value": 8.74
+            },
+            {
+              "name": "Xiaomi",
+              "value": 8.67
+            },
+            {
+              "name": "Unknown",
+              "value": 4.76
+            }
+          ]
+        }
+      },
+      "search_engine_all": {
+        "all": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/all/india",
+          "data": [
+            {
+              "name": "Google",
+              "value": 98.06
+            },
+            {
+              "name": "bing",
+              "value": 1.11
+            },
+            {
+              "name": "Yahoo!",
+              "value": 0.35
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.33
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.1
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/india",
+          "data": [
+            {
+              "name": "Google",
+              "value": 99.29
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.35
+            },
+            {
+              "name": "bing",
+              "value": 0.17
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.1
+            },
+            {
+              "name": "Yahoo!",
+              "value": 0.04
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/india",
+          "data": [
+            {
+              "name": "Google",
+              "value": 89.36
+            },
+            {
+              "name": "bing",
+              "value": 7.79
+            },
+            {
+              "name": "Yahoo!",
+              "value": 2.59
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.17
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.06
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/india",
+          "data": [
+            {
+              "name": "Google",
+              "value": 98.85
+            },
+            {
+              "name": "bing",
+              "value": 0.69
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.28
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.12
+            },
+            {
+              "name": "Yahoo!",
               "value": 0.04
             }
           ]
         }
       },
-      "browser_all": {
+      "social_media_all": {
         "all": {
-          "url": "https://gs.statcounter.com/browser-market-share/all/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/all/india",
           "data": [
             {
-              "name": "Chrome",
-              "value": 78.04
+              "name": "YouTube",
+              "value": 38.64
             },
             {
-              "name": "Safari",
-              "value": 10.22
+              "name": "Facebook",
+              "value": 36.01
             },
             {
-              "name": "Edge",
-              "value": 3.74
+              "name": "Instagram",
+              "value": 15.71
             },
             {
-              "name": "Opera",
-              "value": 2.07
+              "name": "Twitter",
+              "value": 6.02
             },
             {
-              "name": "Samsung Internet",
-              "value": 1.67
-            },
-            {
-              "name": "Firefox",
-              "value": 1.32
+              "name": "LinkedIn",
+              "value": 1.82
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/browser-market-share/mobile/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/mobile/india",
           "data": [
             {
-              "name": "Chrome",
-              "value": 79.75
+              "name": "YouTube",
+              "value": 38.64
             },
             {
-              "name": "Safari",
-              "value": 12.57
+              "name": "Facebook",
+              "value": 37.75
             },
             {
-              "name": "Opera",
-              "value": 2.33
+              "name": "Instagram",
+              "value": 16.55
             },
             {
-              "name": "Samsung Internet",
-              "value": 2.17
+              "name": "Twitter",
+              "value": 5.71
             },
             {
-              "name": "UC Browser",
-              "value": 1.65
-            },
-            {
-              "name": "Edge",
-              "value": 0.41
+              "name": "LinkedIn",
+              "value": 0.53
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/browser-market-share/desktop/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/desktop/india",
           "data": [
             {
-              "name": "Chrome",
-              "value": 74.31
+              "name": "YouTube",
+              "value": 38.8
             },
             {
-              "name": "Edge",
-              "value": 12.48
+              "name": "LinkedIn",
+              "value": 22.39
             },
             {
-              "name": "Firefox",
-              "value": 4.06
+              "name": "Twitter",
+              "value": 10.4
             },
             {
-              "name": "Safari",
-              "value": 3.5
+              "name": "Pinterest",
+              "value": 9.58
             },
             {
-              "name": "Opera",
-              "value": 1.42
-            },
-            {
-              "name": "360 Safe",
-              "value": 1.12
+              "name": "Facebook",
+              "value": 9.24
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/browser-market-share/tablet/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/tablet/india",
           "data": [
             {
-              "name": "Chrome",
-              "value": 62.74
+              "name": "YouTube",
+              "value": 34.21
             },
             {
-              "name": "Safari",
-              "value": 24.47
+              "name": "Facebook",
+              "value": 22.93
+            },
+            {
+              "name": "Twitter",
+              "value": 15.72
+            },
+            {
+              "name": "Instagram",
+              "value": 12.75
+            },
+            {
+              "name": "Pinterest",
+              "value": 9.71
+            }
+          ]
+        }
+      }
+    }
+  },
+  "bd": {
+    "country_code": "bd",
+    "country_name": "孟加拉國",
+    "update_time": "2026-11-26 12:40:51",
+    "data": {
+      "platform": {
+        "all": {
+          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/bangladesh",
+          "data": [
+            {
+              "name": "Desktop",
+              "value": 56.04
+            },
+            {
+              "name": "Mobile",
+              "value": 43.6
+            },
+            {
+              "name": "Tablet",
+              "value": 0.35
+            }
+          ]
+        }
+      },
+      "os_all": {
+        "all": {
+          "url": "https://gs.statcounter.com/os-market-share/all/bangladesh",
+          "data": [
+            {
+              "name": "Windows",
+              "value": 47.54
             },
             {
               "name": "Android",
-              "value": 7.99
+              "value": 41.5
             },
             {
-              "name": "Samsung Internet",
-              "value": 1.43
+              "name": "Linux",
+              "value": 3.73
             },
             {
-              "name": "Opera",
-              "value": 1.3
+              "name": "iOS",
+              "value": 3.33
+            },
+            {
+              "name": "macOS",
+              "value": 2.84
+            },
+            {
+              "name": "OS X",
+              "value": 0.97
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/os-market-share/mobile/bangladesh",
+          "data": [
+            {
+              "name": "Android",
+              "value": 92.72
+            },
+            {
+              "name": "iOS",
+              "value": 7.22
+            },
+            {
+              "name": "KaiOS",
+              "value": 0.04
+            },
+            {
+              "name": "Linux",
+              "value": 0.02
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/os-market-share/desktop/bangladesh",
+          "data": [
+            {
+              "name": "Windows",
+              "value": 86.21
+            },
+            {
+              "name": "Linux",
+              "value": 6.76
+            },
+            {
+              "name": "macOS",
+              "value": 5.16
+            },
+            {
+              "name": "OS X",
+              "value": 1.76
+            },
+            {
+              "name": "Chrome OS",
+              "value": 0.11
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/os-market-share/tablet/bangladesh",
+          "data": [
+            {
+              "name": "Android",
+              "value": 67.46
+            },
+            {
+              "name": "iOS",
+              "value": 32.08
+            },
+            {
+              "name": "Linux",
+              "value": 0.24
+            },
+            {
+              "name": "BlackBerry OS",
+              "value": 0.21
+            },
+            {
+              "name": "Windows",
+              "value": 0.01
+            }
+          ]
+        }
+      },
+      "browser_all": {
+        "all": {
+          "url": "https://gs.statcounter.com/browser-market-share/all/bangladesh",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 83.6
+            },
+            {
+              "name": "Firefox",
+              "value": 5.14
             },
             {
               "name": "Edge",
-              "value": 0.93
+              "value": 3.13
+            },
+            {
+              "name": "Opera",
+              "value": 2.91
+            },
+            {
+              "name": "Safari",
+              "value": 2.54
+            },
+            {
+              "name": "UC Browser",
+              "value": 1.6
+            }
+          ]
+        },
+        "mobile": {
+          "url": "https://gs.statcounter.com/browser-market-share/mobile/bangladesh",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 85.43
+            },
+            {
+              "name": "Safari",
+              "value": 4.89
+            },
+            {
+              "name": "Opera",
+              "value": 4.54
+            },
+            {
+              "name": "UC Browser",
+              "value": 3.65
+            },
+            {
+              "name": "Samsung Internet",
+              "value": 0.87
+            },
+            {
+              "name": "Firefox",
+              "value": 0.36
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/browser-market-share/desktop/bangladesh",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 82.35
+            },
+            {
+              "name": "Firefox",
+              "value": 8.9
+            },
+            {
+              "name": "Edge",
+              "value": 5.51
+            },
+            {
+              "name": "Opera",
+              "value": 1.64
+            },
+            {
+              "name": "Brave",
+              "value": 0.7
+            },
+            {
+              "name": "Safari",
+              "value": 0.6
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/browser-market-share/tablet/bangladesh",
+          "data": [
+            {
+              "name": "Chrome",
+              "value": 55.49
+            },
+            {
+              "name": "Safari",
+              "value": 21.7
+            },
+            {
+              "name": "Android",
+              "value": 14.85
+            },
+            {
+              "name": "Opera",
+              "value": 3.7
+            },
+            {
+              "name": "UC Browser",
+              "value": 2.11
+            },
+            {
+              "name": "Samsung Internet",
+              "value": 0.79
             }
           ]
         }
       },
       "resolution_all": {
         "all": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/all/asia",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/all/bangladesh",
           "data": [
             {
-              "name": "360x800",
-              "value": 9.12
-            },
-            {
-              "name": "414x896",
-              "value": 6.37
-            },
-            {
               "name": "1920x1080",
-              "value": 6.2
+              "value": 22.41
             },
             {
-              "name": "384x832",
-              "value": 3.71
+              "name": "800x600",
+              "value": 15.18
+            },
+            {
+              "name": "360x800",
+              "value": 8.47
+            },
+            {
+              "name": "1280x1200",
+              "value": 4.12
             },
             {
               "name": "393x873",
-              "value": 3.7
+              "value": 2.76
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/asia",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/bangladesh",
           "data": [
             {
               "name": "360x800",
-              "value": 12.12
-            },
-            {
-              "name": "414x896",
-              "value": 8.67
-            },
-            {
-              "name": "384x832",
-              "value": 4.99
+              "value": 16.95
             },
             {
               "name": "393x873",
-              "value": 4.97
+              "value": 5.88
             },
             {
               "name": "385x854",
-              "value": 3.38
+              "value": 5.44
+            },
+            {
+              "name": "360x806",
+              "value": 4.66
+            },
+            {
+              "name": "412x915",
+              "value": 4.08
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/asia",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/bangladesh",
           "data": [
             {
               "name": "1920x1080",
-              "value": 24.16
-            },
-            {
-              "name": "1536x864",
-              "value": 10.58
-            },
-            {
-              "name": "1366x768",
-              "value": 10.07
+              "value": 41.83
             },
             {
               "name": "800x600",
-              "value": 8.65
+              "value": 28.34
             },
             {
-              "name": "1280x720",
-              "value": 6.14
+              "name": "1280x1200",
+              "value": 7.69
+            },
+            {
+              "name": "1366x768",
+              "value": 4.82
+            },
+            {
+              "name": "1536x864",
+              "value": 3.11
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/asia",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/bangladesh",
           "data": [
             {
-              "name": "601x1007",
-              "value": 7.65
+              "name": "1280x720",
+              "value": 18.91
             },
             {
-              "name": "768x1024",
-              "value": 5.22
-            },
-            {
-              "name": "820x1180",
-              "value": 4.23
+              "name": "601x962",
+              "value": 9.09
             },
             {
               "name": "800x1280",
-              "value": 3.99
+              "value": 6.17
             },
             {
-              "name": "1280x800",
-              "value": 3.79
+              "name": "601x1007",
+              "value": 5.68
+            },
+            {
+              "name": "534x854",
+              "value": 4.72
             }
           ]
         }
       },
       "vendor_mobile": {
         "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/asia",
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
           "data": [
             {
-              "name": "Apple",
-              "value": 17.15
+              "name": "Xiaomi",
+              "value": 19.22
             },
             {
               "name": "Samsung",
-              "value": 15.8
+              "value": 14.43
             },
             {
               "name": "Vivo",
-              "value": 13.19
-            },
-            {
-              "name": "Xiaomi",
-              "value": 13.08
+              "value": 12.31
             },
             {
               "name": "Oppo",
-              "value": 11.93
+              "value": 10.75
+            },
+            {
+              "name": "Realme",
+              "value": 7.91
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/asia",
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/bangladesh",
           "data": [
             {
-              "name": "Apple",
-              "value": 17.15
+              "name": "Xiaomi",
+              "value": 19.22
             },
             {
               "name": "Samsung",
-              "value": 15.8
+              "value": 14.43
             },
             {
               "name": "Vivo",
-              "value": 13.19
-            },
-            {
-              "name": "Xiaomi",
-              "value": 13.08
+              "value": 12.31
             },
             {
               "name": "Oppo",
-              "value": 11.93
+              "value": 10.75
+            },
+            {
+              "name": "Realme",
+              "value": 7.91
             }
           ]
         }
       },
       "vendor_tablet": {
         "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/asia",
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
           "data": [
             {
-              "name": "Apple",
-              "value": 46.24
-            },
-            {
               "name": "Samsung",
-              "value": 26.3
+              "value": 33.92
             },
             {
-              "name": "Xiaomi",
-              "value": 6.97
+              "name": "Apple",
+              "value": 32.08
             },
             {
               "name": "Unknown",
-              "value": 5.4
+              "value": 13.77
             },
             {
               "name": "Honor",
-              "value": 4.03
+              "value": 5.18
+            },
+            {
+              "name": "Xiaomi",
+              "value": 4.4
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/asia",
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/bangladesh",
           "data": [
             {
-              "name": "Apple",
-              "value": 46.24
-            },
-            {
               "name": "Samsung",
-              "value": 26.3
+              "value": 33.92
             },
             {
-              "name": "Xiaomi",
-              "value": 6.97
+              "name": "Apple",
+              "value": 32.08
             },
             {
               "name": "Unknown",
-              "value": 5.4
+              "value": 13.77
             },
             {
               "name": "Honor",
-              "value": 4.03
+              "value": 5.18
+            },
+            {
+              "name": "Xiaomi",
+              "value": 4.4
             }
           ]
         }
       },
       "search_engine_all": {
         "all": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/all/asia",
+          "url": "https://gs.statcounter.com/search-engine-market-share/all/bangladesh",
           "data": [
             {
               "name": "Google",
-              "value": 93.67
+              "value": 98.46
             },
             {
               "name": "bing",
-              "value": 2.45
-            },
-            {
-              "name": "YANDEX",
               "value": 1.01
             },
             {
-              "name": "Baidu",
-              "value": 0.86
+              "name": "YANDEX",
+              "value": 0.19
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.17
             },
             {
               "name": "Yahoo!",
-              "value": 0.62
+              "value": 0.13
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/asia",
+          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/bangladesh",
           "data": [
             {
               "name": "Google",
-              "value": 96.47
+              "value": 99.4
             },
             {
               "name": "YANDEX",
-              "value": 0.97
+              "value": 0.19
             },
             {
-              "name": "Baidu",
-              "value": 0.82
+              "name": "DuckDuckGo",
+              "value": 0.17
             },
             {
-              "name": "Naver",
-              "value": 0.45
+              "name": "bing",
+              "value": 0.16
+            },
+            {
+              "name": "Yahoo!",
+              "value": 0.05
+            }
+          ]
+        },
+        "desktop": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/bangladesh",
+          "data": [
+            {
+              "name": "Google",
+              "value": 94.07
+            },
+            {
+              "name": "bing",
+              "value": 5.01
+            },
+            {
+              "name": "Yahoo!",
+              "value": 0.54
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.18
+            },
+            {
+              "name": "DuckDuckGo",
+              "value": 0.15
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/bangladesh",
+          "data": [
+            {
+              "name": "Google",
+              "value": 97.6
+            },
+            {
+              "name": "bing",
+              "value": 1.46
             },
             {
               "name": "DuckDuckGo",
               "value": 0.34
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/asia",
-          "data": [
-            {
-              "name": "Google",
-              "value": 82.27
-            },
-            {
-              "name": "bing",
-              "value": 11.33
             },
             {
               "name": "Yahoo!",
-              "value": 2.37
+              "value": 0.33
             },
             {
               "name": "YANDEX",
-              "value": 1.12
-            },
-            {
-              "name": "Baidu",
-              "value": 1.0
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/asia",
-          "data": [
-            {
-              "name": "Google",
-              "value": 93.94
-            },
-            {
-              "name": "YANDEX",
-              "value": 1.69
-            },
-            {
-              "name": "Baidu",
-              "value": 1.39
-            },
-            {
-              "name": "bing",
-              "value": 1.18
-            },
-            {
-              "name": "Yahoo!",
-              "value": 0.56
+              "value": 0.22
             }
           ]
         }
       },
       "social_media_all": {
         "all": {
-          "url": "https://gs.statcounter.com/social-media-stats/all/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/all/bangladesh",
           "data": [
             {
               "name": "Facebook",
-              "value": 70.45
+              "value": 77.09
             },
             {
               "name": "YouTube",
-              "value": 15.46
+              "value": 17.24
             },
             {
               "name": "Instagram",
-              "value": 6.95
+              "value": 2.45
             },
             {
               "name": "Twitter",
-              "value": 5.11
+              "value": 1.05
             },
             {
-              "name": "Pinterest",
-              "value": 0.82
+              "name": "Tumblr",
+              "value": 0.81
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/social-media-stats/mobile/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/mobile/bangladesh",
           "data": [
             {
               "name": "Facebook",
-              "value": 72.93
+              "value": 80.91
             },
             {
               "name": "YouTube",
-              "value": 14.66
+              "value": 16.27
             },
             {
               "name": "Instagram",
-              "value": 7.22
+              "value": 1.46
             },
             {
               "name": "Twitter",
-              "value": 4.45
+              "value": 0.75
             },
             {
-              "name": "reddit",
-              "value": 0.31
+              "name": "Pinterest",
+              "value": 0.18
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/social-media-stats/desktop/asia",
+          "url": "https://gs.statcounter.com/social-media-stats/desktop/bangladesh",
           "data": [
             {
-              "name": "Facebook",
-              "value": 28.89
-            },
-            {
               "name": "YouTube",
-              "value": 27.59
+              "value": 31.34
             },
             {
-              "name": "Twitter",
-              "value": 16.33
+              "name": "Facebook",
+              "value": 24.57
+            },
+            {
+              "name": "Instagram",
+              "value": 15.33
+            },
+            {
+              "name": "Tumblr",
+              "value": 9.23
             },
             {
               "name": "Pinterest",
+              "value": 6.02
+            }
+          ]
+        },
+        "tablet": {
+          "url": "https://gs.statcounter.com/social-media-stats/tablet/bangladesh",
+          "data": [
+            {
+              "name": "Facebook",
+              "value": 49.09
+            },
+            {
+              "name": "Instagram",
+              "value": 22.32
+            },
+            {
+              "name": "Tumblr",
               "value": 10.74
             },
             {
-              "name": "LinkedIn",
-              "value": 8.04
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/social-media-stats/tablet/asia",
-          "data": [
-            {
-              "name": "Facebook",
-              "value": 52.61
-            },
-            {
               "name": "YouTube",
-              "value": 28.69
+              "value": 10.18
             },
             {
               "name": "Twitter",
-              "value": 9.26
-            },
-            {
-              "name": "Pinterest",
-              "value": 4.33
-            },
-            {
-              "name": "Instagram",
-              "value": 3.97
+              "value": 4.46
             }
           ]
         }
       }
     }
   },
-  "europe": {
-    "country_code": "europe",
-    "country_name": "歐洲",
-    "update_time": "2026-11-25 13:13:28",
+  "pk": {
+    "country_code": "pk",
+    "country_name": "巴基斯坦",
+    "update_time": "2026-11-26 12:44:32",
     "data": {
       "platform": {
         "all": {
-          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/europe",
+          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/pakistan",
           "data": [
             {
-              "name": "Mobile",
-              "value": 54.45
+              "name": "Desktop",
+              "value": 49.87
             },
             {
-              "name": "Desktop",
-              "value": 43.46
+              "name": "Mobile",
+              "value": 49.28
             },
             {
               "name": "Tablet",
-              "value": 2.09
+              "value": 0.85
             }
           ]
         }
       },
       "os_all": {
         "all": {
-          "url": "https://gs.statcounter.com/os-market-share/all/europe",
+          "url": "https://gs.statcounter.com/os-market-share/all/pakistan",
           "data": [
             {
               "name": "Android",
-              "value": 36.06
+              "value": 46.81
             },
             {
               "name": "Windows",
-              "value": 33.2
+              "value": 43.26
             },
             {
               "name": "iOS",
-              "value": 20.83
+              "value": 4.43
             },
             {
-              "name": "OS X",
-              "value": 4.45
+              "name": "Linux",
+              "value": 1.66
             },
             {
               "name": "macOS",
-              "value": 2.67
-            },
-            {
-              "name": "Linux",
-              "value": 2.14
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/os-market-share/mobile/europe",
-          "data": [
-            {
-              "name": "Android",
-              "value": 63.67
-            },
-            {
-              "name": "iOS",
-              "value": 36.32
-            },
-            {
-              "name": "Linux",
-              "value": 0.01
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/os-market-share/desktop/europe",
-          "data": [
-            {
-              "name": "Windows",
-              "value": 77.13
-            },
-            {
-              "name": "OS X",
-              "value": 10.34
-            },
-            {
-              "name": "macOS",
-              "value": 6.21
-            },
-            {
-              "name": "Linux",
-              "value": 4.96
+              "value": 1.62
             },
             {
               "name": "Chrome OS",
-              "value": 1.34
-            },
-            {
-              "name": "FreeBSD",
-              "value": 0.01
+              "value": 1.21
             }
           ]
         },
-        "tablet": {
-          "url": "https://gs.statcounter.com/os-market-share/tablet/europe",
+        "mobile": {
+          "url": "https://gs.statcounter.com/os-market-share/mobile/pakistan",
           "data": [
             {
               "name": "Android",
-              "value": 55.65
+              "value": 91.57
             },
             {
               "name": "iOS",
-              "value": 44.28
-            },
-            {
-              "name": "Linux",
-              "value": 0.06
-            },
-            {
-              "name": "Windows",
-              "value": 0.01
-            }
-          ]
-        }
-      },
-      "browser_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/browser-market-share/all/europe",
-          "data": [
-            {
-              "name": "Chrome",
-              "value": 60.02
-            },
-            {
-              "name": "Safari",
-              "value": 20.13
-            },
-            {
-              "name": "Edge",
-              "value": 7.11
-            },
-            {
-              "name": "Firefox",
-              "value": 4.23
-            },
-            {
-              "name": "Samsung Internet",
-              "value": 3.16
-            },
-            {
-              "name": "Opera",
-              "value": 2.71
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/browser-market-share/mobile/europe",
-          "data": [
-            {
-              "name": "Chrome",
-              "value": 62.07
-            },
-            {
-              "name": "Safari",
-              "value": 28.91
-            },
-            {
-              "name": "Samsung Internet",
-              "value": 5.31
-            },
-            {
-              "name": "Opera",
-              "value": 1.14
-            },
-            {
-              "name": "Firefox",
-              "value": 1.02
-            },
-            {
-              "name": "Yandex Browser",
-              "value": 0.72
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/browser-market-share/desktop/europe",
-          "data": [
-            {
-              "name": "Chrome",
-              "value": 57.85
-            },
-            {
-              "name": "Edge",
-              "value": 15.87
-            },
-            {
-              "name": "Safari",
-              "value": 8.78
-            },
-            {
-              "name": "Firefox",
-              "value": 8.45
-            },
-            {
-              "name": "Opera",
-              "value": 4.73
-            },
-            {
-              "name": "Yandex Browser",
-              "value": 1.64
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/browser-market-share/tablet/europe",
-          "data": [
-            {
-              "name": "Chrome",
-              "value": 53.18
-            },
-            {
-              "name": "Safari",
-              "value": 27.95
-            },
-            {
-              "name": "Android",
-              "value": 13.55
-            },
-            {
-              "name": "Samsung Internet",
-              "value": 2.01
-            },
-            {
-              "name": "Opera",
-              "value": 1.43
-            },
-            {
-              "name": "Yandex Browser",
-              "value": 0.74
-            }
-          ]
-        }
-      },
-      "resolution_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/all/europe",
-          "data": [
-            {
-              "name": "1920x1080",
-              "value": 13.85
-            },
-            {
-              "name": "414x896",
-              "value": 9.83
-            },
-            {
-              "name": "384x832",
-              "value": 6.14
-            },
-            {
-              "name": "1536x864",
-              "value": 4.83
-            },
-            {
-              "name": "390x844",
-              "value": 4.4
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/europe",
-          "data": [
-            {
-              "name": "414x896",
-              "value": 17.89
-            },
-            {
-              "name": "384x832",
-              "value": 11.06
-            },
-            {
-              "name": "390x844",
-              "value": 8.02
-            },
-            {
-              "name": "393x873",
-              "value": 5.64
-            },
-            {
-              "name": "360x780",
-              "value": 5.38
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/europe",
-          "data": [
-            {
-              "name": "1920x1080",
-              "value": 32.11
-            },
-            {
-              "name": "1536x864",
-              "value": 11.21
-            },
-            {
-              "name": "2560x1440",
-              "value": 5.53
-            },
-            {
-              "name": "1366x768",
-              "value": 4.59
-            },
-            {
-              "name": "800x600",
-              "value": 4.49
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/europe",
-          "data": [
-            {
-              "name": "1280x800",
-              "value": 10.85
-            },
-            {
-              "name": "800x1280",
-              "value": 9.92
-            },
-            {
-              "name": "768x1024",
-              "value": 9.52
-            },
-            {
-              "name": "810x1080",
-              "value": 4.32
-            },
-            {
-              "name": "820x1180",
-              "value": 2.59
-            }
-          ]
-        }
-      },
-      "vendor_mobile": {
-        "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/europe",
-          "data": [
-            {
-              "name": "Apple",
-              "value": 36.32
-            },
-            {
-              "name": "Samsung",
-              "value": 33.56
-            },
-            {
-              "name": "Xiaomi",
-              "value": 14.62
-            },
-            {
-              "name": "Unknown",
-              "value": 2.73
-            },
-            {
-              "name": "Motorola",
-              "value": 2.12
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/europe",
-          "data": [
-            {
-              "name": "Apple",
-              "value": 36.32
-            },
-            {
-              "name": "Samsung",
-              "value": 33.56
-            },
-            {
-              "name": "Xiaomi",
-              "value": 14.62
-            },
-            {
-              "name": "Unknown",
-              "value": 2.73
-            },
-            {
-              "name": "Motorola",
-              "value": 2.12
-            }
-          ]
-        }
-      },
-      "vendor_tablet": {
-        "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/europe",
-          "data": [
-            {
-              "name": "Apple",
-              "value": 44.27
-            },
-            {
-              "name": "Samsung",
-              "value": 31.48
-            },
-            {
-              "name": "Amazon",
-              "value": 8.52
-            },
-            {
-              "name": "Lenovo",
-              "value": 4.16
-            },
-            {
-              "name": "Xiaomi",
-              "value": 3.41
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/europe",
-          "data": [
-            {
-              "name": "Apple",
-              "value": 44.27
-            },
-            {
-              "name": "Samsung",
-              "value": 31.48
-            },
-            {
-              "name": "Amazon",
-              "value": 8.52
-            },
-            {
-              "name": "Lenovo",
-              "value": 4.16
-            },
-            {
-              "name": "Xiaomi",
-              "value": 3.41
-            }
-          ]
-        }
-      },
-      "search_engine_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/all/europe",
-          "data": [
-            {
-              "name": "Google",
-              "value": 88.77
-            },
-            {
-              "name": "bing",
-              "value": 5.58
-            },
-            {
-              "name": "YANDEX",
-              "value": 2.5
-            },
-            {
-              "name": "Yahoo!",
-              "value": 1.51
-            },
-            {
-              "name": "DuckDuckGo",
-              "value": 0.77
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/europe",
-          "data": [
-            {
-              "name": "Google",
-              "value": 96.09
-            },
-            {
-              "name": "YANDEX",
-              "value": 1.91
-            },
-            {
-              "name": "DuckDuckGo",
-              "value": 0.53
-            },
-            {
-              "name": "bing",
-              "value": 0.48
-            },
-            {
-              "name": "Ecosia",
-              "value": 0.44
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/europe",
-          "data": [
-            {
-              "name": "Google",
-              "value": 73.59
-            },
-            {
-              "name": "bing",
-              "value": 15.66
-            },
-            {
-              "name": "Yahoo!",
-              "value": 4.31
-            },
-            {
-              "name": "YANDEX",
-              "value": 3.93
-            },
-            {
-              "name": "DuckDuckGo",
-              "value": 1.28
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/europe",
-          "data": [
-            {
-              "name": "Google",
-              "value": 84.1
-            },
-            {
-              "name": "bing",
-              "value": 13.22
-            },
-            {
-              "name": "YANDEX",
-              "value": 1.01
-            },
-            {
-              "name": "DuckDuckGo",
-              "value": 0.73
-            },
-            {
-              "name": "Yahoo!",
-              "value": 0.41
-            }
-          ]
-        }
-      },
-      "social_media_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/social-media-stats/all/europe",
-          "data": [
-            {
-              "name": "Facebook",
-              "value": 82.24
-            },
-            {
-              "name": "Instagram",
-              "value": 5.06
-            },
-            {
-              "name": "Twitter",
-              "value": 4.15
-            },
-            {
-              "name": "YouTube",
-              "value": 3.47
-            },
-            {
-              "name": "Pinterest",
-              "value": 2.48
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/social-media-stats/mobile/europe",
-          "data": [
-            {
-              "name": "Facebook",
-              "value": 85.49
-            },
-            {
-              "name": "Instagram",
-              "value": 5.37
-            },
-            {
-              "name": "Twitter",
-              "value": 3.53
-            },
-            {
-              "name": "YouTube",
-              "value": 3.01
-            },
-            {
-              "name": "reddit",
-              "value": 1.32
-            }
-          ]
-        },
-        "desktop": {
-          "url": "https://gs.statcounter.com/social-media-stats/desktop/europe",
-          "data": [
-            {
-              "name": "Facebook",
-              "value": 52.44
-            },
-            {
-              "name": "Pinterest",
-              "value": 14.24
-            },
-            {
-              "name": "Twitter",
-              "value": 10.06
-            },
-            {
-              "name": "YouTube",
-              "value": 7.76
-            },
-            {
-              "name": "reddit",
-              "value": 6.84
-            }
-          ]
-        },
-        "tablet": {
-          "url": "https://gs.statcounter.com/social-media-stats/tablet/europe",
-          "data": [
-            {
-              "name": "Facebook",
-              "value": 74.02
-            },
-            {
-              "name": "Pinterest",
-              "value": 11.25
-            },
-            {
-              "name": "Twitter",
-              "value": 4.89
-            },
-            {
-              "name": "YouTube",
-              "value": 4.38
-            },
-            {
-              "name": "Instagram",
-              "value": 3.89
-            }
-          ]
-        }
-      }
-    }
-  },
-  "africa": {
-    "country_code": "africa",
-    "country_name": "非洲",
-    "update_time": "2026-11-25 13:17:08",
-    "data": {
-      "platform": {
-        "all": {
-          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/africa",
-          "data": [
-            {
-              "name": "Mobile",
-              "value": 67.78
-            },
-            {
-              "name": "Desktop",
-              "value": 31.29
-            },
-            {
-              "name": "Tablet",
-              "value": 0.94
-            }
-          ]
-        }
-      },
-      "os_all": {
-        "all": {
-          "url": "https://gs.statcounter.com/os-market-share/all/africa",
-          "data": [
-            {
-              "name": "Android",
-              "value": 58.24
-            },
-            {
-              "name": "Windows",
-              "value": 25.52
-            },
-            {
-              "name": "iOS",
-              "value": 11.9
-            },
-            {
-              "name": "Linux",
-              "value": 2.04
-            },
-            {
-              "name": "macOS",
-              "value": 1.31
-            },
-            {
-              "name": "OS X",
-              "value": 0.87
-            }
-          ]
-        },
-        "mobile": {
-          "url": "https://gs.statcounter.com/os-market-share/mobile/africa",
-          "data": [
-            {
-              "name": "Android",
-              "value": 83.03
-            },
-            {
-              "name": "iOS",
-              "value": 16.92
-            },
-            {
-              "name": "Linux",
-              "value": 0.03
+              "value": 8.38
             },
             {
               "name": "KaiOS",
+              "value": 0.03
+            },
+            {
+              "name": "Samsung",
+              "value": 0.01
+            },
+            {
+              "name": "Linux",
               "value": 0.01
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/os-market-share/desktop/africa",
+          "url": "https://gs.statcounter.com/os-market-share/desktop/pakistan",
           "data": [
             {
               "name": "Windows",
-              "value": 85.6
+              "value": 88.81
             },
             {
               "name": "Linux",
-              "value": 6.77
+              "value": 3.4
             },
             {
               "name": "macOS",
-              "value": 4.4
-            },
-            {
-              "name": "OS X",
-              "value": 2.92
+              "value": 3.32
             },
             {
               "name": "Chrome OS",
-              "value": 0.31
+              "value": 2.48
             },
             {
-              "name": "FreeBSD",
-              "value": 0.01
+              "name": "OS X",
+              "value": 1.99
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/os-market-share/tablet/africa",
+          "url": "https://gs.statcounter.com/os-market-share/tablet/pakistan",
           "data": [
             {
               "name": "Android",
-              "value": 80.69
+              "value": 75.59
             },
             {
               "name": "iOS",
-              "value": 19.24
+              "value": 24.38
             },
             {
               "name": "Linux",
-              "value": 0.06
+              "value": 0.02
             },
             {
               "name": "BlackBerry OS",
@@ -1431,542 +1435,535 @@
       },
       "browser_all": {
         "all": {
-          "url": "https://gs.statcounter.com/browser-market-share/all/africa",
+          "url": "https://gs.statcounter.com/browser-market-share/all/pakistan",
           "data": [
             {
               "name": "Chrome",
-              "value": 75.47
+              "value": 83.53
             },
             {
               "name": "Safari",
-              "value": 9.09
-            },
-            {
-              "name": "Opera",
-              "value": 4.91
-            },
-            {
-              "name": "Samsung Internet",
-              "value": 3.59
+              "value": 4.26
             },
             {
               "name": "Edge",
-              "value": 3.39
+              "value": 3.93
+            },
+            {
+              "name": "UC Browser",
+              "value": 2.76
+            },
+            {
+              "name": "Opera",
+              "value": 2.08
             },
             {
               "name": "Firefox",
-              "value": 2.26
+              "value": 1.49
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/browser-market-share/mobile/africa",
+          "url": "https://gs.statcounter.com/browser-market-share/mobile/pakistan",
           "data": [
             {
               "name": "Chrome",
-              "value": 74.91
+              "value": 81.96
             },
             {
               "name": "Safari",
-              "value": 12.34
-            },
-            {
-              "name": "Opera",
-              "value": 6.17
-            },
-            {
-              "name": "Samsung Internet",
-              "value": 5.03
-            },
-            {
-              "name": "Firefox",
-              "value": 0.53
+              "value": 6.85
             },
             {
               "name": "UC Browser",
-              "value": 0.53
+              "value": 5.58
+            },
+            {
+              "name": "Samsung Internet",
+              "value": 2.66
+            },
+            {
+              "name": "Opera",
+              "value": 2.61
+            },
+            {
+              "name": "Firefox",
+              "value": 0.16
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/browser-market-share/desktop/africa",
+          "url": "https://gs.statcounter.com/browser-market-share/desktop/pakistan",
           "data": [
             {
               "name": "Chrome",
-              "value": 76.81
+              "value": 85.63
             },
             {
               "name": "Edge",
-              "value": 10.39
+              "value": 7.82
             },
             {
               "name": "Firefox",
-              "value": 6.05
+              "value": 2.83
             },
             {
               "name": "Opera",
-              "value": 2.23
+              "value": 1.59
             },
             {
               "name": "Safari",
-              "value": 2.01
+              "value": 1.52
             },
             {
               "name": "Brave",
-              "value": 1.65
+              "value": 0.3
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/browser-market-share/tablet/africa",
+          "url": "https://gs.statcounter.com/browser-market-share/tablet/pakistan",
           "data": [
             {
               "name": "Chrome",
-              "value": 73.2
-            },
-            {
-              "name": "Safari",
-              "value": 11.08
+              "value": 53.02
             },
             {
               "name": "Android",
-              "value": 9.15
+              "value": 27.31
             },
             {
-              "name": "Opera",
-              "value": 3.75
+              "name": "Safari",
+              "value": 15.63
             },
             {
               "name": "Samsung Internet",
-              "value": 1.52
+              "value": 2.18
             },
             {
-              "name": "Instabridge",
-              "value": 0.42
+              "name": "UC Browser",
+              "value": 0.91
+            },
+            {
+              "name": "Opera",
+              "value": 0.75
             }
           ]
         }
       },
       "resolution_all": {
         "all": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/all/africa",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/all/pakistan",
           "data": [
             {
-              "name": "360x800",
-              "value": 8.76
+              "name": "1366x768",
+              "value": 10.08
             },
             {
-              "name": "384x832",
-              "value": 7.52
+              "name": "360x800",
+              "value": 9.91
+            },
+            {
+              "name": "1280x720",
+              "value": 8.42
             },
             {
               "name": "1920x1080",
-              "value": 6.39
+              "value": 7.08
             },
             {
-              "name": "414x896",
-              "value": 6.16
-            },
-            {
-              "name": "385x854",
-              "value": 4.47
+              "name": "1536x864",
+              "value": 5.29
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/africa",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/mobile/pakistan",
           "data": [
             {
               "name": "360x800",
-              "value": 12.35
+              "value": 19.25
             },
             {
-              "name": "384x832",
-              "value": 10.87
-            },
-            {
-              "name": "414x896",
-              "value": 9.01
+              "name": "360x820",
+              "value": 7.43
             },
             {
               "name": "385x854",
-              "value": 6.49
+              "value": 6.63
             },
             {
               "name": "360x806",
-              "value": 5.74
+              "value": 6.07
+            },
+            {
+              "name": "412x915",
+              "value": 5.65
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/africa",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/desktop/pakistan",
           "data": [
             {
-              "name": "1920x1080",
-              "value": 20.57
-            },
-            {
-              "name": "800x600",
-              "value": 13.95
-            },
-            {
               "name": "1366x768",
-              "value": 11.89
+              "value": 20.25
+            },
+            {
+              "name": "1280x720",
+              "value": 16.57
+            },
+            {
+              "name": "1920x1080",
+              "value": 14.2
             },
             {
               "name": "1536x864",
-              "value": 8.75
+              "value": 10.63
             },
             {
-              "name": "1280x1200",
-              "value": 7.17
+              "name": "800x600",
+              "value": 8.55
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/africa",
+          "url": "https://gs.statcounter.com/screen-resolution-stats/tablet/pakistan",
           "data": [
             {
-              "name": "1280x800",
-              "value": 12.61
+              "name": "1280x720",
+              "value": 17.77
+            },
+            {
+              "name": "768x1024",
+              "value": 8.56
             },
             {
               "name": "800x1280",
-              "value": 10.63
+              "value": 7.75
             },
             {
-              "name": "601x1007",
-              "value": 8.4
+              "name": "601x962",
+              "value": 6.88
             },
             {
-              "name": "1334x800",
-              "value": 7.44
-            },
-            {
-              "name": "800x1334",
-              "value": 6.69
+              "name": "1280x800",
+              "value": 6.82
             }
           ]
         }
       },
       "vendor_mobile": {
         "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/pakistan",
           "data": [
             {
               "name": "Samsung",
-              "value": 36.92
+              "value": 16.89
             },
             {
-              "name": "Apple",
-              "value": 16.92
+              "name": "Infinix",
+              "value": 16.1
+            },
+            {
+              "name": "Vivo",
+              "value": 12.4
+            },
+            {
+              "name": "Oppo",
+              "value": 10.7
             },
             {
               "name": "Xiaomi",
-              "value": 8.56
-            },
-            {
-              "name": "Tecno",
-              "value": 6.09
-            },
-            {
-              "name": "Honor",
-              "value": 5.36
+              "value": 10.62
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/vendor-market-share/mobile/africa",
+          "url": "https://gs.statcounter.com/vendor-market-share/mobile/pakistan",
           "data": [
             {
               "name": "Samsung",
-              "value": 36.92
+              "value": 16.89
             },
             {
-              "name": "Apple",
-              "value": 16.92
+              "name": "Infinix",
+              "value": 16.1
+            },
+            {
+              "name": "Vivo",
+              "value": 12.4
+            },
+            {
+              "name": "Oppo",
+              "value": 10.7
             },
             {
               "name": "Xiaomi",
-              "value": 8.56
-            },
-            {
-              "name": "Tecno",
-              "value": 6.09
-            },
-            {
-              "name": "Honor",
-              "value": 5.36
+              "value": 10.62
             }
           ]
         }
       },
       "vendor_tablet": {
         "all": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/pakistan",
           "data": [
             {
               "name": "Samsung",
-              "value": 57.52
+              "value": 33.89
             },
             {
               "name": "Apple",
-              "value": 19.19
+              "value": 24.38
             },
             {
               "name": "Unknown",
-              "value": 8.19
+              "value": 20.26
             },
             {
-              "name": "Honor",
-              "value": 2.79
+              "name": "Amazon",
+              "value": 8.4
             },
             {
               "name": "Lenovo",
-              "value": 2.7
+              "value": 4.17
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/vendor-market-share/tablet/africa",
+          "url": "https://gs.statcounter.com/vendor-market-share/tablet/pakistan",
           "data": [
             {
               "name": "Samsung",
-              "value": 57.52
+              "value": 33.89
             },
             {
               "name": "Apple",
-              "value": 19.19
+              "value": 24.38
             },
             {
               "name": "Unknown",
-              "value": 8.19
+              "value": 20.26
             },
             {
-              "name": "Honor",
-              "value": 2.79
+              "name": "Amazon",
+              "value": 8.4
             },
             {
               "name": "Lenovo",
-              "value": 2.7
+              "value": 4.17
             }
           ]
         }
       },
       "search_engine_all": {
         "all": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/all/africa",
+          "url": "https://gs.statcounter.com/search-engine-market-share/all/pakistan",
           "data": [
             {
               "name": "Google",
-              "value": 96.22
+              "value": 94.88
             },
             {
               "name": "bing",
-              "value": 3.03
-            },
-            {
-              "name": "YANDEX",
-              "value": 0.24
+              "value": 4.27
             },
             {
               "name": "Yahoo!",
-              "value": 0.23
+              "value": 0.6
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.13
             },
             {
               "name": "DuckDuckGo",
-              "value": 0.13
+              "value": 0.09
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/africa",
+          "url": "https://gs.statcounter.com/search-engine-market-share/mobile/pakistan",
           "data": [
             {
               "name": "Google",
-              "value": 98.58
+              "value": 99.38
             },
             {
               "name": "bing",
-              "value": 0.85
+              "value": 0.21
             },
             {
               "name": "YANDEX",
-              "value": 0.24
+              "value": 0.21
             },
             {
               "name": "DuckDuckGo",
-              "value": 0.1
+              "value": 0.13
             },
             {
               "name": "Petal Search",
-              "value": 0.1
+              "value": 0.03
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/africa",
+          "url": "https://gs.statcounter.com/search-engine-market-share/desktop/pakistan",
           "data": [
             {
               "name": "Google",
-              "value": 87.13
+              "value": 90.09
             },
             {
               "name": "bing",
-              "value": 11.39
+              "value": 8.56
             },
             {
               "name": "Yahoo!",
-              "value": 0.86
+              "value": 1.25
             },
             {
               "name": "YANDEX",
-              "value": 0.24
+              "value": 0.05
             },
             {
               "name": "DuckDuckGo",
-              "value": 0.23
+              "value": 0.04
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/africa",
+          "url": "https://gs.statcounter.com/search-engine-market-share/tablet/pakistan",
           "data": [
             {
               "name": "Google",
-              "value": 97.72
+              "value": 93.3
             },
             {
               "name": "bing",
-              "value": 1.57
-            },
-            {
-              "name": "YANDEX",
-              "value": 0.29
+              "value": 6.52
             },
             {
               "name": "DuckDuckGo",
-              "value": 0.21
+              "value": 0.08
+            },
+            {
+              "name": "YANDEX",
+              "value": 0.06
             },
             {
               "name": "Yahoo!",
-              "value": 0.14
+              "value": 0.03
             }
           ]
         }
       },
       "social_media_all": {
         "all": {
-          "url": "https://gs.statcounter.com/social-media-stats/all/africa",
+          "url": "https://gs.statcounter.com/social-media-stats/all/pakistan",
           "data": [
             {
               "name": "Facebook",
-              "value": 67.76
-            },
-            {
-              "name": "YouTube",
-              "value": 15.48
-            },
-            {
-              "name": "Twitter",
-              "value": 7.49
+              "value": 87.13
             },
             {
               "name": "Instagram",
-              "value": 5.8
+              "value": 5.54
             },
             {
-              "name": "Pinterest",
-              "value": 1.73
+              "name": "YouTube",
+              "value": 4.76
+            },
+            {
+              "name": "Twitter",
+              "value": 2.07
+            },
+            {
+              "name": "LinkedIn",
+              "value": 0.18
             }
           ]
         },
         "mobile": {
-          "url": "https://gs.statcounter.com/social-media-stats/mobile/africa",
+          "url": "https://gs.statcounter.com/social-media-stats/mobile/pakistan",
           "data": [
             {
               "name": "Facebook",
-              "value": 70.97
-            },
-            {
-              "name": "YouTube",
-              "value": 14.77
-            },
-            {
-              "name": "Twitter",
-              "value": 6.41
+              "value": 88.49
             },
             {
               "name": "Instagram",
-              "value": 6.23
+              "value": 5.65
             },
             {
-              "name": "Pinterest",
-              "value": 0.78
+              "name": "YouTube",
+              "value": 3.76
+            },
+            {
+              "name": "Twitter",
+              "value": 1.92
+            },
+            {
+              "name": "reddit",
+              "value": 0.11
             }
           ]
         },
         "desktop": {
-          "url": "https://gs.statcounter.com/social-media-stats/desktop/africa",
+          "url": "https://gs.statcounter.com/social-media-stats/desktop/pakistan",
           "data": [
             {
-              "name": "Facebook",
-              "value": 35.59
+              "name": "YouTube",
+              "value": 40.44
             },
             {
-              "name": "YouTube",
-              "value": 20.9
+              "name": "Facebook",
+              "value": 37.55
             },
             {
               "name": "Twitter",
-              "value": 18.61
-            },
-            {
-              "name": "Pinterest",
-              "value": 11.52
+              "value": 7.81
             },
             {
               "name": "LinkedIn",
-              "value": 8.21
+              "value": 5.73
+            },
+            {
+              "name": "Pinterest",
+              "value": 3.88
             }
           ]
         },
         "tablet": {
-          "url": "https://gs.statcounter.com/social-media-stats/tablet/africa",
+          "url": "https://gs.statcounter.com/social-media-stats/tablet/pakistan",
           "data": [
             {
               "name": "Facebook",
-              "value": 47.53
+              "value": 84.51
             },
             {
               "name": "YouTube",
-              "value": 30.89
-            },
-            {
-              "name": "Twitter",
-              "value": 11.88
-            },
-            {
-              "name": "Pinterest",
-              "value": 5.89
+              "value": 10.73
             },
             {
               "name": "Instagram",
-              "value": 2.61
+              "value": 2.01
+            },
+            {
+              "name": "Twitter",
+              "value": 1.57
+            },
+            {
+              "name": "Pinterest",
+              "value": 0.64
             }
           ]
         }
       }
     }
-  },
-  "north-america": {
-    "country_code": "north-america",
-    "country_name": "北美洲",
-    "update_time": "2026-11-25 13:20:48",
-    "data": {
-      "platform": {
-        "all": {
-          "url": "https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/north-america",
+  }
+}platform-market-share/desktop-mobile-tablet/north-america",
           "data": [
             {
               "name": "Desktop",
@@ -2610,7 +2607,7 @@
   "tr": {
     "country_code": "tr",
     "country_name": "土耳其",
-    "update_time": "2026-11-25 13:24:28",
+    "update_time": "2026-11-26 12:52:17",
     "data": {
       "platform": {
         "all": {
@@ -3254,7 +3251,7 @@
   "ru": {
     "country_code": "ru",
     "country_name": "俄羅斯",
-    "update_time": "2026-11-25 13:28:08",
+    "update_time": "2026-11-26 12:55:59",
     "data": {
       "platform": {
         "all": {
@@ -3898,7 +3895,7 @@
   "br": {
     "country_code": "br",
     "country_name": "巴西",
-    "update_time": "2026-11-25 13:31:48",
+    "update_time": "2026-11-26 12:59:40",
     "data": {
       "platform": {
         "all": {
